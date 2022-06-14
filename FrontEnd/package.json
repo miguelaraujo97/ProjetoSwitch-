@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@mui/x-data-grid": "^5.12.0",
-    "@mui/x-date-pickers": "^5.0.0-alpha.5"
-  }
-}
