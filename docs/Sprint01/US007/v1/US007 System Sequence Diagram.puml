@@ -1,0 +1,26 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+skinparam monochrome true
+
+title System Sequence Diagram of the US007
+center header
+System Sequence Diagram
+As Director, I want to associate a human resource (user) to a project.
+endheader
+center footer SWitCH
+
+autoactivate on
+autonumber
+
+actor "Director" as User
+participant ":System" as System
+
+activate User
+
+...
+User -> System: Add a resource to the project \n(projectCode, resourceDTO)
+System --> User: Resource has been successfully associated
+...
+
+@enduml

@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title SSD of the US020
+
+autoactivate on
+autonumber
+
+actor "ProductOwner" as User
+participant ":System" as System
+
+activate User
+
+User -> System: Starts the refine UserStory feature
+System --> User: request the project code
+User -> System: Inserts the project code
+System --> User: show productBacklog
+User -> System: Indicates the UserStory ID anf the list of new UserStory's
+User <-- System: Refine OK
+@enduml

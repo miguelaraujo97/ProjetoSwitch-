@@ -1,0 +1,25 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+header
+Use Case Diagram of US034
+endheader
+
+center footer US 034 - As Project Member, I want to update the status (i.e.: the Scrum Board category) of a user story in the scope of the current sprint backlog.
+
+
+left to right direction
+:Team member: as User
+package System{
+    usecase "Request the ScrumBoard List" as US1
+    usecase "List of projects" as US6
+    usecase "Insert project code" as US2
+    usecase "Get ScrumBoard List" as US5
+    usecase "Set ScrumBoard Status" as US7
+
+User --> US1
+US1 ..> US6 : include
+User --> US2
+User --> US5
+User --> US7
+
+@enduml

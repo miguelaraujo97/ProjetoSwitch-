@@ -1,0 +1,104 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam maxmessagesize 0
+skinparam sequenceParticipant underline
+skinparam shadowing true
+'skinparam linetype ortho
+skinparam roundcorner 10
+
+left to right direction
+hide members
+
+
+header
+Sequence Diagram of US030
+endheader
+center footer DDD - Domain Driven Design
+
+
+package Project #lightpink{
+    entity Project <<AGGREGATE_ROOT>> #pink ##[bold]red{}
+    class ProjectCode <<VO>> #palegreen ##[bold]green{}
+    class Resource  <<VO>> #palegreen ##[bold]green{}
+
+}
+
+package Sprint #lightblue{
+    entity Sprint <<AGGREGATE_ROOT>> #pink ##[bold]red{}
+    'entity TaskInSprint #aliceblue ##[bold]blue{}
+    class SprintID <<VO>> #palegreen ##[bold]green{}
+    entity SprintBackLogItem  #aliceblue ##[bold]blue{}
+
+
+}
+
+package UserStory #lightcyan{
+    entity UserStory <<AGGREGATE_ROOT>> #pink ##[bold]red{}
+    'entity TaskInUS #aliceblue ##[bold]blue{}
+    class UserStoryID <<VO>> #palegreen ##[bold]green{}
+}
+
+package User #lightgrey{
+    entity User <<AGGREGATE_ROOT>> #pink ##[bold]red{}
+    class UserID <<VO>> #palegreen ##[bold]green{}
+
+}
+
+package Profile #lightgrey{
+    entity Profile <<AGGREGATE_ROOT>> #pink ##[bold]red{}
+    class ProfileName <<VO>> #palegreen ##[bold]green{}
+}
+
+package Typology{
+    entity Typology <<AGGREGATE_ROOT>> #pink ##[bold]red{}
+    class TypologyName <<VO>> #palegreen ##[bold]green{}
+}
+
+package ProfileRequest{
+      entity ProfileRequest <<AGGREGATE_ROOT>> #pink ##[bold]red{}
+}
+package Task {
+    entity Task <<AGGREGATE_ROOT>> #pink ##[bold]red{}
+    class TaskID <<VO>> #palegreen ##[bold]green{}
+
+}
+
+Project "1"<-down- "0..*" Sprint
+Project -right-> ProjectCode
+Project "1"<-down-"1..*"UserStory
+Project "1"*-up- "1..*" Resource
+Project "1"-up->"1" Typology
+
+
+User "1"-right->"1" UserID
+
+Profile -right-> "1"ProfileName
+
+Typology -left-> "1"TypologyName
+
+Resource "0..*"-right->"1" User
+
+ProfileRequest"*" -up-> "1" User
+ProfileRequest"*" --> "1" Profile
+
+'Sprint "0..*"-left-*TaskInSprint
+Sprint "1"-->"1" SprintID
+Sprint "1"<--"1" Task
+Sprint "1"--"1..*" SprintBackLogItem
+
+SprintBackLogItem "1..*" -right->"1" UserStory
+
+
+'UserStory  *-- "0..*" TaskInUS
+UserStory "1"-down->"1" UserStoryID
+''UserStory "1..*"--> "1..*"Sprint
+UserStory "1"<-- "0..*"Task
+
+Task "1"--> "1"TaskID
+
+skinparam nodesep 70
+'
+'skinparam ranksep 60
+
+@enduml

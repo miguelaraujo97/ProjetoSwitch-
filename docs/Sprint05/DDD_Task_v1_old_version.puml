@@ -1,0 +1,47 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+hide members
+hide circle
+skinparam linetype ortho
+skinparam minClassWidth 200
+skinparam roundCorner 8
+skinparam class {
+    stereotypeFontSize 10
+    fontSize 16
+    fontName Helvetica
+
+    arrowColor black
+    arrowThickness 1
+    attributeIconSize 0
+
+    borderColor black
+    borderThickness 0.5
+    backgroundColor #eee
+
+
+}
+
+
+entity Project
+
+
+class Sprint
+
+
+
+class UserStory
+
+
+class Task
+
+Project --> Sprint
+Project --> UserStory
+
+Sprint -right-> Task
+Sprint --> UserStory
+UserStory --> Task
+
+
+@enduml

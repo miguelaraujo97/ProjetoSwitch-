@@ -1,0 +1,65 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+header
+Sequence Diagram of US029
+endheader
+
+center footer US029 - As Project Manager, I want to start a sprint of current sprint.
+
+
+
+autoactivate on
+autonumber
+
+actor "Project Manager" as User
+participant ":InitiateSprintUI" as UI
+participant ":InitiateSprintController" as Controller
+participant ":SprintMapper" as C1
+participant ":DataManagement" as C2
+participant "projectStore : ProjectStore" as C3
+participant "projectA :Project" as C4
+participant "sprintA :Sprint" as C5
+
+activate User
+
+User -> UI: I want to initialize a Sprint of a Project
+UI -> Controller: request
+
+Controller -> C1: toDto(listSprint)
+ref over C1
+SD_SprintMapper_toDTO_List
+end ref
+Controller<-- C1: listSprintDto
+UI <-- Controller: listSprintDto
+User <-- UI: Shows All Planned Sprints and requests to choose a Sprint to initialize (indicating the sprint Order Number)
+
+activate Controller
+User -> UI:  indicates the Sprint Order Number
+UI -> Controller: initiateSprint(sprintIDNumber, nowDate, projectCode)
+Controller -> C2: projectStore = getProjectStore()
+deactivate C2
+Controller -> C3:  projectA = getProjectByCode(projectCode)
+deactivate C3
+Controller -> C4:  initiateSprint(sprintID,nowDate)
+
+C4 -> C4: getProjectSprintList()
+deactivate C4
+C4 -> C4: validateIfThereAreStartedSprintsStatus()
+deactivate C4
+C4 -> C4: validateSprintDatesOverlappingIgnoringOwnPlannedSprint(nowDate, sprintOrder)
+deactivate C4
+
+    C4 -> C4: sprintA = getSprintBySprintOrder(sprintID)
+    deactivate C4
+
+    C4 -> C5: initiateSprint(sprintID,nowDate)
+C5 -> C5: setSprintStartDate(nowDate)
+deactivate C5
+C5 -> C5: setSprintStatusToStarted()
+deactivate C5
+C4 <-- C5: return True
+Controller <-- C4: return True
+UI <-- Controller: return True
+User <-- UI: Success Message: "Sprint Was Initiated"
+
+@enduml

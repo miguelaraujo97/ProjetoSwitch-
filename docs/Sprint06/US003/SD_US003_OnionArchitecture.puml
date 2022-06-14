@@ -1,0 +1,56 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+title US003
+'HEADER FOOTER DESCRIPTIONS
+center header ONION
+center footer ONION
+
+autoactivate on
+autonumber
+actor "Registered User" as user
+participant ":RequestProfile(UI)" as route
+participant ":RequestProfileController" as controller
+participant "dtoAssembler:ProfileRequestDTOAssembler" as mapperJson
+participant ":ProfileRequestService" as service
+
+participant "profileRequestDTO:ProfileRequestDTO" as dtoUser1
+
+participant "profileRequest:ProfileRequest" as profileRequest
+
+
+participant "userRepo1:UserRepository" as repo
+
+
+
+
+
+user -> route :I want to request a profile
+user <-- route: request data(profilePretended)
+deactivate route
+user -> route: insert data(profilePretended))
+route -> controller: profileRequest(json)
+controller -> controller:validate(json)
+deactivate controller
+controller -> mapperJson: mapToUserDTO(json)
+mapperJson --> dtoUser1**: create(json)
+deactivate mapperJson
+controller -> service : addProfileRequest(profileRequestDTO): prApplied
+service --> profileRequest**: createProfileRequest(profileRequestDTO)
+service -> repo : save(profileRequest)):prSaved
+deactivate repo
+service -> mapperJson : mapToProfileRequestDTO(prSaved):prApplied
+
+
+mapperJson -> profileRequest : getAttr():atr
+deactivate mapperJson
+deactivate profileRequest
+controller <-- service: prApplied
+deactivate service
+route <-- controller : true
+deactivate controller
+user <-- route: ok
+deactivate route
+
+
+@enduml

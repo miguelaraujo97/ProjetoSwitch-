@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="506px" preserveAspectRatio="none" style="width:919px;height:506px;background:#FFFFFF;" version="1.1" viewBox="0 0 919 506" width="919px" zoomAndPan="magnify"><defs><filter height="300%" id="f1fio1q5k9gbet" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[6a035c5e80f74f2cad5f3d5a1d24dc86]
+class GetListUI--><rect codeLine="3" fill="#ADD8E6" filter="url(#f1fio1q5k9gbet)" height="48" id="GetListUI" style="stroke:#0000FF;stroke-width:1.5;" width="83" x="91" y="7"/><ellipse cx="106" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#0000FF;stroke-width:1.0;"/><path d="M108,19.5 Q108.2031,19 108.4375,18.75 Q108.6719,18.5 108.9375,18.5 Q109.4063,18.5 109.7031,18.7813 Q110,19.0625 110,19.7188 L110,21.2813 Q110,21.9375 109.7188,22.2188 Q109.4375,22.5 109,22.5 Q108.6094,22.5 108.3594,22.3281 Q108.1094,22.1563 108,21.7031 Q107.9531,21.3906 107.7813,21.2188 Q107.4688,20.8906 106.9063,20.7031 Q106.3438,20.5 105.7813,20.5 Q105.0781,20.5 104.4844,20.7813 Q103.9063,21.0625 103.4531,21.6875 Q103,22.3125 103,23.1719 L103,24.0938 Q103,25.125 103.8438,25.8125 Q104.6875,26.5 106.1875,26.5 Q107.0781,26.5 107.7031,26.2969 Q108.0625,26.1875 108.4688,25.8281 Q108.7344,25.625 108.875,25.5625 Q109.0156,25.5 109.1875,25.5 Q109.5156,25.5 109.75,25.7656 Q110,26.0156 110,26.375 Q110,26.7188 109.6563,27.125 Q109.1563,27.7188 108.3594,28.0469 Q107.3125,28.5 106.0313,28.5 Q104.5313,28.5 103.3281,27.9063 Q102.3594,27.4375 101.6719,26.4219 Q101,25.4063 101,24.2031 L101,23.1094 Q101,21.8594 101.5938,20.7656 Q102.2031,19.6719 103.25,19.0938 Q104.3125,18.5 105.5,18.5 Q106.2188,18.5 106.8438,18.75 Q107.4688,19 108,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="51" x="120" y="27.9102">GetListUI</text><line style="stroke:#0000FF;stroke-width:1.5;" x1="92" x2="173" y1="39" y2="39"/><line style="stroke:#0000FF;stroke-width:1.5;" x1="92" x2="173" y1="47" y2="47"/><!--MD5=[f2903d850100590434bf0a2892ea476a]
+class GetUserAccountAndStatusListController--><rect codeLine="11" fill="#ADD8E6" filter="url(#f1fio1q5k9gbet)" height="103.3438" id="GetUserAccountAndStatusListController" style="stroke:#0000FF;stroke-width:1.5;" width="251" x="7" y="129"/><ellipse cx="22" cy="145" fill="#ADD1B2" rx="11" ry="11" style="stroke:#0000FF;stroke-width:1.0;"/><path d="M24,141.5 Q24.2031,141 24.4375,140.75 Q24.6719,140.5 24.9375,140.5 Q25.4063,140.5 25.7031,140.7813 Q26,141.0625 26,141.7188 L26,143.2813 Q26,143.9375 25.7188,144.2188 Q25.4375,144.5 25,144.5 Q24.6094,144.5 24.3594,144.3281 Q24.1094,144.1563 24,143.7031 Q23.9531,143.3906 23.7813,143.2188 Q23.4688,142.8906 22.9063,142.7031 Q22.3438,142.5 21.7813,142.5 Q21.0781,142.5 20.4844,142.7813 Q19.9063,143.0625 19.4531,143.6875 Q19,144.3125 19,145.1719 L19,146.0938 Q19,147.125 19.8438,147.8125 Q20.6875,148.5 22.1875,148.5 Q23.0781,148.5 23.7031,148.2969 Q24.0625,148.1875 24.4688,147.8281 Q24.7344,147.625 24.875,147.5625 Q25.0156,147.5 25.1875,147.5 Q25.5156,147.5 25.75,147.7656 Q26,148.0156 26,148.375 Q26,148.7188 25.6563,149.125 Q25.1563,149.7188 24.3594,150.0469 Q23.3125,150.5 22.0313,150.5 Q20.5313,150.5 19.3281,149.9063 Q18.3594,149.4375 17.6719,148.4219 Q17,147.4063 17,146.2031 L17,145.1094 Q17,143.8594 17.5938,142.7656 Q18.2031,141.6719 19.25,141.0938 Q20.3125,140.5 21.5,140.5 Q22.2188,140.5 22.8438,140.75 Q23.4688,141 24,141.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="219" x="36" y="149.9102">GetUserAccountAndStatusListController</text><line style="stroke:#0000FF;stroke-width:1.5;" x1="8" x2="257" y1="161" y2="161"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="168" x="13" y="176.4189">DataManagement dataManagement</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="13" y="190.2549">UserMapper userMapper</text><line style="stroke:#0000FF;stroke-width:1.5;" x1="8" x2="257" y1="196.6719" y2="196.6719"/><ellipse cx="18" cy="207.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="27" y="212.0908">getUsersList()</text><ellipse cx="18" cy="221.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="27" y="225.9268">getUserDtoList()</text><!--MD5=[41fc1644ffe584d705042db0e6e760e1]
+class DataManagement--><rect codeLine="18" fill="#ADD8E6" filter="url(#f1fio1q5k9gbet)" height="61.8359" id="DataManagement" style="stroke:#0000FF;stroke-width:1.5;" width="130" x="602.5" y="149.5"/><ellipse cx="617.5" cy="165.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#0000FF;stroke-width:1.0;"/><path d="M619.5,162 Q619.7031,161.5 619.9375,161.25 Q620.1719,161 620.4375,161 Q620.9063,161 621.2031,161.2813 Q621.5,161.5625 621.5,162.2188 L621.5,163.7813 Q621.5,164.4375 621.2188,164.7188 Q620.9375,165 620.5,165 Q620.1094,165 619.8594,164.8281 Q619.6094,164.6563 619.5,164.2031 Q619.4531,163.8906 619.2813,163.7188 Q618.9688,163.3906 618.4063,163.2031 Q617.8438,163 617.2813,163 Q616.5781,163 615.9844,163.2813 Q615.4063,163.5625 614.9531,164.1875 Q614.5,164.8125 614.5,165.6719 L614.5,166.5938 Q614.5,167.625 615.3438,168.3125 Q616.1875,169 617.6875,169 Q618.5781,169 619.2031,168.7969 Q619.5625,168.6875 619.9688,168.3281 Q620.2344,168.125 620.375,168.0625 Q620.5156,168 620.6875,168 Q621.0156,168 621.25,168.2656 Q621.5,168.5156 621.5,168.875 Q621.5,169.2188 621.1563,169.625 Q620.6563,170.2188 619.8594,170.5469 Q618.8125,171 617.5313,171 Q616.0313,171 614.8281,170.4063 Q613.8594,169.9375 613.1719,168.9219 Q612.5,167.9063 612.5,166.7031 L612.5,165.6094 Q612.5,164.3594 613.0938,163.2656 Q613.7031,162.1719 614.75,161.5938 Q615.8125,161 617,161 Q617.7188,161 618.3438,161.25 Q618.9688,161.5 619.5,162 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="98" x="631.5" y="170.4102">DataManagement</text><line style="stroke:#0000FF;stroke-width:1.5;" x1="603.5" x2="731.5" y1="181.5" y2="181.5"/><line style="stroke:#0000FF;stroke-width:1.5;" x1="603.5" x2="731.5" y1="189.5" y2="189.5"/><ellipse cx="613.5" cy="200.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="622.5" y="204.9189">getUserStore()</text><!--MD5=[93af8b4494db78ec46e98fad8955a5aa]
+class UserStore--><rect codeLine="22" fill="#ADD8E6" filter="url(#f1fio1q5k9gbet)" height="61.8359" id="UserStore" style="stroke:#0000FF;stroke-width:1.5;" width="137" x="768" y="149.5"/><ellipse cx="805.05" cy="165.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#0000FF;stroke-width:1.0;"/><path d="M807.05,162 Q807.2531,161.5 807.4875,161.25 Q807.7219,161 807.9875,161 Q808.4563,161 808.7531,161.2813 Q809.05,161.5625 809.05,162.2188 L809.05,163.7813 Q809.05,164.4375 808.7688,164.7188 Q808.4875,165 808.05,165 Q807.6594,165 807.4094,164.8281 Q807.1594,164.6563 807.05,164.2031 Q807.0031,163.8906 806.8313,163.7188 Q806.5188,163.3906 805.9563,163.2031 Q805.3938,163 804.8313,163 Q804.1281,163 803.5344,163.2813 Q802.9563,163.5625 802.5031,164.1875 Q802.05,164.8125 802.05,165.6719 L802.05,166.5938 Q802.05,167.625 802.8938,168.3125 Q803.7375,169 805.2375,169 Q806.1281,169 806.7531,168.7969 Q807.1125,168.6875 807.5188,168.3281 Q807.7844,168.125 807.925,168.0625 Q808.0656,168 808.2375,168 Q808.5656,168 808.8,168.2656 Q809.05,168.5156 809.05,168.875 Q809.05,169.2188 808.7063,169.625 Q808.2063,170.2188 807.4094,170.5469 Q806.3625,171 805.0813,171 Q803.5813,171 802.3781,170.4063 Q801.4094,169.9375 800.7219,168.9219 Q800.05,167.9063 800.05,166.7031 L800.05,165.6094 Q800.05,164.3594 800.6438,163.2656 Q801.2531,162.1719 802.3,161.5938 Q803.3625,161 804.55,161 Q805.2688,161 805.8938,161.25 Q806.5188,161.5 807.05,162 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="56" x="823.95" y="170.4102">UserStore</text><line style="stroke:#0000FF;stroke-width:1.5;" x1="769" x2="904" y1="181.5" y2="181.5"/><line style="stroke:#0000FF;stroke-width:1.5;" x1="769" x2="904" y1="189.5" y2="189.5"/><ellipse cx="779" cy="200.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="111" x="788" y="204.9189">getUserList() : arraylist</text><!--MD5=[e4bb558c92260c47cedb3f39feb63908]
+class UserDomainInternalDTOAssembler--><rect codeLine="26" fill="#ADD8E6" filter="url(#f1fio1q5k9gbet)" height="75.6719" id="UserMapper" style="stroke:#0000FF;stroke-width:1.5;" width="111" x="293" y="142.5"/><ellipse cx="312.95" cy="158.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#0000FF;stroke-width:1.0;"/><path d="M314.95,155 Q315.1531,154.5 315.3875,154.25 Q315.6219,154 315.8875,154 Q316.3563,154 316.6531,154.2813 Q316.95,154.5625 316.95,155.2188 L316.95,156.7813 Q316.95,157.4375 316.6688,157.7188 Q316.3875,158 315.95,158 Q315.5594,158 315.3094,157.8281 Q315.0594,157.6563 314.95,157.2031 Q314.9031,156.8906 314.7313,156.7188 Q314.4188,156.3906 313.8563,156.2031 Q313.2938,156 312.7313,156 Q312.0281,156 311.4344,156.2813 Q310.8563,156.5625 310.4031,157.1875 Q309.95,157.8125 309.95,158.6719 L309.95,159.5938 Q309.95,160.625 310.7938,161.3125 Q311.6375,162 313.1375,162 Q314.0281,162 314.6531,161.7969 Q315.0125,161.6875 315.4188,161.3281 Q315.6844,161.125 315.825,161.0625 Q315.9656,161 316.1375,161 Q316.4656,161 316.7,161.2656 Q316.95,161.5156 316.95,161.875 Q316.95,162.2188 316.6063,162.625 Q316.1063,163.2188 315.3094,163.5469 Q314.2625,164 312.9813,164 Q311.4813,164 310.2781,163.4063 Q309.3094,162.9375 308.6219,161.9219 Q307.95,160.9063 307.95,159.7031 L307.95,158.6094 Q307.95,157.3594 308.5438,156.2656 Q309.1531,155.1719 310.2,154.5938 Q311.2625,154 312.45,154 Q313.1688,154 313.7938,154.25 Q314.4188,154.5 314.95,155 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="68" x="328.05" y="163.4102">UserMapper</text><line style="stroke:#0000FF;stroke-width:1.5;" x1="294" x2="403" y1="174.5" y2="174.5"/><line style="stroke:#0000FF;stroke-width:1.5;" x1="294" x2="403" y1="182.5" y2="182.5"/><ellipse cx="304" cy="193.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="51" x="313" y="197.9189">userInternalDTO()</text><ellipse cx="304" cy="207.3359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="313" y="211.7549">listDto() : arraylist</text><!--MD5=[a5b40ab6867253cbae57d257f30bbbb8]
+class UserInternalDTO--><rect codeLine="44" fill="#ADD8E6" filter="url(#f1fio1q5k9gbet)" height="131.0156" id="UserDTO" style="stroke:#0000FF;stroke-width:1.5;" width="128" x="439.5" y="115"/><ellipse cx="474.3" cy="131" fill="#ADD1B2" rx="11" ry="11" style="stroke:#0000FF;stroke-width:1.0;"/><path d="M476.3,127.5 Q476.5031,127 476.7375,126.75 Q476.9719,126.5 477.2375,126.5 Q477.7063,126.5 478.0031,126.7813 Q478.3,127.0625 478.3,127.7188 L478.3,129.2813 Q478.3,129.9375 478.0188,130.2188 Q477.7375,130.5 477.3,130.5 Q476.9094,130.5 476.6594,130.3281 Q476.4094,130.1563 476.3,129.7031 Q476.2531,129.3906 476.0813,129.2188 Q475.7688,128.8906 475.2063,128.7031 Q474.6438,128.5 474.0813,128.5 Q473.3781,128.5 472.7844,128.7813 Q472.2063,129.0625 471.7531,129.6875 Q471.3,130.3125 471.3,131.1719 L471.3,132.0938 Q471.3,133.125 472.1438,133.8125 Q472.9875,134.5 474.4875,134.5 Q475.3781,134.5 476.0031,134.2969 Q476.3625,134.1875 476.7688,133.8281 Q477.0344,133.625 477.175,133.5625 Q477.3156,133.5 477.4875,133.5 Q477.8156,133.5 478.05,133.7656 Q478.3,134.0156 478.3,134.375 Q478.3,134.7188 477.9563,135.125 Q477.4563,135.7188 476.6594,136.0469 Q475.6125,136.5 474.3313,136.5 Q472.8313,136.5 471.6281,135.9063 Q470.6594,135.4375 469.9719,134.4219 Q469.3,133.4063 469.3,132.2031 L469.3,131.1094 Q469.3,129.8594 469.8938,128.7656 Q470.5031,127.6719 471.55,127.0938 Q472.6125,126.5 473.8,126.5 Q474.5188,126.5 475.1438,126.75 Q475.7688,127 476.3,127.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="492.7" y="135.9102">UserDTO</text><line style="stroke:#0000FF;stroke-width:1.5;" x1="440.5" x2="566.5" y1="147" y2="147"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="447.5" y="155"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="459.5" y="162.4189">userId : Integer</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="447.5" y="168.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="459.5" y="176.2549">name : String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="447.5" y="182.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="459.5" y="190.0908">status : boolean</text><line style="stroke:#0000FF;stroke-width:1.5;" x1="440.5" x2="566.5" y1="196.5078" y2="196.5078"/><ellipse cx="450.5" cy="207.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="51" x="459.5" y="211.9268">getId() : int</text><ellipse cx="450.5" cy="221.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="459.5" y="225.7627">getName() : String</text><ellipse cx="450.5" cy="235.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="459.5" y="239.5986">getStatus() : Boolean</text><!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User--><rect codeLine="31" fill="#ADD8E6" filter="url(#f1fio1q5k9gbet)" height="186.3594" id="User" style="stroke:#0000FF;stroke-width:1.5;" width="185" x="577" y="306"/><ellipse cx="651.75" cy="322" fill="#ADD1B2" rx="11" ry="11" style="stroke:#0000FF;stroke-width:1.0;"/><path d="M653.75,318.5 Q653.9531,318 654.1875,317.75 Q654.4219,317.5 654.6875,317.5 Q655.1563,317.5 655.4531,317.7813 Q655.75,318.0625 655.75,318.7188 L655.75,320.2813 Q655.75,320.9375 655.4688,321.2188 Q655.1875,321.5 654.75,321.5 Q654.3594,321.5 654.1094,321.3281 Q653.8594,321.1563 653.75,320.7031 Q653.7031,320.3906 653.5313,320.2188 Q653.2188,319.8906 652.6563,319.7031 Q652.0938,319.5 651.5313,319.5 Q650.8281,319.5 650.2344,319.7813 Q649.6563,320.0625 649.2031,320.6875 Q648.75,321.3125 648.75,322.1719 L648.75,323.0938 Q648.75,324.125 649.5938,324.8125 Q650.4375,325.5 651.9375,325.5 Q652.8281,325.5 653.4531,325.2969 Q653.8125,325.1875 654.2188,324.8281 Q654.4844,324.625 654.625,324.5625 Q654.7656,324.5 654.9375,324.5 Q655.2656,324.5 655.5,324.7656 Q655.75,325.0156 655.75,325.375 Q655.75,325.7188 655.4063,326.125 Q654.9063,326.7188 654.1094,327.0469 Q653.0625,327.5 651.7813,327.5 Q650.2813,327.5 649.0781,326.9063 Q648.1094,326.4375 647.4219,325.4219 Q646.75,324.4063 646.75,323.2031 L646.75,322.1094 Q646.75,320.8594 647.3438,319.7656 Q647.9531,318.6719 649,318.0938 Q650.0625,317.5 651.25,317.5 Q651.9688,317.5 652.5938,317.75 Q653.2188,318 653.75,318.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="27" x="672.25" y="326.9102">User</text><line style="stroke:#0000FF;stroke-width:1.5;" x1="578" x2="761" y1="338" y2="338"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="585" y="346"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="597" y="353.4189">String name</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="585" y="359.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="70" x="597" y="367.2549">String function</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="585" y="373.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="55" x="597" y="381.0908">String email</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="585" y="387.5078"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="597" y="394.9268">String password</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="585" y="401.3438"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="58" x="597" y="408.7627">String photo</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="585" y="415.1797"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="597" y="422.5986">int userID</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="585" y="429.0156"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="159" x="597" y="436.4346">boolean isUserAccountActivated</text><line style="stroke:#0000FF;stroke-width:1.5;" x1="578" x2="761" y1="442.8516" y2="442.8516"/><ellipse cx="588" cy="453.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="74" x="597" y="458.2705">getUserid() : int</text><ellipse cx="588" cy="467.6875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="597" y="472.1064">getNameId() : String</text><ellipse cx="588" cy="481.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="124" x="597" y="485.9424">getUserStatus() : boolean</text><!--MD5=[235ae4305af39edde61c46b7c2f71f98]
+link GetListUI to GetUserAccountAndStatusListController--><path codeLine="54" d="M132.5,55.05 C132.5,73.43 132.5,99.95 132.5,123.8 " fill="none" id="GetListUI-to-GetUserAccountAndStatusListController" style="stroke:#0000FF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#0000FF" points="132.5,128.84,136.5,119.84,132.5,123.84,128.5,119.84,132.5,128.84" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[5c357426994c8344b853e194bf03bef2]
+link GetUserAccountAndStatusListController to DataManagement--><path codeLine="55" d="M200.67,128.93 C227.9,111.38 260.49,93.94 293,85 C410.85,52.59 454.61,39.39 568,85 C598.11,97.11 624.24,123.18 642.15,145.02 " fill="none" id="GetUserAccountAndStatusListController-to-DataManagement" style="stroke:#0000FF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#0000FF" points="645.4,149.05,642.8502,139.5369,642.2557,145.1624,636.6301,144.5679,645.4,149.05" style="stroke:#0000FF;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="100" x="651.1544" y="138.4617">dataManagement</text><!--MD5=[1619998f8feda2116d38283b816179a5]
+link GetUserAccountAndStatusListController to UserStore--><path codeLine="56" d="M200.67,128.93 C227.9,111.38 260.49,93.94 293,85 C387.28,59.07 641.93,49.4 733,85 C764.08,97.15 791.45,123.5 810.22,145.44 " fill="none" id="GetUserAccountAndStatusListController-to-UserStore" style="stroke:#0000FF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#0000FF" points="813.62,149.49,810.8759,140.0311,810.3967,145.6677,804.7602,145.1884,813.62,149.49" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[c46f99931e97f9fa7f008f68ee0d400d]
+link GetUserAccountAndStatusListController to UserDomainInternalDTOAssembler--><path codeLine="57" d="M258.22,180.5 C268.03,180.5 277.84,180.5 287.65,180.5 " fill="none" id="GetUserAccountAndStatusListController-to-UserMapper" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="#0000FF" points="292.78,180.5,283.78,176.5,287.78,180.5,283.78,184.5,292.78,180.5" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[523b512c6965d7d987d20a6d10c6ae6f]
+reverse link DataManagement to UserStore--><path codeLine="58" d="M745.78,180.5 C753.14,180.5 760.5,180.5 767.86,180.5 " fill="none" id="DataManagement-backto-UserStore" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="#0000FF" points="732.53,180.5,738.53,184.5,744.53,180.5,738.53,176.5,732.53,180.5" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[ad84ada70f215e45d57f5bcc0ddd1339]
+reverse link UserStore to User--><path codeLine="59" d="M805.3,221.95 C787.03,245.63 763.16,276.58 740.54,305.9 " fill="none" id="UserStore-backto-User" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="#0000FF" points="813.28,211.6,806.4469,213.9041,805.9456,221.0977,812.7787,218.7937,813.28,211.6" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[2ff689d11ef02fee5bf515471f73835b]
+link UserDomainInternalDTOAssembler to UserInternalDTO--><path codeLine="60" d="M404.2,180.5 C414.11,180.5 424.02,180.5 433.93,180.5 " fill="none" id="UserMapper-to-UserDTO" style="stroke:#0000FF;stroke-width:1.0;"/><polygon fill="#0000FF" points="439.11,180.5,430.11,176.5,434.11,180.5,430.11,184.5,439.11,180.5" style="stroke:#0000FF;stroke-width:1.0;"/><!--MD5=[3410cec48d20d7728f03a37b5467c2f5]
+link UserInternalDTO to User--><path codeLine="61" d="M553.08,246.16 C567.41,264.85 583.34,285.62 598.69,305.65 " fill="none" id="UserDTO-User" style="stroke:#0000FF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[e1d964439ae885af29c9bb4dfa63a2cc]
+@startuml
+'https://plantuml.com/class-diagram
+
+class GetListUI #line:blue;back:lightblue
+class GetUserAccountAndStatusListController
+class DataManagement
+class UserStore
+class UserDomainInternalDTOAssembler
+class UserInternalDTO
+class User
+
+class GetUserAccountAndStatusListController #line:blue;back:lightblue{
+DataManagement dataManagement
+UserDomainInternalDTOAssembler userMapper
++getUsersList()
++getUserDtoList()
+}
+
+class DataManagement #line:blue;back:lightblue{
++getUserStore()
+}
+
+class UserStore #line:blue;back:lightblue{
++getUserList() : arraylist
+}
+
+class UserDomainInternalDTOAssembler #line:blue;back:lightblue{
++userInternalDTO()
++listDto() : arraylist
+}
+
+class User #line:blue;back:lightblue{
+-String name
+-String function
+-String email
+-String password
+-String photo
+-int userID
+-boolean isUserAccountActivated
++getUserid() : int
++getNameId() : String
++getUserStatus() : boolean
+}
+
+class UserInternalDTO #line:blue;back:lightblue{
+-userId : Integer
+-name : String
+-status : boolean
++getId() : int
++getName() : String
++getStatus() : Boolean
+}
+
+
+GetListUI ..> GetUserAccountAndStatusListController #blue
+GetUserAccountAndStatusListController .> "dataManagement" DataManagement #blue
+GetUserAccountAndStatusListController .> UserStore #blue
+GetUserAccountAndStatusListController -> UserDomainInternalDTOAssembler #blue
+DataManagement *- UserStore #blue
+UserStore *- - User #blue
+UserDomainInternalDTOAssembler -> UserInternalDTO #blue
+UserInternalDTO .. User #blue
+
+
+@enduml
+
+@startuml
+
+class GetListUI #line:blue;back:lightblue
+class GetUserAccountAndStatusListController
+class DataManagement
+class UserStore
+class UserDomainInternalDTOAssembler
+class UserInternalDTO
+class User
+
+class GetUserAccountAndStatusListController #line:blue;back:lightblue{
+DataManagement dataManagement
+UserDomainInternalDTOAssembler userMapper
++getUsersList()
++getUserDtoList()
+}
+
+class DataManagement #line:blue;back:lightblue{
++getUserStore()
+}
+
+class UserStore #line:blue;back:lightblue{
++getUserList() : arraylist
+}
+
+class UserDomainInternalDTOAssembler #line:blue;back:lightblue{
++userInternalDTO()
++listDto() : arraylist
+}
+
+class User #line:blue;back:lightblue{
+-String name
+-String function
+-String email
+-String password
+-String photo
+-int userID
+-boolean isUserAccountActivated
++getUserid() : int
++getNameId() : String
++getUserStatus() : boolean
+}
+
+class UserInternalDTO #line:blue;back:lightblue{
+-userId : Integer
+-name : String
+-status : boolean
++getId() : int
++getName() : String
++getStatus() : Boolean
+}
+
+
+GetListUI ..> GetUserAccountAndStatusListController #blue
+GetUserAccountAndStatusListController .> "dataManagement" DataManagement #blue
+GetUserAccountAndStatusListController .> UserStore #blue
+GetUserAccountAndStatusListController -> UserDomainInternalDTOAssembler #blue
+DataManagement *- UserStore #blue
+UserStore *- - User #blue
+UserDomainInternalDTOAssembler -> UserInternalDTO #blue
+UserInternalDTO .. User #blue
+
+
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 16:16:42 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="292px" preserveAspectRatio="none" style="width:661px;height:292px;background:#FFFFFF;" version="1.1" viewBox="0 0 661 292" width="661px" zoomAndPan="magnify"><defs><filter height="300%" id="f1294tp8oa7ihe" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="133" x="515" y="10.3809">Use Case Diagram of US030</text><!--MD5=[99b31deea5d7419a569cd5090bf83263]
+cluster System--><polygon fill="#FFFFFF" filter="url(#f1294tp8oa7ihe)" points="144,18.5781,200,18.5781,207,42.1875,644,42.1875,644,267.5781,144,267.5781,144,18.5781" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="144" x2="207" y1="42.1875" y2="42.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="148" y="35.1113">System</text><ellipse cx="270.8903" cy="79.6562" fill="#FEFECE" filter="url(#f1294tp8oa7ihe)" rx="110.8903" ry="24.5781" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="185" x="178.3903" y="83.3847">Request the ScrumBoard List</text><ellipse cx="556.5677" cy="79.7917" fill="#FEFECE" filter="url(#f1294tp8oa7ihe)" rx="71.5677" ry="16.7135" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="507.5677" y="84.3083">List of projects</text><ellipse cx="271.097" cy="157.6975" fill="#FEFECE" filter="url(#f1294tp8oa7ihe)" rx="81.097" ry="18.6194" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="212.0843" y="161.5763">Insert projectDeprecated code</text><ellipse cx="270.9661" cy="231.3714" fill="#FEFECE" filter="url(#f1294tp8oa7ihe)" rx="86.9661" ry="19.7932" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="205.4661" y="235.0999">Get ScrumBoard List</text><!--MD5=[fee662a292a0353a69bd162820bae93b]
+entity User--><ellipse cx="51.5" cy="125.5781" fill="#FEFECE" filter="url(#f1294tp8oa7ihe)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M51.5,133.5781 L51.5,160.5781 M38.5,141.5781 L64.5,141.5781 M51.5,160.5781 L38.5,175.5781 M51.5,160.5781 L64.5,175.5781 " fill="none" filter="url(#f1294tp8oa7ihe)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="6" y="195.6113">Team member</text><!--MD5=[7522d5c5799d0652da24a5d0145a519b]
+link User to US1--><path d="M97.22,137.2881 C109.67,131.9181 123.27,126.2981 136,121.5781 C156,114.1581 177.97,106.8981 198.25,100.5681 " fill="none" id="User-to-US1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="203.09,99.0581,193.3077,97.9147,198.3161,100.5446,195.6861,105.5529,203.09,99.0581" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3d88f5a2196a3e60cc7f10c5896df2c5]
+link US1 to US6--><path d="M382.01,79.5781 C414.68,79.5781 449.71,79.5781 479.68,79.5781 " fill="none" id="US1-to-US6" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="484.83,79.5781,475.83,75.5781,479.83,79.5781,475.83,83.5781,484.83,79.5781" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="413" y="76.0732">include</text><!--MD5=[40d0f94bfbad6ee11e3350241482b726]
+link User to US2--><path d="M97.04,157.5781 C122.3,157.5781 154.76,157.5781 184.72,157.5781 " fill="none" id="User-to-US2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="189.9,157.5781,180.9,153.5781,184.9,157.5781,180.9,161.5781,189.9,157.5781" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[03cc136bda8a1e00ade5b19e82dd6082]
+link User to US5--><path d="M97.14,178.0981 C109.59,183.4781 123.21,189.0281 136,193.5781 C158.77,201.6781 184.18,209.2381 206.71,215.4581 " fill="none" id="User-to-US5" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="211.77,216.8481,204.1584,210.5981,206.9502,215.518,202.0302,218.3098,211.77,216.8481" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="360" x="144" y="283.959">US 030 - As Team Member, I want to view the Scrum Board of current sprint.</text><!--MD5=[0bc621cae27cd9cdcfab89b41b5e3528]
+@startuml
+'https://plantuml.com/use-case-diagram
+
+header
+Use Case Diagram of US030
+endheader
+
+center footer US 030 - As Team Member, I want to view the Scrum Board of current sprint.
+
+
+
+left to right direction
+:Team member: as User
+package System{
+    usecase "Request the ScrumBoard List" as US1
+    usecase "List of projects" as US6
+    usecase "Insert projectDeprecated code" as US2
+    usecase "Get ScrumBoard List" as US5
+User - -> US1
+US1 ..> US6 : include
+User - -> US2
+User - -> US5
+
+@enduml
+
+@startuml
+
+header
+Use Case Diagram of US030
+endheader
+
+center footer US 030 - As Team Member, I want to view the Scrum Board of current sprint.
+
+
+
+left to right direction
+:Team member: as User
+package System{
+    usecase "Request the ScrumBoard List" as US1
+    usecase "List of projects" as US6
+    usecase "Insert projectDeprecated code" as US2
+    usecase "Get ScrumBoard List" as US5
+User - -> US1
+US1 ..> US6 : include
+User - -> US2
+User - -> US5
+
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 16:16:42 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

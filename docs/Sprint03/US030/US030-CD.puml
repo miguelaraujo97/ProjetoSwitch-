@@ -1,0 +1,124 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+header
+Sequence Diagram of US030
+endheader
+
+center footer US 030 - As Team Member, I want to view the Scrum Board of current sprint.
+
+
+package UI{
+    class ScrumBoardViewUI
+}
+package SwitchIsep{
+package Model{
+
+class DataManagement{
++getProjectStore()
+}
+
+class ProjectStore{
++getProject(projectCode)
+}
+
+class Project{
+   -code
+   -name
+   -description
+   -double budget
+   -numberOfPlannedSprints
+   -status
+   -tartDate
+   -endDate
+   -defaultSprintDuration
+
+    +getCurrentSprint()
+    +getListsForScrumBoard()
+}
+
+class Sprint{
+
+    -sprintID
+    -sprintOrder
+    -startDate;
+    -endDate;
+    -numberOfWeeks
+    -sprintStatus;
+
++getSprintBackLog()
+}
+
+class SprintBackLog{
+
++getListsForScrumBoard()
+}
+
+
+class UserStoryMapper{
+
++listOfListsDTO()
+}
+
+class UserStoryScrumBoarDTO
+
+class UserStory{
+private final int sprint;
+    -description;
+    -userStoryID;
+    -parentID;
+    -status
+    -effort
+    -priority
+    -scrumBoardStatus
+    +getUserStoryDescription()
+    +getUserStoryId()
+    +getScrumBoardStatus()
+}
+
+class ScrumBoardDTO {
+
+}
+
+class ScrumBoardDTOMapper{
+    +listOfListsDTOScrumBoardDTO(
+                List<List<UserStory>> list)
+}
+
+
+}
+package Controller{
+    class ScrumBoardViewController{
+    +getListsForScrumBoard(projectCode, nowDate)
+    +listToDTO()
+    }
+}
+}
+ScrumBoardViewUI ..> ScrumBoardViewController
+ScrumBoardViewController ..right.>"dataManagement" DataManagement
+DataManagement "1"-->"projectStore 1.*" ProjectStore
+ProjectStore "1"*-right-" projectList 1.*" Project
+
+ScrumBoardViewController .right.> Project
+
+Project "1"*-right-"sprintList  1..*" Sprint
+
+Sprint "1"-right->"userStories 1" SprintBackLog
+
+SprintBackLog "1"-right->"userStory 1..*" UserStory
+
+UserStoryMapper --> "userStoryScrumBoardDTO"UserStoryScrumBoarDTO
+
+ScrumBoardDTOMapper --> "scrumBoardDTO"ScrumBoardDTO
+
+ScrumBoardViewController ..>"scrumBoardDTO" ScrumBoardDTOMapper
+
+ScrumBoardDTOMapper -down-> "listToDo, listInProgress, listDone"UserStoryMapper
+
+
+
+skinparam nodesep 140
+
+skinparam ranksep 60
+
+@enduml

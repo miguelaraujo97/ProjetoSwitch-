@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="685px" preserveAspectRatio="none" style="width:760px;height:685px;background:#FFFFFF;" version="1.1" viewBox="0 0 760 685" width="760px" zoomAndPan="magnify"><defs><filter height="300%" id="f12jef2gd12gt9" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="67" x="340" y="10.3809">Class Diagram</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="263" x="242" y="22.959">I want to associate a human resource (user) to a projectDeprecated.</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="136" x="305.5" y="43.8418">CD of the US021</text><!--MD5=[9681dc6e01e10c6b4fe06895ae94f592]
+cluster UI--><polygon fill="#FFFFFF" filter="url(#f12jef2gd12gt9)" points="16,74.7969,36,74.7969,43,98.4063,256,98.4063,256,174.7969,16,174.7969,16,74.7969" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="43" y1="98.4063" y2="98.4063"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="14" x="20" y="91.3301">UI</text><!--MD5=[1f2cfc53d9d308f53762fd0fcbaa4873]
+cluster Controller--><polygon fill="#FFFFFF" filter="url(#f12jef2gd12gt9)" points="280,53.7969,357,53.7969,364,77.4063,674,77.4063,674,195.7969,280,195.7969,280,53.7969" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="280" x2="364" y1="77.4063" y2="77.4063"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="284" y="70.3301">Controller</text><!--MD5=[15636c1ca4a123c16a2a1a8e90aca7a9]
+cluster Model--><polygon fill="#FFFFFF" filter="url(#f12jef2gd12gt9)" points="260,228.7969,310,228.7969,317,252.4063,743,252.4063,743,660.7969,260,660.7969,260,228.7969" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="260" x2="317" y1="252.4063" y2="252.4063"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="44" x="264" y="245.3301">Model</text><!--MD5=[f5ae525a68a297560ebfd4de32225fa3]
+class UpdateProjectProductBacklogUI--><rect codeLine="13" fill="#F8F8F8" filter="url(#f12jef2gd12gt9)" height="48" id="UpdateProjectProductBacklogUI" style="stroke:#383838;stroke-width:1.5;" width="208" x="32" y="110.7969"/><ellipse cx="47" cy="126.7969" fill="#C2C2C2" rx="11" ry="11" style="stroke:#383838;stroke-width:1.0;"/><path d="M49,123.2969 Q49.2031,122.7969 49.4375,122.5469 Q49.6719,122.2969 49.9375,122.2969 Q50.4063,122.2969 50.7031,122.5781 Q51,122.8594 51,123.5156 L51,125.0781 Q51,125.7344 50.7188,126.0156 Q50.4375,126.2969 50,126.2969 Q49.6094,126.2969 49.3594,126.125 Q49.1094,125.9531 49,125.5 Q48.9531,125.1875 48.7813,125.0156 Q48.4688,124.6875 47.9063,124.5 Q47.3438,124.2969 46.7813,124.2969 Q46.0781,124.2969 45.4844,124.5781 Q44.9063,124.8594 44.4531,125.4844 Q44,126.1094 44,126.9688 L44,127.8906 Q44,128.9219 44.8438,129.6094 Q45.6875,130.2969 47.1875,130.2969 Q48.0781,130.2969 48.7031,130.0938 Q49.0625,129.9844 49.4688,129.625 Q49.7344,129.4219 49.875,129.3594 Q50.0156,129.2969 50.1875,129.2969 Q50.5156,129.2969 50.75,129.5625 Q51,129.8125 51,130.1719 Q51,130.5156 50.6563,130.9219 Q50.1563,131.5156 49.3594,131.8438 Q48.3125,132.2969 47.0313,132.2969 Q45.5313,132.2969 44.3281,131.7031 Q43.3594,131.2344 42.6719,130.2188 Q42,129.2031 42,128 L42,126.9063 Q42,125.6563 42.5938,124.5625 Q43.2031,123.4688 44.25,122.8906 Q45.3125,122.2969 46.5,122.2969 Q47.2188,122.2969 47.8438,122.5469 Q48.4688,122.7969 49,123.2969 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="176" x="61" y="131.707">UpdateProjectProductBacklogUI</text><line style="stroke:#383838;stroke-width:1.5;" x1="33" x2="239" y1="142.7969" y2="142.7969"/><line style="stroke:#383838;stroke-width:1.5;" x1="33" x2="239" y1="150.7969" y2="150.7969"/><!--MD5=[eaaebb26d39434f5e85b2c05f0de778c]
+class UpdateProjectProductBacklogController--><rect codeLine="40" fill="#F8F8F8" filter="url(#f12jef2gd12gt9)" height="89.5078" id="UpdateProjectProductBacklogController" style="stroke:#383838;stroke-width:1.5;" width="362" x="296" y="89.7969"/><ellipse cx="363.75" cy="105.7969" fill="#C2C2C2" rx="11" ry="11" style="stroke:#383838;stroke-width:1.0;"/><path d="M365.75,102.2969 Q365.9531,101.7969 366.1875,101.5469 Q366.4219,101.2969 366.6875,101.2969 Q367.1563,101.2969 367.4531,101.5781 Q367.75,101.8594 367.75,102.5156 L367.75,104.0781 Q367.75,104.7344 367.4688,105.0156 Q367.1875,105.2969 366.75,105.2969 Q366.3594,105.2969 366.1094,105.125 Q365.8594,104.9531 365.75,104.5 Q365.7031,104.1875 365.5313,104.0156 Q365.2188,103.6875 364.6563,103.5 Q364.0938,103.2969 363.5313,103.2969 Q362.8281,103.2969 362.2344,103.5781 Q361.6563,103.8594 361.2031,104.4844 Q360.75,105.1094 360.75,105.9688 L360.75,106.8906 Q360.75,107.9219 361.5938,108.6094 Q362.4375,109.2969 363.9375,109.2969 Q364.8281,109.2969 365.4531,109.0938 Q365.8125,108.9844 366.2188,108.625 Q366.4844,108.4219 366.625,108.3594 Q366.7656,108.2969 366.9375,108.2969 Q367.2656,108.2969 367.5,108.5625 Q367.75,108.8125 367.75,109.1719 Q367.75,109.5156 367.4063,109.9219 Q366.9063,110.5156 366.1094,110.8438 Q365.0625,111.2969 363.7813,111.2969 Q362.2813,111.2969 361.0781,110.7031 Q360.1094,110.2344 359.4219,109.2188 Q358.75,108.2031 358.75,107 L358.75,105.9063 Q358.75,104.6563 359.3438,103.5625 Q359.9531,102.4688 361,101.8906 Q362.0625,101.2969 363.25,101.2969 Q363.9688,101.2969 364.5938,101.5469 Q365.2188,101.7969 365.75,102.2969 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="218" x="384.25" y="110.707">UpdateProjectProductBacklogController</text><line style="stroke:#383838;stroke-width:1.5;" x1="297" x2="657" y1="121.7969" y2="121.7969"/><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="304" y="129.7969"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="59" x="316" y="137.2158">projectStore</text><line style="stroke:#383838;stroke-width:1.5;" x1="297" x2="657" y1="143.6328" y2="143.6328"/><ellipse cx="307" cy="154.6328" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="336" x="316" y="159.0518">requestProductBacklogByProjectCode(projectCode) : List&lt;UserStory&gt;</text><ellipse cx="307" cy="168.4688" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="267" x="316" y="172.8877">updateProductBacklogByPriority(projectCode) : boolean</text><!--MD5=[41fc1644ffe584d705042db0e6e760e1]
+class DataManagement--><rect codeLine="46" fill="#F8F8F8" filter="url(#f12jef2gd12gt9)" height="61.8359" id="DataManagement" style="stroke:#383838;stroke-width:1.5;" width="176" x="280" y="264.7969"/><ellipse cx="315.7" cy="280.7969" fill="#C2C2C2" rx="11" ry="11" style="stroke:#383838;stroke-width:1.0;"/><path d="M317.7,277.2969 Q317.9031,276.7969 318.1375,276.5469 Q318.3719,276.2969 318.6375,276.2969 Q319.1063,276.2969 319.4031,276.5781 Q319.7,276.8594 319.7,277.5156 L319.7,279.0781 Q319.7,279.7344 319.4188,280.0156 Q319.1375,280.2969 318.7,280.2969 Q318.3094,280.2969 318.0594,280.125 Q317.8094,279.9531 317.7,279.5 Q317.6531,279.1875 317.4813,279.0156 Q317.1688,278.6875 316.6063,278.5 Q316.0438,278.2969 315.4813,278.2969 Q314.7781,278.2969 314.1844,278.5781 Q313.6063,278.8594 313.1531,279.4844 Q312.7,280.1094 312.7,280.9688 L312.7,281.8906 Q312.7,282.9219 313.5438,283.6094 Q314.3875,284.2969 315.8875,284.2969 Q316.7781,284.2969 317.4031,284.0938 Q317.7625,283.9844 318.1688,283.625 Q318.4344,283.4219 318.575,283.3594 Q318.7156,283.2969 318.8875,283.2969 Q319.2156,283.2969 319.45,283.5625 Q319.7,283.8125 319.7,284.1719 Q319.7,284.5156 319.3563,284.9219 Q318.8563,285.5156 318.0594,285.8438 Q317.0125,286.2969 315.7313,286.2969 Q314.2313,286.2969 313.0281,285.7031 Q312.0594,285.2344 311.3719,284.2188 Q310.7,283.2031 310.7,282 L310.7,280.9063 Q310.7,279.6563 311.2938,278.5625 Q311.9031,277.4688 312.95,276.8906 Q314.0125,276.2969 315.2,276.2969 Q315.9188,276.2969 316.5438,276.5469 Q317.1688,276.7969 317.7,277.2969 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="98" x="334.3" y="285.707">DataManagement</text><line style="stroke:#383838;stroke-width:1.5;" x1="281" x2="455" y1="296.7969" y2="296.7969"/><line style="stroke:#383838;stroke-width:1.5;" x1="281" x2="455" y1="304.7969" y2="304.7969"/><ellipse cx="291" cy="315.7969" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="150" x="300" y="320.2158">getProjectStore() : ProjectStore</text><!--MD5=[79d378210367c0c6ec62ef762ddfbd1b]
+class ProjectDeprecated--><rect codeLine="55" fill="#F8F8F8" filter="url(#f12jef2gd12gt9)" height="75.6719" id="Project" style="stroke:#383838;stroke-width:1.5;" width="208" x="276" y="555.2969"/><ellipse cx="356.75" cy="571.2969" fill="#C2C2C2" rx="11" ry="11" style="stroke:#383838;stroke-width:1.0;"/><path d="M358.75,567.7969 Q358.9531,567.2969 359.1875,567.0469 Q359.4219,566.7969 359.6875,566.7969 Q360.1563,566.7969 360.4531,567.0781 Q360.75,567.3594 360.75,568.0156 L360.75,569.5781 Q360.75,570.2344 360.4688,570.5156 Q360.1875,570.7969 359.75,570.7969 Q359.3594,570.7969 359.1094,570.625 Q358.8594,570.4531 358.75,570 Q358.7031,569.6875 358.5313,569.5156 Q358.2188,569.1875 357.6563,569 Q357.0938,568.7969 356.5313,568.7969 Q355.8281,568.7969 355.2344,569.0781 Q354.6563,569.3594 354.2031,569.9844 Q353.75,570.6094 353.75,571.4688 L353.75,572.3906 Q353.75,573.4219 354.5938,574.1094 Q355.4375,574.7969 356.9375,574.7969 Q357.8281,574.7969 358.4531,574.5938 Q358.8125,574.4844 359.2188,574.125 Q359.4844,573.9219 359.625,573.8594 Q359.7656,573.7969 359.9375,573.7969 Q360.2656,573.7969 360.5,574.0625 Q360.75,574.3125 360.75,574.6719 Q360.75,575.0156 360.4063,575.4219 Q359.9063,576.0156 359.1094,576.3438 Q358.0625,576.7969 356.7813,576.7969 Q355.2813,576.7969 354.0781,576.2031 Q353.1094,575.7344 352.4219,574.7188 Q351.75,573.7031 351.75,572.5 L351.75,571.4063 Q351.75,570.1563 352.3438,569.0625 Q352.9531,567.9688 354,567.3906 Q355.0625,566.7969 356.25,566.7969 Q356.9688,566.7969 357.5938,567.0469 Q358.2188,567.2969 358.75,567.7969 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="38" x="377.25" y="576.207">Project</text><line style="stroke:#383838;stroke-width:1.5;" x1="277" x2="483" y1="587.2969" y2="587.2969"/><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="284" y="595.2969"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="159" x="296" y="602.7158">productBacklog : ProductBacklog</text><line style="stroke:#383838;stroke-width:1.5;" x1="277" x2="483" y1="609.1328" y2="609.1328"/><ellipse cx="287" cy="620.1328" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="182" x="296" y="624.5518">getProductBacklog() : ProductBacklog</text><!--MD5=[91b5dce48d18c73d9cea267c757e6d47]
+class ProductBacklog--><rect codeLine="60" fill="#F8F8F8" filter="url(#f12jef2gd12gt9)" height="103.3438" id="ProductBacklog" style="stroke:#383838;stroke-width:1.5;" width="207" x="519.5" y="541.7969"/><ellipse cx="575.75" cy="557.7969" fill="#C2C2C2" rx="11" ry="11" style="stroke:#383838;stroke-width:1.0;"/><path d="M577.75,554.2969 Q577.9531,553.7969 578.1875,553.5469 Q578.4219,553.2969 578.6875,553.2969 Q579.1563,553.2969 579.4531,553.5781 Q579.75,553.8594 579.75,554.5156 L579.75,556.0781 Q579.75,556.7344 579.4688,557.0156 Q579.1875,557.2969 578.75,557.2969 Q578.3594,557.2969 578.1094,557.125 Q577.8594,556.9531 577.75,556.5 Q577.7031,556.1875 577.5313,556.0156 Q577.2188,555.6875 576.6563,555.5 Q576.0938,555.2969 575.5313,555.2969 Q574.8281,555.2969 574.2344,555.5781 Q573.6563,555.8594 573.2031,556.4844 Q572.75,557.1094 572.75,557.9688 L572.75,558.8906 Q572.75,559.9219 573.5938,560.6094 Q574.4375,561.2969 575.9375,561.2969 Q576.8281,561.2969 577.4531,561.0938 Q577.8125,560.9844 578.2188,560.625 Q578.4844,560.4219 578.625,560.3594 Q578.7656,560.2969 578.9375,560.2969 Q579.2656,560.2969 579.5,560.5625 Q579.75,560.8125 579.75,561.1719 Q579.75,561.5156 579.4063,561.9219 Q578.9063,562.5156 578.1094,562.8438 Q577.0625,563.2969 575.7813,563.2969 Q574.2813,563.2969 573.0781,562.7031 Q572.1094,562.2344 571.4219,561.2188 Q570.75,560.2031 570.75,559 L570.75,557.9063 Q570.75,556.6563 571.3438,555.5625 Q571.9531,554.4688 573,553.8906 Q574.0625,553.2969 575.25,553.2969 Q575.9688,553.2969 576.5938,553.5469 Q577.2188,553.7969 577.75,554.2969 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="596.25" y="562.707">ProductBacklog</text><line style="stroke:#383838;stroke-width:1.5;" x1="520.5" x2="725.5" y1="573.7969" y2="573.7969"/><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="527.5" y="581.7969"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="152" x="539.5" y="589.2158">userStoryList : List&lt;UserStory&gt;</text><line style="stroke:#383838;stroke-width:1.5;" x1="520.5" x2="725.5" y1="595.6328" y2="595.6328"/><ellipse cx="530.5" cy="606.6328" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="180" x="539.5" y="611.0518">showUserStories() : List&lt;UserStory&gt;</text><ellipse cx="530.5" cy="620.4688" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="163" x="539.5" y="624.8877">moveUserStoryPriority() : boolean</text><rect fill="#808080" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="527.5" y="631.3047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="181" x="539.5" y="638.7236">reorderProductBacklogPriority() : void</text><!--MD5=[0cf43f64de24b70e8ffe65ff9ee7abee]
+class ProjectStore--><rect codeLine="50" fill="#F8F8F8" filter="url(#f12jef2gd12gt9)" height="75.6719" id="ProjectStore" style="stroke:#383838;stroke-width:1.5;" width="162" x="299" y="404.7969"/><ellipse cx="342.35" cy="420.7969" fill="#C2C2C2" rx="11" ry="11" style="stroke:#383838;stroke-width:1.0;"/><path d="M344.35,417.2969 Q344.5531,416.7969 344.7875,416.5469 Q345.0219,416.2969 345.2875,416.2969 Q345.7563,416.2969 346.0531,416.5781 Q346.35,416.8594 346.35,417.5156 L346.35,419.0781 Q346.35,419.7344 346.0688,420.0156 Q345.7875,420.2969 345.35,420.2969 Q344.9594,420.2969 344.7094,420.125 Q344.4594,419.9531 344.35,419.5 Q344.3031,419.1875 344.1313,419.0156 Q343.8188,418.6875 343.2563,418.5 Q342.6938,418.2969 342.1313,418.2969 Q341.4281,418.2969 340.8344,418.5781 Q340.2563,418.8594 339.8031,419.4844 Q339.35,420.1094 339.35,420.9688 L339.35,421.8906 Q339.35,422.9219 340.1938,423.6094 Q341.0375,424.2969 342.5375,424.2969 Q343.4281,424.2969 344.0531,424.0938 Q344.4125,423.9844 344.8188,423.625 Q345.0844,423.4219 345.225,423.3594 Q345.3656,423.2969 345.5375,423.2969 Q345.8656,423.2969 346.1,423.5625 Q346.35,423.8125 346.35,424.1719 Q346.35,424.5156 346.0063,424.9219 Q345.5063,425.5156 344.7094,425.8438 Q343.6625,426.2969 342.3813,426.2969 Q340.8813,426.2969 339.6781,425.7031 Q338.7094,425.2344 338.0219,424.2188 Q337.35,423.2031 337.35,422 L337.35,420.9063 Q337.35,419.6563 337.9438,418.5625 Q338.5531,417.4688 339.6,416.8906 Q340.6625,416.2969 341.85,416.2969 Q342.5688,416.2969 343.1938,416.5469 Q343.8188,416.7969 344.35,417.2969 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="67" x="362.65" y="425.707">ProjectStore</text><line style="stroke:#383838;stroke-width:1.5;" x1="300" x2="460" y1="436.7969" y2="436.7969"/><rect fill="none" height="6" style="stroke:#595959;stroke-width:1.0;" width="6" x="307" y="444.7969"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="319" y="452.2158">projectList : List&lt;Project&gt;</text><line style="stroke:#383838;stroke-width:1.5;" x1="300" x2="460" y1="458.6328" y2="458.6328"/><ellipse cx="310" cy="469.6328" fill="#A6A6A6" rx="3" ry="3" style="stroke:#545454;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="136" x="319" y="474.0518">getProjectByCode() : Project</text><!--MD5=[480d54b59ab7ec81d90a463c92effcee]
+link UpdateProjectProductBacklogUI to UpdateProjectProductBacklogController--><path codeLine="30" d="M240.23,134.7969 C258.73,134.7969 277.23,134.7969 295.72,134.7969 " fill="none" id="UpdateProjectProductBacklogUI-UpdateProjectProductBacklogController" style="stroke:#383838;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[6698fcaa3ad2cb27c15abeaef7f5fb52]
+link UpdateProjectProductBacklogController to DataManagement--><path codeLine="32" d="M446.64,180.0869 C429.32,205.3469 407.93,236.5469 391.83,260.0269 " fill="none" id="UpdateProjectProductBacklogController-to-DataManagement" style="stroke:#383838;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#383838" points="388.89,264.3269,397.2849,259.1766,391.7226,260.2067,390.6926,254.6444,388.89,264.3269" style="stroke:#383838;stroke-width:1.0;"/><!--MD5=[e49256ec62a64c0e2589668b84841744]
+link DataManagement to ProjectStore--><path codeLine="33" d="M371.492,338.795 C371.492,338.795 374.45,374.7869 375.84,391.5669 " fill="none" id="DataManagement-ProjectStore" style="stroke:#383838;stroke-width:1.0;"/><polygon fill="#383838" points="376.92,404.5769,380.1647,395.2779,376.508,399.5939,372.1919,395.9371,376.92,404.5769" style="stroke:#383838;stroke-width:1.0;"/><line style="stroke:#383838;stroke-width:1.0;" x1="376.508" x2="375.845" y1="399.5939" y2="391.6219"/><polygon fill="#FFFFFF" points="370.49,326.8369,367.005,333.1499,371.492,338.795,374.977,332.4819,370.49,326.8369" style="stroke:#383838;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="375" y="371.292">Knows</text><!--MD5=[c2999c5e21c0a7115ef87c36c02875b6]
+reverse link ProjectStore to ProjectDeprecated--><path codeLine="34" d="M380,493.9269 C380,513.9769 380,536.6469 380,555.1669 " fill="none" id="ProjectStore-backto-Project" style="stroke:#383838;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="380,480.8869,376,486.8869,380,492.8869,384,486.8869,380,480.8869" style="stroke:#383838;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="372.4203" y="502.0719">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="358.2188" y="544.5056">0--*</text><!--MD5=[2dee92360f00b603e7ba5f8f02cfe98b]
+reverse link ProjectDeprecated to ProductBacklog--><path codeLine="35" d="M497.51,593.2969 C504.78,593.2969 512.06,593.2969 519.33,593.2969 " fill="none" id="Project-backto-ProductBacklog" style="stroke:#383838;stroke-width:1.0;"/><polygon fill="#383838" points="484.41,593.2969,490.41,597.2969,496.41,593.2969,490.41,589.2969,484.41,593.2969" style="stroke:#383838;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="491.9974" y="590.2534">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="504.4597" y="590.2048">1</text><!--MD5=[040127999e16b47c156ea0b7c13278a7]
+link UpdateProjectProductBacklogController to ProjectStore--><path codeLine="37" d="M484.35,180.1369 C489.08,219.8369 491.48,278.9869 474,326.7969 C463.83,354.6169 443.87,380.6169 424.94,400.8369 " fill="none" id="UpdateProjectProductBacklogController-to-ProjectStore" style="stroke:#383838;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#383838" points="421.42,404.5469,430.5085,400.7524,424.854,400.9126,424.6937,395.258,421.42,404.5469" style="stroke:#383838;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="488" y="301.292">swap priority</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="36" x="355.5" y="677.1777">SWitCH</text><!--MD5=[ade0c645601bb95f0e120698e99c05dd]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam monochrome true
+
+title CD of the US021
+center header
+Class Diagram
+I want to associate a human resource (user) to a projectDeprecated.
+endheader
+center footer SWitCH
+
+package UI{
+    class UpdateProjectProductBacklogUI
+}
+
+package Controller{
+    class UpdateProjectProductBacklogController
+}
+
+package Model{
+    class DataManagement
+    class ProjectDeprecated
+    class ProductBacklog
+    class ProjectStore
+}
+
+
+
+
+UpdateProjectProductBacklogUI .r. UpdateProjectProductBacklogController
+
+UpdateProjectProductBacklogController ..> DataManagement
+DataManagement o- ->  ProjectStore : Knows
+ProjectStore "1" o- - "0- -*" ProjectDeprecated
+ProjectDeprecated "1" *-r- "1" ProductBacklog
+
+UpdateProjectProductBacklogController  ..>  ProjectStore :  swap priority
+
+
+class UpdateProjectProductBacklogController {
++ requestProductBacklogByProjectCode(projectCode) : List<UserStory>
++ updateProductBacklogByPriority(projectCode) : boolean
+- projectStore
+}
+
+class DataManagement {
++ getProjectStore() : ProjectStore
+}
+
+class ProjectStore{
+- projectList : List<ProjectDeprecated>
++ getProjectByCode() : ProjectDeprecated
+}
+
+class ProjectDeprecated{
+- productBacklog : ProductBacklog
++ getProductBacklog() : ProductBacklog
+}
+
+class ProductBacklog{
+- userStoryList : List<UserStory>
++ showUserStories() : List<UserStory>
++ moveUserStoryPriority() : boolean
+- reorderProductBacklogPriority() : void
+}
+
+
+@enduml
+
+@startuml
+
+skinparam monochrome true
+
+title CD of the US021
+center header
+Class Diagram
+I want to associate a human resource (user) to a projectDeprecated.
+endheader
+center footer SWitCH
+
+package UI{
+    class UpdateProjectProductBacklogUI
+}
+
+package Controller{
+    class UpdateProjectProductBacklogController
+}
+
+package Model{
+    class DataManagement
+    class ProjectDeprecated
+    class ProductBacklog
+    class ProjectStore
+}
+
+
+
+
+UpdateProjectProductBacklogUI .r. UpdateProjectProductBacklogController
+
+UpdateProjectProductBacklogController ..> DataManagement
+DataManagement o- ->  ProjectStore : Knows
+ProjectStore "1" o- - "0- -*" ProjectDeprecated
+ProjectDeprecated "1" *-r- "1" ProductBacklog
+
+UpdateProjectProductBacklogController  ..>  ProjectStore :  swap priority
+
+
+class UpdateProjectProductBacklogController {
++ requestProductBacklogByProjectCode(projectCode) : List<UserStory>
++ updateProductBacklogByPriority(projectCode) : boolean
+- projectStore
+}
+
+class DataManagement {
++ getProjectStore() : ProjectStore
+}
+
+class ProjectStore{
+- projectList : List<ProjectDeprecated>
++ getProjectByCode() : ProjectDeprecated
+}
+
+class ProjectDeprecated{
+- productBacklog : ProductBacklog
++ getProductBacklog() : ProductBacklog
+}
+
+class ProductBacklog{
+- userStoryList : List<UserStory>
++ showUserStories() : List<UserStory>
++ moveUserStoryPriority() : boolean
+- reorderProductBacklogPriority() : void
+}
+
+
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 16:16:42 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

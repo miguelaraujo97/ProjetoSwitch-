@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+left to right direction
+:Administrator: as User
+package System{
+    usecase "Insert User ID" as US1
+    usecase "Verify User ID" as US2
+    usecase "Display User error" as US3
+    usecase "Get User Account Status" as US4
+    usecase "Activate User Account" as US5
+    usecase "Verify User Account Status " as US6
+    usecase "Display User Account Status error" as US7
+}
+User --> US1
+US1 .right.> US2 : include
+US3 .up.> US1 : extend
+User --> US4
+User --> US5
+US5 ..> US6 : include
+US5 <.d. US7 : extend
+
+@enduml

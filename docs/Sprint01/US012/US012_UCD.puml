@@ -1,0 +1,22 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+header
+Use Case Diagram of US012
+endheader
+
+center footer US 012 - As Director, I want to create a new project typology.
+
+
+
+left to right direction
+:Director: as User
+package System{
+    usecase "Create new Typopogy" as US1
+    usecase "Insert the typology description ID" as US4
+    usecase "list of typologies" as US5
+User --> US1
+
+User --> US4
+US4 ..> US5 : add to
+@enduml

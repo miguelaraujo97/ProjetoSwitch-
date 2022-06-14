@@ -1,0 +1,59 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+
+autonumber
+actor "Administrator" as administrator
+participant ":SearchForUser(UI)" as route
+participant "SearchUserController" as controller
+
+
+participant "appServiceSearchUser:AppServiceSearchUser" as service
+participant "UserMapper: UserMapper" as userMapper
+participant "profile1:Profile" as profile1
+participant "profileDto2: ProfileDto" as dto2
+participant "repoProfile1:RepoProfile" as repo
+participant ":ProfileToDataMapper " as profileDataMapper
+participant "profile1DataSaved:ProfileData" as profileData
+
+
+
+
+
+administrator -> route :I want to search for users
+activate route
+administrator <-- route: request data()
+deactivate route
+administrator -> route: insert data(name/profile)
+activate route
+route -> controller: createProfile(json)
+activate controller
+
+activate controller
+deactivate controller
+
+activate mapperJson
+mapperJson --> dtoProfile1**: create(json)
+deactivate mapperJson
+controller -> service : createProfile(dtoProfile1): profile1
+service -> profileMapper : createProfile(dtoProfile1): profile1
+activate service
+profileMapper --> profile1**: createProfile(dtoProfile1):
+service -> repo : addAndSave(profile1):true
+activate repo
+
+repo -> profileDataMapper : profileToData(profile1):profile1DataSaved
+profileDataMapper --> profileData**: createProfileData(profile1)
+repo --> repo: add(profile1DataSaved)
+service -> profileMapper : profileToDto(profile1): profileDto2
+profileMapper --> dto2**: domainToDto(profile1):
+controller <-- service: true
+deactivate repo
+deactivate service
+route <-- controller : true
+deactivate controller
+administrator <-- route: ok
+deactivate route
+
+
+@enduml

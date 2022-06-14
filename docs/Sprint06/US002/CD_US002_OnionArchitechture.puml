@@ -1,0 +1,115 @@
+@startuml
+'https://plantuml.com/class-diagram
+hide members
+'hide circle
+
+skinparam minClassWidth 200
+skinparam nodesep 80
+skinparam ranksep 80
+skinparam Padding 5
+skinparam linetype ortho
+
+'left to right direction
+
+skinparam package  {
+    BackgroundColor white
+    BorderColor grey
+    shadowing false
+    FontStyle normal
+    FontSize 16
+    borderThickness 0.5
+    fontColor #aaa
+}
+
+skinparam legend {
+    backgroundColor white
+    borderColor white
+    shadowing false
+    FontStyle normal
+    FontSize 12
+    borderThickness 0.5
+    fontColor black
+    Padding 20
+    DesignedBorderColor white
+}
+
+skinparam class {
+    stereotypeFontSize 10
+    fontSize 16
+    fontName Helvetica
+
+    arrowColor black
+    arrowThickness 1
+    attributeIconSize 0
+
+    borderColor black
+    borderThickness 0.5
+    backgroundColor #eee
+}
+
+skinparam entity {
+    backgroundColor red
+    borderColor black
+    borderThickness 0.5
+}
+
+skinparam rectangle {
+    shadowing false
+    fontSize 15
+    textAlignment left
+    fontStyle italic
+    stereotypeFontSize 10
+    borderThickness 0.5
+}
+
+'TITLE ON TOP
+title US002
+
+'HEADER FOOTER DESCRIPTIONS
+center header ONION
+center footer DDD - Domain Driven Design
+
+
+package Infrastructure #80FFFF{
+class ActivateNewUserRoute
+}
+
+
+package InterfaceAdapters #C0FFC0 {
+    package Controllers{
+        class ActivateNewUserController
+    }
+    package Repositories #7ACff5{
+        class RepoUser
+    }
+
+}
+
+package ApplicationServices_UseCaseServices #FFAFAF{
+package AppServices{
+class ActivateNewUserService
+}
+package RepoInterfaces{
+
+interface IRepoUser
+}
+}
+
+package Entities_Core_Domain #FFE0C0{
+
+
+package AggregateUser{
+class User
+}
+}
+RepoUser ..|> IRepoUser
+ActivateNewUserController ..> ActivateNewUserService
+Infrastructure -[hidden]-> InterfaceAdapters
+InterfaceAdapters -[hidden]-> ApplicationServices_UseCaseServices
+ApplicationServices_UseCaseServices -[hidden]->Entities_Core_Domain
+ActivateNewUserService .left.> IRepoUser
+
+ActivateNewUserService --> User
+
+
+@enduml

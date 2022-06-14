@@ -1,0 +1,64 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+skinparam backgroundColor #white
+
+skinparam sequence{
+ArrowColor #blue
+ActorBorderColor #blue
+LifeLineBorderColor #blue
+LifeLineBackgroundColor #lightblue
+
+ParticipantBorderColor #blue
+ParticipantBackgroundColor #lightblue
+ParticipantFontColor #blue
+
+ActorBackgroundColor #lightblue
+ActorFontColor #blue }
+
+autonumber
+actor Administrator
+
+Administrator  -> ": GetListUI": I want to get a list of all user accounts and their status
+activate ": GetListUI"
+": GetListUI" -> ": GetUserAccountAndStatusListController": getUserAccountAndStatusList()
+activate ": GetUserAccountAndStatusListController"
+": GetUserAccountAndStatusListController" -> ": DataManagement" : getUserStore()
+activate ": DataManagement"
+": DataManagement" --> ": GetUserAccountAndStatusListController": UserStore
+deactivate ": DataManagement"
+": GetUserAccountAndStatusListController" -> ": UserStore" :getUsersList()
+activate ": UserStore"
+": UserStore" --> ": GetUserAccountAndStatusListController" :usersList
+deactivate ": UserStore"
+": GetUserAccountAndStatusListController" -> ": UserMapper" : toDTO(userList)
+activate ": UserMapper"
+": UserMapper" -> "userDtoList : List <UserDTO>" ** : create()
+loop #lightblue for each object in userList
+": UserMapper" -> "userList : List <User>" : getUSer()
+activate "userList : List <User>"
+"userList : List <User>" --> ": UserMapper" : user
+deactivate "userList : List <User>"
+": UserMapper" -> "user : User" : id = getId()
+activate "user : User"
+"user : User" --> ": UserMapper" : id
+deactivate "user : User"
+": UserMapper" -> "user : User" : name = getName()
+activate "user : User"
+"user : User" --> ": UserMapper" : name
+deactivate "user : User"
+": UserMapper" -> "user : User" : status = getStatus()
+activate "user : User"
+"user : User" --> ": UserMapper" : status
+deactivate "user : User"
+": UserMapper" -> "userDto : UserDTO" ** : createDto(id, name, status)
+": UserMapper" -> "userDtoList : List <UserDTO>" : add(dto)
+activate "userDtoList : List <UserDTO>"
+"userDtoList : List <UserDTO>" --> ": UserMapper" : userDtoList
+deactivate "userDtoList : List <UserDTO>"
+end
+": UserMapper" --> ": GetUserAccountAndStatusListController" : userDtoList
+deactivate ": UserMapper"
+": GetUserAccountAndStatusListController" --> ": GetListUI" : userDtoList
+deactivate ": GetUserAccountAndStatusListController"
+": GetListUI" --> Administrator : Shows user accounts and status list
+@enduml

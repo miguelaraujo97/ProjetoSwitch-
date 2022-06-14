@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="599.2px" preserveAspectRatio="none" style="width:1061px;height:599px;background:#FFFFFF;" version="1.1" viewBox="0 0 1061 599" width="1061.6px" zoomAndPan="magnify"><defs><filter height="300%" id="f1pxtgj2o8ww6l" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="1.6000000000000003"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="3.2000000000000006" dy="3.2000000000000006" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[39e750ed8fd817ac372d7da55c795c85]
+cluster Resource--><polygon fill="#FFFFFF" points="333.6,204.0125,392,204.0125,397.6,224.9125,519.2,224.9125,519.2,394.4125,333.6,394.4125,333.6,204.0125" style="stroke:#808080;stroke-width:0.4000000000000001;"/><line style="stroke:#808080;stroke-width:0.4000000000000001;" x1="333.6" x2="397.6" y1="224.9125" y2="224.9125"/><text fill="#AAAAAA" font-family="sans-serif" font-size="12.8" lengthAdjust="spacing" textLength="53.6" x="336.8" y="218.9">Resource</text><text fill="#D3D3D3" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="61.6" x="398.8" y="234.8172">«AGGREGATE»</text><!--MD5=[0f05b381ce972810648735ab0813e8dd]
+cluster ProjectDeprecated--><polygon fill="#FFFFFF" points="657.6,413.6125,701.6,413.6125,707.2,434.5125,843.2,434.5125,843.2,593.6125,657.6,593.6125,657.6,413.6125" style="stroke:#808080;stroke-width:0.4000000000000001;"/><line style="stroke:#808080;stroke-width:0.4000000000000001;" x1="657.6" x2="707.2" y1="434.5125" y2="434.5125"/><text fill="#AAAAAA" font-family="sans-serif" font-size="12.8" lengthAdjust="spacing" textLength="39.2" x="660.8" y="428.5">Project</text><text fill="#D3D3D3" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="61.6" x="722.8" y="444.4172">«AGGREGATE»</text><!--MD5=[996a0e22aa5fcad0a8b55c37b2fd323d]
+cluster Task--><polygon fill="#FFFFFF" points="552.8,4.8125,584.8,4.8125,590.4,25.7125,738.4,25.7125,738.4,184.8125,552.8,184.8125,552.8,4.8125" style="stroke:#808080;stroke-width:0.4000000000000001;"/><line style="stroke:#808080;stroke-width:0.4000000000000001;" x1="552.8" x2="590.4" y1="25.7125" y2="25.7125"/><text fill="#AAAAAA" font-family="sans-serif" font-size="12.8" lengthAdjust="spacing" textLength="27.2" x="556" y="19.7">Task</text><text fill="#D3D3D3" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="61.6" x="618" y="35.6172">«AGGREGATE»</text><!--MD5=[a8621f786b421b40515673e2d966a1c3]
+cluster Sprint--><polygon fill="#FFFFFF" points="552.8,204.0125,590.4,204.0125,596,224.9125,738.4,224.9125,738.4,394.4125,552.8,394.4125,552.8,204.0125" style="stroke:#808080;stroke-width:0.4000000000000001;"/><line style="stroke:#808080;stroke-width:0.4000000000000001;" x1="552.8" x2="596" y1="224.9125" y2="224.9125"/><text fill="#AAAAAA" font-family="sans-serif" font-size="12.8" lengthAdjust="spacing" textLength="32.8" x="556" y="218.9">Sprint</text><text fill="#D3D3D3" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="61.6" x="618" y="234.8172">«AGGREGATE»</text><!--MD5=[70ce3a0b7249b89e7183e518c52a7191]
+cluster UserStory--><polygon fill="#FFFFFF" points="772,204.0125,832,204.0125,837.6,224.9125,957.6,224.9125,957.6,394.4125,772,394.4125,772,204.0125" style="stroke:#808080;stroke-width:0.4000000000000001;"/><line style="stroke:#808080;stroke-width:0.4000000000000001;" x1="772" x2="837.6" y1="224.9125" y2="224.9125"/><text fill="#AAAAAA" font-family="sans-serif" font-size="12.8" lengthAdjust="spacing" textLength="55.2" x="775.2" y="218.9">UserStory</text><text fill="#D3D3D3" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="61.6" x="837.2" y="234.8172">«AGGREGATE»</text><!--MD5=[d0083cf0b2d9f17e335f85bf9624e57e]
+cluster User--><polygon fill="#FFFFFF" points="128.8,301.6125,160,301.6125,165.6,322.5125,314.4,322.5125,314.4,506.4125,128.8,506.4125,128.8,301.6125" style="stroke:#808080;stroke-width:0.4000000000000001;"/><line style="stroke:#808080;stroke-width:0.4000000000000001;" x1="128.8" x2="165.6" y1="322.5125" y2="322.5125"/><text fill="#AAAAAA" font-family="sans-serif" font-size="12.8" lengthAdjust="spacing" textLength="26.4" x="132" y="316.5">User</text><text fill="#D3D3D3" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="61.6" x="194" y="332.4172">«AGGREGATE»</text><!--MD5=[fe08d72b7e54a4e0603d5a17d2080bee]
+cluster Profile--><polygon fill="#FFFFFF" points="217.6,4.8125,258.4,4.8125,264,25.7125,403.2,25.7125,403.2,184.8125,217.6,184.8125,217.6,4.8125" style="stroke:#808080;stroke-width:0.4000000000000001;"/><line style="stroke:#808080;stroke-width:0.4000000000000001;" x1="217.6" x2="264" y1="25.7125" y2="25.7125"/><text fill="#AAAAAA" font-family="sans-serif" font-size="12.8" lengthAdjust="spacing" textLength="36" x="220.8" y="19.7">Profile</text><text fill="#D3D3D3" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="61.6" x="282.8" y="35.6172">«AGGREGATE»</text><!--MD5=[8581368cd07d2155de9dba4a9dfc3026]
+cluster ProfileRequest--><polygon fill="#FFFFFF" points="12.8,4.8125,100,4.8125,105.6,25.7125,198.4,25.7125,198.4,184.8125,12.8,184.8125,12.8,4.8125" style="stroke:#808080;stroke-width:0.4000000000000001;"/><line style="stroke:#808080;stroke-width:0.4000000000000001;" x1="12.8" x2="105.6" y1="25.7125" y2="25.7125"/><text fill="#AAAAAA" font-family="sans-serif" font-size="12.8" lengthAdjust="spacing" textLength="82.4" x="16" y="19.7">ProfileRequest</text><text fill="#D3D3D3" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="61.6" x="78" y="35.6172">«AGGREGATE»</text><!--MD5=[99b6005fb0c05032b9e942ec0f628b67]
+cluster Typology--><polygon fill="#FFFFFF" points="862.4,413.6125,916.8,413.6125,922.4,434.5125,1048,434.5125,1048,593.6125,862.4,593.6125,862.4,413.6125" style="stroke:#808080;stroke-width:0.4000000000000001;"/><line style="stroke:#808080;stroke-width:0.4000000000000001;" x1="862.4" x2="922.4" y1="434.5125" y2="434.5125"/><text fill="#AAAAAA" font-family="sans-serif" font-size="12.8" lengthAdjust="spacing" textLength="49.6" x="865.6" y="428.5">Typology</text><text fill="#D3D3D3" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="61.6" x="927.6" y="444.4172">«AGGREGATE»</text><!--MD5=[6b13f1b330d33795af281e5c1dfe1e98]
+class Resource--><rect codeLine="91" fill="#EEEEEE" filter="url(#f1pxtgj2o8ww6l)" height="44.225" id="Resource" rx="3.2" ry="3.2" style="stroke:#000000;stroke-width:0.4000000000000001;" width="160" x="346.4" y="244.8125"/><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="87.2" x="382.8" y="257.1172">«AGGREGATE ROOT»</text><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="37.6" x="407.6" y="267.1797">«ENTITY»</text><text fill="#000000" font-family="Helvetica" font-size="12.8" lengthAdjust="spacing" textLength="53.6" x="399.6" y="282.225">Resource</text><!--MD5=[da2fc41701290679746579175e0925e6]
+class ResourceID--><rect codeLine="92" fill="#C9FFC9" filter="url(#f1pxtgj2o8ww6l)" height="34.1625" id="ResourceID" rx="3.2" ry="3.2" style="stroke:#008000;stroke-width:0.4000000000000001;" width="160" x="346.4" y="347.2125"/><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="71.2" x="390.8" y="359.5172">«VALUE OBJECT»</text><text fill="#000000" font-family="Helvetica" font-size="12.8" lengthAdjust="spacing" textLength="65.6" x="393.6" y="374.5625">ResourceID</text><!--MD5=[79d378210367c0c6ec62ef762ddfbd1b]
+class ProjectDeprecated--><rect codeLine="97" fill="#EEEEEE" filter="url(#f1pxtgj2o8ww6l)" height="44.225" id="Project" rx="3.2" ry="3.2" style="stroke:#000000;stroke-width:0.4000000000000001;" width="160" x="670.4" y="454.4125"/><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="87.2" x="706.8" y="466.7172">«AGGREGATE ROOT»</text><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="37.6" x="731.6" y="476.7797">«ENTITY»</text><text fill="#000000" font-family="Helvetica" font-size="12.8" lengthAdjust="spacing" textLength="39.2" x="730.8" y="491.825">Project</text><!--MD5=[5d69f14587b43039b1f7f06356fe9af3]
+class ProjectCode--><rect codeLine="98" fill="#C9FFC9" filter="url(#f1pxtgj2o8ww6l)" height="34.1625" id="ProjectCode" rx="3.2" ry="3.2" style="stroke:#008000;stroke-width:0.4000000000000001;" width="160" x="670.4" y="546.4125"/><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="71.2" x="714.8" y="558.7172">«VALUE OBJECT»</text><text fill="#000000" font-family="Helvetica" font-size="12.8" lengthAdjust="spacing" textLength="70.4" x="715.2" y="573.7625">ProjectCode</text><!--MD5=[b34797a66dc35cbf1d65f7e3ca75530e]
+class Task--><rect codeLine="103" fill="#EEEEEE" filter="url(#f1pxtgj2o8ww6l)" height="44.225" id="Task" rx="3.2" ry="3.2" style="stroke:#000000;stroke-width:0.4000000000000001;" width="160" x="565.6" y="128.0125"/><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="87.2" x="602" y="140.3172">«AGGREGATE ROOT»</text><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="37.6" x="626.8" y="150.3797">«ENTITY»</text><text fill="#000000" font-family="Helvetica" font-size="12.8" lengthAdjust="spacing" textLength="27.2" x="632" y="165.425">Task</text><!--MD5=[8636965623bda5df623917fbab529f2a]
+class TaskID--><rect codeLine="104" fill="#C9FFC9" filter="url(#f1pxtgj2o8ww6l)" height="34.1625" id="TaskID" rx="3.2" ry="3.2" style="stroke:#008000;stroke-width:0.4000000000000001;" width="160" x="565.6" y="45.6125"/><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="71.2" x="610" y="57.9172">«VALUE OBJECT»</text><text fill="#000000" font-family="Helvetica" font-size="12.8" lengthAdjust="spacing" textLength="39.2" x="626" y="72.9625">TaskID</text><!--MD5=[452a66c2e8d45f5bd209be454bbcd04f]
+class Sprint--><rect codeLine="109" fill="#EEEEEE" filter="url(#f1pxtgj2o8ww6l)" height="44.225" id="Sprint" rx="3.2" ry="3.2" style="stroke:#000000;stroke-width:0.4000000000000001;" width="160" x="565.6" y="244.8125"/><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="87.2" x="602" y="257.1172">«AGGREGATE ROOT»</text><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="37.6" x="626.8" y="267.1797">«ENTITY»</text><text fill="#000000" font-family="Helvetica" font-size="12.8" lengthAdjust="spacing" textLength="32.8" x="629.2" y="282.225">Sprint</text><!--MD5=[9ad4036dd028425989883104bd9f35de]
+class SprintID--><rect codeLine="110" fill="#C9FFC9" filter="url(#f1pxtgj2o8ww6l)" height="34.1625" id="SprintID" rx="3.2" ry="3.2" style="stroke:#008000;stroke-width:0.4000000000000001;" width="160" x="565.6" y="347.2125"/><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="71.2" x="610" y="359.5172">«VALUE OBJECT»</text><text fill="#000000" font-family="Helvetica" font-size="12.8" lengthAdjust="spacing" textLength="44.8" x="623.2" y="374.5625">SprintID</text><!--MD5=[daa6dd44d8f60c5a9cd695bb66773862]
+class UserStory--><rect codeLine="115" fill="#EEEEEE" filter="url(#f1pxtgj2o8ww6l)" height="44.225" id="UserStory" rx="3.2" ry="3.2" style="stroke:#000000;stroke-width:0.4000000000000001;" width="160" x="784.8" y="244.8125"/><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="87.2" x="821.2" y="257.1172">«AGGREGATE ROOT»</text><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="37.6" x="846" y="267.1797">«ENTITY»</text><text fill="#000000" font-family="Helvetica" font-size="12.8" lengthAdjust="spacing" textLength="55.2" x="837.2" y="282.225">UserStory</text><!--MD5=[e98f05372d25a3a7c070b97ec805badf]
+class UserStoryID--><rect codeLine="116" fill="#C9FFC9" filter="url(#f1pxtgj2o8ww6l)" height="34.1625" id="UserStoryID" rx="3.2" ry="3.2" style="stroke:#008000;stroke-width:0.4000000000000001;" width="160" x="784.8" y="347.2125"/><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="71.2" x="829.2" y="359.5172">«VALUE OBJECT»</text><text fill="#000000" font-family="Helvetica" font-size="12.8" lengthAdjust="spacing" textLength="67.2" x="831.2" y="374.5625">UserStoryID</text><!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User--><rect codeLine="121" fill="#EEEEEE" filter="url(#f1pxtgj2o8ww6l)" height="44.225" id="User" rx="3.2" ry="3.2" style="stroke:#000000;stroke-width:0.4000000000000001;" width="160" x="141.6" y="342.4125"/><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="87.2" x="178" y="354.7172">«AGGREGATE ROOT»</text><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="37.6" x="202.8" y="364.7797">«ENTITY»</text><text fill="#000000" font-family="Helvetica" font-size="12.8" lengthAdjust="spacing" textLength="26.4" x="208.4" y="379.825">User</text><!--MD5=[ef0f653ce50f4eaa0937ef128891fe80]
+class UserID--><rect codeLine="122" fill="#C9FFC9" filter="url(#f1pxtgj2o8ww6l)" height="34.1625" id="UserID" rx="3.2" ry="3.2" style="stroke:#008000;stroke-width:0.4000000000000001;" width="160" x="141.6" y="459.2125"/><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="71.2" x="186" y="471.5172">«VALUE OBJECT»</text><text fill="#000000" font-family="Helvetica" font-size="12.8" lengthAdjust="spacing" textLength="38.4" x="202.4" y="486.5625">UserID</text><!--MD5=[7b57f7066b803747d2119f99dd1555d4]
+class Profile--><rect codeLine="127" fill="#EEEEEE" filter="url(#f1pxtgj2o8ww6l)" height="44.225" id="Profile" rx="3.2" ry="3.2" style="stroke:#000000;stroke-width:0.4000000000000001;" width="160" x="230.4" y="128.0125"/><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="87.2" x="266.8" y="140.3172">«AGGREGATE ROOT»</text><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="37.6" x="291.6" y="150.3797">«ENTITY»</text><text fill="#000000" font-family="Helvetica" font-size="12.8" lengthAdjust="spacing" textLength="36" x="292.4" y="165.425">Profile</text><!--MD5=[5c1ff7b3743d2f6666d62726cdd9556c]
+class ProfileName--><rect codeLine="128" fill="#C9FFC9" filter="url(#f1pxtgj2o8ww6l)" height="34.1625" id="ProfileName" rx="3.2" ry="3.2" style="stroke:#008000;stroke-width:0.4000000000000001;" width="160" x="230.4" y="45.6125"/><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="71.2" x="274.8" y="57.9172">«VALUE OBJECT»</text><text fill="#000000" font-family="Helvetica" font-size="12.8" lengthAdjust="spacing" textLength="69.6" x="275.6" y="72.9625">ProfileName</text><!--MD5=[eab6283b872a923979a6d70317671905]
+class ProfileRequest--><rect codeLine="133" fill="#EEEEEE" filter="url(#f1pxtgj2o8ww6l)" height="44.225" id="ProfileRequest" rx="3.2" ry="3.2" style="stroke:#000000;stroke-width:0.4000000000000001;" width="160" x="25.6" y="128.0125"/><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="87.2" x="62" y="140.3172">«AGGREGATE ROOT»</text><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="37.6" x="86.8" y="150.3797">«ENTITY»</text><text fill="#000000" font-family="Helvetica" font-size="12.8" lengthAdjust="spacing" textLength="82.4" x="64.4" y="165.425">ProfileRequest</text><!--MD5=[8bf6ac04109d1cfd47cacd9874358841]
+class ProfileRequestID--><rect codeLine="134" fill="#C9FFC9" filter="url(#f1pxtgj2o8ww6l)" height="34.1625" id="ProfileRequestID" rx="3.2" ry="3.2" style="stroke:#008000;stroke-width:0.4000000000000001;" width="160" x="25.6" y="45.6125"/><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="71.2" x="70" y="57.9172">«VALUE OBJECT»</text><text fill="#000000" font-family="Helvetica" font-size="12.8" lengthAdjust="spacing" textLength="94.4" x="58.4" y="72.9625">ProfileRequestID</text><!--MD5=[024d6bb17f4c47f299ed89907d0655d2]
+class Typology--><rect codeLine="139" fill="#EEEEEE" filter="url(#f1pxtgj2o8ww6l)" height="44.225" id="Typology" rx="3.2" ry="3.2" style="stroke:#000000;stroke-width:0.4000000000000001;" width="160" x="875.2" y="454.4125"/><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="87.2" x="911.6" y="466.7172">«AGGREGATE ROOT»</text><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="37.6" x="936.4" y="476.7797">«ENTITY»</text><text fill="#000000" font-family="Helvetica" font-size="12.8" lengthAdjust="spacing" textLength="49.6" x="930.4" y="491.825">Typology</text><!--MD5=[03caaef105e71623ffb02e29e17a944f]
+class TypologyName--><rect codeLine="140" fill="#C9FFC9" filter="url(#f1pxtgj2o8ww6l)" height="34.1625" id="TypologyName" rx="3.2" ry="3.2" style="stroke:#008000;stroke-width:0.4000000000000001;" width="160" x="875.2" y="546.4125"/><text fill="#000000" font-family="sans-serif" font-size="8" font-style="italic" lengthAdjust="spacing" textLength="71.2" x="919.6" y="558.7172">«VALUE OBJECT»</text><text fill="#000000" font-family="Helvetica" font-size="12.8" lengthAdjust="spacing" textLength="83.2" x="913.6" y="573.7625">TypologyName</text><!--MD5=[631b830c5341a7207c76652dbd6bc9cc]
+link Resource to ResourceID--><path codeLine="93" d="M426.4,288.9565 C426.4,306.6205 426.4,330.9965 426.4,347.2125 " fill="none" id="Resource-ResourceID" style="stroke:#000000;stroke-width:0.8000000000000002;"/><!--MD5=[2bf71af88fd2f6696c1f017905d07c63]
+link ProjectDeprecated to ProjectCode--><path codeLine="99" d="M750.4,498.4205 C750.4,513.2525 750.4,532.5485 750.4,546.2845 " fill="none" id="Project-ProjectCode" style="stroke:#000000;stroke-width:0.8000000000000002;"/><!--MD5=[a3edf3efdbf7598b119dc0004b3f4c70]
+link TaskID to Task--><path codeLine="105" d="M645.6,80.0365 C645.6,93.7405 645.6,113.0045 645.6,127.8525 " fill="none" id="TaskID-Task" style="stroke:#000000;stroke-width:0.8000000000000002;"/><!--MD5=[128fcd6bf76a45b6dcfe63b4d7205530]
+link Sprint to SprintID--><path codeLine="111" d="M645.6,288.9565 C645.6,306.6205 645.6,330.9965 645.6,347.2125 " fill="none" id="Sprint-SprintID" style="stroke:#000000;stroke-width:0.8000000000000002;"/><!--MD5=[1c1d80ef05e4bfa2ce74ce6f532c55fa]
+link UserStory to UserStoryID--><path codeLine="117" d="M864.8,288.9565 C864.8,306.6205 864.8,330.9965 864.8,347.2125 " fill="none" id="UserStory-UserStoryID" style="stroke:#000000;stroke-width:0.8000000000000002;"/><!--MD5=[945551ad4f6d0eca00d9f1063e9b7c99]
+link User to UserID--><path codeLine="123" d="M221.6,386.5405 C221.6,407.8365 221.6,439.5885 221.6,459.1005 " fill="none" id="User-UserID" style="stroke:#000000;stroke-width:0.8000000000000002;"/><!--MD5=[94f2b4af5e7f488167c78512710e3c52]
+link ProfileName to Profile--><path codeLine="129" d="M310.4,80.0365 C310.4,93.7405 310.4,113.0045 310.4,127.8525 " fill="none" id="ProfileName-Profile" style="stroke:#000000;stroke-width:0.8000000000000002;"/><!--MD5=[e7f9db9d697012600d8c3061b17067e3]
+link ProfileRequestID to ProfileRequest--><path codeLine="135" d="M105.6,80.0365 C105.6,93.7405 105.6,113.0045 105.6,127.8525 " fill="none" id="ProfileRequestID-ProfileRequest" style="stroke:#000000;stroke-width:0.8000000000000002;"/><!--MD5=[ea13d840c833deafe6b2bc97fda57c09]
+link Typology to TypologyName--><path codeLine="141" d="M955.2,498.4205 C955.2,513.2525 955.2,532.5485 955.2,546.2845 " fill="none" id="Typology-TypologyName" style="stroke:#000000;stroke-width:0.8000000000000002;"/><!--MD5=[142ad2e50706c925e18114e81ac5122e]
+link Resource to User--><path codeLine="147" d="M346.264,267.2125 C311.184,267.2125 277.864,267.2125 277.864,267.2125 C277.864,267.2125 277.864,338.3565 277.864,338.3565 " fill="none" id="Resource-to-User" style="stroke:#000000;stroke-width:0.8000000000000002;"/><polygon fill="#000000" points="277.864,342.3565,281.064,335.1565,277.864,338.3565,274.664,335.1565,277.864,342.3565" style="stroke:#000000;stroke-width:0.8000000000000002;"/><!--MD5=[59d1600a0f73d51a735aae350d8a2518]
+link ProjectDeprecated to Typology--><path codeLine="148" d="M830.464,476.8125 C830.464,476.8125 871.192,476.8125 871.192,476.8125 " fill="none" id="Project-to-Typology" style="stroke:#000000;stroke-width:0.8000000000000002;"/><polygon fill="#000000" points="875.192,476.8125,867.992,473.6125,871.192,476.8125,867.992,480.0125,875.192,476.8125" style="stroke:#000000;stroke-width:0.8000000000000002;"/><!--MD5=[33139458742fb076e198bd97c7dd97f8]
+link Resource to ProjectDeprecated--><path codeLine="149" d="M506.632,267.2125 C523.344,267.2125 536,267.2125 536,267.2125 C536,267.2125 536,476.8125 536,476.8125 C536,476.8125 666.264,476.8125 666.264,476.8125 " fill="none" id="Resource-to-Project" style="stroke:#000000;stroke-width:0.8000000000000002;"/><polygon fill="#000000" points="670.264,476.8125,663.064,473.6125,666.264,476.8125,663.064,480.0125,670.264,476.8125" style="stroke:#000000;stroke-width:0.8000000000000002;"/><!--MD5=[6e6d33f92af012b517bd747a26e702ca]
+link Sprint to ProjectDeprecated--><path codeLine="152" d="M725.632,278.4125 C737.224,278.4125 745.336,278.4125 745.336,278.4125 C745.336,278.4125 745.336,450.0845 745.336,450.0845 " fill="none" id="Sprint-to-Project" style="stroke:#000000;stroke-width:0.8000000000000002;"/><polygon fill="#000000" points="745.336,454.0845,748.536,446.8845,745.336,450.0845,742.136,446.8845,745.336,454.0845" style="stroke:#000000;stroke-width:0.8000000000000002;"/><!--MD5=[a5c22e9af2e8456bb7db1a4521bf998a]
+link UserStory to Sprint--><path codeLine="155" d="M784.736,256.0125 C784.736,256.0125 729.816,256.0125 729.816,256.0125 " fill="none" id="UserStory-to-Sprint" style="stroke:#000000;stroke-width:0.8000000000000002;"/><polygon fill="#000000" points="725.816,256.0125,733.016,259.2125,729.816,256.0125,733.016,252.8125,725.816,256.0125" style="stroke:#000000;stroke-width:0.8000000000000002;"/><!--MD5=[8b16cadbbb4d382c0d7eb91d1f0da382]
+reverse link ProjectDeprecated to UserStory--><path codeLine="156" d="M765.064,450.0205 C765.064,450.0205 765.064,267.2125 765.064,267.2125 C765.064,267.2125 773.176,267.2125 784.768,267.2125 " fill="none" id="Project-backto-UserStory" style="stroke:#000000;stroke-width:0.8000000000000002;"/><polygon fill="#000000" points="765.064,454.0205,768.264,446.8205,765.064,450.0205,761.864,446.8205,765.064,454.0205" style="stroke:#000000;stroke-width:0.8000000000000002;"/><!--MD5=[e6a282806b560b74ac81a09a727f4a85]
+link Task to Resource--><path codeLine="157" d="M565.392,150.4125 C510.792,150.4125 448.4,150.4125 448.4,150.4125 C448.4,150.4125 448.4,240.6445 448.4,240.6445 " fill="none" id="Task-to-Resource" style="stroke:#000000;stroke-width:0.8000000000000002;"/><polygon fill="#000000" points="448.4,244.6445,451.6,237.4445,448.4,240.6445,445.2,237.4445,448.4,244.6445" style="stroke:#000000;stroke-width:0.8000000000000002;"/><!--MD5=[90fa0837cd9082c75cabde5f26fcd73e]
+link Task to Sprint--><path codeLine="159" d="M645.6,172.2605 C645.6,172.2605 645.6,240.6525 645.6,240.6525 " fill="none" id="Task-to-Sprint" style="stroke:#000000;stroke-width:0.8000000000000002;"/><polygon fill="#000000" points="645.6,244.6525,648.8,237.4525,645.6,240.6525,642.4,237.4525,645.6,244.6525" style="stroke:#000000;stroke-width:0.8000000000000002;"/><!--MD5=[810aacbcb787067ff1fbbe6f57746f48]
+link Task to UserStory--><path codeLine="160" d="M725.664,150.4125 C788.288,150.4125 864.8,150.4125 864.8,150.4125 C864.8,150.4125 864.8,240.6445 864.8,240.6445 " fill="none" id="Task-to-UserStory" style="stroke:#000000;stroke-width:0.8000000000000002;"/><polygon fill="#000000" points="864.8,244.6445,868,237.4445,864.8,240.6445,861.6,237.4445,864.8,244.6445" style="stroke:#000000;stroke-width:0.8000000000000002;"/><!--MD5=[26f2750967a9157267d57c5e6d98bc07]
+link Profile to User--><path codeLine="162" d="M254.136,172.1485 C254.136,172.1485 254.136,338.3965 254.136,338.3965 " fill="none" id="Profile-to-User" style="stroke:#000000;stroke-width:0.8000000000000002;"/><polygon fill="#000000" points="254.136,342.3965,257.336,335.1965,254.136,338.3965,250.936,335.1965,254.136,342.3965" style="stroke:#000000;stroke-width:0.8000000000000002;"/><!--MD5=[b338395079b3c7d7b2f8fe517069617d]
+link ProfileRequest to Profile--><path codeLine="163" d="M185.664,150.4125 C185.664,150.4125 226.392,150.4125 226.392,150.4125 " fill="none" id="ProfileRequest-to-Profile" style="stroke:#000000;stroke-width:0.8000000000000002;"/><polygon fill="#000000" points="230.392,150.4125,223.192,147.2125,226.392,150.4125,223.192,153.6125,230.392,150.4125" style="stroke:#000000;stroke-width:0.8000000000000002;"/><!--MD5=[b471c0824aeab2f2f14fd0c3f96e06a9]
+link ProfileRequest to User--><path codeLine="164" d="M163.6,172.1485 C163.6,172.1485 163.6,338.3965 163.6,338.3965 " fill="none" id="ProfileRequest-to-User" style="stroke:#000000;stroke-width:0.8000000000000002;"/><polygon fill="#000000" points="163.6,342.3965,166.8,335.1965,163.6,338.3965,160.4,335.1965,163.6,342.3965" style="stroke:#000000;stroke-width:0.8000000000000002;"/><!--MD5=[04f5368b42c928c8b4b0ed91613c4537]
+@startuml
+'https://plantuml.com/class-diagram
+
+'SWitCH G4 THEME
+'
+'COLORS
+'Blue #application
+'Pink #pink
+'Red #salmon
+'Yellow #khaki
+'Green #technology
+'
+'DEFAULTS
+
+hide members
+hide circle
+skinparam linetype ortho
+
+skinparam minClassWidth 200
+skinparam nodesep 20
+skinparam ranksep 0
+skinparam padding 0
+skinparam roundCorner 8
+
+
+
+
+skinparam package {
+    backgroundColor white
+    borderColor grey
+    shadowing false
+    fontStyle normal
+    fontSize 16
+    borderThickness 0.5
+    fontColor #aaa
+    stereotypeFontSize 10
+    stereotypeFontColor lightGrey
+}
+
+skinparam class {
+    stereotypeFontSize 10
+    fontSize 16
+    fontName Helvetica
+    arrowColor black
+    arrowThickness 1
+    attributeIconSize 0
+    borderThickness 0.5
+}
+
+skinparam class<<AGGREGATE ROOT>> {
+    borderColor black
+    backgroundColor #eee
+    'borderColor yellow
+    'backgroundColor #khaki
+}
+
+skinparam class<<ENTITY>> {
+    borderColor yellow
+    backgroundColor #khaki
+}
+
+skinparam class<<VALUE OBJECT>> {
+    borderColor green
+    backgroundColor #technology
+}
+
+
+
+skinparam note {
+    fontSize 14
+    fontName Helvetica
+    borderColor black
+    borderThickness 0.5
+    backgroundColor AliceBlue
+}
+
+
+'TITLE ON TOP
+'title The new Big Picture
+
+'HEADER FOOTER DESCRIPTIONS
+'center header DDD - Domain Driven Design
+'center footer DDD - Domain Driven Design
+
+
+
+'class Resource <<VALUE OBJECT>> #technology ##green{}
+
+
+
+package Resource <<AGGREGATE>>  {
+    entity Resource <<AGGREGATE ROOT>><<ENTITY>>
+    class ResourceID <<VALUE OBJECT>>
+    Resource - - ResourceID
+}
+
+package ProjectDeprecated <<AGGREGATE>> {
+    entity ProjectDeprecated <<AGGREGATE ROOT>><<ENTITY>>
+    class ProjectCode <<VALUE OBJECT>>
+    ProjectDeprecated - - ProjectCode
+}
+
+package Task <<AGGREGATE>>{
+    entity Task <<AGGREGATE ROOT>><<ENTITY>>
+    class TaskID <<VALUE OBJECT>>
+    Task -u- TaskID
+}
+
+package Sprint <<AGGREGATE>>   {
+    entity Sprint <<AGGREGATE ROOT>><<ENTITY>>
+    class SprintID <<VALUE OBJECT>>
+    Sprint -d- SprintID
+}
+
+package UserStory <<AGGREGATE>>{
+    entity UserStory <<AGGREGATE ROOT>><<ENTITY>>
+    class UserStoryID <<VALUE OBJECT>>
+    UserStory -d- UserStoryID
+}
+
+package User <<AGGREGATE>>{
+    entity User <<AGGREGATE ROOT>><<ENTITY>>
+    class UserID <<VALUE OBJECT>>
+    User - - UserID
+}
+
+package Profile <<AGGREGATE>>{
+    entity Profile <<AGGREGATE ROOT>><<ENTITY>>
+    class ProfileName <<VALUE OBJECT>>
+    Profile -u- ProfileName
+}
+
+package ProfileRequest <<AGGREGATE>>{
+    entity ProfileRequest <<AGGREGATE ROOT>><<ENTITY>>
+    class ProfileRequestID <<VALUE OBJECT>>
+    ProfileRequest -u- ProfileRequestID
+}
+
+package Typology <<AGGREGATE>>{
+    entity Typology <<AGGREGATE ROOT>><<ENTITY>>
+    class TypologyName <<VALUE OBJECT>>
+    Typology - - TypologyName
+}
+
+
+
+'ProjectDeprecated -right- ProductBacklog
+Resource -d-> User
+ProjectDeprecated -> Typology
+ProjectDeprecated <-u- - Resource
+
+
+Sprint - - -> ProjectDeprecated
+'Sprint -right- SprintBacklogItem
+'SprintBacklogItem -down-> UserStory
+UserStory - -> Sprint
+ProjectDeprecated <- - UserStory
+Resource <-u- Task
+
+Task - -> Sprint
+Task - -> UserStory
+
+Profile - - -> User
+ProfileRequest -r-> Profile
+ProfileRequest - -> User
+
+'note  "This note is connected\nto several objects." as N2
+'Profile .. N2
+
+@enduml
+
+@startuml
+
+
+hide members
+hide circle
+skinparam linetype ortho
+
+skinparam minClassWidth 200
+skinparam nodesep 20
+skinparam ranksep 0
+skinparam padding 0
+skinparam roundCorner 8
+
+
+
+
+skinparam package {
+    backgroundColor white
+    borderColor grey
+    shadowing false
+    fontStyle normal
+    fontSize 16
+    borderThickness 0.5
+    fontColor #aaa
+    stereotypeFontSize 10
+    stereotypeFontColor lightGrey
+}
+
+skinparam class {
+    stereotypeFontSize 10
+    fontSize 16
+    fontName Helvetica
+    arrowColor black
+    arrowThickness 1
+    attributeIconSize 0
+    borderThickness 0.5
+}
+
+skinparam class<<AGGREGATE ROOT>> {
+    borderColor black
+    backgroundColor #eee
+}
+
+skinparam class<<ENTITY>> {
+    borderColor yellow
+    backgroundColor #khaki
+}
+
+skinparam class<<VALUE OBJECT>> {
+    borderColor green
+    backgroundColor #technology
+}
+
+
+
+skinparam note {
+    fontSize 14
+    fontName Helvetica
+    borderColor black
+    borderThickness 0.5
+    backgroundColor AliceBlue
+}
+
+
+
+
+
+
+
+
+
+package Resource <<AGGREGATE>>  {
+    entity Resource <<AGGREGATE ROOT>><<ENTITY>>
+    class ResourceID <<VALUE OBJECT>>
+    Resource - - ResourceID
+}
+
+package ProjectDeprecated <<AGGREGATE>> {
+    entity ProjectDeprecated <<AGGREGATE ROOT>><<ENTITY>>
+    class ProjectCode <<VALUE OBJECT>>
+    ProjectDeprecated - - ProjectCode
+}
+
+package Task <<AGGREGATE>>{
+    entity Task <<AGGREGATE ROOT>><<ENTITY>>
+    class TaskID <<VALUE OBJECT>>
+    Task -u- TaskID
+}
+
+package Sprint <<AGGREGATE>>   {
+    entity Sprint <<AGGREGATE ROOT>><<ENTITY>>
+    class SprintID <<VALUE OBJECT>>
+    Sprint -d- SprintID
+}
+
+package UserStory <<AGGREGATE>>{
+    entity UserStory <<AGGREGATE ROOT>><<ENTITY>>
+    class UserStoryID <<VALUE OBJECT>>
+    UserStory -d- UserStoryID
+}
+
+package User <<AGGREGATE>>{
+    entity User <<AGGREGATE ROOT>><<ENTITY>>
+    class UserID <<VALUE OBJECT>>
+    User - - UserID
+}
+
+package Profile <<AGGREGATE>>{
+    entity Profile <<AGGREGATE ROOT>><<ENTITY>>
+    class ProfileName <<VALUE OBJECT>>
+    Profile -u- ProfileName
+}
+
+package ProfileRequest <<AGGREGATE>>{
+    entity ProfileRequest <<AGGREGATE ROOT>><<ENTITY>>
+    class ProfileRequestID <<VALUE OBJECT>>
+    ProfileRequest -u- ProfileRequestID
+}
+
+package Typology <<AGGREGATE>>{
+    entity Typology <<AGGREGATE ROOT>><<ENTITY>>
+    class TypologyName <<VALUE OBJECT>>
+    Typology - - TypologyName
+}
+
+
+
+Resource -d-> User
+ProjectDeprecated -> Typology
+ProjectDeprecated <-u- - Resource
+
+
+Sprint - - -> ProjectDeprecated
+UserStory - -> Sprint
+ProjectDeprecated <- - UserStory
+Resource <-u- Task
+
+Task - -> Sprint
+Task - -> UserStory
+
+Profile - - -> User
+ProfileRequest -r-> Profile
+ProfileRequest - -> User
+
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

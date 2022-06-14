@@ -1,0 +1,194 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+header
+Sequence Diagram of US030
+endheader
+hide members
+center footer DDD - Domain Driven Design
+
+
+package Project{
+    entity Project <<AGGREGATE_ROOT>> #pink ##[bold]red{}
+    entity ProductBacklog #aliceblue ##[bold]blue{}
+    class ProjectCode <<VO>> #palegreen ##[bold]green{}
+    class ProjectName <<VO>> #palegreen ##[bold]green{}
+    class Description <<VO>> #palegreen ##[bold]green{}
+    class Budget <<VO>> #palegreen ##[bold]green{}
+    class Customer <<VO>> #palegreen ##[bold]green{}
+    class DefaultSprintDuration <<VO>> #palegreen ##[bold]green{}
+    class ProjectStatus <<VO>> #palegreen ##[bold]green{}
+    class ProjectStatus <<VO>> #palegreen ##[bold]green{}
+    class "StartDate" as ProjectStartDate <<VO>> #palegreen ##[bold]green{}
+    class "EndDate" as ProjectEndDate <<VO>> #palegreen ##[bold]green{}
+    class BusinessSector <<VO>> #palegreen ##[bold]green{}
+
+}
+
+package Sprint{
+    entity SprintBackLog #aliceblue ##[bold]blue{}
+    entity Sprint <<AGGREGATE_ROOT>> #pink ##[bold]red{}
+    entity TaskInSprint #aliceblue ##[bold]blue{}
+    class "StartDate" as SprintStartDate <<VO>> #palegreen ##[bold]green{}
+    class "EndDate" as SprintEndDate <<VO>> #palegreen ##[bold]green{}
+    class SprintOrder <<VO>> #palegreen ##[bold]green{}
+    class SprintDuration <<VO>> #palegreen ##[bold]green{}
+    class SprintStatus <<VO>> #palegreen ##[bold]green{}
+
+    class "TaskName" as TaskNameInSprint <<VO>> #palegreen ##[bold]green{}
+        class "Description" as TaskDescriptionInSprint <<VO>> #palegreen ##[bold]green{}
+        class "StartDate" as TaskStartDateInSprint <<VO>> #palegreen ##[bold]green{}
+        class "EndDate" as TaskEndDateInSprint <<VO>> #palegreen ##[bold]green{}
+        class "TaskType" as TaskTypeInSprint <<VO>> #palegreen ##[bold]green{}
+        class "TaskStatus" as TaskStatusInSprint<<VO>> #palegreen ##[bold]green{}
+        class "HoursSpent" as HoursSpentInSprint<<VO>> #palegreen ##[bold]green{}
+        class "EffortEstimate" as EffortEstimateInSprint<<VO>> #palegreen ##[bold]green{}
+        class "PercentageOfExecution" as PercentageOfExecutionInSprint<<VO>> #palegreen ##[bold]green{}
+        class "UserResponsible" as UserResponsibleInSprint<<VO>> #palegreen ##[bold]green{}
+}
+
+package UserStory{
+    entity UserStory <<AGGREGATE_ROOT>> #pink ##[bold]red{}
+    entity TaskInUS #aliceblue ##[bold]blue{}
+    class "Description" as UsDescription <<VO>> #palegreen ##[bold]green{}
+    class ParentUS <<VO>> #palegreen ##[bold]green{}
+    class UserStoryStatus <<VO>> #palegreen ##[bold]green{}
+    class ScrumBoardStatus <<VO>> #palegreen ##[bold]green{}
+
+    class "TaskName" as TaskNameInUS <<VO>> #palegreen ##[bold]green{}
+    class "Description" as TaskDescriptionInUS <<VO>> #palegreen ##[bold]green{}
+    class "StartDate" as TaskStartDateInUS <<VO>> #palegreen ##[bold]green{}
+    class "EndDate" as TaskEndDateInUS <<VO>> #palegreen ##[bold]green{}
+    class "TaskType" as TaskTypeInUS <<VO>> #palegreen ##[bold]green{}
+    class "TaskStatus" as TaskStatusInUS<<VO>> #palegreen ##[bold]green{}
+    class "HoursSpent" as HoursSpentInUS<<VO>> #palegreen ##[bold]green{}
+    class "EffortEstimate" as EffortEstimateInUS<<VO>> #palegreen ##[bold]green{}
+    class "PercentageOfExecution" as PercentageOfExecutionInUS<<VO>> #palegreen ##[bold]green{}
+    class "UserResponsible" as UserResponsibleInUS<<VO>> #palegreen ##[bold]green{}
+
+}
+
+package User{
+    entity User <<AGGREGATE_ROOT>> #pink ##[bold]red{}
+    class UserID <<VO>> #palegreen ##[bold]green {}
+    class UserName <<VO>> #palegreen ##[bold]green{}
+    class Status <<VO>> #palegreen ##[bold]green{}
+    class Email <<VO>> #palegreen ##[bold]green{}
+    class Function <<VO>> #palegreen ##[bold]green{}
+    class Photo <<VO>> #palegreen ##[bold]green{}
+
+}
+
+package Resource{
+      entity Resource <<AGGREGATE_ROOT>> #pink ##[bold]red{}
+      class StartDate <<VO>> #palegreen ##[bold]green{}
+      class EndDate <<VO>> #palegreen ##[bold]green{}
+      class CostPerHour <<VO>> #palegreen ##[bold]green{}
+      class PercentageAllocation <<VO>> #palegreen ##[bold]green{}
+      class Role <<VO>> #palegreen ##[bold]green {}
+}
+
+package Profile{
+    entity Profile <<AGGREGATE_ROOT>> #pink ##[bold]red{}
+    class ProfileName <<VO>> #palegreen ##[bold]green{}
+    class Permission <<VO>> #palegreen ##[bold]green{}
+}
+
+package Typology{
+    entity Typology <<AGGREGATE_ROOT>> #pink ##[bold]red{}
+    class TypologyName <<VO>> #palegreen ##[bold]green{}
+}
+
+package ProfileRequest{
+      entity ProfileRequest <<AGGREGATE_ROOT>> #pink ##[bold]red{}
+}
+
+Project "1"--"1" ProductBacklog
+Project "1"-up-> "0..*" Sprint
+Project -right- ProjectCode
+Project --> ProjectName
+Project --> Description
+Project --> Budget
+Project -up-> Customer
+Project -up-> DefaultSprintDuration
+Project -up-> ProjectStatus
+Project -up-> ProjectStartDate
+Project -up-> ProjectEndDate
+Project -right-> BusinessSector
+
+ProductBacklog "1"<-up-"0..*" UserStory
+
+User -- UserID
+User -right- UserName
+User -- Status
+User -- Email
+User --Function
+User -- Photo
+User -up- "1" Profile
+
+
+Profile -- "1"ProfileName
+Profile -- "1"Permission
+
+Typology -- "1"TypologyName
+
+Resource "1..*"-->"1" Project
+Resource "0..*"-->"1" User
+Resource -up-> StartDate
+Resource -up-> EndDate
+Resource -up- PercentageAllocation
+Resource -up- Role
+Resource -up-> CostPerHour
+
+
+ProfileRequest"*" --> "1" User
+ProfileRequest"*" --> "1" Profile
+
+Sprint "0..*"-left-*TaskInSprint
+Sprint "1"-- "1"SprintBackLog
+Sprint --> SprintStartDate
+Sprint --> SprintEndDate
+Sprint -up-> SprintOrder
+Sprint -up-> SprintDuration
+Sprint -up-> SprintStatus
+SprintBackLog "1"<--"1..*" UserStory
+
+
+UserStory  *---- "0..*" TaskInUS
+UserStory --> UserStoryStatus
+UserStory --> ParentUS
+UserStory --> UsDescription
+UserStory --> ScrumBoardStatus
+
+Project "1"-->"1" Typology
+
+TaskInUS --> TaskDescriptionInUS
+TaskInUS --> TaskEndDateInUS
+TaskInUS --> TaskStartDateInUS
+TaskInUS -up-> TaskStatusInUS
+TaskInUS --> TaskTypeInUS
+TaskInUS -up-> EffortEstimateInUS
+TaskInUS -left-> PercentageOfExecutionInUS
+TaskInUS -up-> TaskNameInUS
+TaskInUS -up-> UserResponsibleInUS
+TaskInUS -right-> HoursSpentInUS
+
+
+TaskInSprint --> TaskDescriptionInSprint
+TaskInSprint --> TaskEndDateInSprint
+TaskInSprint --> TaskStartDateInSprint
+TaskInSprint --> TaskStatusInSprint
+TaskInSprint --> TaskTypeInSprint
+TaskInSprint -up-> HoursSpentInSprint
+TaskInSprint -up-> EffortEstimateInSprint
+TaskInSprint -left-> PercentageOfExecutionInSprint
+TaskInSprint -up-> TaskNameInSprint
+TaskInSprint -up-> UserResponsibleInSprint
+
+
+
+'skinparam nodesep 140
+'
+'skinparam ranksep 60
+
+@enduml

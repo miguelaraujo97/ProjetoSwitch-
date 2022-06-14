@@ -1,0 +1,151 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+''/////////////////////
+'' SET GLOBAL VARIABLES
+!$TITLE  = "US015 - As Director, I want to get a list of all projects."
+!$SUB_TITLE = "ONION ARCHITECTURE"
+''/////////////////////
+
+'' // SET PARTICIPANTS
+autonumber
+
+actor "Director" as director
+participant ": GetProjectsUI" as route
+participant ": ProjectController" as controller
+participant "viewProjectService : ViewProjectService" as service
+participant "projectRepository : ProjectRepository" as repository
+participant "projectList : List<Project>" as projectList
+participant "projectDomainDataAssembler : ProjectDomainDataAssembler" as domainDataAssembler
+participant "project : Project" as projectJPA
+participant "projectDtoList : List<Project>" as projectDtoList
+participant "projectDtoAssembler : ProjectDtoAssembler" as dataAssembler
+participant "projectDto : ProjectDTO" as projectDTOCreate
+
+
+'' // END SET PARTICIPANTS
+
+'' // SET SEQUENCE
+|||
+director -> route: I want to get a list of projects \nGET /projects
+activate route
+route -> controller : getAllProjects()
+activate controller
+controller -> service : getAllProjects()
+activate service
+service -> repository : getAllProjects()
+activate repository
+repository -> projectList** : create()
+activate projectList
+'''''''
+'loop
+loop for each projectJpa
+repository --> domainDataAssembler : toDomain(projectJpa)
+activate domainDataAssembler
+domainDataAssembler --> projectJPA** : create()
+domainDataAssembler -> projectList : add(project)
+deactivate domainDataAssembler
+end
+'end loop
+'''''''
+repository <- projectList : projectList
+deactivate projectList
+service <-- repository : projectList
+deactivate repository
+service -> projectDtoList** :create()
+activate projectDtoList
+'''''''
+'loop
+loop for each project
+service -> dataAssembler :toNative(project)
+activate dataAssembler
+dataAssembler --> projectDTOCreate** : create()
+projectDtoList <- dataAssembler : add(projectDto)
+deactivate dataAssembler
+end
+'end loop
+'''''''
+service <-- projectDtoList : projectDtoList
+deactivate projectDtoList
+deactivate repository
+controller <-- service : allProjects
+deactivate service
+'''''''
+note over controller : HATEOAS links creation
+'''''''
+route <-- controller : ResponseEntity
+deactivate controller
+deactivate service
+director <-- route: Project Data
+|||
+deactivate route
+
+deactivate director
+'' // END SET SEQUENCE
+
+
+'' ////////////////
+'' THEME AND STYLES
+
+''TITLE ON TOP
+title $TITLE
+''HEADER FOOTER DESCRIPTIONS
+center header $SUB_TITLE
+center footer $SUB_TITLE \n SWitCH - GROUP 4
+
+''STYLES
+'skinparam monochrome true
+skinparam maxMessageSize 500
+skinparam roundCorner 4
+
+skinparam sequence {
+
+
+    ActorBorderColor #111
+    ActorBackgroundColor #eee
+    ActorBorderThickness 0.8
+    ActorFontColor black
+    ActorFontSize 15
+    'ActorFontName Helvetica
+
+    ParticipantPadding 10
+    ParticipantBorderColor #666
+    ParticipantBackgroundColor lightblue
+    ParticipantBorderThickness 0.8
+    'ParticipantFontName Helvetica
+    ParticipantFontSize 16
+    ParticipantFontColor black
+
+    ArrowColor black
+    ArrowThickness 0.8
+    ArrowFontSize 15
+
+    'LifeLineBorderColor #666
+    'LifeLineBorderColor #438DD5
+    LifeLineBorderColor #1168BD
+    LifeLineBackgroundColor white
+
+    '' ref
+    ReferenceBorderThickness  0.9
+    ReferenceFontSize 15
+
+    '' loop
+    GroupBorderThickness  0.9
+    GroupFontSize 15
+
+}
+
+skinparam note {
+    borderColor #666
+    backgroundColor #fde52e
+    'borderColor yellow
+    borderThickness 0.8
+}
+
+'' END THEME AND STYLES
+'' ////////////////
+
+
+
+
+@enduml

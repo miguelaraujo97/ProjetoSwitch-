@@ -1,0 +1,29 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title US032 SSD
+skinparam sequenceMessageAlign center
+
+autoactivate on
+autonumber
+
+actor "SM/Team Member" as User
+participant ":System" as System
+
+activate User
+
+User -> System: Starts the Task creation in Sprint
+|||
+System --> User: request the project code
+User -> System: Inserts the project code
+|||
+System --> User: request the sprint ID
+User -> System: Inserts the sprint ID
+|||
+System --> User: request the task information: name, description, type, startDate, endDate
+User -> System: Inserts task name, description, type, startDate, endDate
+System -> System: Create Task in Sprint
+System --> User: task created successfully
+
+
+@enduml

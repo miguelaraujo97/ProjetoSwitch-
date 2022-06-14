@@ -1,0 +1,72 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+ title Sequence Diagram of  US033
+
+autonumber
+
+actor "SM/Team Member" as SM
+participant ":smTmRegisterWorkDoneInTaskUI" as  UI
+participant ":smTmRegisterWorkDoneInTaskController" as controller
+participant ":Datamanagement" as dm
+participant "projectStore:ProjecStore" as projectStore
+participant "project:Project" as project
+participant "currentSprint:Sprint" as sprint
+participant "sprintBacklog:SprintBacklog" as sb
+participant "userStory:UserStory" as us
+participant "task:Task" as task
+
+SM -> UI : I want to register work done in a task
+activate UI
+SM <-- UI: request project code, user story ID, task ID, hour spent
+deactivate UI
+
+
+SM -> UI : input project code, user story ID, task ID, hours spent
+activate UI
+UI -> controller : registerWorkDone
+activate controller
+controller -> dm : projectStore=getProjectStore()
+activate dm
+controller <-- dm :projectStore
+deactivate dm
+controller -> projectStore : project=getProjectByCode(projectCode)
+activate projectStore
+controller <-- projectStore:project
+deactivate projectStore
+controller -> project : project.getCurrentActiveSprint(NowDate)
+activate project
+project -> sprint : registerWorkDoneInTask(userStoryID, taskID, hoursSpent, nowDate)
+activate sprint
+alt sprintTask
+sprint -> task : getSprintTaskById(taskID)
+activate task
+task -> task : updateWorkDoneInTask(value)
+task -> task : validate
+sprint <-- task: true
+else userStoryTask
+deactivate task
+sprint -> sb: getSprintBacklog()
+activate sb
+sb -> us: getUserStory(userStoryID)
+activate us
+us -> task : getTask(taskID)
+activate task
+task -> task : updateWorkDoneInTask(value)
+task -> task : validate
+us <-- task: true
+deactivate task
+sb <-- us : true
+deactivate us
+sprint <-- sb : true
+deactivate sb
+end
+project <-- sprint: true
+deactivate sprint
+controller <-- project: true
+deactivate project
+UI <-- controller :true
+deactivate controller
+SM <-- UI : Ok
+deactivate UI
+
+@enduml

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="402px" preserveAspectRatio="none" style="width:166px;height:402px;background:#FFFFFF;" version="1.1" viewBox="0 0 166 402" width="166px" zoomAndPan="magnify"><defs><filter height="300%" id="f1ttj2yw0cli9u" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[6b13f1b330d33795af281e5c1dfe1e98]
+class Resource--><rect codeLine="6" fill="#FEFECE" filter="url(#f1ttj2yw0cli9u)" height="117.1797" id="Resource" style="stroke:#A80036;stroke-width:1.5;" width="128" x="12.5" y="7"/><ellipse cx="46.4" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M48.4,19.5 Q48.6031,19 48.8375,18.75 Q49.0719,18.5 49.3375,18.5 Q49.8063,18.5 50.1031,18.7813 Q50.4,19.0625 50.4,19.7188 L50.4,21.2813 Q50.4,21.9375 50.1188,22.2188 Q49.8375,22.5 49.4,22.5 Q49.0094,22.5 48.7594,22.3281 Q48.5094,22.1563 48.4,21.7031 Q48.3531,21.3906 48.1813,21.2188 Q47.8688,20.8906 47.3063,20.7031 Q46.7438,20.5 46.1813,20.5 Q45.4781,20.5 44.8844,20.7813 Q44.3063,21.0625 43.8531,21.6875 Q43.4,22.3125 43.4,23.1719 L43.4,24.0938 Q43.4,25.125 44.2438,25.8125 Q45.0875,26.5 46.5875,26.5 Q47.4781,26.5 48.1031,26.2969 Q48.4625,26.1875 48.8688,25.8281 Q49.1344,25.625 49.275,25.5625 Q49.4156,25.5 49.5875,25.5 Q49.9156,25.5 50.15,25.7656 Q50.4,26.0156 50.4,26.375 Q50.4,26.7188 50.0563,27.125 Q49.5563,27.7188 48.7594,28.0469 Q47.7125,28.5 46.4313,28.5 Q44.9313,28.5 43.7281,27.9063 Q42.7594,27.4375 42.0719,26.4219 Q41.4,25.4063 41.4,24.2031 L41.4,23.1094 Q41.4,21.8594 41.9938,20.7656 Q42.6031,19.6719 43.65,19.0938 Q44.7125,18.5 45.9,18.5 Q46.6188,18.5 47.2438,18.75 Q47.8688,19 48.4,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="54" x="64.6" y="27.9102">Resource</text><line style="stroke:#A80036;stroke-width:1.5;" x1="13.5" x2="139.5" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="18.5" y="54.4189">Start date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="42" x="18.5" y="68.2549">End date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="66" x="18.5" y="82.0908">Cost per hour</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="18.5" y="95.9268">Percentage of allocation</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="21" x="18.5" y="109.7627">Role</text><line style="stroke:#A80036;stroke-width:1.5;" x1="13.5" x2="139.5" y1="116.1797" y2="116.1797"/><!--MD5=[79d378210367c0c6ec62ef762ddfbd1b]
+class ProjectDeprecated--><rect codeLine="16" fill="#FEFECE" filter="url(#f1ttj2yw0cli9u)" height="186.3594" id="Project" style="stroke:#A80036;stroke-width:1.5;" width="139" x="7" y="202"/><ellipse cx="53.25" cy="218" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M55.25,214.5 Q55.4531,214 55.6875,213.75 Q55.9219,213.5 56.1875,213.5 Q56.6563,213.5 56.9531,213.7813 Q57.25,214.0625 57.25,214.7188 L57.25,216.2813 Q57.25,216.9375 56.9688,217.2188 Q56.6875,217.5 56.25,217.5 Q55.8594,217.5 55.6094,217.3281 Q55.3594,217.1563 55.25,216.7031 Q55.2031,216.3906 55.0313,216.2188 Q54.7188,215.8906 54.1563,215.7031 Q53.5938,215.5 53.0313,215.5 Q52.3281,215.5 51.7344,215.7813 Q51.1563,216.0625 50.7031,216.6875 Q50.25,217.3125 50.25,218.1719 L50.25,219.0938 Q50.25,220.125 51.0938,220.8125 Q51.9375,221.5 53.4375,221.5 Q54.3281,221.5 54.9531,221.2969 Q55.3125,221.1875 55.7188,220.8281 Q55.9844,220.625 56.125,220.5625 Q56.2656,220.5 56.4375,220.5 Q56.7656,220.5 57,220.7656 Q57.25,221.0156 57.25,221.375 Q57.25,221.7188 56.9063,222.125 Q56.4063,222.7188 55.6094,223.0469 Q54.5625,223.5 53.2813,223.5 Q51.7813,223.5 50.5781,222.9063 Q49.6094,222.4375 48.9219,221.4219 Q48.25,220.4063 48.25,219.2031 L48.25,218.1094 Q48.25,216.8594 48.8438,215.7656 Q49.4531,214.6719 50.5,214.0938 Q51.5625,213.5 52.75,213.5 Q53.4688,213.5 54.0938,213.75 Q54.7188,214 55.25,214.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="38" x="73.75" y="222.9102">Project</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="145" y1="234" y2="234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="25" x="13" y="249.4189">Code</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="13" y="263.2549">Name</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="54" x="13" y="277.0908">Description</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="127" x="13" y="290.9268">Number of planned sprints</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="31" x="13" y="304.7627">Status</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="13" y="318.5986">Start date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="42" x="13" y="332.4346">End date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="34" x="13" y="346.2705">Budget</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="106" x="13" y="360.1064">Sprint default duration</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="13" y="373.9424">Sprint list</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="145" y1="380.3594" y2="380.3594"/><!--MD5=[33139458742fb076e198bd97c7dd97f8]
+link Resource to ProjectDeprecated--><path codeLine="14" d="M76.5,124.2 C76.5,146.2 76.5,171.93 76.5,196.61 " fill="none" id="Resource-to-Project" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="76.5,201.85,80.5,192.85,76.5,196.85,72.5,192.85,76.5,201.85" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="81" x="77.5" y="168.4951">is allocated to</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="12" x="63.7688" y="145.8347">1*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="69.2211" y="191.2844">1</text><!--MD5=[f4802f6d211856322f11f018c80e7c44]
+@startuml
+'https://plantuml.com/class-diagram
+
+class Resource
+class ProjectDeprecated
+
+Class Resource {
+Start date
+End date
+Cost per hour
+Percentage of allocation
+Role
+}
+
+Resource "1*"- ->"1" ProjectDeprecated: is allocated to
+
+class ProjectDeprecated {
+ProjectCode
+Name
+Description
+Number of planned sprints
+Status
+Start date
+End date
+ProjectBudget
+Sprint default duration
+Sprint list
+}
+
+@enduml
+
+@startuml
+
+class Resource
+class ProjectDeprecated
+
+Class Resource {
+Start date
+End date
+Cost per hour
+Percentage of allocation
+Role
+}
+
+Resource "1*"- ->"1" ProjectDeprecated: is allocated to
+
+class ProjectDeprecated {
+ProjectCode
+Name
+Description
+Number of planned sprints
+Status
+Start date
+End date
+ProjectBudget
+Sprint default duration
+Sprint list
+}
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

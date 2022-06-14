@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor AuthenticatedUser as actor
+participant ":AuthenticatedUserUI" as userUI
+participant ":UsersController" as usersController
+participant ":ProjectsUserIsAllocatedService" as userIsAllocatedService
+participant "resourceRepo:ResourceRepository" as resourceRepo
+
+activate actor
+actor -> userUI : I want to get a list of all projects I'm currently allocated to.
+activate userUI
+userUI -> usersController: getProjectsUserISCurrentlyAllocated(email)
+activate usersController
+usersController -> userIsAllocatedService : getProjectsUserIsCurrentlyAllocated(email)
+activate userIsAllocatedService
+userIsAllocatedService -> resourceRepo : getProjectsCodesByEmail
+
+@enduml

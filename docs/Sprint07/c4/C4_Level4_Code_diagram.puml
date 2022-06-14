@@ -1,0 +1,122 @@
+@startuml
+'https://plantuml.com/component-diagram
+
+
+'######################
+'######################
+
+'TITLE ON TOP
+title Level 4: Code diagram
+
+'HEADER FOOTER DESCRIPTIONS
+center header C4 MODEL
+center footer C4 MODEL
+
+'###################### end config
+'######################
+
+'skinparam componentStyle uml1
+
+'hide members
+'hide circle
+'skinparam linetype ortho
+left to right direction
+
+'skinparam minClassWidth 150
+skinparam nodesep 80
+'skinparam ranksep 0
+'skinparam padding 0
+skinparam roundCorner 8
+
+skinparam rectangle {
+    stereotypeFontSize 10
+    fontSize 16
+    fontName Helvetica
+    arrowColor grey
+    arrowThickness 1
+    attributeIconSize 0
+    borderThickness 1
+    borderColor grey
+    'backgroundColor lightGrey
+}
+
+skinparam component {
+
+    'stereotypeFontSize 10
+    fontSize 16
+    fontName Helvetica
+    fontColor black
+    arrowColor grey
+    arrowThickness 1
+    attributeIconSize 0
+    borderThickness 1
+    borderColor black
+    backgroundColor white
+}
+
+skinparam interface {
+
+    borderColor black
+    backgroundColor lightGrey
+}
+
+skinparam port {
+    'backgroundColor lightGrey
+}
+
+
+'provider interface
+Interface "Provider Interface \nAPI" as API
+'required interface
+Interface "Required Interface" as DB
+
+
+
+component "Server" <<Component>> {
+
+    'Connections
+    'port " " as server_port_api
+    'port " " as server_port_jpa
+
+    'Components
+    Component Routes
+    Component Controllers
+    Component "Services" as AppService
+    Component DTO
+    Component Domain
+    Component Repositories
+    Component JPA
+    Component "Data Model JPA" as DataModel
+
+    'API -- server_port_api
+
+    API --# Routes
+
+    Routes --(0- DTO
+
+    Routes --l(0-  Controllers
+
+    Controllers --(0- DTO
+
+    Controllers --l(0-  AppService
+
+    AppService --(0- DTO
+
+    AppService -l(0- Domain
+
+    AppService --(0- Repositories
+
+    Repositories -(0- JPA
+
+    Repositories --l(0- Domain
+
+    DataModel ---r0)- Repositories
+    JPA --l(0- DataModel
+
+    'JPA #- server_port_jpa
+
+    JPA #--( DB
+
+}
+
+@enduml

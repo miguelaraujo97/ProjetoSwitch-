@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="795.6px" preserveAspectRatio="none" style="width:1881px;height:795px;background:#FFFFFF;" version="1.1" viewBox="0 0 1881 795" width="1881px" zoomAndPan="magnify"><defs><filter height="300%" id="f1jt4oi5bgh6tg" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="1.2"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="2.4" dy="2.4" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="10.8" lengthAdjust="spacing" textLength="283.8" x="800.1" y="27.7582">US005 - As Director, I want to register/create a new project.</text><rect fill="#FFFFFF" filter="url(#f1jt4oi5bgh6tg)" height="19.7203" style="stroke:#1168BD;stroke-width:0.6;" width="6" x="134.4" y="105.3319"/><rect fill="#FFFFFF" filter="url(#f1jt4oi5bgh6tg)" height="558.1734" style="stroke:#1168BD;stroke-width:0.6;" width="6" x="134.4" y="156.0928"/><rect fill="#FFFFFF" filter="url(#f1jt4oi5bgh6tg)" height="518.7328" style="stroke:#1168BD;stroke-width:0.6;" width="6" x="258.6" y="175.8131"/><rect fill="#FFFFFF" filter="url(#f1jt4oi5bgh6tg)" height="419.1609" style="stroke:#1168BD;stroke-width:0.6;" width="6" x="417.6" y="195.5334"/><rect fill="#FFFFFF" filter="url(#f1jt4oi5bgh6tg)" height="196.9922" style="stroke:#1168BD;stroke-width:0.6;" width="6" x="806.4" y="329.0663"/><rect fill="#FFFFFF" filter="url(#f1jt4oi5bgh6tg)" height="49.1953" style="stroke:#1168BD;stroke-width:0.6;" width="6" x="980.1" y="348.7866"/><rect fill="#FFFFFF" filter="url(#f1jt4oi5bgh6tg)" height="49.1953" style="stroke:#1168BD;stroke-width:0.6;" width="6" x="980.1" y="457.1428"/><rect fill="#FFFFFF" filter="url(#f1jt4oi5bgh6tg)" height="19.7203" style="stroke:#1168BD;stroke-width:0.6;" width="6" x="1294.2" y="417.7022"/><rect fill="#FFFFFF" filter="url(#f1jt4oi5bgh6tg)" height="49.1953" style="stroke:#1168BD;stroke-width:0.6;" width="6" x="1602" y="545.7788"/><line style="stroke:#1168BD;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="20.4" x2="20.4" y1="84.4116" y2="725.0663"/><line style="stroke:#1168BD;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="137.1" x2="137.1" y1="84.4116" y2="725.0663"/><line style="stroke:#1168BD;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="261.6" x2="261.6" y1="84.4116" y2="725.0663"/><line style="stroke:#1168BD;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="420.6" x2="420.6" y1="84.4116" y2="725.0663"/><line style="stroke:#1168BD;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="653.4" x2="653.4" y1="293.3053" y2="725.0663"/><line style="stroke:#1168BD;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="809.4" x2="809.4" y1="84.4116" y2="725.0663"/><line style="stroke:#1168BD;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="982.8" x2="982.8" y1="84.4116" y2="725.0663"/><line style="stroke:#1168BD;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="1127.4" x2="1127.4" y1="374.3241" y2="725.0663"/><line style="stroke:#1168BD;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="1297.2" x2="1297.2" y1="84.4116" y2="725.0663"/><line style="stroke:#1168BD;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="1451.4" x2="1451.4" y1="482.6803" y2="725.0663"/><line style="stroke:#1168BD;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="1605" x2="1605" y1="84.4116" y2="725.0663"/><line style="stroke:#1168BD;stroke-width:0.6;stroke-dasharray:5.0,5.0;" x1="1799.4" x2="1799.4" y1="571.3163" y2="725.0663"/><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="31.2" x="3" y="82.434">Director</text><ellipse cx="20.4" cy="39.6113" fill="#EEEEEE" filter="url(#f1jt4oi5bgh6tg)" rx="4.8" ry="4.8" style="stroke:#111111;stroke-width:0.48;"/><path d="M20.4,44.4112 L20.4,60.6113 M12.6,49.2113 L28.2,49.2113 M20.4,60.6113 L12.6,69.6113 M20.4,60.6113 L28.2,69.6113 " fill="none" filter="url(#f1jt4oi5bgh6tg)" style="stroke:#111111;stroke-width:0.48;"/><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="31.2" x="3" y="733.809">Director</text><ellipse cx="20.4" cy="741.0666" fill="#EEEEEE" filter="url(#f1jt4oi5bgh6tg)" rx="4.8" ry="4.8" style="stroke:#111111;stroke-width:0.48;"/><path d="M20.4,745.8666 L20.4,762.0666 M12.6,750.6666 L28.2,750.6666 M20.4,762.0666 L12.6,771.0666 M20.4,762.0666 L28.2,771.0666 " fill="none" filter="url(#f1jt4oi5bgh6tg)" style="stroke:#111111;stroke-width:0.48;"/><rect fill="#ADD8E6" filter="url(#f1jt4oi5bgh6tg)" height="20.475" rx="1.2" ry="1.2" style="stroke:#666666;stroke-width:0.48;" width="79.8" x="96.3" y="60.9366"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="71.4" x="100.5" y="75.1022">: CreateProjectUI</text><rect fill="#ADD8E6" filter="url(#f1jt4oi5bgh6tg)" height="20.475" rx="1.2" ry="1.2" style="stroke:#666666;stroke-width:0.48;" width="79.8" x="96.3" y="724.4663"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="71.4" x="100.5" y="738.6319">: CreateProjectUI</text><rect fill="#ADD8E6" filter="url(#f1jt4oi5bgh6tg)" height="20.475" rx="1.2" ry="1.2" style="stroke:#666666;stroke-width:0.48;" width="82.8" x="219" y="60.9366"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="74.4" x="223.2" y="75.1022">: ProjectController</text><rect fill="#ADD8E6" filter="url(#f1jt4oi5bgh6tg)" height="20.475" rx="1.2" ry="1.2" style="stroke:#666666;stroke-width:0.48;" width="82.8" x="219" y="724.4663"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="74.4" x="223.2" y="738.6319">: ProjectController</text><rect fill="#ADD8E6" filter="url(#f1jt4oi5bgh6tg)" height="20.475" rx="1.2" ry="1.2" style="stroke:#666666;stroke-width:0.48;" width="193.2" x="322.8" y="60.9366"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="184.8" x="327" y="75.1022">createProjectService : CreateProjectService</text><rect fill="#ADD8E6" filter="url(#f1jt4oi5bgh6tg)" height="20.475" rx="1.2" ry="1.2" style="stroke:#666666;stroke-width:0.48;" width="193.2" x="322.8" y="724.4663"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="184.8" x="327" y="738.6319">createProjectService : CreateProjectService</text><rect fill="#ADD8E6" filter="url(#f1jt4oi5bgh6tg)" height="20.475" rx="1.2" ry="1.2" style="stroke:#666666;stroke-width:0.48;" width="107.4" x="598.8" y="724.4663"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="99" x="603" y="738.6319">projectCreated : Project</text><rect fill="#ADD8E6" filter="url(#f1jt4oi5bgh6tg)" height="20.475" rx="1.2" ry="1.2" style="stroke:#666666;stroke-width:0.48;" width="163.2" x="726.6" y="60.9366"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="154.8" x="730.8" y="75.1022">projectRepository : ProjectRepository</text><rect fill="#ADD8E6" filter="url(#f1jt4oi5bgh6tg)" height="20.475" rx="1.2" ry="1.2" style="stroke:#666666;stroke-width:0.48;" width="163.2" x="726.6" y="724.4663"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="154.8" x="730.8" y="738.6319">projectRepository : ProjectRepository</text><rect fill="#ADD8E6" filter="url(#f1jt4oi5bgh6tg)" height="20.475" rx="1.2" ry="1.2" style="stroke:#666666;stroke-width:0.48;" width="143.4" x="910.2" y="60.9366"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="132.6" x="916.8" y="75.1022">: ProjectDomainDataAssembler</text><rect fill="#ADD8E6" filter="url(#f1jt4oi5bgh6tg)" height="20.475" rx="1.2" ry="1.2" style="stroke:#666666;stroke-width:0.48;" width="143.4" x="910.2" y="724.4663"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="132.6" x="916.8" y="738.6319">: ProjectDomainDataAssembler</text><rect fill="#ADD8E6" filter="url(#f1jt4oi5bgh6tg)" height="20.475" rx="1.2" ry="1.2" style="stroke:#666666;stroke-width:0.48;" width="104.4" x="1074" y="724.4663"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="96" x="1078.2" y="738.6319">projectJpa : ProjectJpa</text><rect fill="#ADD8E6" filter="url(#f1jt4oi5bgh6tg)" height="20.475" rx="1.2" ry="1.2" style="stroke:#666666;stroke-width:0.48;" width="194.4" x="1198.8" y="60.9366"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="186" x="1203" y="75.1022">projectJpaRepository : ProjectJpaRepository</text><rect fill="#ADD8E6" filter="url(#f1jt4oi5bgh6tg)" height="20.475" rx="1.2" ry="1.2" style="stroke:#666666;stroke-width:0.48;" width="194.4" x="1198.8" y="724.4663"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="186" x="1203" y="738.6319">projectJpaRepository : ProjectJpaRepository</text><rect fill="#ADD8E6" filter="url(#f1jt4oi5bgh6tg)" height="20.475" rx="1.2" ry="1.2" style="stroke:#666666;stroke-width:0.48;" width="73.2" x="1413.6" y="724.4663"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="64.8" x="1417.8" y="738.6319">project : Project</text><rect fill="#ADD8E6" filter="url(#f1jt4oi5bgh6tg)" height="20.475" rx="1.2" ry="1.2" style="stroke:#666666;stroke-width:0.48;" width="193.2" x="1507.2" y="60.9366"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="184.8" x="1511.4" y="75.1022">projectDtoAssembler : ProjectDtoAssembler</text><rect fill="#ADD8E6" filter="url(#f1jt4oi5bgh6tg)" height="20.475" rx="1.2" ry="1.2" style="stroke:#666666;stroke-width:0.48;" width="193.2" x="1507.2" y="724.4663"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="184.8" x="1511.4" y="738.6319">projectDtoAssembler : ProjectDtoAssembler</text><rect fill="#ADD8E6" filter="url(#f1jt4oi5bgh6tg)" height="20.475" rx="1.2" ry="1.2" style="stroke:#666666;stroke-width:0.48;" width="148.2" x="1724.4" y="724.4663"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="139.8" x="1728.6" y="738.6319">newProjectDtoSaved : ProjectDto</text><rect fill="#FFFFFF" filter="url(#f1jt4oi5bgh6tg)" height="19.7203" style="stroke:#1168BD;stroke-width:0.6;" width="6" x="134.4" y="105.3319"/><rect fill="#FFFFFF" filter="url(#f1jt4oi5bgh6tg)" height="558.1734" style="stroke:#1168BD;stroke-width:0.6;" width="6" x="134.4" y="156.0928"/><rect fill="#FFFFFF" filter="url(#f1jt4oi5bgh6tg)" height="518.7328" style="stroke:#1168BD;stroke-width:0.6;" width="6" x="258.6" y="175.8131"/><rect fill="#FFFFFF" filter="url(#f1jt4oi5bgh6tg)" height="419.1609" style="stroke:#1168BD;stroke-width:0.6;" width="6" x="417.6" y="195.5334"/><rect fill="#FFFFFF" filter="url(#f1jt4oi5bgh6tg)" height="196.9922" style="stroke:#1168BD;stroke-width:0.6;" width="6" x="806.4" y="329.0663"/><rect fill="#FFFFFF" filter="url(#f1jt4oi5bgh6tg)" height="49.1953" style="stroke:#1168BD;stroke-width:0.6;" width="6" x="980.1" y="348.7866"/><rect fill="#FFFFFF" filter="url(#f1jt4oi5bgh6tg)" height="49.1953" style="stroke:#1168BD;stroke-width:0.6;" width="6" x="980.1" y="457.1428"/><rect fill="#FFFFFF" filter="url(#f1jt4oi5bgh6tg)" height="19.7203" style="stroke:#1168BD;stroke-width:0.6;" width="6" x="1294.2" y="417.7022"/><rect fill="#FFFFFF" filter="url(#f1jt4oi5bgh6tg)" height="49.1953" style="stroke:#1168BD;stroke-width:0.6;" width="6" x="1602" y="545.7788"/><polygon fill="#000000" points="127.2,102.9319,133.2,105.3319,127.2,107.7319,129.6,105.3319" style="stroke:#000000;stroke-width:0.6;"/><line style="stroke:#000000;stroke-width:0.48;" x1="20.4" x2="130.8" y1="105.3319" y2="105.3319"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="4.8" x="24.6" y="102.1543">1</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="95.4" x="31.8" y="102.1543">I want to create a project</text><polygon fill="#000000" points="27,122.6522,21,125.0522,27,127.4522,24.6,125.0522" style="stroke:#000000;stroke-width:0.6;"/><line style="stroke:#000000;stroke-width:0.48;stroke-dasharray:2.0,2.0;" x1="23.4" x2="136.8" y1="125.0522" y2="125.0522"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="4.8" x="30.6" y="121.8746">2</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="86.4" x="37.8" y="121.8746">Form with default data</text><polygon fill="#000000" points="127.2,153.6928,133.2,156.0928,127.2,158.4928,129.6,156.0928" style="stroke:#000000;stroke-width:0.6;"/><line style="stroke:#000000;stroke-width:0.48;" x1="20.4" x2="130.8" y1="156.0928" y2="156.0928"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="4.8" x="24.6" y="147.2551">3</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="52.8" x="31.8" y="141.595">Submit (data)</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="60.6" x="31.8" y="152.9153">POST /projects</text><polygon fill="#000000" points="251.4,173.4131,257.4,175.8131,251.4,178.2131,253.8,175.8131" style="stroke:#000000;stroke-width:0.6;"/><line style="stroke:#000000;stroke-width:0.48;" x1="140.4" x2="255" y1="175.8131" y2="175.8131"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="4.8" x="144.6" y="172.6356">4</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="99.6" x="151.8" y="172.6356">createProject(ProjectDto)</text><polygon fill="#000000" points="410.4,193.1334,416.4,195.5334,410.4,197.9334,412.8,195.5334" style="stroke:#000000;stroke-width:0.6;"/><line style="stroke:#000000;stroke-width:0.48;" x1="264.6" x2="414" y1="195.5334" y2="195.5334"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="4.8" x="268.8" y="192.3559">5</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="134.4" x="276" y="192.3559">createProjectAndSave(ProjectDto)</text><rect fill="#FFFFFF" filter="url(#f1jt4oi5bgh6tg)" height="27.1312" style="stroke:#000000;stroke-width:0.54;" width="208.8" x="315" y="215.3334"/><path d="M315,215.3334 L352.2,215.3334 L352.2,220.1334 L346.2,226.1334 L315,226.1334 L315,215.3334 " fill="#EEEEEE" style="stroke:#000000;stroke-width:0.54;"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="10.2" x="322.8" y="224.6305">ref</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="139.2" x="351" y="237.8762">US005_SectionCreateValueObjects</text><polygon fill="#000000" points="591.6,306.9459,597.6,309.3459,591.6,311.7459,594,309.3459" style="stroke:#000000;stroke-width:0.6;"/><line style="stroke:#000000;stroke-width:0.48;stroke-dasharray:2.0,2.0;" x1="423.6" x2="595.2" y1="309.3459" y2="309.3459"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="4.8" x="427.8" y="289.1879">6</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="120.6" x="435" y="272.2075">create( code, name, customer,</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="135.6" x="435" y="283.5278">description, budget, sprintDuration,</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="130.2" x="435" y="294.8481">status, numberOfPlannedSprints,</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="147.6" x="435" y="306.1684">typology, timePeriod, businessSector)</text><rect fill="#ADD8E6" filter="url(#f1jt4oi5bgh6tg)" height="20.475" rx="1.2" ry="1.2" style="stroke:#666666;stroke-width:0.48;" width="107.4" x="598.8" y="284.6709"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="99" x="603" y="298.8366">projectCreated : Project</text><polygon fill="#000000" points="799.2,326.6663,805.2,329.0663,799.2,331.4663,801.6,329.0663" style="stroke:#000000;stroke-width:0.6;"/><line style="stroke:#000000;stroke-width:0.48;" x1="423.6" x2="802.8" y1="329.0663" y2="329.0663"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="4.8" x="427.8" y="325.8887">7</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="109.8" x="435" y="325.8887">saveProject(projectCreated)</text><polygon fill="#000000" points="972.9,346.3866,978.9,348.7866,972.9,351.1866,975.3,348.7866" style="stroke:#000000;stroke-width:0.6;"/><line style="stroke:#000000;stroke-width:0.48;" x1="812.4" x2="976.5" y1="348.7866" y2="348.7866"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="4.8" x="816.6" y="345.609">8</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="89.4" x="823.8" y="345.609">toData(projectCreated)</text><polygon fill="#000000" points="1066.8,366.1069,1072.8,368.5069,1066.8,370.9069,1069.2,368.5069" style="stroke:#000000;stroke-width:0.6;"/><line style="stroke:#000000;stroke-width:0.48;stroke-dasharray:2.0,2.0;" x1="986.1" x2="1070.4" y1="368.5069" y2="368.5069"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="4.8" x="990.3" y="365.3293">9</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="30.6" x="997.5" y="365.3293">create()</text><rect fill="#ADD8E6" filter="url(#f1jt4oi5bgh6tg)" height="20.475" rx="1.2" ry="1.2" style="stroke:#666666;stroke-width:0.48;" width="104.4" x="1074" y="353.5866"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="96" x="1078.2" y="367.7522">projectJpa : ProjectJpa</text><polygon fill="#000000" points="819,395.5819,813,397.9819,819,400.3819,816.6,397.9819" style="stroke:#000000;stroke-width:0.6;"/><line style="stroke:#000000;stroke-width:0.48;stroke-dasharray:2.0,2.0;" x1="815.4" x2="982.5" y1="397.9819" y2="397.9819"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="9.6" x="822.6" y="394.8043">10</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="40.2" x="834.6" y="394.8043">projectJpa</text><polygon fill="#000000" points="1287,415.3022,1293,417.7022,1287,420.1022,1289.4,417.7022" style="stroke:#000000;stroke-width:0.6;"/><line style="stroke:#000000;stroke-width:0.48;" x1="812.4" x2="1290.6" y1="417.7022" y2="417.7022"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="9.6" x="816.6" y="414.5246">11</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="64.8" x="828.6" y="414.5246">save(projectJpa)</text><polygon fill="#000000" points="819,435.0225,813,437.4225,819,439.8225,816.6,437.4225" style="stroke:#000000;stroke-width:0.6;"/><line style="stroke:#000000;stroke-width:0.48;stroke-dasharray:2.0,2.0;" x1="815.4" x2="1296.6" y1="437.4225" y2="437.4225"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="9.6" x="822.6" y="434.245">12</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="64.8" x="834.6" y="434.245">projectJpaSaved</text><polygon fill="#000000" points="972.9,454.7428,978.9,457.1428,972.9,459.5428,975.3,457.1428" style="stroke:#000000;stroke-width:0.6;"/><line style="stroke:#000000;stroke-width:0.48;" x1="812.4" x2="976.5" y1="457.1428" y2="457.1428"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="9.6" x="816.6" y="453.9653">13</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="84" x="828.6" y="453.9653">toDomain(projectJpa)</text><polygon fill="#000000" points="1406.4,474.4631,1412.4,476.8631,1406.4,479.2631,1408.8,476.8631" style="stroke:#000000;stroke-width:0.6;"/><line style="stroke:#000000;stroke-width:0.48;stroke-dasharray:2.0,2.0;" x1="986.1" x2="1410" y1="476.8631" y2="476.8631"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="9.6" x="990.3" y="473.6856">14</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="30.6" x="1002.3" y="473.6856">create()</text><rect fill="#ADD8E6" filter="url(#f1jt4oi5bgh6tg)" height="20.475" rx="1.2" ry="1.2" style="stroke:#666666;stroke-width:0.48;" width="73.2" x="1413.6" y="461.9428"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="64.8" x="1417.8" y="476.1084">project : Project</text><polygon fill="#000000" points="819,503.9381,813,506.3381,819,508.7381,816.6,506.3381" style="stroke:#000000;stroke-width:0.6;"/><line style="stroke:#000000;stroke-width:0.48;stroke-dasharray:2.0,2.0;" x1="815.4" x2="982.5" y1="506.3381" y2="506.3381"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="9.6" x="822.6" y="503.1606">15</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="26.4" x="834.6" y="503.1606">project</text><polygon fill="#000000" points="430.2,523.6584,424.2,526.0584,430.2,528.4584,427.8,526.0584" style="stroke:#000000;stroke-width:0.6;"/><line style="stroke:#000000;stroke-width:0.48;stroke-dasharray:2.0,2.0;" x1="426.6" x2="808.8" y1="526.0584" y2="526.0584"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="9.6" x="433.8" y="522.8809">16</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="51" x="445.8" y="522.8809">projectSaved</text><polygon fill="#000000" points="1594.8,543.3788,1600.8,545.7788,1594.8,548.1788,1597.2,545.7788" style="stroke:#000000;stroke-width:0.6;"/><line style="stroke:#000000;stroke-width:0.48;" x1="423.6" x2="1598.4" y1="545.7788" y2="545.7788"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="9.6" x="427.8" y="542.6012">17</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="88.2" x="439.8" y="542.6012">toNative(projectSaved)</text><polygon fill="#000000" points="1717.2,563.0991,1723.2,565.4991,1717.2,567.8991,1719.6,565.4991" style="stroke:#000000;stroke-width:0.6;"/><line style="stroke:#000000;stroke-width:0.48;stroke-dasharray:2.0,2.0;" x1="1608" x2="1720.8" y1="565.4991" y2="565.4991"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="9.6" x="1612.2" y="562.3215">18</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="84" x="1624.2" y="562.3215">create (projectSaved)</text><rect fill="#ADD8E6" filter="url(#f1jt4oi5bgh6tg)" height="20.475" rx="1.2" ry="1.2" style="stroke:#666666;stroke-width:0.48;" width="148.2" x="1724.4" y="550.5788"/><text fill="#000000" font-family="sans-serif" font-size="9.6" lengthAdjust="spacing" textLength="139.8" x="1728.6" y="564.7444">newProjectDtoSaved : ProjectDto</text><polygon fill="#000000" points="430.2,592.5741,424.2,594.9741,430.2,597.3741,427.8,594.9741" style="stroke:#000000;stroke-width:0.6;"/><line style="stroke:#000000;stroke-width:0.48;stroke-dasharray:2.0,2.0;" x1="426.6" x2="1604.4" y1="594.9741" y2="594.9741"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="9.6" x="433.8" y="591.7965">19</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="82.2" x="445.8" y="591.7965">newProjectDtoSaved</text><polygon fill="#000000" points="271.2,612.2944,265.2,614.6944,271.2,617.0944,268.8,614.6944" style="stroke:#000000;stroke-width:0.6;"/><line style="stroke:#000000;stroke-width:0.48;stroke-dasharray:2.0,2.0;" x1="267.6" x2="420" y1="614.6944" y2="614.6944"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="9.6" x="274.8" y="611.5168">20</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="76.8" x="286.8" y="611.5168">optionalProjectDTO</text><rect fill="#FFFFFF" filter="url(#f1jt4oi5bgh6tg)" height="27.1312" style="stroke:#000000;stroke-width:0.54;" width="150.6" x="211.2" y="634.4944"/><path d="M211.2,634.4944 L248.4,634.4944 L248.4,639.2944 L242.4,645.2944 L211.2,645.2944 L211.2,634.4944 " fill="#EEEEEE" style="stroke:#000000;stroke-width:0.54;"/><text fill="#000000" font-family="sans-serif" font-size="7.8" font-weight="bold" lengthAdjust="spacing" textLength="10.2" x="219" y="643.7914">ref</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="145.8" x="214.8" y="657.0371">SD_US005_SectionCreateHATEOAS</text><polygon fill="#000000" points="147,692.1459,141,694.5459,147,696.9459,144.6,694.5459" style="stroke:#000000;stroke-width:0.6;"/><line style="stroke:#000000;stroke-width:0.48;stroke-dasharray:2.0,2.0;" x1="143.4" x2="261" y1="694.5459" y2="694.5459"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="9.6" x="150.6" y="691.3684">21</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="61.8" x="162.6" y="691.3684">ResponseEntity</text><polygon fill="#000000" points="27,711.8662,21,714.2662,27,716.6662,24.6,714.2662" style="stroke:#000000;stroke-width:0.6;"/><line style="stroke:#000000;stroke-width:0.48;stroke-dasharray:2.0,2.0;" x1="23.4" x2="136.8" y1="714.2662" y2="714.2662"/><text fill="#000000" font-family="sans-serif" font-size="9" font-weight="bold" lengthAdjust="spacing" textLength="9.6" x="30.6" y="711.0887">22</text><text fill="#000000" font-family="sans-serif" font-size="9" lengthAdjust="spacing" textLength="48.6" x="42.6" y="711.0887">Project Data</text><text fill="#888888" font-family="sans-serif" font-size="6" lengthAdjust="spacing" textLength="69.6" x="907.2" y="9.2285">ONION ARCHITECTURE</text><text fill="#888888" font-family="sans-serif" font-size="6" lengthAdjust="spacing" textLength="69.6" x="906.3" y="783.1751">ONION ARCHITECTURE</text><text fill="#888888" font-family="sans-serif" font-size="6" lengthAdjust="spacing" textLength="54.6" x="915.6" y="790.722">SWitCH - GROUP 4</text><!--MD5=[ea9429f356bafa8294f107bd9a6fe645]
+@startuml
+'https://plantuml.com/class-diagram
+
+''/////////////////////
+'' SET GLOBAL VARIABLES
+!$TITLE  = "US005 - As Director, I want to register/create a new project."
+!$SUB_TITLE = "ONION ARCHITECTURE"
+''/////////////////////
+
+'' // SET PARTICIPANTS
+autonumber
+
+actor "Director" as director
+participant ": CreateProjectUI" as route
+participant ": ProjectController" as controller
+participant "createProjectService : CreateProjectService" as service
+participant "projectCreated : Project" as projectCreated
+participant "projectRepository : ProjectRepository" as repo
+participant " : ProjectDomainDataAssembler" as assemblerDomainData
+participant "projectJpa : ProjectJpa" as ProjectJpa
+participant "projectJpaRepository : ProjectJpaRepository" as ProjectJpaRepository
+participant "project : Project" as Project
+participant "projectDtoAssembler : ProjectDtoAssembler" as ProjectDtoAssembler
+participant "newProjectDtoSaved : ProjectDto" as dtoDomain
+
+
+'' // END SET PARTICIPANTS
+
+'' // SET SEQUENCE
+director -> route : I want to create a project
+activate route
+director <- - route : Form with default data
+deactivate route
+director -> route: Submit (data) \nPOST /projects
+activate route
+route -> controller : createProject(ProjectDto)
+activate controller
+'controller -> controller : validate(ProjectDto)
+'activate controller
+'deactivate controller
+
+controller -> service : createProjectAndSave(ProjectDto)
+activate service
+
+
+'service -> service : existsProjectByProjectCode(code)
+|||
+ref over service
+US005_SectionCreateValueObjects
+end ref
+|||
+
+
+service - -> projectCreated**: create( code, name, customer, \ndescription, budget, sprintDuration, \nstatus, numberOfPlannedSprints, \ntypology, timePeriod, businessSector)
+service -> repo : saveProject(projectCreated)
+
+activate repo
+
+repo -> assemblerDomainData : toData(projectCreated)
+
+activate assemblerDomainData
+
+assemblerDomainData - -> ProjectJpa** : create()
+
+repo <- - assemblerDomainData : projectJpa
+
+deactivate assemblerDomainData
+
+repo -> ProjectJpaRepository : save(projectJpa)
+activate ProjectJpaRepository
+repo <- - ProjectJpaRepository : projectJpaSaved
+deactivate ProjectJpaRepository
+repo -> assemblerDomainData : toDomain(projectJpa)
+activate assemblerDomainData
+assemblerDomainData - -> Project** : create()
+repo <- - assemblerDomainData : project
+deactivate assemblerDomainData
+deactivate ProjectJpa
+service <- - repo : projectSaved
+deactivate repo
+
+service -> ProjectDtoAssembler : toNative(projectSaved)
+activate ProjectDtoAssembler
+ProjectDtoAssembler - -> dtoDomain**: create (projectSaved)
+service <- - ProjectDtoAssembler : newProjectDtoSaved
+deactivate ProjectDtoAssembler
+
+controller <- - service : optionalProjectDTO
+
+|||
+ref over controller
+SD_US005_SectionCreateHATEOAS
+end ref
+|||
+
+deactivate service
+'controller -> ProjectDto: toNative(projectDTODomain)
+'activate ProjectDto
+'ProjectDto - -> dtoNative **: create(projectDTODomain)
+'controller <- - ProjectDto: projectDTONativeOut
+'deactivate ProjectDto
+route <- - controller : ResponseEntity
+deactivate controller
+director <- - route: Project Data
+deactivate route
+
+'' // END SET SEQUENCE
+
+
+'' ////////////////
+'' THEME AND STYLES
+
+''TITLE ON TOP
+title $TITLE
+''HEADER FOOTER DESCRIPTIONS
+center header $SUB_TITLE
+center footer $SUB_TITLE \n SWitCH - GROUP 4
+
+''STYLES
+'skinparam monochrome true
+skinparam maxMessageSize 500
+skinparam roundCorner 4
+
+skinparam sequence {
+
+
+    ActorBorderColor #111
+    ActorBackgroundColor #eee
+    ActorBorderThickness 0.8
+    ActorFontColor black
+    ActorFontSize 15
+    'ActorFontName Helvetica
+
+    ParticipantPadding 10
+    ParticipantBorderColor #666
+    ParticipantBackgroundColor lightblue
+    ParticipantBorderThickness 0.8
+    'ParticipantFontName Helvetica
+    ParticipantFontSize 16
+    ParticipantFontColor black
+
+    ArrowColor black
+    ArrowThickness 0.8
+    ArrowFontSize 15
+
+    'LifeLineBorderColor #666
+    'LifeLineBorderColor #438DD5
+    LifeLineBorderColor #1168BD
+    LifeLineBackgroundColor white
+
+    ReferenceBorderThickness  0.9
+    ReferenceFontSize 15
+
+}
+
+skinparam note {
+    borderColor #666
+    backgroundColor #fde52e
+    'borderColor yellow
+    borderThickness 0.8
+}
+
+'' END THEME AND STYLES
+'' ////////////////
+
+
+
+
+@enduml
+
+@startuml
+
+
+autonumber
+
+actor "Director" as director
+participant ": CreateProjectUI" as route
+participant ": ProjectController" as controller
+participant "createProjectService : CreateProjectService" as service
+participant "projectCreated : Project" as projectCreated
+participant "projectRepository : ProjectRepository" as repo
+participant " : ProjectDomainDataAssembler" as assemblerDomainData
+participant "projectJpa : ProjectJpa" as ProjectJpa
+participant "projectJpaRepository : ProjectJpaRepository" as ProjectJpaRepository
+participant "project : Project" as Project
+participant "projectDtoAssembler : ProjectDtoAssembler" as ProjectDtoAssembler
+participant "newProjectDtoSaved : ProjectDto" as dtoDomain
+
+
+
+director -> route : I want to create a project
+activate route
+director <- - route : Form with default data
+deactivate route
+director -> route: Submit (data) \nPOST /projects
+activate route
+route -> controller : createProject(ProjectDto)
+activate controller
+
+controller -> service : createProjectAndSave(ProjectDto)
+activate service
+
+
+|||
+ref over service
+US005_SectionCreateValueObjects
+end ref
+|||
+
+
+service - -> projectCreated**: create( code, name, customer, \ndescription, budget, sprintDuration, \nstatus, numberOfPlannedSprints, \ntypology, timePeriod, businessSector)
+service -> repo : saveProject(projectCreated)
+
+activate repo
+
+repo -> assemblerDomainData : toData(projectCreated)
+
+activate assemblerDomainData
+
+assemblerDomainData - -> ProjectJpa** : create()
+
+repo <- - assemblerDomainData : projectJpa
+
+deactivate assemblerDomainData
+
+repo -> ProjectJpaRepository : save(projectJpa)
+activate ProjectJpaRepository
+repo <- - ProjectJpaRepository : projectJpaSaved
+deactivate ProjectJpaRepository
+repo -> assemblerDomainData : toDomain(projectJpa)
+activate assemblerDomainData
+assemblerDomainData - -> Project** : create()
+repo <- - assemblerDomainData : project
+deactivate assemblerDomainData
+deactivate ProjectJpa
+service <- - repo : projectSaved
+deactivate repo
+
+service -> ProjectDtoAssembler : toNative(projectSaved)
+activate ProjectDtoAssembler
+ProjectDtoAssembler - -> dtoDomain**: create (projectSaved)
+service <- - ProjectDtoAssembler : newProjectDtoSaved
+deactivate ProjectDtoAssembler
+
+controller <- - service : optionalProjectDTO
+
+|||
+ref over controller
+SD_US005_SectionCreateHATEOAS
+end ref
+|||
+
+deactivate service
+route <- - controller : ResponseEntity
+deactivate controller
+director <- - route: Project Data
+deactivate route
+
+
+
+
+title US005 - As Director, I want to register/create a new project.
+center header ONION ARCHITECTURE
+center footer ONION ARCHITECTURE \n SWitCH - GROUP 4
+
+skinparam maxMessageSize 500
+skinparam roundCorner 4
+
+skinparam sequence {
+
+
+    ActorBorderColor #111
+    ActorBackgroundColor #eee
+    ActorBorderThickness 0.8
+    ActorFontColor black
+    ActorFontSize 15
+
+    ParticipantPadding 10
+    ParticipantBorderColor #666
+    ParticipantBackgroundColor lightblue
+    ParticipantBorderThickness 0.8
+    ParticipantFontSize 16
+    ParticipantFontColor black
+
+    ArrowColor black
+    ArrowThickness 0.8
+    ArrowFontSize 15
+
+    LifeLineBorderColor #1168BD
+    LifeLineBackgroundColor white
+
+    ReferenceBorderThickness  0.9
+    ReferenceFontSize 15
+
+}
+
+skinparam note {
+    borderColor #666
+    backgroundColor #fde52e
+    borderThickness 0.8
+}
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

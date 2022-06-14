@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="121px" preserveAspectRatio="none" style="width:418px;height:121px;background:#FFFFFF;" version="1.1" viewBox="0 0 418 121" width="418px" zoomAndPan="magnify"><defs><filter height="300%" id="fbhmyiyka1ez2" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[99b31deea5d7419a569cd5090bf83263]
+cluster System--><rect fill="#FFFFFF" filter="url(#fbhmyiyka1ez2)" height="102" style="stroke:#000000;stroke-width:1.5;" width="252" x="154" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="255" y="23.5332">System</text><ellipse cx="279.9781" cy="67.8956" fill="#FEFECE" filter="url(#fbhmyiyka1ez2)" rx="109.9781" ry="24.3956" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="183" x="188.4781" y="71.6241">Edit some projectDeprecated information</text><!--MD5=[fee662a292a0353a69bd162820bae93b]
+entity User--><ellipse cx="58" cy="36" fill="#FEFECE" filter="url(#fbhmyiyka1ez2)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M58,44 L58,71 M45,52 L71,52 M58,71 L45,86 M58,71 L71,86 " fill="none" filter="url(#fbhmyiyka1ez2)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="6" y="106.0332">Project Manager</text><!--MD5=[40d0f94bfbad6ee11e3350241482b726]
+link User to US2--><path d="M110.03,68 C126.39,68 145.22,68 164.24,68 " fill="none" id="User-to-US2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="169.6,68,160.6,64,164.6,68,160.6,72,169.6,68" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f3f507462ed8a8e2505de53ffd14cc7e]
+@startuml
+'https://plantuml.com/use-case-diagram
+
+'https://plantuml.com/use-case-diagram
+
+left to right direction
+:ProjectDeprecated Manager: as User
+rectangle System{
+
+    usecase "Edit some projectDeprecated information" as US2
+}
+
+User - -> US2
+
+@enduml
+
+@startuml
+
+
+left to right direction
+:ProjectDeprecated Manager: as User
+rectangle System{
+
+    usecase "Edit some projectDeprecated information" as US2
+}
+
+User - -> US2
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

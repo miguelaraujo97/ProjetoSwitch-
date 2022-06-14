@@ -1,0 +1,169 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+''/////////////////////
+'' SET GLOBAL VARIABLES
+!$TITLE  = "US005 - As Director, I want to register/create a new project."
+!$SUB_TITLE = "ONION ARCHITECTURE"
+''/////////////////////
+
+'' // SET PARTICIPANTS
+autonumber
+
+actor "Director" as director
+participant ": CreateProjectUI" as route
+participant ": ProjectController" as controller
+participant "createProjectService : CreateProjectService" as service
+participant "projectCreated : Project" as projectCreated
+participant "projectRepository : ProjectRepository" as repo
+participant " : ProjectDomainDataAssembler" as assemblerDomainData
+participant "projectJpa : ProjectJpa" as ProjectJpa
+participant "projectJpaRepository : ProjectJpaRepository" as ProjectJpaRepository
+participant "project : Project" as Project
+participant "projectDtoAssembler : ProjectDtoAssembler" as ProjectDtoAssembler
+participant "newProjectDtoSaved : ProjectDto" as dtoDomain
+
+
+'' // END SET PARTICIPANTS
+
+'' // SET SEQUENCE
+director -> route : I want to create a project
+activate route
+director <-- route : Form with default data
+deactivate route
+director -> route: Submit (data) \nPOST /projects
+activate route
+route -> controller : createProject(ProjectDto)
+activate controller
+'controller -> controller : validate(ProjectDto)
+'activate controller
+'deactivate controller
+
+controller -> service : createProjectAndSave(ProjectDto)
+activate service
+
+
+'service -> service : existsProjectByProjectCode(code)
+|||
+ref over service
+US005_SectionCreateValueObjects
+end ref
+|||
+
+
+service --> projectCreated**: create( code, name, customer, \ndescription, budget, sprintDuration, \nstatus, numberOfPlannedSprints, \ntypology, timePeriod, businessSector)
+service -> repo : saveProject(projectCreated)
+
+activate repo
+
+repo -> assemblerDomainData : toData(projectCreated)
+
+activate assemblerDomainData
+
+assemblerDomainData --> ProjectJpa** : create()
+
+repo <-- assemblerDomainData : projectJpa
+
+deactivate assemblerDomainData
+
+repo -> ProjectJpaRepository : save(projectJpa)
+activate ProjectJpaRepository
+repo <-- ProjectJpaRepository : projectJpaSaved
+deactivate ProjectJpaRepository
+repo -> assemblerDomainData : toDomain(projectJpa)
+activate assemblerDomainData
+assemblerDomainData --> Project** : create()
+repo <-- assemblerDomainData : project
+deactivate assemblerDomainData
+deactivate ProjectJpa
+service <-- repo : projectSaved
+deactivate repo
+
+service -> ProjectDtoAssembler : toNative(projectSaved)
+activate ProjectDtoAssembler
+ProjectDtoAssembler --> dtoDomain**: create (projectSaved)
+service <-- ProjectDtoAssembler : newProjectDtoSaved
+deactivate ProjectDtoAssembler
+
+controller <-- service : optionalProjectDTO
+
+|||
+ref over controller
+SD_US005_SectionCreateHATEOAS
+end ref
+|||
+
+deactivate service
+'controller -> ProjectDto: toNative(projectDTODomain)
+'activate ProjectDto
+'ProjectDto --> dtoNative **: create(projectDTODomain)
+'controller <-- ProjectDto: projectDTONativeOut
+'deactivate ProjectDto
+route <-- controller : ResponseEntity
+deactivate controller
+director <-- route: Project Data
+deactivate route
+
+'' // END SET SEQUENCE
+
+
+'' ////////////////
+'' THEME AND STYLES
+
+''TITLE ON TOP
+title $TITLE
+''HEADER FOOTER DESCRIPTIONS
+center header $SUB_TITLE
+center footer $SUB_TITLE \n SWitCH - GROUP 4
+
+''STYLES
+'skinparam monochrome true
+skinparam maxMessageSize 500
+skinparam roundCorner 4
+
+skinparam sequence {
+
+
+    ActorBorderColor #111
+    ActorBackgroundColor #eee
+    ActorBorderThickness 0.8
+    ActorFontColor black
+    ActorFontSize 15
+    'ActorFontName Helvetica
+
+    ParticipantPadding 10
+    ParticipantBorderColor #666
+    ParticipantBackgroundColor lightblue
+    ParticipantBorderThickness 0.8
+    'ParticipantFontName Helvetica
+    ParticipantFontSize 16
+    ParticipantFontColor black
+
+    ArrowColor black
+    ArrowThickness 0.8
+    ArrowFontSize 15
+
+    'LifeLineBorderColor #666
+    'LifeLineBorderColor #438DD5
+    LifeLineBorderColor #1168BD
+    LifeLineBackgroundColor white
+
+    ReferenceBorderThickness  0.9
+    ReferenceFontSize 15
+
+}
+
+skinparam note {
+    borderColor #666
+    backgroundColor #fde52e
+    'borderColor yellow
+    borderThickness 0.8
+}
+
+'' END THEME AND STYLES
+'' ////////////////
+
+
+
+
+@enduml

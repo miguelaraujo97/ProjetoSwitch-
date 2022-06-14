@@ -1,0 +1,116 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+title US005 - As Director, I want to register_create a new project.
+
+autonumber
+skinparam maxMessageSize 400
+actor "Director" as director
+participant ":CreateProjectUI" as ui
+participant  ":CreateProjectController" as controller
+participant ":ProjectMapper" as pm
+participant "projectCode:ProjectCode" as code
+participant "projectName:ProjectName" as name
+participant "projectCustomer:ProjectCustomer" as customer
+participant "projectDescription:ProjectDescription" as description
+participant "projectBudget:ProjectBudget" as budget
+participant "typology:Typology" as typology
+participant "projectSprintDuration:ProjectSprintDuration" as sprintDuration
+participant "projectNumberOfPlannedSprints:ProjectNumberOfPlannedSprints" as numberOfPlannedSprints
+participant "projectStatus:ProjectStatus" as status
+participant "timePeriod:TimePeriod" as timePeriod
+participant "projectBusinessSector:ProjectBusinessSector" as businessSector
+participant ":DataManagement" as dm
+participant "projectStore:ProjectStore" as ps
+participant "project:Project" as p
+
+
+
+
+director -> ui: I want to create a project
+activate ui
+director <-- ui: request data(code, name, customer, description, budget, typology, sprintDuration, numberOfPlannedSprints, status, startDate, endDate, businessSector)
+deactivate ui
+director -> ui: insert data
+activate ui
+ui -> controller: createProject (ProjectDTO)
+activate controller
+controller -> pm: projectCode(ProjectDTO)
+activate pm
+pm ->code** :create()
+controller <-- pm: projectCode
+deactivate pm
+controller -> pm: projectName(ProjectDTO)
+activate pm
+pm ->name** : create()
+controller <-- pm: projectName
+deactivate pm
+controller -> pm: projectCustomer(ProjectDTO)
+activate pm
+pm ->customer** : create()
+controller <-- pm: projectCustomer
+deactivate pm
+controller -> pm: projectDescription(ProjectDTO)
+activate pm
+pm ->description** : create()
+controller <-- pm: projectDescription
+deactivate pm
+controller -> pm: projectBudget(ProjectDTO)
+activate pm
+pm ->budget** : create()
+controller <-- pm: projectBudget
+deactivate pm
+controller -> pm: typology(ProjectDTO)
+activate pm
+pm ->typology** : getTypology()
+controller <-- pm: typology
+deactivate pm
+controller -> pm: projectSprintDuration(ProjectDTO)
+activate pm
+pm ->sprintDuration** : create()
+controller <-- pm: projectSprintDuration
+deactivate pm
+controller -> pm: projectNumberOfPlannedSprints(ProjectDTO)
+activate pm
+pm ->numberOfPlannedSprints** : create()
+controller <-- pm: projectNumberOfPlannedSprints
+deactivate pm
+controller -> pm: projectStatus(ProjectDTO)
+activate pm
+pm ->status** : create()
+controller <-- pm: projectStatus
+deactivate pm
+controller -> pm: timePeriod(ProjectDTO)
+activate pm
+pm ->timePeriod** : create()
+controller <-- pm: timePeriod
+deactivate pm
+controller -> pm: projectBusinessSector(ProjectDTO)
+activate pm
+pm ->businessSector** : create()
+controller <-- pm: projectBusinessSector
+deactivate pm
+
+
+
+
+controller -> dm: projectStore=getProjectStore()
+activate dm
+controller <-- dm: projectStore
+deactivate dm
+controller -> ps: projectStore.createProject(code, name, customer, description, budget, typology, sprintDuration, numberOfPlannedSprints, status, timePeriod,businessSector)
+activate ps
+ps -> p**:createProject(code, name, customer, description, budget, typology, sprintDuration, numberOfPlannedSprints, status, timePeriod,businessSector)
+
+
+
+ps -> ps: validate
+ps -> ps: add
+controller <-- ps :ok
+deactivate ps
+ui <-- controller :ok
+deactivate controller
+director <-- ui : Successful
+deactivate ui
+
+
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor Director
+
+Director -> ": GetProjectListUI": I want to get a list of all projects
+": GetProjectListUI" -> ": GetProjectListController": Request projects list
+": GetProjectListController" -> ": DataManagement": projectStore = getProjectStore()
+": GetProjectListController" <-- ": DataManagement": projectStore
+
+": GetProjectListController" -> ": ProjectStore" : getProjectsList() : Arraylist
+": ProjectStore" -> "lp : List <Project>" ** :   create(this.projectsList)
+": GetProjectListController" <-- ": ProjectStore": lp
+": GetProjectListUI" <-- ": GetProjectListController": lp
+Director <-- ": GetProjectListUI": Display projects
+@enduml

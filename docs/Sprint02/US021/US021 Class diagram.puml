@@ -1,0 +1,69 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam monochrome true
+
+title CD of the US021
+center header
+Class Diagram
+As Product Owner, I want to change the priority of a user story in the product backlog.
+endheader
+center footer SWitCH
+
+package UI{
+    class UpdateProjectProductBacklogUI
+}
+
+package Controller{
+    class UpdateProjectProductBacklogController
+}
+
+package Model{
+    class DataManagement
+    class Project
+    class ProductBacklog
+    class ProjectStore
+}
+
+
+
+
+
+
+
+class UpdateProjectProductBacklogController {
++ requestProductBacklogByProjectCode(projectCode) : List<UserStory>
++ updateProductBacklogByPriority(projectCode) : boolean
+- projectStore
+}
+
+class DataManagement {
++ getProjectStore() : ProjectStore
+}
+
+class ProjectStore{
+- projectList : List<Project>
++ getProjectByCode() : Project
+}
+
+class Project{
+- productBacklog : ProductBacklog
++ getProductBacklog() : ProductBacklog
+}
+
+class ProductBacklog{
+- userStoryList : List<UserStory>
++ showUserStories() : List<UserStory>
++ moveUserStoryPriority() : boolean
+- reorderProductBacklogPriority() : void
+}
+
+UpdateProjectProductBacklogUI .r. UpdateProjectProductBacklogController
+
+UpdateProjectProductBacklogController ..> DataManagement
+DataManagement o-->  ProjectStore : Knows
+ProjectStore "1" o-- "0--*" Project
+Project "1" *-r- "1" ProductBacklog
+
+UpdateProjectProductBacklogController  ..>  ProjectStore :  swap priority
+@enduml

@@ -1,0 +1,39 @@
+@startuml
+autonumber
+actor Administrator
+boundary ChangeUserAccountStatusUI
+participant ": ChangerUserAccountStatusController" as controller
+participant ": DataManagement"
+participant "userStore: UserStore"
+participant "userAccount: User"
+
+Administrator -> ChangeUserAccountStatusUI : Get User Account Status
+ChangeUserAccountStatusUI --> Administrator : Request User Account ID
+Administrator -> ChangeUserAccountStatusUI : Insert User Account ID
+ChangeUserAccountStatusUI -> controller : getUserAccountStatus(userId)
+controller -> ": DataManagement" : userStore = getUserStore()
+": DataManagement" --> controller : userStore
+
+loop For each know user in userStore
+	controller -> "userStore: UserStore" : userAccount = getUserById(userId)
+	"userStore: UserStore" -> "userStore: UserStore" : validateUserId(userId)
+	"userStore: UserStore" --> controller : showUserAccountID
+	alt if userId == userAccountID
+		controller -> "userAccount: User" : getUserStatus()
+	end
+end
+
+"userAccount: User" --> controller : userAccountStatus
+controller --> ChangeUserAccountStatusUI : userAccountStatus
+ChangeUserAccountStatusUI --> Administrator : Show User Account Status
+Administrator -> ChangeUserAccountStatusUI : Change User Account Status to "Inactive"
+
+ChangeUserAccountStatusUI -> controller : changeUserAccountStatus(userId, newStatus)
+controller -> "userAccount: User" : changeUserAccountStatus(newStatus)
+
+"userAccount: User" --> controller : Success
+controller --> ChangeUserAccountStatusUI : Success
+ChangeUserAccountStatusUI --> Administrator : Success Inactivating User Account
+
+
+@enduml

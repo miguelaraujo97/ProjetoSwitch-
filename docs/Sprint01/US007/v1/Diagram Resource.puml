@@ -1,0 +1,60 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam monochrome true
+
+title ADD RESOURCE TO PROJECT
+center header
+Relations Diagram
+endheader
+center footer SWitCH
+
+hide members
+show Resource members
+show ResourceLog members
+show RoleType members
+
+
+left to right  direction
+
+Project ---  "*" Resource : projectTeam >
+Project ---  "1" Resource : projectManager >
+Project ---  "1" Resource : productOwner >
+Project ---  "1" Resource : scrumMaster >
+
+
+Project  - "1" ResourceLog : resourceLog
+
+Resource -- "1" User : user >
+Resource -- "1" Role : role >
+Role -- "1" RoleType : role >
+
+Class Project{}
+
+Class Resource{
+    percentageAllocation
+    costPerHour
+    startDate
+    endDate
+}
+Class User{}
+
+
+ Class ResourceLog{
+    productOwnerLog
+    projectManagerLog
+    scrumMasterLog
+    teamMemberLog
+}
+
+Class Role {
+}
+
+Enum RoleType {
+    PRODUCT_OWNER
+    PROJECT_MANAGER
+    SCRUM_MASTER
+    TEAM_MEMBER
+}
+
+@enduml

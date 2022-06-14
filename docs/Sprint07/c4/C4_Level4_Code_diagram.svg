@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="584px" preserveAspectRatio="none" style="width:876px;height:584px;background:#FFFFFF;" version="1.1" viewBox="0 0 876 584" width="876px" zoomAndPan="magnify"><defs><filter height="300%" id="f11gc2nmoqvkqi" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="53" x="405.25" y="10.3809">C4 MODEL</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="180" x="341.75" y="31.2637">Level 4: Code diagram</text><!--MD5=[979da56a7f83e2393dc758167ae295d0]
+cluster Server--><rect fill="#FFFFFF" filter="url(#f11gc2nmoqvkqi)" height="512" rx="4" ry="4" style="stroke:#000000;stroke-width:1.0;" width="527" x="174" y="42.2188"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.0;" width="15" x="681" y="47.2188"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="679" y="49.2188"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="679" y="53.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="89" x="393" y="69.752">«Component»</text><text fill="#000000" font-family="Helvetica" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="50" x="412.5" y="89.4375">Server</text><!--MD5=[7a43269fac721b1ccfb3b5f042acc3e7]
+entity Routes--><rect fill="#FFFFFF" filter="url(#f11gc2nmoqvkqi)" height="50.125" rx="4" ry="4" style="stroke:#000000;stroke-width:1.0;" width="89" x="203" y="98.2188"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.0;" width="15" x="272" y="103.2188"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="270" y="105.2188"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="270" y="109.2188"/><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="49" x="218" y="134.8281">Routes</text><!--MD5=[1b9dce2ce56fb0e0072eca4d439af425]
+entity Controllers--><rect fill="#FFFFFF" filter="url(#f11gc2nmoqvkqi)" height="50.125" rx="4" ry="4" style="stroke:#000000;stroke-width:1.0;" width="115" x="190" y="228.2188"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.0;" width="15" x="285" y="233.2188"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="283" y="235.2188"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="283" y="239.2188"/><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="75" x="205" y="264.8281">Controllers</text><!--MD5=[c3df86571f834499f7b572b4ffa00c75]
+entity AppService--><rect fill="#FFFFFF" filter="url(#f11gc2nmoqvkqi)" height="50.125" rx="4" ry="4" style="stroke:#000000;stroke-width:1.0;" width="101" x="197" y="358.2188"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.0;" width="15" x="278" y="363.2188"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="276" y="365.2188"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="276" y="369.2188"/><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="61" x="212" y="394.8281">Services</text><!--MD5=[97de1061a0ab8445a0a4bfc3e13b8318]
+entity DTO--><rect fill="#FFFFFF" filter="url(#f11gc2nmoqvkqi)" height="50.125" rx="4" ry="4" style="stroke:#000000;stroke-width:1.0;" width="73" x="454" y="216.2188"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.0;" width="15" x="507" y="221.2188"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="505" y="223.2188"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="505" y="227.2188"/><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="33" x="469" y="252.8281">DTO</text><!--MD5=[2fb3fc8e03cad589fa238654c03a9f58]
+entity Domain--><rect fill="#FFFFFF" filter="url(#f11gc2nmoqvkqi)" height="50.125" rx="4" ry="4" style="stroke:#000000;stroke-width:1.0;" width="95" x="200" y="488.2188"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.0;" width="15" x="275" y="493.2188"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="273" y="495.2188"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="273" y="499.2188"/><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="55" x="215" y="524.8281">Domain</text><!--MD5=[ca90e29f08732e1f8975e741fe954bc8]
+entity Repositories--><rect fill="#FFFFFF" filter="url(#f11gc2nmoqvkqi)" height="50.125" rx="4" ry="4" style="stroke:#000000;stroke-width:1.0;" width="129" x="426" y="380.2188"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.0;" width="15" x="535" y="385.2188"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="533" y="387.2188"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="533" y="391.2188"/><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="89" x="441" y="416.8281">Repositories</text><!--MD5=[fe17c4df05a06bde4affee0ff4247910]
+entity JPA--><rect fill="#FFFFFF" filter="url(#f11gc2nmoqvkqi)" height="50.125" rx="4" ry="4" style="stroke:#000000;stroke-width:1.0;" width="70" x="615" y="380.2188"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.0;" width="15" x="665" y="385.2188"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="663" y="387.2188"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="663" y="391.2188"/><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="30" x="630" y="416.8281">JPA</text><!--MD5=[645d8587175d8f7ad110cd370775931d]
+entity API--><ellipse cx="64" cy="123.2188" fill="#D3D3D3" filter="url(#f11gc2nmoqvkqi)" rx="8" ry="8" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="6" y="154.752">Provider Interface</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="21" x="6" y="172.3613">API</text><!--MD5=[f9ba5bf973e7832d2ce5ed59077b93f7]
+entity DB--><ellipse cx="811" cy="405.2188" fill="#D3D3D3" filter="url(#f11gc2nmoqvkqi)" rx="8" ry="8" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="752.5" y="436.752">Required Interface</text><!--MD5=[087faa39f7169ab2dde2b5f8dc7d1cda]
+link API to Routes--><path d="M73.27,123.2188 C94.86,123.2188 154.25,123.2188 197.48,123.2188 " fill="none" id="API-to-Routes" style="stroke:#808080;stroke-width:1.0;"/><rect fill="#FFFFFF" height="10" style="stroke:#808080;stroke-width:1.5;" width="10" x="197.67" y="118.2188"/><!--MD5=[5c8d2d3e77917f6ad1f0c9ff33eb454d]
+link Routes to DTO--><path d="M292.14,144.5888 C338.4,167.2387 410.58,202.5788 453.64,223.6588 " fill="none" id="Routes-DTO" style="stroke:#808080;stroke-width:1.0;"/><path d="M370.8486,175.2524 A10,10 0 0 0 364.6299 187.9539" fill="none" style="stroke:#808080;stroke-width:1.5;"/><ellipse cx="374.09" cy="184.7125" fill="#FFFFFF" rx="6" ry="6" style="stroke:#808080;stroke-width:1.5;"/><!--MD5=[cea0f69704f66fae0b83e50d6675d8c1]
+link Controllers to Routes--><path d="M247.5,228.0788 C247.5,201.5888 247.5,175.1088 247.5,148.6187 " fill="none" id="Controllers-Routes" style="stroke:#808080;stroke-width:1.0;"/><path d="M254.5711,181.2777 A10,10 0 0 0 240.4289 181.2777" fill="none" style="stroke:#808080;stroke-width:1.5;"/><ellipse cx="247.5" cy="188.3488" fill="#FFFFFF" rx="6" ry="6" style="stroke:#808080;stroke-width:1.5;"/><!--MD5=[01b5c43ff5db2b3ab7f36f76b228af8f]
+link Controllers to DTO--><path d="M305,250.4088 C351.05,248.1088 414.67,244.9488 453.9,242.9887 " fill="none" id="Controllers-DTO" style="stroke:#808080;stroke-width:1.0;"/><path d="M374.5936,239.8605 A10,10 0 0 0 375.2968 253.9852" fill="none" style="stroke:#808080;stroke-width:1.5;"/><ellipse cx="382.0075" cy="246.5713" fill="#FFFFFF" rx="6" ry="6" style="stroke:#808080;stroke-width:1.5;"/><!--MD5=[5664ddb3bd7e07bee97467288a35d66b]
+link AppService to Controllers--><path d="M247.5,358.0788 C247.5,331.5888 247.5,305.1088 247.5,278.6188 " fill="none" id="AppService-Controllers" style="stroke:#808080;stroke-width:1.0;"/><path d="M254.5711,311.2777 A10,10 0 0 0 240.4289 311.2777" fill="none" style="stroke:#808080;stroke-width:1.5;"/><ellipse cx="247.5" cy="318.3488" fill="#FFFFFF" rx="6" ry="6" style="stroke:#808080;stroke-width:1.5;"/><!--MD5=[ed4adcd9ebd1179ac73e4f2ccada5649]
+link AppService to DTO--><path d="M291.03,358.1588 C337.25,330.9288 410.27,287.8988 453.67,262.3288 " fill="none" id="AppService-DTO" style="stroke:#808080;stroke-width:1.0;"/><path d="M363.7257,307.1188 A10,10 0 0 0 370.9051 319.3031" fill="none" style="stroke:#808080;stroke-width:1.5;"/><ellipse cx="373.4075" cy="309.6213" fill="#FFFFFF" rx="6" ry="6" style="stroke:#808080;stroke-width:1.5;"/><!--MD5=[8e8b2512c56c8ac6ddd97f94b3a3c65f]
+link Domain to AppService--><path d="M247.5,488.0788 C247.5,461.5888 247.5,435.1088 247.5,408.6188 " fill="none" id="Domain-AppService" style="stroke:#808080;stroke-width:1.0;"/><path d="M254.5711,441.2777 A10,10 0 0 0 240.4289 441.2777" fill="none" style="stroke:#808080;stroke-width:1.5;"/><ellipse cx="247.5" cy="448.3488" fill="#FFFFFF" rx="6" ry="6" style="stroke:#808080;stroke-width:1.5;"/><!--MD5=[6a7d17c243827299d9af3b7d68a5b2af]
+link AppService to Repositories--><path d="M298.14,387.7488 C335.07,391.1188 385.77,395.7488 425.7,399.3988 " fill="none" id="AppService-Repositories" style="stroke:#808080;stroke-width:1.0;"/><path d="M354.3963,385.7839 A10,10 0 0 0 353.1101 399.8674" fill="none" style="stroke:#808080;stroke-width:1.5;"/><ellipse cx="360.795" cy="393.4688" fill="#FFFFFF" rx="6" ry="6" style="stroke:#808080;stroke-width:1.5;"/><!--MD5=[9daaa0e89dbe05fd92e742f98ada7601]
+link Repositories to JPA--><path d="M555.11,405.2188 C575.43,405.2188 597.14,405.2188 614.57,405.2188 " fill="none" id="Repositories-JPA" style="stroke:#808080;stroke-width:1.0;"/><path d="M578.8527,398.1477 A10,10 0 0 0 578.8527 412.2898" fill="none" style="stroke:#808080;stroke-width:1.5;"/><ellipse cx="585.9237" cy="405.2188" fill="#FFFFFF" rx="6" ry="6" style="stroke:#808080;stroke-width:1.5;"/><!--MD5=[6294a9e28ece7c86369a288c37e14739]
+link JPA to DB--><path d="M695.22,405.2188 C727.02,405.2188 768.28,405.2188 791.67,405.2188 " fill="none" id="JPA-DB" style="stroke:#808080;stroke-width:1.0;"/><path d="M798.7918,396.7615 A9,9 0 0 0 798.7918 413.676" fill="none" style="stroke:#808080;stroke-width:1.5;"/><rect fill="#FFFFFF" height="10" style="stroke:#808080;stroke-width:1.5;" width="10" x="680.11" y="400.2188"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="53" x="405.25" y="575.5996">C4 MODEL</text><!--MD5=[ce8b5a648ec0afa42d48d2ffbdf1387c]
+@startuml
+'https://plantuml.com/component-diagram
+
+
+'######################
+'######################
+
+'TITLE ON TOP
+title Level 4: Code diagram
+
+'HEADER FOOTER DESCRIPTIONS
+center header C4 MODEL
+center footer C4 MODEL
+
+'###################### end config
+'######################
+
+'skinparam componentStyle uml1
+
+'hide members
+'hide circle
+'skinparam linetype ortho
+left to right direction
+
+'skinparam minClassWidth 150
+skinparam nodesep 80
+'skinparam ranksep 0
+'skinparam padding 0
+skinparam roundCorner 8
+
+skinparam rectangle {
+    stereotypeFontSize 10
+    fontSize 16
+    fontName Helvetica
+    arrowColor grey
+    arrowThickness 1
+    attributeIconSize 0
+    borderThickness 1
+    borderColor grey
+    'backgroundColor lightGrey
+}
+
+skinparam component {
+
+    'stereotypeFontSize 10
+    fontSize 16
+    fontName Helvetica
+    fontColor black
+    arrowColor grey
+    arrowThickness 1
+    attributeIconSize 0
+    borderThickness 1
+    borderColor black
+    backgroundColor white
+}
+
+skinparam interface {
+
+    borderColor black
+    backgroundColor lightGrey
+}
+
+skinparam port {
+    'backgroundColor lightGrey
+}
+
+
+'provider interface
+Interface "Provider Interface \nAPI" as API
+'required interface
+Interface "Required Interface" as DB
+
+
+
+component "Server" <<Component>> {
+
+    'Connections
+    'port " " as server_port_api
+    'port " " as server_port_jpa
+
+    'Components
+    Component Routes
+    Component Controllers
+    Component "Services" as AppService
+    Component DTO
+    Component Domain
+    Component Repositories
+    Component JPA
+    'Component "Data Model" as DataModel
+
+    'API - - server_port_api
+
+    API - -# Routes
+
+    Routes - -(0- DTO
+
+    Routes - -l(0-  Controllers
+
+    Controllers - -(0- DTO
+
+    Controllers - -l(0-  AppService
+
+    AppService - -(0- DTO
+
+    AppService -l(0- Domain
+
+    AppService - -(0- Repositories
+
+    Repositories -(0- JPA
+
+    'Repositories - -l(0- Domain
+
+    'DataModel - - -r0)- Repositories
+    'JPA - -l0)- DataModel
+
+    'JPA #- server_port_jpa
+
+    JPA #- -( DB
+
+}
+
+@enduml
+
+@startuml
+
+
+
+title Level 4: Code diagram
+
+center header C4 MODEL
+center footer C4 MODEL
+
+
+
+left to right direction
+
+skinparam nodesep 80
+skinparam roundCorner 8
+
+skinparam rectangle {
+    stereotypeFontSize 10
+    fontSize 16
+    fontName Helvetica
+    arrowColor grey
+    arrowThickness 1
+    attributeIconSize 0
+    borderThickness 1
+    borderColor grey
+}
+
+skinparam component {
+
+    fontSize 16
+    fontName Helvetica
+    fontColor black
+    arrowColor grey
+    arrowThickness 1
+    attributeIconSize 0
+    borderThickness 1
+    borderColor black
+    backgroundColor white
+}
+
+skinparam interface {
+
+    borderColor black
+    backgroundColor lightGrey
+}
+
+skinparam port {
+}
+
+
+Interface "Provider Interface \nAPI" as API
+Interface "Required Interface" as DB
+
+
+
+component "Server" <<Component>> {
+
+
+    Component Routes
+    Component Controllers
+    Component "Services" as AppService
+    Component DTO
+    Component Domain
+    Component Repositories
+    Component JPA
+
+
+    API - -# Routes
+
+    Routes - -(0- DTO
+
+    Routes - -l(0-  Controllers
+
+    Controllers - -(0- DTO
+
+    Controllers - -l(0-  AppService
+
+    AppService - -(0- DTO
+
+    AppService -l(0- Domain
+
+    AppService - -(0- Repositories
+
+    Repositories -(0- JPA
+
+
+
+
+    JPA #- -( DB
+
+}
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

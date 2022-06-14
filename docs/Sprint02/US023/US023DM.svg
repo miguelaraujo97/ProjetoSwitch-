@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="754px" preserveAspectRatio="none" style="width:288px;height:754px;background:#FFFFFF;" version="1.1" viewBox="0 0 288 754" width="288px" zoomAndPan="magnify"><defs><filter height="300%" id="fcirdx04lurtt" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[79d378210367c0c6ec62ef762ddfbd1b]
+class ProjectDeprecated--><rect codeLine="17" fill="#FEFECE" filter="url(#fcirdx04lurtt)" height="172.5234" id="Project" style="stroke:#A80036;stroke-width:1.5;" width="139" x="76.5" y="7"/><ellipse cx="122.75" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M124.75,19.5 Q124.9531,19 125.1875,18.75 Q125.4219,18.5 125.6875,18.5 Q126.1563,18.5 126.4531,18.7813 Q126.75,19.0625 126.75,19.7188 L126.75,21.2813 Q126.75,21.9375 126.4688,22.2188 Q126.1875,22.5 125.75,22.5 Q125.3594,22.5 125.1094,22.3281 Q124.8594,22.1563 124.75,21.7031 Q124.7031,21.3906 124.5313,21.2188 Q124.2188,20.8906 123.6563,20.7031 Q123.0938,20.5 122.5313,20.5 Q121.8281,20.5 121.2344,20.7813 Q120.6563,21.0625 120.2031,21.6875 Q119.75,22.3125 119.75,23.1719 L119.75,24.0938 Q119.75,25.125 120.5938,25.8125 Q121.4375,26.5 122.9375,26.5 Q123.8281,26.5 124.4531,26.2969 Q124.8125,26.1875 125.2188,25.8281 Q125.4844,25.625 125.625,25.5625 Q125.7656,25.5 125.9375,25.5 Q126.2656,25.5 126.5,25.7656 Q126.75,26.0156 126.75,26.375 Q126.75,26.7188 126.4063,27.125 Q125.9063,27.7188 125.1094,28.0469 Q124.0625,28.5 122.7813,28.5 Q121.2813,28.5 120.0781,27.9063 Q119.1094,27.4375 118.4219,26.4219 Q117.75,25.4063 117.75,24.2031 L117.75,23.1094 Q117.75,21.8594 118.3438,20.7656 Q118.9531,19.6719 120,19.0938 Q121.0625,18.5 122.25,18.5 Q122.9688,18.5 123.5938,18.75 Q124.2188,19 124.75,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="38" x="143.25" y="27.9102">Project</text><line style="stroke:#A80036;stroke-width:1.5;" x1="77.5" x2="214.5" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="25" x="82.5" y="54.4189">Code</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="27" x="82.5" y="68.2549">Name</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="54" x="82.5" y="82.0908">Description</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="127" x="82.5" y="95.9268">Number of planned sprints</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="31" x="82.5" y="109.7627">Status</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="82.5" y="123.5986">Start date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="42" x="82.5" y="137.4346">End date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="34" x="82.5" y="151.2705">Budget</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="70" x="82.5" y="165.1064">Sprint duration</text><line style="stroke:#A80036;stroke-width:1.5;" x1="77.5" x2="214.5" y1="171.5234" y2="171.5234"/><!--MD5=[91b5dce48d18c73d9cea267c757e6d47]
+class ProductBacklog--><rect codeLine="4" fill="#FEFECE" filter="url(#fcirdx04lurtt)" height="48" id="ProductBacklog" style="stroke:#A80036;stroke-width:1.5;" width="118" x="7" y="419"/><ellipse cx="22" cy="435" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M24,431.5 Q24.2031,431 24.4375,430.75 Q24.6719,430.5 24.9375,430.5 Q25.4063,430.5 25.7031,430.7813 Q26,431.0625 26,431.7188 L26,433.2813 Q26,433.9375 25.7188,434.2188 Q25.4375,434.5 25,434.5 Q24.6094,434.5 24.3594,434.3281 Q24.1094,434.1563 24,433.7031 Q23.9531,433.3906 23.7813,433.2188 Q23.4688,432.8906 22.9063,432.7031 Q22.3438,432.5 21.7813,432.5 Q21.0781,432.5 20.4844,432.7813 Q19.9063,433.0625 19.4531,433.6875 Q19,434.3125 19,435.1719 L19,436.0938 Q19,437.125 19.8438,437.8125 Q20.6875,438.5 22.1875,438.5 Q23.0781,438.5 23.7031,438.2969 Q24.0625,438.1875 24.4688,437.8281 Q24.7344,437.625 24.875,437.5625 Q25.0156,437.5 25.1875,437.5 Q25.5156,437.5 25.75,437.7656 Q26,438.0156 26,438.375 Q26,438.7188 25.6563,439.125 Q25.1563,439.7188 24.3594,440.0469 Q23.3125,440.5 22.0313,440.5 Q20.5313,440.5 19.3281,439.9063 Q18.3594,439.4375 17.6719,438.4219 Q17,437.4063 17,436.2031 L17,435.1094 Q17,433.8594 17.5938,432.7656 Q18.2031,431.6719 19.25,431.0938 Q20.3125,430.5 21.5,430.5 Q22.2188,430.5 22.8438,430.75 Q23.4688,431 24,431.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="36" y="439.9102">ProductBacklog</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="124" y1="451" y2="451"/><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="124" y1="459" y2="459"/><!--MD5=[452a66c2e8d45f5bd209be454bbcd04f]
+class Sprint--><rect codeLine="29" fill="#FEFECE" filter="url(#fcirdx04lurtt)" height="131.0156" id="Sprint" style="stroke:#A80036;stroke-width:1.5;" width="108" x="154" y="258"/><ellipse cx="188.8" cy="274" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M190.8,270.5 Q191.0031,270 191.2375,269.75 Q191.4719,269.5 191.7375,269.5 Q192.2063,269.5 192.5031,269.7813 Q192.8,270.0625 192.8,270.7188 L192.8,272.2813 Q192.8,272.9375 192.5188,273.2188 Q192.2375,273.5 191.8,273.5 Q191.4094,273.5 191.1594,273.3281 Q190.9094,273.1563 190.8,272.7031 Q190.7531,272.3906 190.5813,272.2188 Q190.2688,271.8906 189.7063,271.7031 Q189.1438,271.5 188.5813,271.5 Q187.8781,271.5 187.2844,271.7813 Q186.7063,272.0625 186.2531,272.6875 Q185.8,273.3125 185.8,274.1719 L185.8,275.0938 Q185.8,276.125 186.6438,276.8125 Q187.4875,277.5 188.9875,277.5 Q189.8781,277.5 190.5031,277.2969 Q190.8625,277.1875 191.2688,276.8281 Q191.5344,276.625 191.675,276.5625 Q191.8156,276.5 191.9875,276.5 Q192.3156,276.5 192.55,276.7656 Q192.8,277.0156 192.8,277.375 Q192.8,277.7188 192.4563,278.125 Q191.9563,278.7188 191.1594,279.0469 Q190.1125,279.5 188.8313,279.5 Q187.3313,279.5 186.1281,278.9063 Q185.1594,278.4375 184.4719,277.4219 Q183.8,276.4063 183.8,275.2031 L183.8,274.1094 Q183.8,272.8594 184.3938,271.7656 Q185.0031,270.6719 186.05,270.0938 Q187.1125,269.5 188.3,269.5 Q189.0188,269.5 189.6438,269.75 Q190.2688,270 190.8,270.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="32" x="207.2" y="278.9102">Sprint</text><line style="stroke:#A80036;stroke-width:1.5;" x1="155" x2="261" y1="290" y2="290"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="160" y="305.4189">Start date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="42" x="160" y="319.2549">End date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="31" x="160" y="333.0908">Status</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="40" x="160" y="346.9268">Sprint ID</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="96" x="160" y="360.7627">Sprint order number</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="160" y="374.5986">Sprint task list</text><line style="stroke:#A80036;stroke-width:1.5;" x1="155" x2="261" y1="381.0156" y2="381.0156"/><!--MD5=[a136f49e3565b20f66540890d0159f10]
+class SprintBacklog--><rect codeLine="6" fill="#FEFECE" filter="url(#fcirdx04lurtt)" height="48" id="SprintBacklog" style="stroke:#A80036;stroke-width:1.5;" width="108" x="166" y="497"/><ellipse cx="181" cy="513" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M183,509.5 Q183.2031,509 183.4375,508.75 Q183.6719,508.5 183.9375,508.5 Q184.4063,508.5 184.7031,508.7813 Q185,509.0625 185,509.7188 L185,511.2813 Q185,511.9375 184.7188,512.2188 Q184.4375,512.5 184,512.5 Q183.6094,512.5 183.3594,512.3281 Q183.1094,512.1563 183,511.7031 Q182.9531,511.3906 182.7813,511.2188 Q182.4688,510.8906 181.9063,510.7031 Q181.3438,510.5 180.7813,510.5 Q180.0781,510.5 179.4844,510.7813 Q178.9063,511.0625 178.4531,511.6875 Q178,512.3125 178,513.1719 L178,514.0938 Q178,515.125 178.8438,515.8125 Q179.6875,516.5 181.1875,516.5 Q182.0781,516.5 182.7031,516.2969 Q183.0625,516.1875 183.4688,515.8281 Q183.7344,515.625 183.875,515.5625 Q184.0156,515.5 184.1875,515.5 Q184.5156,515.5 184.75,515.7656 Q185,516.0156 185,516.375 Q185,516.7188 184.6563,517.125 Q184.1563,517.7188 183.3594,518.0469 Q182.3125,518.5 181.0313,518.5 Q179.5313,518.5 178.3281,517.9063 Q177.3594,517.4375 176.6719,516.4219 Q176,515.4063 176,514.2031 L176,513.1094 Q176,511.8594 176.5938,510.7656 Q177.2031,509.6719 178.25,509.0938 Q179.3125,508.5 180.5,508.5 Q181.2188,508.5 181.8438,508.75 Q182.4688,509 183,509.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="76" x="195" y="517.9102">SprintBacklog</text><line style="stroke:#A80036;stroke-width:1.5;" x1="167" x2="273" y1="529" y2="529"/><line style="stroke:#A80036;stroke-width:1.5;" x1="167" x2="273" y1="537" y2="537"/><!--MD5=[daa6dd44d8f60c5a9cd695bb66773862]
+class UserStory--><rect codeLine="38" fill="#FEFECE" filter="url(#fcirdx04lurtt)" height="117.1797" id="UserStory" style="stroke:#A80036;stroke-width:1.5;" width="97" x="31.5" y="623"/><ellipse cx="51.45" cy="639" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M53.45,635.5 Q53.6531,635 53.8875,634.75 Q54.1219,634.5 54.3875,634.5 Q54.8563,634.5 55.1531,634.7813 Q55.45,635.0625 55.45,635.7188 L55.45,637.2813 Q55.45,637.9375 55.1688,638.2188 Q54.8875,638.5 54.45,638.5 Q54.0594,638.5 53.8094,638.3281 Q53.5594,638.1563 53.45,637.7031 Q53.4031,637.3906 53.2313,637.2188 Q52.9188,636.8906 52.3563,636.7031 Q51.7938,636.5 51.2313,636.5 Q50.5281,636.5 49.9344,636.7813 Q49.3563,637.0625 48.9031,637.6875 Q48.45,638.3125 48.45,639.1719 L48.45,640.0938 Q48.45,641.125 49.2938,641.8125 Q50.1375,642.5 51.6375,642.5 Q52.5281,642.5 53.1531,642.2969 Q53.5125,642.1875 53.9188,641.8281 Q54.1844,641.625 54.325,641.5625 Q54.4656,641.5 54.6375,641.5 Q54.9656,641.5 55.2,641.7656 Q55.45,642.0156 55.45,642.375 Q55.45,642.7188 55.1063,643.125 Q54.6063,643.7188 53.8094,644.0469 Q52.7625,644.5 51.4813,644.5 Q49.9813,644.5 48.7781,643.9063 Q47.8094,643.4375 47.1219,642.4219 Q46.45,641.4063 46.45,640.2031 L46.45,639.1094 Q46.45,637.8594 47.0438,636.7656 Q47.6531,635.6719 48.7,635.0938 Q49.7625,634.5 50.95,634.5 Q51.6688,634.5 52.2938,634.75 Q52.9188,635 53.45,635.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="54" x="66.55" y="643.9102">UserStory</text><line style="stroke:#A80036;stroke-width:1.5;" x1="32.5" x2="127.5" y1="655" y2="655"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="37.5" y="670.4189">User Story ID</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="54" x="37.5" y="684.2549">Description</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="70" x="37.5" y="698.0908">Effort estimate</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="33" x="37.5" y="711.9268">Priority</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="37.5" y="725.7627">User Story status</text><line style="stroke:#A80036;stroke-width:1.5;" x1="32.5" x2="127.5" y1="732.1797" y2="732.1797"/><!--MD5=[e9bfda8003ec4a4a334fa3f7b77fe36c]
+link ProjectDeprecated to ProductBacklog--><path codeLine="10" d="M125.9,180.27 C123.57,190.29 121.23,200.37 119,210 C101.32,286.48 80.69,377.23 71.23,418.94 " fill="none" id="Project-ProductBacklog" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="120" y="224.4951">contains</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="117.0931" y="201.0526">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="64.6733" y="408.2648">1</text><!--MD5=[d6d7f4a9855853da0e2cab67ce85ccf9]
+link ProjectDeprecated to Sprint--><path codeLine="11" d="M169.26,180.05 C176.27,205.82 183.85,233.68 190.42,257.86 " fill="none" id="Project-Sprint" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="181" y="224.4951">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="163.8346" y="201.1126">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="12" x="175.8409" y="247.3191">1*</text><!--MD5=[99e6a3d10935d54e10b120f38e844c1f]
+link Sprint to SprintBacklog--><path codeLine="12" d="M211.96,389.06 C214.24,426.2 216.97,470.61 218.59,496.99 " fill="none" id="Sprint-SprintBacklog" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="217" y="448.4951">contains</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="205.0103" y="410.6191">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="210.3318" y="486.3276">1</text><!--MD5=[57d156209abaf0f25eafc58fa8840872]
+link ProductBacklog to UserStory--><path codeLine="13" d="M66.35,467.28 C66.74,487.76 67.52,518.38 69,545 C70.42,570.57 72.61,598.8 74.66,622.85 " fill="none" id="ProductBacklog-UserStory" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="70" y="526.4951">is made up of</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="58.5822" y="488.6862">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="12" x="61.2779" y="612.2326">1*</text><!--MD5=[8383f08382760acfe8beb7edb9e06a0c]
+link SprintBacklog to UserStory--><path codeLine="14" d="M199.64,545.05 C181.06,566.08 152.87,598 128.52,625.57 " fill="none" id="SprintBacklog-UserStory" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="171" y="589.4951">contains</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="186.8241" y="566.4002">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="12" x="136.5276" y="613.688">1*</text><!--MD5=[4407f3fc0ccce478d476bcef109ab671]
+link UserStory to UserStory--><path codeLine="15" d="M128.89,663.57 C147.79,662.77 163.5,668.75 163.5,681.5 C163.5,694.25 147.79,700.23 128.89,699.43 " fill="none" id="UserStory-UserStory" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="169.5" y="686.9951">is decomposed in</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="136.5848" y="657.2693">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="12" x="136.6089" y="698.3336">1*</text><!--MD5=[653559831ffda11c558530bec276bf57]
+@startuml
+'https://plantuml.com/class-diagram
+
+class ProjectDeprecated
+class ProductBacklog
+class Sprint
+class SprintBacklog
+class UserStory
+
+
+ProjectDeprecated "1"- -"1" ProductBacklog: contains
+ProjectDeprecated "1"- -"1*" Sprint: has
+Sprint "1"- -"1" SprintBacklog: contains
+ProductBacklog "1"- -"1*" UserStory: is made up of
+SprintBacklog "1"- -"1*" UserStory: contains
+UserStory "1"- -"1*" UserStory: is decomposed in
+
+class ProjectDeprecated {
+ProjectCode
+Name
+Description
+Number of planned sprints
+Status
+Start date
+End date
+ProjectBudget
+Sprint duration
+}
+
+class Sprint {
+Start date
+End date
+Status
+Sprint ID
+Sprint order number
+Sprint task list
+}
+
+class UserStory {
+User Story ID
+Description
+Effort estimate
+Priority
+User Story status
+}
+
+@enduml
+
+@startuml
+
+class ProjectDeprecated
+class ProductBacklog
+class Sprint
+class SprintBacklog
+class UserStory
+
+
+ProjectDeprecated "1"- -"1" ProductBacklog: contains
+ProjectDeprecated "1"- -"1*" Sprint: has
+Sprint "1"- -"1" SprintBacklog: contains
+ProductBacklog "1"- -"1*" UserStory: is made up of
+SprintBacklog "1"- -"1*" UserStory: contains
+UserStory "1"- -"1*" UserStory: is decomposed in
+
+class ProjectDeprecated {
+ProjectCode
+Name
+Description
+Number of planned sprints
+Status
+Start date
+End date
+ProjectBudget
+Sprint duration
+}
+
+class Sprint {
+Start date
+End date
+Status
+Sprint ID
+Sprint order number
+Sprint task list
+}
+
+class UserStory {
+User Story ID
+Description
+Effort estimate
+Priority
+User Story status
+}
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

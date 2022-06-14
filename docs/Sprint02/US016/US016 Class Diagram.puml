@@ -1,0 +1,76 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class UI
+
+class ViewStatusOfActivitiesController {
+-dataManagement : DataManagement
++getDataManagement();
+}
+
+class DataManagement{
+-projectStore : ProjectStore
++getProjectStore();
+}
+
+class ProjectStore{
+-projectList : List<Project>
++getProjectByCode(code);
+}
+class Project{
+-productBacklog : ProductBacklog
+-activityList : List<Activity>
++getProductBacklog();
++getActivitiesStatus();
+}
+class ProductBacklog{
+-userStoryList : List<UserStory>
++getUserStoryList();
++getTaskStatusTable();
+}
+
+class UserStory{
+-taskList : List<Task>
++getTaskList();
++getTasksStatus();
+}
+
+class Task{
+-taskName : String
+-taskDescription : String
+-taskStatus : String
+-taskStartDate : LocalDate
+-taskEndDate : LocalDate
++getTaskName();
++getTaskDescription();
++getTaskStatus();
+}
+
+class Activity{
+-activityName : String
+-activityDescription : String
+-activityStatus : String
+-activityStartDate : LocalDate
+-activityEndDate : LocalDate
++getActivityName();
++getActivityDescription();
++getActivityStatus();
+}
+
+
+UI ..|>  ViewStatusOfActivitiesController
+ViewStatusOfActivitiesController ..|> DataManagement
+DataManagement -- ProjectStore
+
+ProjectStore "1" -right- "1..*" Project : "has"
+
+Project "1" -right- "1" ProductBacklog : "has"
+
+ProductBacklog "1" -up- "0..*" UserStory : "has"
+UserStory "1" -up- "0..*" Task : "has"
+
+Project "1" -up- "0..*" Activity : "has"
+
+
+
+@enduml

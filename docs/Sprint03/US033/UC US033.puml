@@ -1,0 +1,26 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+
+left to right direction
+:SM / Team Member: as User
+package System{
+     usecase "Insert project code,user story id, current date, hours spent" as US1
+     usecase "Register work done on a Task" as US2
+     usecase "List of projects" as US3
+     usecase "List of sprints" as US4
+     usecase "List of user stories" as US5
+     usecase "Task" as US6
+
+
+    User --> US1
+    User --> US2
+    US2 ..> US3 : include
+    US2 ..> US4 : include
+    US2 ..> US5 : include
+    US2 ..> US6 : include
+
+
+
+
+@enduml

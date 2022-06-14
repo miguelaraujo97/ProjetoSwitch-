@@ -1,0 +1,49 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+'header
+'Sequence Diagram of US030
+'endheader
+
+center footer SPRINT004 - Actual class diagram
+
+
+class ProfileStore{
+-profileList
++createAndAddProfile(profileName,\n permission, profileFactoryInterface)
+}
+
+class Profile{
+   -profileID
+   -profileName
+   -permission
+
+}
+interface ProfileFactory{
+
+   +createProfile(int id, String profileName,
+                               int permissions);
+}
+
+class ProfileFactory1{
+   +createProfile(int id, String profileName,
+                               int permissions);
+}
+
+
+
+
+ProfileStore "1" o-- " profile 1..*" Profile
+
+ProfileFactory <|.. "implements " ProfileFactory1
+
+ProfileStore ..> "uses   " ProfileFactory
+
+
+
+
+skinparam nodesep 140
+
+skinparam ranksep 60
+
+@enduml

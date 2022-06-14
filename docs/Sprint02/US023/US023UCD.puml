@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+left to right direction
+:Team Member: as User
+rectangle System{
+
+    usecase "Get Product Backlog from a project" as US1
+    usecase "Get Sprint Backlog from a sprint" as US2
+    usecase "Add a User Story to the Sprint Backlog of a project" as US3
+}
+
+User --> US1
+User --> US2
+User --> US3
+
+@enduml

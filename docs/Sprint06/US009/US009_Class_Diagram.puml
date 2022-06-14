@@ -1,0 +1,314 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+'######################
+'######################  start config
+skinparam linetype ortho
+'hide circle
+
+skinparam minClassWidth 200
+skinparam nodesep 80
+skinparam ranksep 20
+skinparam padding 3
+
+skinparam package  {
+    BackgroundColor white
+    BorderColor grey
+    shadowing false
+    FontStyle normal
+    FontSize 16
+    borderThickness 0.5
+    fontColor #000
+}
+
+skinparam legend {
+    backgroundColor white
+    borderColor white
+    shadowing false
+    FontStyle normal
+    FontSize 12
+    borderThickness 0.5
+    fontColor black
+    padding 0
+    DesignedBorderColor white
+}
+
+skinparam class {
+    stereotypeFontSize 10
+    fontSize 20
+    fontName Helvetica
+
+    arrowColor black
+    arrowThickness 1
+    attributeIconSize 10
+
+    borderColor black
+    borderThickness 0.5
+    backgroundColor #eee
+
+
+}
+
+skinparam entity {
+    backgroundColor red
+    borderColor black
+    borderThickness 0.5
+
+}
+
+skinparam rectangle {
+    shadowing false
+    fontSize 15
+    textAlignment left
+    fontStyle italic
+    stereotypeFontSize 10
+    borderThickness 0.5
+
+}
+
+'TITLE ON TOP
+title US009 - As a Product Owner I want to Create a User Story and Add it to the Product Backlog
+
+'HEADER FOOTER DESCRIPTIONS
+center header ONION
+center footer DDD - Domain Driven Design
+
+'###################### end config
+'######################
+
+rectangle "AssemblersJPA" {
+
+    class "UserStoryDomainDataAssembler" {
+        + toData( UserStory userStory ) : UserStoryJPA
+        + toDomain( UserStoryJPA userStoryJPA ) : UserStory
+    }
+
+    class UserStoryJPA {
+
+        - UserStoryId userStoryId
+        - ProjectCode projectCode
+        - Description description
+        - ParentUS parentUS
+        - UserStoryStatus userStoryStatus
+        - Priority priority
+        - EffortEstimate effortEstimate
+    }
+}
+
+rectangle "Infrastructure" {
+
+        interface IUserStoryRepositoryJPA {
+        }
+
+        interface IProjectRepositoryJPA {
+        }
+
+        interface IUserStoryAssemblerJPA {
+        }
+
+
+}
+
+
+rectangle "Interface Adapters" #C0FFC050  {
+
+      rectangle "Controllers" #C0FFC080  {
+
+          package "ImplementedControllers" #7acff5  {
+
+            class CreateUserStoryController {
+                - CreateUserStoryService createUserStoryService;
+                - UserStoryDomainDTOAssembler userStoryDomainDTOAssembler;
+                + createUserStory( NewUserStoryInfo userStoryInfo, String projectId ) : ResponseEntity<Object>
+            }
+          }
+}
+          package "Repositories" #7acff5  {
+
+            class ProjectRepository {
+                + existsByProjectCode( ProjectCode projectCode ) : boolean
+            }
+
+            class UserStoryRepository {
+                + save( UserStory userStory ) : UserStory
+                + findAllByProjectCode(ProjectCode projectCode) : List<UserStory>
+            }
+          }
+
+      }
+
+
+
+rectangle "Application Services / Use Case Services" #FFAFAF50  {
+
+rectangle "App Services" #FFAFAF80  {
+
+          package "ImplementedAppServices" #7acff5  {
+
+            class CreateUserStoryService {
+                - UserStoryRepository userStoryRepository;
+                - ProjectRepository projectRepository;
+                - UserStoryDomainDTOAssembler userStoryAssembler;
+                + createAndSaveUserStory( UserStoryDTO userStoryDTO ) : Optional<NewUserStoryInfo>
+                + getUserStoryDTO( UserStory userStory ) : NewUserStoryInfo
+                + getPriority( ProjectID projectID ) : int
+            }
+          }
+
+          package "IRepositories" #7acff5 {
+
+            interface IProjectRepository {
+            }
+
+            interface IUserStoryRepository
+          }
+
+      }
+
+}
+
+rectangle "Assemblers and DTO's" {
+
+        package "Assemblers" {
+
+            class UserStoryDomainDTOAssembler {
+                + toDTO( String userStoryId, String projectId, String description, int priority ) : UserStoryDTO
+                + toVoDTO( UserStoryID userStoryID, ProjectID projectID, Description description, Priority priority ) : NewUserStoryInfo
+            }
+        }
+
+        package "DTO" {
+
+            class UserStoryDTO {
+                + String userStoryID;
+                + String projectId;
+                + String description;
+                + int priority;
+            }
+
+            class NewUserStoryInfo {
+                 + String description;
+                 + String projectCode;
+
+                            }
+        }
+}
+
+rectangle "Entities / Core / Domain" #FFE0C050  {
+
+    rectangle "Aggregates" #7acff580  {
+
+        package "UserStory" <<Aggregate>> #7acff5 {
+
+            class UserStory <<Root>> {
+                - Description description;
+                - UserStoryID userStoryID;
+                - Priority priority;
+                - ProjectID projectID;
+                + builder( UserStoryID userStoryID, ProjectID projectID, Description description ) : Builder
+                + priority( Priority priority ) : Builder
+            }
+
+
+        }
+
+        package "Factories" #7acff5 {
+
+            interface UserStoryFactory {
+
+            }
+
+            class UserStoryFactoryImpl {
+                + createUserStory(Description description, UserStoryId userStoryId,
+                            ProjectID projectId, Priority priority) : UserStory
+            }
+
+        }
+    }
+
+    package "ValueObjects" #7acff5 {
+
+        class ProjectID <<Value Object>> {
+            - String projectId
+            + {abstract} createProjectId( String projectId ) : ProjectID
+        }
+
+        class UserStoryId <<Value Object>> {
+            - String userStoryId
+            + {abstract} createUserStoryId( String userStoryId) : UserStoryId
+        }
+
+        class Description <<Value Object>> {
+            - String description
+            + {abstract} createDescription( String description ) : Description
+        }
+
+        class Priority <<Value Object>> {
+            - int priority
+            + {abstract} createPriority( int priority ) : Priority
+        }
+
+    }
+
+    rectangle "Domain Services" #7acff580 {
+
+      package "Domain Services " #7acff5 {
+
+        class "CreateUserStoryDomainService" {
+
+            + createUserStory(String description, ProjectCode projectCode, List<UserStory> productBacklog, UserStoryId userStoryId)
+            + checkIfDescriptionAlreadyExists( List<UserStory> productBacklog, String description) : boolean
+            + generateNextPriorityNumber(List<UserStory>) : Priority
+        }
+      }
+
+      }
+}
+
+CreateUserStoryController -down-> CreateUserStoryService
+
+CreateUserStoryController -left-> UserStoryDomainDTOAssembler
+
+CreateUserStoryService --left-> UserStoryDomainDTOAssembler
+
+UserStoryDomainDTOAssembler --down|> UserStoryDTO : Assembles
+
+UserStoryDomainDTOAssembler --down|> NewUserStoryInfo : Assembles
+
+CreateUserStoryService ..right.> IUserStoryRepository
+
+CreateUserStoryService .right.> IProjectRepository
+
+UserStoryRepository ..down.|> IUserStoryRepository
+
+ProjectRepository ..down.|> IProjectRepository
+
+ProjectRepository .up.> IProjectRepositoryJPA
+
+UserStoryRepository .up.> IUserStoryRepositoryJPA
+
+UserStoryRepository .up.> IUserStoryAssemblerJPA
+
+"UserStoryDomainDataAssembler" ..right.|> IUserStoryAssemblerJPA
+
+"UserStoryDomainDataAssembler" --down|>  UserStoryJPA : Assembles
+
+
+
+CreateUserStoryService --down-> "CreateUserStoryDomainService"
+
+UserStoryFactoryImpl --up-|> UserStoryFactory
+
+CreateUserStoryDomainService ..left.|> UserStoryFactory
+
+"CreateUserStoryDomainService" --down-> UserStory
+
+UserStory ---down-* UserStoryId
+
+UserStory --down-* ProjectID
+
+UserStory --down-* Description
+
+UserStory --down-* Priority
+
+@enduml

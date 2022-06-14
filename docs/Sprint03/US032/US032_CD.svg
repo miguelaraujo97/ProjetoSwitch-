@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="806px" preserveAspectRatio="none" style="width:824px;height:806px;background:#FFFFFF;" version="1.1" viewBox="0 0 824 806" width="824px" zoomAndPan="magnify"><defs><filter height="300%" id="f5aw2lqrgu3ja" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[9681dc6e01e10c6b4fe06895ae94f592]
+cluster UI--><polygon fill="#FFFFFF" filter="url(#f5aw2lqrgu3ja)" points="273,6,293,6,300,29.6094,415,29.6094,415,106,273,106,273,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="273" x2="300" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="14" x="277" y="22.5332">UI</text><!--MD5=[2c2e2644034c00788261e03c85b06837]
+cluster Core--><polygon fill="#FFFFFF" filter="url(#f5aw2lqrgu3ja)" points="16,130,56,130,63,153.6094,807,153.6094,807,799,16,799,16,130" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="63" y1="153.6094" y2="153.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="34" x="20" y="146.5332">Core</text><!--MD5=[ed1d20ea533a2a0e7df5ba3c35e56ced]
+cluster Controllers--><polygon fill="#FFFFFF" filter="url(#f5aw2lqrgu3ja)" points="152,174,237,174,244,197.6094,536,197.6094,536,288,152,288,152,174" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="152" x2="244" y1="197.6094" y2="197.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="156" y="190.5332">Controllers</text><!--MD5=[121a8bf1197281ab89ed693fab589f94]
+cluster Domain--><polygon fill="#FFFFFF" filter="url(#f5aw2lqrgu3ja)" points="40,312,98,312,105,335.6094,783,335.6094,783,775,40,775,40,312" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="40" x2="105" y1="335.6094" y2="335.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="44" y="328.5332">Domain</text><!--MD5=[788566af22260aef45bcb38e0a2dd266]
+class CreateTaskUI--><rect codeLine="4" fill="#FEFECE" filter="url(#f5aw2lqrgu3ja)" height="48" id="CreateTaskUI" style="stroke:#A80036;stroke-width:1.5;" width="109" x="289.5" y="42"/><ellipse cx="304.5" cy="58" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M306.25,59.5 L302.9531,59.5 L302.5156,60.5 L302.5156,60.5 L302.9844,60.5 L303.5,61.125 L303.5,61.5 L303.5,61.875 L302.9844,62.5 L302.5156,62.5 L300.625,62.5 L300.0156,62.5 L299.5,61.875 L299.5,61.5 L299.5,61.125 L300.0156,60.5 L300.625,60.5 L302.9375,54.5 L302.0625,54.5 L301.0156,54.5 L300.5,53.875 L300.5,53.5 L300.5,53.125 L301.0156,52.5 L302.0625,52.5 L305.7344,52.5 L308.4219,60.5 L308.9844,60.5 L308.9844,60.5 L309.5,61.125 L309.5,61.5 L309.5,61.875 L308.9844,62.5 L308.4219,62.5 L306.5313,62.5 L306.0156,62.5 L305.5,61.875 L305.5,61.5 L305.5,61.125 L306.0156,60.5 L306.5313,60.5 L306.5313,60.5 L306.25,59.5 Z M305.7031,57.5 L304.5,53.9219 L303.4688,57.5 L305.7031,57.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="77" x="318.5" y="62.9102">CreateTaskUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="290.5" x2="397.5" y1="74" y2="74"/><line style="stroke:#A80036;stroke-width:1.5;" x1="290.5" x2="397.5" y1="82" y2="82"/><!--MD5=[51de5e7b448e98e1f71289edad994864]
+class CreateTaskController--><rect codeLine="10" fill="#FEFECE" filter="url(#f5aw2lqrgu3ja)" height="61.8359" id="CreateTaskController" style="stroke:#A80036;stroke-width:1.5;" width="352" x="168" y="210"/><ellipse cx="280.75" cy="226" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M282.75,222.5 Q282.9531,222 283.1875,221.75 Q283.4219,221.5 283.6875,221.5 Q284.1563,221.5 284.4531,221.7813 Q284.75,222.0625 284.75,222.7188 L284.75,224.2813 Q284.75,224.9375 284.4688,225.2188 Q284.1875,225.5 283.75,225.5 Q283.3594,225.5 283.1094,225.3281 Q282.8594,225.1563 282.75,224.7031 Q282.7031,224.3906 282.5313,224.2188 Q282.2188,223.8906 281.6563,223.7031 Q281.0938,223.5 280.5313,223.5 Q279.8281,223.5 279.2344,223.7813 Q278.6563,224.0625 278.2031,224.6875 Q277.75,225.3125 277.75,226.1719 L277.75,227.0938 Q277.75,228.125 278.5938,228.8125 Q279.4375,229.5 280.9375,229.5 Q281.8281,229.5 282.4531,229.2969 Q282.8125,229.1875 283.2188,228.8281 Q283.4844,228.625 283.625,228.5625 Q283.7656,228.5 283.9375,228.5 Q284.2656,228.5 284.5,228.7656 Q284.75,229.0156 284.75,229.375 Q284.75,229.7188 284.4063,230.125 Q283.9063,230.7188 283.1094,231.0469 Q282.0625,231.5 280.7813,231.5 Q279.2813,231.5 278.0781,230.9063 Q277.1094,230.4375 276.4219,229.4219 Q275.75,228.4063 275.75,227.2031 L275.75,226.1094 Q275.75,224.8594 276.3438,223.7656 Q276.9531,222.6719 278,222.0938 Q279.0625,221.5 280.25,221.5 Q280.9688,221.5 281.5938,221.75 Q282.2188,222 282.75,222.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="118" x="301.25" y="230.9102">CreateTaskController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="169" x2="519" y1="242" y2="242"/><line style="stroke:#A80036;stroke-width:1.5;" x1="169" x2="519" y1="250" y2="250"/><ellipse cx="179" cy="261" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="326" x="188" y="265.4189">createTaskInSprint(code, sprintID, name, description, type): boolean</text><!--MD5=[41fc1644ffe584d705042db0e6e760e1]
+class DataManagement--><rect codeLine="17" fill="#FEFECE" filter="url(#f5aw2lqrgu3ja)" height="172.5234" id="DataManagement" style="stroke:#A80036;stroke-width:1.5;" width="227" x="56.5" y="348"/><ellipse cx="116.75" cy="364" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M118.75,360.5 Q118.9531,360 119.1875,359.75 Q119.4219,359.5 119.6875,359.5 Q120.1563,359.5 120.4531,359.7813 Q120.75,360.0625 120.75,360.7188 L120.75,362.2813 Q120.75,362.9375 120.4688,363.2188 Q120.1875,363.5 119.75,363.5 Q119.3594,363.5 119.1094,363.3281 Q118.8594,363.1563 118.75,362.7031 Q118.7031,362.3906 118.5313,362.2188 Q118.2188,361.8906 117.6563,361.7031 Q117.0938,361.5 116.5313,361.5 Q115.8281,361.5 115.2344,361.7813 Q114.6563,362.0625 114.2031,362.6875 Q113.75,363.3125 113.75,364.1719 L113.75,365.0938 Q113.75,366.125 114.5938,366.8125 Q115.4375,367.5 116.9375,367.5 Q117.8281,367.5 118.4531,367.2969 Q118.8125,367.1875 119.2188,366.8281 Q119.4844,366.625 119.625,366.5625 Q119.7656,366.5 119.9375,366.5 Q120.2656,366.5 120.5,366.7656 Q120.75,367.0156 120.75,367.375 Q120.75,367.7188 120.4063,368.125 Q119.9063,368.7188 119.1094,369.0469 Q118.0625,369.5 116.7813,369.5 Q115.2813,369.5 114.0781,368.9063 Q113.1094,368.4375 112.4219,367.4219 Q111.75,366.4063 111.75,365.2031 L111.75,364.1094 Q111.75,362.8594 112.3438,361.7656 Q112.9531,360.6719 114,360.0938 Q115.0625,359.5 116.25,359.5 Q116.9688,359.5 117.5938,359.75 Q118.2188,360 118.75,360.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="98" x="137.25" y="368.9102">DataManagement</text><line style="stroke:#A80036;stroke-width:1.5;" x1="57.5" x2="282.5" y1="380" y2="380"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="64.5" y="388"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="146" x="76.5" y="395.4189">TypologyStore : typologyStore</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="64.5" y="401.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="106" x="76.5" y="409.2549">UserStore : userStore</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="64.5" y="415.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="76.5" y="423.0908">ProfileStore : profileStore</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="64.5" y="429.5078"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="100" x="76.5" y="436.9268">RoleStore : roleStore</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="64.5" y="443.3438"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="201" x="76.5" y="450.7627">ProfileRequestStore : profileRequestStore</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="64.5" y="457.1797"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="76.5" y="464.5986">ProjectStore projectStore</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="64.5" y="471.0156"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="146" x="76.5" y="478.4346">ResourceStore resourceStore</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="64.5" y="484.8516"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="146" x="76.5" y="492.2705">CustomerStore customerStore</text><line style="stroke:#A80036;stroke-width:1.5;" x1="57.5" x2="282.5" y1="498.6875" y2="498.6875"/><ellipse cx="67.5" cy="509.6875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="76.5" y="514.1064">getProjectStore();</text><!--MD5=[0cf43f64de24b70e8ffe65ff9ee7abee]
+class ProjectStore--><rect codeLine="30" fill="#FEFECE" filter="url(#f5aw2lqrgu3ja)" height="75.6719" id="ProjectStore" style="stroke:#A80036;stroke-width:1.5;" width="147" x="383.5" y="396.5"/><ellipse cx="420.1" cy="412.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M422.1,409 Q422.3031,408.5 422.5375,408.25 Q422.7719,408 423.0375,408 Q423.5063,408 423.8031,408.2813 Q424.1,408.5625 424.1,409.2188 L424.1,410.7813 Q424.1,411.4375 423.8188,411.7188 Q423.5375,412 423.1,412 Q422.7094,412 422.4594,411.8281 Q422.2094,411.6563 422.1,411.2031 Q422.0531,410.8906 421.8813,410.7188 Q421.5688,410.3906 421.0063,410.2031 Q420.4438,410 419.8813,410 Q419.1781,410 418.5844,410.2813 Q418.0063,410.5625 417.5531,411.1875 Q417.1,411.8125 417.1,412.6719 L417.1,413.5938 Q417.1,414.625 417.9438,415.3125 Q418.7875,416 420.2875,416 Q421.1781,416 421.8031,415.7969 Q422.1625,415.6875 422.5688,415.3281 Q422.8344,415.125 422.975,415.0625 Q423.1156,415 423.2875,415 Q423.6156,415 423.85,415.2656 Q424.1,415.5156 424.1,415.875 Q424.1,416.2188 423.7563,416.625 Q423.2563,417.2188 422.4594,417.5469 Q421.4125,418 420.1313,418 Q418.6313,418 417.4281,417.4063 Q416.4594,416.9375 415.7719,415.9219 Q415.1,414.9063 415.1,413.7031 L415.1,412.6094 Q415.1,411.3594 415.6938,410.2656 Q416.3031,409.1719 417.35,408.5938 Q418.4125,408 419.6,408 Q420.3188,408 420.9438,408.25 Q421.5688,408.5 422.1,409 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="67" x="438.9" y="417.4102">ProjectStore</text><line style="stroke:#A80036;stroke-width:1.5;" x1="384.5" x2="529.5" y1="428.5" y2="428.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="391.5" y="436.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="403.5" y="443.9189">projectList : List&lt;Project&gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="384.5" x2="529.5" y1="450.3359" y2="450.3359"/><ellipse cx="394.5" cy="461.3359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="403.5" y="465.7549">getProjectByCode(code);</text><!--MD5=[79d378210367c0c6ec62ef762ddfbd1b]
+class ProjectDeprecated--><rect codeLine="35" fill="#FEFECE" filter="url(#f5aw2lqrgu3ja)" height="75.6719" id="Project" style="stroke:#A80036;stroke-width:1.5;" width="136" x="631" y="396.5"/><ellipse cx="675.75" cy="412.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M677.75,409 Q677.9531,408.5 678.1875,408.25 Q678.4219,408 678.6875,408 Q679.1563,408 679.4531,408.2813 Q679.75,408.5625 679.75,409.2188 L679.75,410.7813 Q679.75,411.4375 679.4688,411.7188 Q679.1875,412 678.75,412 Q678.3594,412 678.1094,411.8281 Q677.8594,411.6563 677.75,411.2031 Q677.7031,410.8906 677.5313,410.7188 Q677.2188,410.3906 676.6563,410.2031 Q676.0938,410 675.5313,410 Q674.8281,410 674.2344,410.2813 Q673.6563,410.5625 673.2031,411.1875 Q672.75,411.8125 672.75,412.6719 L672.75,413.5938 Q672.75,414.625 673.5938,415.3125 Q674.4375,416 675.9375,416 Q676.8281,416 677.4531,415.7969 Q677.8125,415.6875 678.2188,415.3281 Q678.4844,415.125 678.625,415.0625 Q678.7656,415 678.9375,415 Q679.2656,415 679.5,415.2656 Q679.75,415.5156 679.75,415.875 Q679.75,416.2188 679.4063,416.625 Q678.9063,417.2188 678.1094,417.5469 Q677.0625,418 675.7813,418 Q674.2813,418 673.0781,417.4063 Q672.1094,416.9375 671.4219,415.9219 Q670.75,414.9063 670.75,413.7031 L670.75,412.6094 Q670.75,411.3594 671.3438,410.2656 Q671.9531,409.1719 673,408.5938 Q674.0625,408 675.25,408 Q675.9688,408 676.5938,408.25 Q677.2188,408.5 677.75,409 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="38" x="696.25" y="417.4102">Project</text><line style="stroke:#A80036;stroke-width:1.5;" x1="632" x2="766" y1="428.5" y2="428.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="639" y="436.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="110" x="651" y="443.9189">sprintList : List&lt;Sprint&gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="632" x2="766" y1="450.3359" y2="450.3359"/><ellipse cx="642" cy="461.3359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="109" x="651" y="465.7549">getSprintByID(sprintID)</text><!--MD5=[452a66c2e8d45f5bd209be454bbcd04f]
+class Sprint--><rect codeLine="40" fill="#FEFECE" filter="url(#f5aw2lqrgu3ja)" height="117.1797" id="Sprint" style="stroke:#A80036;stroke-width:1.5;" width="163" x="603.5" y="642"/><ellipse cx="664.75" cy="658" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M666.75,654.5 Q666.9531,654 667.1875,653.75 Q667.4219,653.5 667.6875,653.5 Q668.1563,653.5 668.4531,653.7813 Q668.75,654.0625 668.75,654.7188 L668.75,656.2813 Q668.75,656.9375 668.4688,657.2188 Q668.1875,657.5 667.75,657.5 Q667.3594,657.5 667.1094,657.3281 Q666.8594,657.1563 666.75,656.7031 Q666.7031,656.3906 666.5313,656.2188 Q666.2188,655.8906 665.6563,655.7031 Q665.0938,655.5 664.5313,655.5 Q663.8281,655.5 663.2344,655.7813 Q662.6563,656.0625 662.2031,656.6875 Q661.75,657.3125 661.75,658.1719 L661.75,659.0938 Q661.75,660.125 662.5938,660.8125 Q663.4375,661.5 664.9375,661.5 Q665.8281,661.5 666.4531,661.2969 Q666.8125,661.1875 667.2188,660.8281 Q667.4844,660.625 667.625,660.5625 Q667.7656,660.5 667.9375,660.5 Q668.2656,660.5 668.5,660.7656 Q668.75,661.0156 668.75,661.375 Q668.75,661.7188 668.4063,662.125 Q667.9063,662.7188 667.1094,663.0469 Q666.0625,663.5 664.7813,663.5 Q663.2813,663.5 662.0781,662.9063 Q661.1094,662.4375 660.4219,661.4219 Q659.75,660.4063 659.75,659.2031 L659.75,658.1094 Q659.75,656.8594 660.3438,655.7656 Q660.9531,654.6719 662,654.0938 Q663.0625,653.5 664.25,653.5 Q664.9688,653.5 665.5938,653.75 Q666.2188,654 666.75,654.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="32" x="685.25" y="662.9102">Sprint</text><line style="stroke:#A80036;stroke-width:1.5;" x1="604.5" x2="765.5" y1="674" y2="674"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="611.5" y="682"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="623.5" y="689.4189">taskList : List&lt;Task&gt;</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="611.5" y="695.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="137" x="623.5" y="703.2549">sprintBacklog: SprintBacklog</text><line style="stroke:#A80036;stroke-width:1.5;" x1="604.5" x2="765.5" y1="709.6719" y2="709.6719"/><ellipse cx="614.5" cy="720.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="623.5" y="725.0908">getSprintBacklog()</text><ellipse cx="614.5" cy="734.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="137" x="623.5" y="738.9268">validateSprintIsNotFinished()</text><ellipse cx="614.5" cy="748.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="623.5" y="752.7627">createTaskInSprint()</text><!--MD5=[b34797a66dc35cbf1d65f7e3ca75530e]
+class Task--><rect codeLine="48" fill="#FEFECE" filter="url(#f5aw2lqrgu3ja)" height="117.1797" id="Task" style="stroke:#A80036;stroke-width:1.5;" width="137" x="366.5" y="642"/><ellipse cx="417.25" cy="658" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M419.25,654.5 Q419.4531,654 419.6875,653.75 Q419.9219,653.5 420.1875,653.5 Q420.6563,653.5 420.9531,653.7813 Q421.25,654.0625 421.25,654.7188 L421.25,656.2813 Q421.25,656.9375 420.9688,657.2188 Q420.6875,657.5 420.25,657.5 Q419.8594,657.5 419.6094,657.3281 Q419.3594,657.1563 419.25,656.7031 Q419.2031,656.3906 419.0313,656.2188 Q418.7188,655.8906 418.1563,655.7031 Q417.5938,655.5 417.0313,655.5 Q416.3281,655.5 415.7344,655.7813 Q415.1563,656.0625 414.7031,656.6875 Q414.25,657.3125 414.25,658.1719 L414.25,659.0938 Q414.25,660.125 415.0938,660.8125 Q415.9375,661.5 417.4375,661.5 Q418.3281,661.5 418.9531,661.2969 Q419.3125,661.1875 419.7188,660.8281 Q419.9844,660.625 420.125,660.5625 Q420.2656,660.5 420.4375,660.5 Q420.7656,660.5 421,660.7656 Q421.25,661.0156 421.25,661.375 Q421.25,661.7188 420.9063,662.125 Q420.4063,662.7188 419.6094,663.0469 Q418.5625,663.5 417.2813,663.5 Q415.7813,663.5 414.5781,662.9063 Q413.6094,662.4375 412.9219,661.4219 Q412.25,660.4063 412.25,659.2031 L412.25,658.1094 Q412.25,656.8594 412.8438,655.7656 Q413.4531,654.6719 414.5,654.0938 Q415.5625,653.5 416.75,653.5 Q417.4688,653.5 418.0938,653.75 Q418.7188,654 419.25,654.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="27" x="437.75" y="662.9102">Task</text><line style="stroke:#A80036;stroke-width:1.5;" x1="367.5" x2="502.5" y1="674" y2="674"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="374.5" y="682"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="386.5" y="689.4189">taskName : String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="374.5" y="695.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="111" x="386.5" y="703.2549">taskDescription : String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="374.5" y="709.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="88" x="386.5" y="717.0908">taskStatus : String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="374.5" y="723.5078"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="386.5" y="730.9268">taskType: String</text><line style="stroke:#A80036;stroke-width:1.5;" x1="367.5" x2="502.5" y1="737.3438" y2="737.3438"/><ellipse cx="377.5" cy="748.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="96" x="386.5" y="752.7627">validateTaskDates()</text><!--MD5=[3c2021faa4730756a46abeb810188647]
+link CreateTaskUI to CreateTaskController--><path codeLine="14" d="M344,90.33 C344,115.68 344,156.93 344,189.72 " fill="none" id="CreateTaskUI-to-CreateTaskController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="351,189.78,344,209.78,337,189.78,351,189.78" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7686c327351b810d9cf543b0cfbe8ad5]
+link CreateTaskController to DataManagement--><path codeLine="58" d="M316.43,272.34 C301.25,289.05 281.45,310.84 261.34,332.97 " fill="none" id="CreateTaskController-to-DataManagement" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="266.41,337.8,247.78,347.9,256.05,328.39,266.41,337.8" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="100" x="150.0805" y="320.9474">dataManagement</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="202.0805" y="337.299"/><!--MD5=[f06df12547b56544bf85641bf20fb332]
+link CreateTaskController to ProjectStore--><path codeLine="59" d="M361.91,272.34 C378.73,300.86 404.31,344.21 424.7,378.76 " fill="none" id="CreateTaskController-to-ProjectStore" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="430.98,375.63,435.11,396.41,418.92,382.74,430.98,375.63" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="70" x="356.0432" y="369.3667">projectStore</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="360.0432" y="385.7183"/><!--MD5=[e49256ec62a64c0e2589668b84841744]
+link DataManagement to ProjectStore--><path codeLine="60" d="M283.51,434.5 C316.83,434.5 350.15,434.5 383.47,434.5 " fill="none" id="DataManagement-ProjectStore" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="291.3716" y="431.4854">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="368.5263" y="431.2052">1</text><!--MD5=[c2999c5e21c0a7115ef87c36c02875b6]
+reverse link ProjectStore to ProjectDeprecated--><path codeLine="61" d="M544.05,434.5 C573.02,434.5 602,434.5 630.97,434.5 " fill="none" id="ProjectStore-backto-Project" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="530.73,434.5,536.73,438.5,542.73,434.5,536.73,430.5,530.73,434.5" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="538.4722" y="431.265">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="602.9232" y="431.2052">0..*</text><!--MD5=[c1411256f47ae1ed9a3bb6846f611a01]
+reverse link ProjectDeprecated to Sprint--><path codeLine="62" d="M696.33,485.85 C693.97,530.27 690.54,594.99 688.07,641.55 " fill="none" id="Project-backto-Sprint" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="697.02,472.76,692.7092,478.5407,696.3872,484.7433,700.698,478.9626,697.02,472.76" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="680.5091" y="493.682">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="667.2687" y="631.314">0..*</text><!--MD5=[90fa0837cd9082c75cabde5f26fcd73e]
+link Task to Sprint--><path codeLine="63" d="M503.85,700.5 C532.59,700.5 561.33,700.5 590.06,700.5 " fill="none" id="Task-to-Sprint" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="603.27,700.5,597.27,696.5,591.27,700.5,597.27,704.5,603.27,700.5" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="511.6118" y="697.2161">0..*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="584.5011" y="697.2903">1</text><!--MD5=[694f130211060ebd668dd6e3b5167905]
+@startuml
+'https://plantuml.com/class-diagram
+
+package UI{
+abstract class CreateTaskUI
+}
+
+package "Core"{
+    package "Controllers" {
+
+        class CreateTaskController {
+        +createTaskInSprint(code, sprintID, name, projectDescription, type): boolean
+        }
+        }
+        CreateTaskUI ..|>  CreateTaskController
+
+        package "Domain"{
+        class DataManagement{
+        -TypologyStore : typologyStore
+        -UserStore : userStore
+        -ProfileStore : profileStore
+        -RoleStore : roleStore
+        -ProfileRequestStore : profileRequestStore
+        -ProjectStore projectStore
+        -ResourceStore resourceStore
+        -CustomerStore customerStore
+
+        +getProjectStore();
+        }
+
+        class ProjectStore{
+        -projectList : List<ProjectDeprecated>
+        +getProjectByCode(code);
+        }
+
+        class ProjectDeprecated{
+        -sprintList : List<Sprint>
+        +getSprintByID(sprintID)
+        }
+
+        class Sprint{
+        -taskList : List<Task>
+        -sprintBacklog: SprintBacklog
+        +getSprintBacklog()
+        +validateSprintIsNotFinished()
+        +createTaskInSprint()
+        }
+
+        class Task{
+        -taskName : String
+        -taskDescription : String
+        -taskStatus : String
+        -taskType: String
+        +validateTaskDates()
+        }
+
+
+
+        CreateTaskController ..|> "dataManagement\n" DataManagement
+        CreateTaskController ..|> "projectStore\l" ProjectStore
+        DataManagement "1" - "1" ProjectStore
+        ProjectStore "1  " *-right- - "0..*" ProjectDeprecated
+        ProjectDeprecated "1  " *- - - "0..*" Sprint
+        Sprint "1 " *-left- - "0..*" Task
+
+
+
+skinparam nodesep 100
+
+}
+}
+@enduml
+
+@startuml
+
+package UI{
+abstract class CreateTaskUI
+}
+
+package "Core"{
+    package "Controllers" {
+
+        class CreateTaskController {
+        +createTaskInSprint(code, sprintID, name, projectDescription, type): boolean
+        }
+        }
+        CreateTaskUI ..|>  CreateTaskController
+
+        package "Domain"{
+        class DataManagement{
+        -TypologyStore : typologyStore
+        -UserStore : userStore
+        -ProfileStore : profileStore
+        -RoleStore : roleStore
+        -ProfileRequestStore : profileRequestStore
+        -ProjectStore projectStore
+        -ResourceStore resourceStore
+        -CustomerStore customerStore
+
+        +getProjectStore();
+        }
+
+        class ProjectStore{
+        -projectList : List<ProjectDeprecated>
+        +getProjectByCode(code);
+        }
+
+        class ProjectDeprecated{
+        -sprintList : List<Sprint>
+        +getSprintByID(sprintID)
+        }
+
+        class Sprint{
+        -taskList : List<Task>
+        -sprintBacklog: SprintBacklog
+        +getSprintBacklog()
+        +validateSprintIsNotFinished()
+        +createTaskInSprint()
+        }
+
+        class Task{
+        -taskName : String
+        -taskDescription : String
+        -taskStatus : String
+        -taskType: String
+        +validateTaskDates()
+        }
+
+
+
+        CreateTaskController ..|> "dataManagement\n" DataManagement
+        CreateTaskController ..|> "projectStore\l" ProjectStore
+        DataManagement "1" - "1" ProjectStore
+        ProjectStore "1  " *-right- - "0..*" ProjectDeprecated
+        ProjectDeprecated "1  " *- - - "0..*" Sprint
+        Sprint "1 " *-left- - "0..*" Task
+
+
+
+skinparam nodesep 100
+
+}
+}
+@enduml
+
+PlantUML version 1.2021.16(Wed Dec 08 17:25:22 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: GB
+--></g></svg>
