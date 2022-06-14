@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="535px" preserveAspectRatio="none" style="width:368px;height:535px;background:#FFFFFF;" version="1.1" viewBox="0 0 368 535" width="368px" zoomAndPan="magnify"><defs><filter height="300%" id="fow9uwivmwu7k" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="343" x="9" y="30.6855">User Story 09 - System Sequence Diagram</text><rect fill="#FFFFFF" filter="url(#fow9uwivmwu7k)" height="304.5156" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="136.25"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="58" x2="58" y1="126.25" y2="449.7656"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="319" x2="319" y1="126.25" y2="449.7656"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="8" y="123.1738">Product Owner</text><ellipse cx="58" cy="51.6406" fill="#FEFECE" filter="url(#fow9uwivmwu7k)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,59.6406 L58,86.6406 M45,67.6406 L71,67.6406 M58,86.6406 L45,101.6406 M58,86.6406 L71,101.6406 " fill="none" filter="url(#fow9uwivmwu7k)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="8" y="463.2988">Product Owner</text><ellipse cx="58" cy="476.375" fill="#FEFECE" filter="url(#fow9uwivmwu7k)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,484.375 L58,511.375 M45,492.375 L71,492.375 M58,511.375 L45,526.375 M58,511.375 L71,526.375 " fill="none" filter="url(#fow9uwivmwu7k)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#fow9uwivmwu7k)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="285" y="89.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="292" y="111.1738">:System</text><rect fill="#FEFECE" filter="url(#fow9uwivmwu7k)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="285" y="448.7656"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="292" y="470.2988">:System</text><rect fill="#FFFFFF" filter="url(#fow9uwivmwu7k)" height="304.5156" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="136.25"/><polygon fill="#A80036" points="307,154.6016,317,158.6016,307,162.6016,311,158.6016" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="63" x2="313" y1="158.6016" y2="158.6016"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="70" y="153.7451">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="200" x="81" y="153.7451">Get list of projects based on PO Id</text><polygon fill="#A80036" points="74,184.9531,64,188.9531,74,192.9531,70,188.9531" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="68" x2="318" y1="188.9531" y2="188.9531"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="80" y="184.0967">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="135" x="91" y="184.0967">Show available projects</text><polygon fill="#A80036" points="307,215.3047,317,219.3047,307,223.3047,311,219.3047" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="63" x2="313" y1="219.3047" y2="219.3047"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="70" y="214.4482">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="80" x="81" y="214.4482">Select projectDeprecated</text><polygon fill="#A80036" points="74,245.6563,64,249.6563,74,253.6563,70,249.6563" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="68" x2="318" y1="249.6563" y2="249.6563"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="80" y="244.7998">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="134" x="91" y="244.7998">Return selected projectDeprecated</text><polygon fill="#A80036" points="307,276.0078,317,280.0078,307,284.0078,311,280.0078" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="63" x2="313" y1="280.0078" y2="280.0078"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="70" y="275.1514">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="132" x="81" y="275.1514">Start a new User Story</text><polygon fill="#A80036" points="74,306.3594,64,310.3594,74,314.3594,70,310.3594" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="68" x2="318" y1="310.3594" y2="310.3594"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="80" y="305.5029">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="179" x="91" y="305.5029">Request User story description</text><polygon fill="#A80036" points="307,336.7109,317,340.7109,307,344.7109,311,340.7109" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="63" x2="313" y1="340.7109" y2="340.7109"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="70" y="335.8545">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="122" x="81" y="335.8545">Insert requested data</text><polygon fill="#A80036" points="74,367.0625,64,371.0625,74,375.0625,70,371.0625" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="68" x2="318" y1="371.0625" y2="371.0625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="80" y="366.2061">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="221" x="91" y="366.2061">Shows data and requests confirmation</text><polygon fill="#A80036" points="307,397.4141,317,401.4141,307,405.4141,311,401.4141" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="63" x2="313" y1="401.4141" y2="401.4141"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="70" y="396.5576">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="81" y="396.5576">Confirms the data</text><polygon fill="#A80036" points="74,427.7656,64,431.7656,74,435.7656,70,431.7656" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="68" x2="318" y1="431.7656" y2="431.7656"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="80" y="426.9092">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="98" y="426.9092">Informs Success</text><!--MD5=[ad8f362e7bb53f416eac40e1183323da]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title User Story 09 - System Sequence Diagram
+
+autonumber
+Actor "Product Owner" as actor
+Participant ":System" as System
+
+activate actor
+
+actor -> System : Get list of projects based on PO Id
+System - -> actor : Show available projects
+actor -> System : Select projectDeprecated
+System - -> actor : Return selected projectDeprecated
+actor -> System : Start a new User Story
+System - -> actor : Request User story projectDescription
+actor -> System: Insert requested data
+System - -> actor: Shows data and requests confirmation
+actor -> System: Confirms the data
+System - -> actor: Informs Success
+@enduml
+
+@startuml
+
+title User Story 09 - System Sequence Diagram
+
+autonumber
+Actor "Product Owner" as actor
+Participant ":System" as System
+
+activate actor
+
+actor -> System : Get list of projects based on PO Id
+System - -> actor : Show available projects
+actor -> System : Select projectDeprecated
+System - -> actor : Return selected projectDeprecated
+actor -> System : Start a new User Story
+System - -> actor : Request User story projectDescription
+actor -> System: Insert requested data
+System - -> actor: Shows data and requests confirmation
+actor -> System: Confirms the data
+System - -> actor: Informs Success
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 16:16:42 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: GB
+--></g></svg>

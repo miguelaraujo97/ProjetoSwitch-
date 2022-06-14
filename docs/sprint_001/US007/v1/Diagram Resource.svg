@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="351px" preserveAspectRatio="none" style="width:838px;height:351px;background:#FFFFFF;" version="1.1" viewBox="0 0 838 351" width="838px" zoomAndPan="magnify"><defs><filter height="300%" id="f1oh5u6lsyzlka" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="87" x="369" y="10.3809">Relations Diagram</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="265" x="280" y="31.2637">ADD RESOURCE TO PROJECT</text><!--MD5=[6b13f1b330d33795af281e5c1dfe1e98]
+class Resource--><rect codeLine="33" fill="#F8F8F8" filter="url(#f1oh5u6lsyzlka)" height="103.3438" id="Resource" style="stroke:#383838;stroke-width:1.5;" width="114" x="340" y="96.0752"/><ellipse cx="367.6" cy="112.0752" fill="#C2C2C2" rx="11" ry="11" style="stroke:#383838;stroke-width:1.0;"/><path d="M369.6,108.5752 Q369.8031,108.0752 370.0375,107.8252 Q370.2719,107.5752 370.5375,107.5752 Q371.0063,107.5752 371.3031,107.8564 Q371.6,108.1377 371.6,108.7939 L371.6,110.3564 Q371.6,111.0127 371.3188,111.2939 Q371.0375,111.5752 370.6,111.5752 Q370.2094,111.5752 369.9594,111.4033 Q369.7094,111.2314 369.6,110.7783 Q369.5531,110.4658 369.3813,110.2939 Q369.0688,109.9658 368.5063,109.7783 Q367.9438,109.5752 367.3813,109.5752 Q366.6781,109.5752 366.0844,109.8564 Q365.5063,110.1377 365.0531,110.7627 Q364.6,111.3877 364.6,112.2471 L364.6,113.1689 Q364.6,114.2002 365.4438,114.8877 Q366.2875,115.5752 367.7875,115.5752 Q368.6781,115.5752 369.3031,115.3721 Q369.6625,115.2627 370.0688,114.9033 Q370.3344,114.7002 370.475,114.6377 Q370.6156,114.5752 370.7875,114.5752 Q371.1156,114.5752 371.35,114.8408 Q371.6,115.0908 371.6,115.4502 Q371.6,115.7939 371.2563,116.2002 Q370.7563,116.7939 369.9594,117.1221 Q368.9125,117.5752 367.6313,117.5752 Q366.1313,117.5752 364.9281,116.9814 Q363.9594,116.5127 363.2719,115.4971 Q362.6,114.4814 362.6,113.2783 L362.6,112.1846 Q362.6,110.9346 363.1938,109.8408 Q363.8031,108.7471 364.85,108.1689 Q365.9125,107.5752 367.1,107.5752 Q367.8188,107.5752 368.4438,107.8252 Q369.0688,108.0752 369.6,108.5752 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="54" x="384.4" y="116.9854">Resource</text><line style="stroke:#383838;stroke-width:1.5;" x1="341" x2="453" y1="128.0752" y2="128.0752"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="346" y="143.4941">percentageAllocation</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="346" y="157.3301">costPerHour</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="346" y="171.166">startDate</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="40" x="346" y="185.002">endDate</text><line style="stroke:#383838;stroke-width:1.5;" x1="341" x2="453" y1="191.4189" y2="191.4189"/><!--MD5=[a36da34d8ec9e883d516b55c9ed50dff]
+class ResourceLog--><rect codeLine="42" fill="#F8F8F8" filter="url(#f1oh5u6lsyzlka)" height="103.3438" id="ResourceLog" style="stroke:#383838;stroke-width:1.5;" width="107" x="7" y="216.0752"/><ellipse cx="22" cy="232.0752" fill="#C2C2C2" rx="11" ry="11" style="stroke:#383838;stroke-width:1.0;"/><path d="M24,228.5752 Q24.2031,228.0752 24.4375,227.8252 Q24.6719,227.5752 24.9375,227.5752 Q25.4063,227.5752 25.7031,227.8564 Q26,228.1377 26,228.7939 L26,230.3564 Q26,231.0127 25.7188,231.2939 Q25.4375,231.5752 25,231.5752 Q24.6094,231.5752 24.3594,231.4033 Q24.1094,231.2314 24,230.7783 Q23.9531,230.4658 23.7813,230.2939 Q23.4688,229.9658 22.9063,229.7783 Q22.3438,229.5752 21.7813,229.5752 Q21.0781,229.5752 20.4844,229.8564 Q19.9063,230.1377 19.4531,230.7627 Q19,231.3877 19,232.2471 L19,233.1689 Q19,234.2002 19.8438,234.8877 Q20.6875,235.5752 22.1875,235.5752 Q23.0781,235.5752 23.7031,235.3721 Q24.0625,235.2627 24.4688,234.9033 Q24.7344,234.7002 24.875,234.6377 Q25.0156,234.5752 25.1875,234.5752 Q25.5156,234.5752 25.75,234.8408 Q26,235.0908 26,235.4502 Q26,235.7939 25.6563,236.2002 Q25.1563,236.7939 24.3594,237.1221 Q23.3125,237.5752 22.0313,237.5752 Q20.5313,237.5752 19.3281,236.9814 Q18.3594,236.5127 17.6719,235.4971 Q17,234.4814 17,233.2783 L17,232.1846 Q17,230.9346 17.5938,229.8408 Q18.2031,228.7471 19.25,228.1689 Q20.3125,227.5752 21.5,227.5752 Q22.2188,227.5752 22.8438,227.8252 Q23.4688,228.0752 24,228.5752 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="75" x="36" y="236.9854">ResourceLog</text><line style="stroke:#383838;stroke-width:1.5;" x1="8" x2="113" y1="248.0752" y2="248.0752"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="13" y="263.4941">productOwnerLog</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="13" y="277.3301">projectManagerLog</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="13" y="291.166">scrumMasterLog</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="13" y="305.002">teamMemberLog</text><line style="stroke:#383838;stroke-width:1.5;" x1="8" x2="113" y1="311.4189" y2="311.4189"/><!--MD5=[7483c020ee0354f64f6114880f28ce87]
+class RoleType--><rect codeLine="52" fill="#F8F8F8" filter="url(#f1oh5u6lsyzlka)" height="103.3438" id="RoleType" style="stroke:#383838;stroke-width:1.5;" width="115" x="709" y="130.0752"/><ellipse cx="737.95" cy="146.0752" fill="#ABABAB" rx="11" ry="11" style="stroke:#383838;stroke-width:1.0;"/><path d="M736.45,147.0752 L736.45,149.0752 L740.45,149.0752 L740.45,148.0752 L740.45,147.5908 L741.075,147.0752 L741.45,147.0752 L741.825,147.0752 L742.45,147.5908 L742.45,148.0752 L742.45,151.0752 L734.45,151.0752 L733.9656,151.0752 L733.45,150.4502 L733.45,150.0752 L733.45,149.7002 L733.9656,149.0752 L734.45,149.0752 L734.45,149.0752 L734.45,143.0752 L734.45,143.0752 L733.9656,143.0752 L733.45,142.4502 L733.45,142.0752 L733.45,141.7002 L733.9656,141.0752 L734.45,141.0752 L742.45,141.0752 L742.45,144.0752 L742.45,144.5596 L741.825,145.0752 L741.45,145.0752 L741.075,145.0752 L740.45,144.5596 L740.45,144.0752 L740.45,143.0752 L736.45,143.0752 L736.45,145.0752 L737.45,145.0752 L737.45,144.5908 L737.45,144.5908 L738.075,144.0752 L738.45,144.0752 L738.825,144.0752 L739.45,144.5908 L739.45,145.0752 L739.45,147.0752 L739.45,147.5596 L738.825,148.0752 L738.825,148.0752 L738.45,148.0752 L738.075,148.0752 L737.45,147.5596 L737.45,147.5596 L737.45,147.0752 L736.45,147.0752 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="755.05" y="150.9854">RoleType</text><line style="stroke:#383838;stroke-width:1.5;" x1="710" x2="823" y1="162.0752" y2="162.0752"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="92" x="715" y="177.4941">PRODUCT_OWNER</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="715" y="191.3301">PROJECT_MANAGER</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="715" y="205.166">SCRUM_MASTER</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="715" y="219.002">TEAM_MEMBER</text><line style="stroke:#383838;stroke-width:1.5;" x1="710" x2="823" y1="225.4189" y2="225.4189"/><!--MD5=[79d378210367c0c6ec62ef762ddfbd1b]
+class ProjectDeprecated--><rect codeLine="31" fill="#F8F8F8" filter="url(#f1oh5u6lsyzlka)" height="32" id="Project" style="stroke:#383838;stroke-width:1.5;" width="70" x="25.5" y="131.5752"/><ellipse cx="40.5" cy="147.5752" fill="#C2C2C2" rx="11" ry="11" style="stroke:#383838;stroke-width:1.0;"/><path d="M42.5,144.0752 Q42.7031,143.5752 42.9375,143.3252 Q43.1719,143.0752 43.4375,143.0752 Q43.9063,143.0752 44.2031,143.3564 Q44.5,143.6377 44.5,144.2939 L44.5,145.8564 Q44.5,146.5127 44.2188,146.7939 Q43.9375,147.0752 43.5,147.0752 Q43.1094,147.0752 42.8594,146.9033 Q42.6094,146.7314 42.5,146.2783 Q42.4531,145.9658 42.2813,145.7939 Q41.9688,145.4658 41.4063,145.2783 Q40.8438,145.0752 40.2813,145.0752 Q39.5781,145.0752 38.9844,145.3564 Q38.4063,145.6377 37.9531,146.2627 Q37.5,146.8877 37.5,147.7471 L37.5,148.6689 Q37.5,149.7002 38.3438,150.3877 Q39.1875,151.0752 40.6875,151.0752 Q41.5781,151.0752 42.2031,150.8721 Q42.5625,150.7627 42.9688,150.4033 Q43.2344,150.2002 43.375,150.1377 Q43.5156,150.0752 43.6875,150.0752 Q44.0156,150.0752 44.25,150.3408 Q44.5,150.5908 44.5,150.9502 Q44.5,151.2939 44.1563,151.7002 Q43.6563,152.2939 42.8594,152.6221 Q41.8125,153.0752 40.5313,153.0752 Q39.0313,153.0752 37.8281,152.4814 Q36.8594,152.0127 36.1719,150.9971 Q35.5,149.9814 35.5,148.7783 L35.5,147.6846 Q35.5,146.4346 36.0938,145.3408 Q36.7031,144.2471 37.75,143.6689 Q38.8125,143.0752 40,143.0752 Q40.7188,143.0752 41.3438,143.3252 Q41.9688,143.5752 42.5,144.0752 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="38" x="54.5" y="152.4854">Project</text><!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User--><rect codeLine="39" fill="#F8F8F8" filter="url(#f1oh5u6lsyzlka)" height="32" id="User" style="stroke:#383838;stroke-width:1.5;" width="59" x="554" y="98.5752"/><ellipse cx="569" cy="114.5752" fill="#C2C2C2" rx="11" ry="11" style="stroke:#383838;stroke-width:1.0;"/><path d="M571,111.0752 Q571.2031,110.5752 571.4375,110.3252 Q571.6719,110.0752 571.9375,110.0752 Q572.4063,110.0752 572.7031,110.3564 Q573,110.6377 573,111.2939 L573,112.8564 Q573,113.5127 572.7188,113.7939 Q572.4375,114.0752 572,114.0752 Q571.6094,114.0752 571.3594,113.9033 Q571.1094,113.7314 571,113.2783 Q570.9531,112.9658 570.7813,112.7939 Q570.4688,112.4658 569.9063,112.2783 Q569.3438,112.0752 568.7813,112.0752 Q568.0781,112.0752 567.4844,112.3564 Q566.9063,112.6377 566.4531,113.2627 Q566,113.8877 566,114.7471 L566,115.6689 Q566,116.7002 566.8438,117.3877 Q567.6875,118.0752 569.1875,118.0752 Q570.0781,118.0752 570.7031,117.8721 Q571.0625,117.7627 571.4688,117.4033 Q571.7344,117.2002 571.875,117.1377 Q572.0156,117.0752 572.1875,117.0752 Q572.5156,117.0752 572.75,117.3408 Q573,117.5908 573,117.9502 Q573,118.2939 572.6563,118.7002 Q572.1563,119.2939 571.3594,119.6221 Q570.3125,120.0752 569.0313,120.0752 Q567.5313,120.0752 566.3281,119.4814 Q565.3594,119.0127 564.6719,117.9971 Q564,116.9814 564,115.7783 L564,114.6846 Q564,113.4346 564.5938,112.3408 Q565.2031,111.2471 566.25,110.6689 Q567.3125,110.0752 568.5,110.0752 Q569.2188,110.0752 569.8438,110.3252 Q570.4688,110.5752 571,111.0752 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="27" x="583" y="119.4854">User</text><!--MD5=[a3638c1e5b65d287ecad7f06f5c0f212]
+class Role--><rect codeLine="49" fill="#F8F8F8" filter="url(#f1oh5u6lsyzlka)" height="32" id="Role" style="stroke:#383838;stroke-width:1.5;" width="58" x="554.5" y="165.5752"/><ellipse cx="569.5" cy="181.5752" fill="#C2C2C2" rx="11" ry="11" style="stroke:#383838;stroke-width:1.0;"/><path d="M571.5,178.0752 Q571.7031,177.5752 571.9375,177.3252 Q572.1719,177.0752 572.4375,177.0752 Q572.9063,177.0752 573.2031,177.3564 Q573.5,177.6377 573.5,178.2939 L573.5,179.8564 Q573.5,180.5127 573.2188,180.7939 Q572.9375,181.0752 572.5,181.0752 Q572.1094,181.0752 571.8594,180.9033 Q571.6094,180.7314 571.5,180.2783 Q571.4531,179.9658 571.2813,179.7939 Q570.9688,179.4658 570.4063,179.2783 Q569.8438,179.0752 569.2813,179.0752 Q568.5781,179.0752 567.9844,179.3564 Q567.4063,179.6377 566.9531,180.2627 Q566.5,180.8877 566.5,181.7471 L566.5,182.6689 Q566.5,183.7002 567.3438,184.3877 Q568.1875,185.0752 569.6875,185.0752 Q570.5781,185.0752 571.2031,184.8721 Q571.5625,184.7627 571.9688,184.4033 Q572.2344,184.2002 572.375,184.1377 Q572.5156,184.0752 572.6875,184.0752 Q573.0156,184.0752 573.25,184.3408 Q573.5,184.5908 573.5,184.9502 Q573.5,185.2939 573.1563,185.7002 Q572.6563,186.2939 571.8594,186.6221 Q570.8125,187.0752 569.5313,187.0752 Q568.0313,187.0752 566.8281,186.4814 Q565.8594,186.0127 565.1719,184.9971 Q564.5,183.9814 564.5,182.7783 L564.5,181.6846 Q564.5,180.4346 565.0938,179.3408 Q565.7031,178.2471 566.75,177.6689 Q567.8125,177.0752 569,177.0752 Q569.7188,177.0752 570.3438,177.3252 Q570.9688,177.5752 571.5,178.0752 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="26" x="583.5" y="186.4854">Role</text><!--MD5=[0bef9f8d7067a121dd96a530c1f2080d]
+link ProjectDeprecated to Resource--><path codeLine="19" d="M74.33,131.3752 C89.04,114.2452 114.9,88.2552 144,77.5752 C213.26,52.1552 240.49,52.8652 310,77.5752 C321.79,81.7652 333.14,88.3452 343.51,95.8252 " fill="none" id="Project-Resource" style="stroke:#383838;stroke-width:1.0;"/><polygon fill="#000000" points="193.957,50.0963,184.6049,48.367,185.3745,54.1942,193.957,50.0963" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="198" y="56.0703">projectTeam</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="330.9863" y="85.2919">*</text><!--MD5=[0bef9f8d7067a121dd96a530c1f2080d]
+link ProjectDeprecated to Resource--><path codeLine="20" d="M95.73,147.5752 C153.34,147.5752 270.21,147.5752 339.94,147.5752 " fill="none" id="Project-Resource-1" style="stroke:#383838;stroke-width:1.0;"/><polygon fill="#000000" points="185,138.751,175.9549,135.8121,175.9549,141.6899,185,138.751" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="89" x="189" y="144.0703">projectManager</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="325.1808" y="144.0458">1</text><!--MD5=[0bef9f8d7067a121dd96a530c1f2080d]
+link ProjectDeprecated to Resource--><path codeLine="21" d="M95.92,157.5852 C118.25,163.5552 148.08,170.5352 175,173.5752 C220.93,178.7652 233.05,178.6152 279,173.5752 C299.06,171.3752 320.72,167.1052 339.88,162.6552 " fill="none" id="Project-Resource-2" style="stroke:#383838;stroke-width:1.0;"/><polygon fill="#000000" points="189.4989,164.8549,180.5169,161.7286,180.3947,167.6052,189.4989,164.8549" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="80" x="193.5" y="170.0703">productOwner</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="325.1131" y="179.1079">1</text><!--MD5=[0bef9f8d7067a121dd96a530c1f2080d]
+link ProjectDeprecated to Resource--><path codeLine="22" d="M85.94,163.7652 C108.11,177.4252 142.26,195.9352 175,203.5752 C220.01,214.0752 233.92,213.8052 279,203.5752 C299.75,198.8652 321.13,190.0052 339.84,180.6952 " fill="none" id="Project-Resource-3" style="stroke:#383838;stroke-width:1.0;"/><polygon fill="#000000" points="191.4889,195.0836,182.6594,191.5494,182.2683,197.4143,191.4889,195.0836" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="76" x="195.5" y="200.0703">scrumMaster</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="325.0679" y="199.4593">1</text><!--MD5=[3d71eec244dd23d7edf4f75959e7c4fa]
+link ProjectDeprecated to ResourceLog--><path codeLine="25" d="M60.5,163.7852 C60.5,177.2552 60.5,197.1852 60.5,215.9852 " fill="none" id="Project-ResourceLog" style="stroke:#383838;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="13" y="195.3203">resourceLog</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="53.0078" y="205.101">1</text><!--MD5=[142ad2e50706c925e18114e81ac5122e]
+link Resource to User--><path codeLine="27" d="M454.11,137.5352 C487.08,131.6452 527.37,124.4352 553.92,119.6852 " fill="none" id="Resource-User" style="stroke:#383838;stroke-width:1.0;"/><polygon fill="#000000" points="493.9219,115.8707,484.5007,114.5701,485.5355,120.3561,493.9219,115.8707" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="25" x="498" y="122.0703">user</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="538.8567" y="136.4187">1</text><!--MD5=[04c453db577a444e0cb5ed20ff2e25a5]
+link Resource to Role--><path codeLine="28" d="M454.11,157.9152 C487.29,164.0252 527.89,171.5152 554.43,176.4052 " fill="none" id="Resource-Role" style="stroke:#383838;stroke-width:1.0;"/><polygon fill="#000000" points="495.9172,155.6573,487.5546,151.1275,486.4892,156.908,495.9172,155.6573" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="500" y="160.0703">role</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="539.4911" y="190.633">1</text><!--MD5=[7eed01f87b1a26cf57fc2011043d01ca]
+link Role to RoleType--><path codeLine="29" d="M612.78,181.5752 C638.43,181.5752 677.01,181.5752 708.97,181.5752 " fill="none" id="Role-RoleType" style="stroke:#383838;stroke-width:1.0;"/><polygon fill="#000000" points="653,172.751,643.9549,169.8121,643.9549,175.6899,653,172.751" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="657" y="178.0703">role</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="694.1505" y="196.0958">1</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="36" x="394.5" y="342.7998">SWitCH</text><!--MD5=[92b35860b74fab8a5f24cce0057e9fc9]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam monochrome true
+
+title ADD RESOURCE TO PROJECT
+center header
+Relations Diagram
+endheader
+center footer SWitCH
+
+hide members
+show Resource members
+show ResourceLog members
+show RoleType members
+
+
+left to right  direction
+
+ProjectDeprecated - - -  "*" Resource : projectTeam >
+ProjectDeprecated - - -  "1" Resource : projectManager >
+ProjectDeprecated - - -  "1" Resource : productOwner >
+ProjectDeprecated - - -  "1" Resource : scrumMaster >
+
+
+ProjectDeprecated  - "1" ResourceLog : resourceLog
+
+Resource - - "1" User : user >
+Resource - - "1" Role : role >
+Role - - "1" RoleType : role >
+
+Class ProjectDeprecated{}
+
+Class Resource{
+    percentageAllocation
+    costPerHour
+    startDate
+    endDate
+}
+Class User{}
+
+
+ Class ResourceLog{
+    productOwnerLog
+    projectManagerLog
+    scrumMasterLog
+    teamMemberLog
+}
+
+Class Role {
+}
+
+Enum RoleType {
+    PRODUCT_OWNER
+    PROJECT_MANAGER
+    SCRUM_MASTER
+    TEAM_MEMBER
+}
+
+@enduml
+
+@startuml
+
+skinparam monochrome true
+
+title ADD RESOURCE TO PROJECT
+center header
+Relations Diagram
+endheader
+center footer SWitCH
+
+hide members
+show Resource members
+show ResourceLog members
+show RoleType members
+
+
+left to right  direction
+
+ProjectDeprecated - - -  "*" Resource : projectTeam >
+ProjectDeprecated - - -  "1" Resource : projectManager >
+ProjectDeprecated - - -  "1" Resource : productOwner >
+ProjectDeprecated - - -  "1" Resource : scrumMaster >
+
+
+ProjectDeprecated  - "1" ResourceLog : resourceLog
+
+Resource - - "1" User : user >
+Resource - - "1" Role : role >
+Role - - "1" RoleType : role >
+
+Class ProjectDeprecated{}
+
+Class Resource{
+    percentageAllocation
+    costPerHour
+    startDate
+    endDate
+}
+Class User{}
+
+
+ Class ResourceLog{
+    productOwnerLog
+    projectManagerLog
+    scrumMasterLog
+    teamMemberLog
+}
+
+Class Role {
+}
+
+Enum RoleType {
+    PRODUCT_OWNER
+    PROJECT_MANAGER
+    SCRUM_MASTER
+    TEAM_MEMBER
+}
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

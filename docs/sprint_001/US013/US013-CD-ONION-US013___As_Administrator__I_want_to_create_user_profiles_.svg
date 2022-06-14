@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1435px" preserveAspectRatio="none" style="width:1149px;height:1435px;background:#FFFFFF;" version="1.1" viewBox="0 0 1149 1435" width="1149px" zoomAndPan="magnify"><defs/><g><rect height="18.5781" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="39" x="548" y="0"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="33" x="551" y="13.3809">ONION</text><rect height="33.6094" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="401" x="367" y="24.5781"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="385" x="375" y="47.1113">US013 - As Administrator, I want to create user profiles.</text><!--MD5=[9ddaf8ee8bcae11a9a9232f969198262]
+cluster Infrastructure--><g id="cluster_Infrastructure"><rect fill="#80FFFF" fill-opacity="0.31373" height="174" rx="2.5" ry="2.5" style="stroke:#808080;stroke-width:0.5;" width="286" x="414" y="71.1875"/><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="87" x="513.5" y="91.7588">Infrastructure</text></g><!--MD5=[a216f63574981a7e4cf6939ecabe907e]
+cluster Routes--><g id="cluster_Routes"><path d="M440.5,122.1875 L497.5,122.1875 A3.75,3.75 0 0 1 500,124.6875 L507,151.7969 L673.5,151.7969 A2.5,2.5 0 0 1 676,154.2969 L676,218.6875 A2.5,2.5 0 0 1 673.5,221.1875 L440.5,221.1875 A2.5,2.5 0 0 1 438,218.6875 L438,124.6875 A2.5,2.5 0 0 1 440.5,122.1875 " fill="#7ACFF5" style="stroke:#808080;stroke-width:0.5;"/><line style="stroke:#808080;stroke-width:0.5;" x1="438" x2="507" y1="151.7969" y2="151.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="445" y="141.7207">Routes</text></g><!--MD5=[5a2c09c7a25dd2d50c87c8f70ce7edbd]
+cluster Interface Adapters--><g id="cluster_Interface Adapters"><rect fill="#C0FFC0" fill-opacity="0.31373" height="249" rx="2.5" ry="2.5" style="stroke:#808080;stroke-width:0.5;" width="662" x="373" y="269.1875"/><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="120" x="644" y="289.7588">Interface Adapters</text></g><!--MD5=[ed1d20ea533a2a0e7df5ba3c35e56ced]
+cluster Controllers--><g id="cluster_Controllers"><rect fill="#C0FFC0" fill-opacity="0.50196" height="174" rx="2.5" ry="2.5" style="stroke:#808080;stroke-width:0.5;" width="320" x="397" y="320.1875"/><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="71" x="521.5" y="340.7588">Controllers</text></g><!--MD5=[6b0d027c310fb087a3145faa2e64ab3b]
+cluster ImplementedControllers--><g id="cluster_ImplementedControllers"><path d="M423.5,371.1875 L600.5,371.1875 A3.75,3.75 0 0 1 603,373.6875 L610,400.7969 L690.5,400.7969 A2.5,2.5 0 0 1 693,403.2969 L693,467.6875 A2.5,2.5 0 0 1 690.5,470.1875 L423.5,470.1875 A2.5,2.5 0 0 1 421,467.6875 L421,373.6875 A2.5,2.5 0 0 1 423.5,371.1875 " fill="#7ACFF5" style="stroke:#808080;stroke-width:0.5;"/><line style="stroke:#808080;stroke-width:0.5;" x1="421" x2="610" y1="400.7969" y2="400.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="170" x="428" y="390.7207">ImplementedControllers</text></g><!--MD5=[600c2d25b6889bd4e9f6b335204b22ae]
+cluster Repositories--><g id="cluster_Repositories"><rect fill="#C0FFC0" fill-opacity="0.50196" height="174" rx="2.5" ry="2.5" style="stroke:#808080;stroke-width:0.5;" width="270" x="741" y="320.1875"/><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="82" x="835" y="340.7588">Repositories</text></g><!--MD5=[71971f99a41bb66cf321ce46bb59f738]
+cluster Repository--><g id="cluster_Repository"><path d="M767.5,371.1875 L850.5,371.1875 A3.75,3.75 0 0 1 853,373.6875 L860,400.7969 L984.5,400.7969 A2.5,2.5 0 0 1 987,403.2969 L987,467.6875 A2.5,2.5 0 0 1 984.5,470.1875 L767.5,470.1875 A2.5,2.5 0 0 1 765,467.6875 L765,373.6875 A2.5,2.5 0 0 1 767.5,371.1875 " fill="#7ACFF5" style="stroke:#808080;stroke-width:0.5;"/><line style="stroke:#808080;stroke-width:0.5;" x1="765" x2="860" y1="400.7969" y2="400.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="76" x="772" y="390.7207">Repository</text></g><!--MD5=[21a49c66ac30e242e431f26f52efdb99]
+cluster Application Services / Use Case Services--><g id="cluster_Application Services / Use Case Services"><rect fill="#FFAFAF" fill-opacity="0.31373" height="323" rx="2.5" ry="2.5" style="stroke:#808080;stroke-width:0.5;" width="1136" x="7" y="572.1875"/><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="273" x="438.5" y="592.7588">Application Services / Use Case Services</text></g><!--MD5=[244535090d6108ff57cf34fc63487b8d]
+cluster App Services--><g id="cluster_App Services"><rect fill="#FFAFAF" fill-opacity="0.50196" height="248" rx="2.5" ry="2.5" style="stroke:#808080;stroke-width:0.5;" width="1088" x="31" y="623.1875"/><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="88" x="531" y="643.7588">App Services</text></g><!--MD5=[f566ce6e5f80b7232fb4c461e50f70a1]
+cluster InterfaceAppServices--><g id="cluster_InterfaceAppServices"><path d="M597.5,674.1875 L756.5,674.1875 A3.75,3.75 0 0 1 759,676.6875 L766,703.7969 L1092.5,703.7969 A2.5,2.5 0 0 1 1095,706.2969 L1095,844.6875 A2.5,2.5 0 0 1 1092.5,847.1875 L597.5,847.1875 A2.5,2.5 0 0 1 595,844.6875 L595,676.6875 A2.5,2.5 0 0 1 597.5,674.1875 " fill="#7ACFF5" style="stroke:#808080;stroke-width:0.5;"/><line style="stroke:#808080;stroke-width:0.5;" x1="595" x2="766" y1="703.7969" y2="703.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="152" x="602" y="693.7207">InterfaceAppServices</text></g><!--MD5=[c3f8827bd59a4f89001dcca4e48d7e73]
+cluster InterfaceRepositories--><g id="cluster_InterfaceRepositories"><path d="M845.5,724.1875 L1005.5,724.1875 A3.75,3.75 0 0 1 1008,726.6875 L1015,753.7969 L1068.5,753.7969 A2.5,2.5 0 0 1 1071,756.2969 L1071,820.6875 A2.5,2.5 0 0 1 1068.5,823.1875 L845.5,823.1875 A2.5,2.5 0 0 1 843,820.6875 L843,726.6875 A2.5,2.5 0 0 1 845.5,724.1875 " fill="#7ACFF5" style="stroke:#808080;stroke-width:0.5;"/><line style="stroke:#808080;stroke-width:0.5;" x1="843" x2="1015" y1="753.7969" y2="753.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="153" x="850" y="743.7207">InterfaceRepositories</text></g><!--MD5=[2dd1dce2a0ab5bf2d68c353348c5fe80]
+cluster ImplementedAppServices--><g id="cluster_ImplementedAppServices"><path d="M57.5,724.1875 L244.5,724.1875 A3.75,3.75 0 0 1 247,726.6875 L254,753.7969 L545.5,753.7969 A2.5,2.5 0 0 1 548,756.2969 L548,820.6875 A2.5,2.5 0 0 1 545.5,823.1875 L57.5,823.1875 A2.5,2.5 0 0 1 55,820.6875 L55,726.6875 A2.5,2.5 0 0 1 57.5,724.1875 " fill="#7ACFF5" style="stroke:#808080;stroke-width:0.5;"/><line style="stroke:#808080;stroke-width:0.5;" x1="55" x2="254" y1="753.7969" y2="753.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="180" x="62" y="743.7207">ImplementedAppServices</text></g><!--MD5=[ae6cd019d6e7105e27378654a55d5670]
+cluster Entities / Core / Domain--><g id="cluster_Entities / Core / Domain"><rect fill="#FFE0C0" fill-opacity="0.31373" height="434" rx="2.5" ry="2.5" style="stroke:#808080;stroke-width:0.5;" width="460" x="192" y="970.1875"/><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="155" x="344.5" y="990.7588">Entities / Core / Domain</text></g><!--MD5=[bbb32bc7acafd57c620f668f86b05660]
+cluster Aggregates--><g id="cluster_Aggregates"><rect fill="#7ACFF5" fill-opacity="0.50196" height="217" rx="2.5" ry="2.5" style="stroke:#808080;stroke-width:0.5;" width="230" x="307" y="1021.1875"/><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="75" x="384.5" y="1041.7588">Aggregates</text></g><!--MD5=[fe08d72b7e54a4e0603d5a17d2080bee]
+cluster Profile--><g id="cluster_Profile"><path d="M333.5,1072.1875 L386.5,1072.1875 A3.75,3.75 0 0 1 389,1074.6875 L396,1101.7969 L510.5,1101.7969 A2.5,2.5 0 0 1 513,1104.2969 L513,1211.6875 A2.5,2.5 0 0 1 510.5,1214.1875 L333.5,1214.1875 A2.5,2.5 0 0 1 331,1211.6875 L331,1074.6875 A2.5,2.5 0 0 1 333.5,1072.1875 " fill="#7ACFF5" style="stroke:#808080;stroke-width:0.5;"/><line style="stroke:#808080;stroke-width:0.5;" x1="331" x2="396" y1="1101.7969" y2="1101.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="46" x="338" y="1091.7207">Profile</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="82" x="385" y="1121.3301">«Aggregate»</text></g><!--MD5=[f970c0843abecbeef867e6d788625969]
+cluster ValueObjects--><g id="cluster_ValueObjects"><path d="M218.5,1262.1875 L318.5,1262.1875 A3.75,3.75 0 0 1 321,1264.6875 L328,1291.7969 L625.5,1291.7969 A2.5,2.5 0 0 1 628,1294.2969 L628,1377.6875 A2.5,2.5 0 0 1 625.5,1380.1875 L218.5,1380.1875 A2.5,2.5 0 0 1 216,1377.6875 L216,1264.6875 A2.5,2.5 0 0 1 218.5,1262.1875 " fill="#7ACFF5" style="stroke:#808080;stroke-width:0.5;"/><line style="stroke:#808080;stroke-width:0.5;" x1="216" x2="328" y1="1291.7969" y2="1291.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="93" x="223" y="1281.7207">ValueObjects</text></g><!--MD5=[a1aba14276a480dd5fb6e3cc5df97188]
+class CreateProfileRoute--><g id="elem_CreateProfileRoute"><rect codeLine="78" fill="#EEEEEE" height="41.1563" id="CreateProfileRoute" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="206" x="454" y="164.1875"/><ellipse cx="469" cy="184.7656" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M471,181.2656 Q471.2031,180.7656 471.4375,180.5156 Q471.6719,180.2656 471.9375,180.2656 Q472.4063,180.2656 472.7031,180.5469 Q473,180.8281 473,181.4844 L473,183.0469 Q473,183.7031 472.7188,183.9844 Q472.4375,184.2656 472,184.2656 Q471.6094,184.2656 471.3594,184.0938 Q471.1094,183.9219 471,183.4688 Q470.9531,183.1563 470.7813,182.9844 Q470.4688,182.6563 469.9063,182.4688 Q469.3438,182.2656 468.7813,182.2656 Q468.0781,182.2656 467.4844,182.5469 Q466.9063,182.8281 466.4531,183.4531 Q466,184.0781 466,184.9375 L466,185.8594 Q466,186.8906 466.8438,187.5781 Q467.6875,188.2656 469.1875,188.2656 Q470.0781,188.2656 470.7031,188.0625 Q471.0625,187.9531 471.4688,187.5938 Q471.7344,187.3906 471.875,187.3281 Q472.0156,187.2656 472.1875,187.2656 Q472.5156,187.2656 472.75,187.5313 Q473,187.7813 473,188.1406 Q473,188.4844 472.6563,188.8906 Q472.1563,189.4844 471.3594,189.8125 Q470.3125,190.2656 469.0313,190.2656 Q467.5313,190.2656 466.3281,189.6719 Q465.3594,189.2031 464.6719,188.1875 Q464,187.1719 464,185.9688 L464,184.875 Q464,183.625 464.5938,182.5313 Q465.2031,181.4375 466.25,180.8594 Q467.3125,180.2656 468.5,180.2656 Q469.2188,180.2656 469.8438,180.5156 Q470.4688,180.7656 471,181.2656 Z " fill="#000000"/><text fill="#000000" font-family="Helvetica" font-size="20" lengthAdjust="spacing" textLength="168" x="486" y="192.9492">CreateProfileRoute</text></g><!--MD5=[449790ae0e72594f2a9618046298f12d]
+class CreateProfileController--><g id="elem_CreateProfileController"><rect codeLine="86" fill="#EEEEEE" height="41.1563" id="CreateProfileController" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="239" x="437.5" y="413.1875"/><ellipse cx="452.5" cy="433.7656" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M454.5,430.2656 Q454.7031,429.7656 454.9375,429.5156 Q455.1719,429.2656 455.4375,429.2656 Q455.9063,429.2656 456.2031,429.5469 Q456.5,429.8281 456.5,430.4844 L456.5,432.0469 Q456.5,432.7031 456.2188,432.9844 Q455.9375,433.2656 455.5,433.2656 Q455.1094,433.2656 454.8594,433.0938 Q454.6094,432.9219 454.5,432.4688 Q454.4531,432.1563 454.2813,431.9844 Q453.9688,431.6563 453.4063,431.4688 Q452.8438,431.2656 452.2813,431.2656 Q451.5781,431.2656 450.9844,431.5469 Q450.4063,431.8281 449.9531,432.4531 Q449.5,433.0781 449.5,433.9375 L449.5,434.8594 Q449.5,435.8906 450.3438,436.5781 Q451.1875,437.2656 452.6875,437.2656 Q453.5781,437.2656 454.2031,437.0625 Q454.5625,436.9531 454.9688,436.5938 Q455.2344,436.3906 455.375,436.3281 Q455.5156,436.2656 455.6875,436.2656 Q456.0156,436.2656 456.25,436.5313 Q456.5,436.7813 456.5,437.1406 Q456.5,437.4844 456.1563,437.8906 Q455.6563,438.4844 454.8594,438.8125 Q453.8125,439.2656 452.5313,439.2656 Q451.0313,439.2656 449.8281,438.6719 Q448.8594,438.2031 448.1719,437.1875 Q447.5,436.1719 447.5,434.9688 L447.5,433.875 Q447.5,432.625 448.0938,431.5313 Q448.7031,430.4375 449.75,429.8594 Q450.8125,429.2656 452,429.2656 Q452.7188,429.2656 453.3438,429.5156 Q453.9688,429.7656 454.5,430.2656 Z " fill="#000000"/><text fill="#000000" font-family="Helvetica" font-size="20" lengthAdjust="spacing" textLength="201" x="469.5" y="441.9492">CreateProfileController</text></g><!--MD5=[d3a16c4b4471157752fffe3e3cbceadd]
+class ProfileRepository--><g id="elem_ProfileRepository"><rect codeLine="91" fill="#EEEEEE" height="41.1563" id="ProfileRepository" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="189" x="781.5" y="413.1875"/><ellipse cx="796.5" cy="433.7656" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M798.5,430.2656 Q798.7031,429.7656 798.9375,429.5156 Q799.1719,429.2656 799.4375,429.2656 Q799.9063,429.2656 800.2031,429.5469 Q800.5,429.8281 800.5,430.4844 L800.5,432.0469 Q800.5,432.7031 800.2188,432.9844 Q799.9375,433.2656 799.5,433.2656 Q799.1094,433.2656 798.8594,433.0938 Q798.6094,432.9219 798.5,432.4688 Q798.4531,432.1563 798.2813,431.9844 Q797.9688,431.6563 797.4063,431.4688 Q796.8438,431.2656 796.2813,431.2656 Q795.5781,431.2656 794.9844,431.5469 Q794.4063,431.8281 793.9531,432.4531 Q793.5,433.0781 793.5,433.9375 L793.5,434.8594 Q793.5,435.8906 794.3438,436.5781 Q795.1875,437.2656 796.6875,437.2656 Q797.5781,437.2656 798.2031,437.0625 Q798.5625,436.9531 798.9688,436.5938 Q799.2344,436.3906 799.375,436.3281 Q799.5156,436.2656 799.6875,436.2656 Q800.0156,436.2656 800.25,436.5313 Q800.5,436.7813 800.5,437.1406 Q800.5,437.4844 800.1563,437.8906 Q799.6563,438.4844 798.8594,438.8125 Q797.8125,439.2656 796.5313,439.2656 Q795.0313,439.2656 793.8281,438.6719 Q792.8594,438.2031 792.1719,437.1875 Q791.5,436.1719 791.5,434.9688 L791.5,433.875 Q791.5,432.625 792.0938,431.5313 Q792.7031,430.4375 793.75,429.8594 Q794.8125,429.2656 796,429.2656 Q796.7188,429.2656 797.3438,429.5156 Q797.9688,429.7656 798.5,430.2656 Z " fill="#000000"/><text fill="#000000" font-family="Helvetica" font-size="20" lengthAdjust="spacing" textLength="151" x="813.5" y="441.9492">ProfileRepository</text></g><!--MD5=[7bb34c145e7cdad5f8ca20c162c0db47]
+class IProfileFactory--><g id="elem_IProfileFactory"><rect codeLine="102" fill="#EEEEEE" height="41.1563" id="IProfileFactory" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="167" x="611.5" y="766.1875"/><ellipse cx="626.5" cy="786.7656" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M627.5,783.7656 L627.5,789.7656 L629.5,789.7656 L629.9844,789.7656 L630.5,790.3906 L630.5,790.7656 L630.5,791.1406 L629.9844,791.7656 L629.5,791.7656 L623.5,791.7656 L623.0156,791.7656 L622.5,791.1406 L622.5,790.7656 L622.5,790.3906 L623.0156,789.7656 L623.5,789.7656 L625.5,789.7656 L625.5,783.7656 L623.5,783.7656 L623.0156,783.7656 L622.5,783.1406 L622.5,782.7656 L622.5,782.3906 L623.0156,781.7656 L623.5,781.7656 L629.5,781.7656 L629.9844,781.7656 L630.5,782.3906 L630.5,782.7656 L630.5,783.1406 L629.9844,783.7656 L629.5,783.7656 L627.5,783.7656 Z " fill="#000000"/><text fill="#000000" font-family="Helvetica" font-size="20" font-style="italic" lengthAdjust="spacing" textLength="129" x="643.5" y="794.9492">IProfileFactory</text></g><!--MD5=[93f700a1aff200bc1dbc9c6851d83b5d]
+class IProfileRepository--><g id="elem_IProfileRepository"><rect codeLine="100" fill="#EEEEEE" height="41.1563" id="IProfileRepository" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="196" x="859" y="766.1875"/><ellipse cx="874" cy="786.7656" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M875,783.7656 L875,789.7656 L877,789.7656 L877.4844,789.7656 L878,790.3906 L878,790.7656 L878,791.1406 L877.4844,791.7656 L877,791.7656 L871,791.7656 L870.5156,791.7656 L870,791.1406 L870,790.7656 L870,790.3906 L870.5156,789.7656 L871,789.7656 L873,789.7656 L873,783.7656 L871,783.7656 L870.5156,783.7656 L870,783.1406 L870,782.7656 L870,782.3906 L870.5156,781.7656 L871,781.7656 L877,781.7656 L877.4844,781.7656 L878,782.3906 L878,782.7656 L878,783.1406 L877.4844,783.7656 L877,783.7656 L875,783.7656 Z " fill="#000000"/><text fill="#000000" font-family="Helvetica" font-size="20" font-style="italic" lengthAdjust="spacing" textLength="158" x="891" y="794.9492">IProfileRepository</text></g><!--MD5=[93e8c18ad91cb9f47daa1954dc5fd9b5]
+class CreateProfileService--><g id="elem_CreateProfileService"><rect codeLine="105" fill="#EEEEEE" height="41.1563" id="CreateProfileService" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="219" x="312.5" y="766.1875"/><ellipse cx="327.5" cy="786.7656" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M329.5,783.2656 Q329.7031,782.7656 329.9375,782.5156 Q330.1719,782.2656 330.4375,782.2656 Q330.9063,782.2656 331.2031,782.5469 Q331.5,782.8281 331.5,783.4844 L331.5,785.0469 Q331.5,785.7031 331.2188,785.9844 Q330.9375,786.2656 330.5,786.2656 Q330.1094,786.2656 329.8594,786.0938 Q329.6094,785.9219 329.5,785.4688 Q329.4531,785.1563 329.2813,784.9844 Q328.9688,784.6563 328.4063,784.4688 Q327.8438,784.2656 327.2813,784.2656 Q326.5781,784.2656 325.9844,784.5469 Q325.4063,784.8281 324.9531,785.4531 Q324.5,786.0781 324.5,786.9375 L324.5,787.8594 Q324.5,788.8906 325.3438,789.5781 Q326.1875,790.2656 327.6875,790.2656 Q328.5781,790.2656 329.2031,790.0625 Q329.5625,789.9531 329.9688,789.5938 Q330.2344,789.3906 330.375,789.3281 Q330.5156,789.2656 330.6875,789.2656 Q331.0156,789.2656 331.25,789.5313 Q331.5,789.7813 331.5,790.1406 Q331.5,790.4844 331.1563,790.8906 Q330.6563,791.4844 329.8594,791.8125 Q328.8125,792.2656 327.5313,792.2656 Q326.0313,792.2656 324.8281,791.6719 Q323.8594,791.2031 323.1719,790.1875 Q322.5,789.1719 322.5,787.9688 L322.5,786.875 Q322.5,785.625 323.0938,784.5313 Q323.7031,783.4375 324.75,782.8594 Q325.8125,782.2656 327,782.2656 Q327.7188,782.2656 328.3438,782.5156 Q328.9688,782.7656 329.5,783.2656 Z " fill="#000000"/><text fill="#000000" font-family="Helvetica" font-size="20" lengthAdjust="spacing" textLength="181" x="344.5" y="794.9492">CreateProfileService</text></g><!--MD5=[a6eb3821dcb4db079ac788df5d85dafa]
+class ProfileFactory--><g id="elem_ProfileFactory"><rect codeLine="106" fill="#EEEEEE" height="41.1563" id="ProfileFactory" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="161" x="71.5" y="766.1875"/><ellipse cx="86.5" cy="786.7656" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M88.5,783.2656 Q88.7031,782.7656 88.9375,782.5156 Q89.1719,782.2656 89.4375,782.2656 Q89.9063,782.2656 90.2031,782.5469 Q90.5,782.8281 90.5,783.4844 L90.5,785.0469 Q90.5,785.7031 90.2188,785.9844 Q89.9375,786.2656 89.5,786.2656 Q89.1094,786.2656 88.8594,786.0938 Q88.6094,785.9219 88.5,785.4688 Q88.4531,785.1563 88.2813,784.9844 Q87.9688,784.6563 87.4063,784.4688 Q86.8438,784.2656 86.2813,784.2656 Q85.5781,784.2656 84.9844,784.5469 Q84.4063,784.8281 83.9531,785.4531 Q83.5,786.0781 83.5,786.9375 L83.5,787.8594 Q83.5,788.8906 84.3438,789.5781 Q85.1875,790.2656 86.6875,790.2656 Q87.5781,790.2656 88.2031,790.0625 Q88.5625,789.9531 88.9688,789.5938 Q89.2344,789.3906 89.375,789.3281 Q89.5156,789.2656 89.6875,789.2656 Q90.0156,789.2656 90.25,789.5313 Q90.5,789.7813 90.5,790.1406 Q90.5,790.4844 90.1563,790.8906 Q89.6563,791.4844 88.8594,791.8125 Q87.8125,792.2656 86.5313,792.2656 Q85.0313,792.2656 83.8281,791.6719 Q82.8594,791.2031 82.1719,790.1875 Q81.5,789.1719 81.5,787.9688 L81.5,786.875 Q81.5,785.625 82.0938,784.5313 Q82.7031,783.4375 83.75,782.8594 Q84.8125,782.2656 86,782.2656 Q86.7188,782.2656 87.3438,782.5156 Q87.9688,782.7656 88.5,783.2656 Z " fill="#000000"/><text fill="#000000" font-family="Helvetica" font-size="20" lengthAdjust="spacing" textLength="123" x="103.5" y="794.9492">ProfileFactory</text></g><!--MD5=[7b57f7066b803747d2119f99dd1555d4]
+class Profile--><g id="elem_Profile"><rect codeLine="118" fill="#EEEEEE" height="59.7344" id="Profile" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="150" x="347" y="1138.1875"/><ellipse cx="387.2" cy="1168.0547" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M389.2,1164.5547 Q389.4031,1164.0547 389.6375,1163.8047 Q389.8719,1163.5547 390.1375,1163.5547 Q390.6063,1163.5547 390.9031,1163.8359 Q391.2,1164.1172 391.2,1164.7734 L391.2,1166.3359 Q391.2,1166.9922 390.9188,1167.2734 Q390.6375,1167.5547 390.2,1167.5547 Q389.8094,1167.5547 389.5594,1167.3828 Q389.3094,1167.2109 389.2,1166.7578 Q389.1531,1166.4453 388.9813,1166.2734 Q388.6688,1165.9453 388.1063,1165.7578 Q387.5438,1165.5547 386.9813,1165.5547 Q386.2781,1165.5547 385.6844,1165.8359 Q385.1063,1166.1172 384.6531,1166.7422 Q384.2,1167.3672 384.2,1168.2266 L384.2,1169.1484 Q384.2,1170.1797 385.0438,1170.8672 Q385.8875,1171.5547 387.3875,1171.5547 Q388.2781,1171.5547 388.9031,1171.3516 Q389.2625,1171.2422 389.6688,1170.8828 Q389.9344,1170.6797 390.075,1170.6172 Q390.2156,1170.5547 390.3875,1170.5547 Q390.7156,1170.5547 390.95,1170.8203 Q391.2,1171.0703 391.2,1171.4297 Q391.2,1171.7734 390.8563,1172.1797 Q390.3563,1172.7734 389.5594,1173.1016 Q388.5125,1173.5547 387.2313,1173.5547 Q385.7313,1173.5547 384.5281,1172.9609 Q383.5594,1172.4922 382.8719,1171.4766 Q382.2,1170.4609 382.2,1169.2578 L382.2,1168.1641 Q382.2,1166.9141 382.7938,1165.8203 Q383.4031,1164.7266 384.45,1164.1484 Q385.5125,1163.5547 386.7,1163.5547 Q387.4188,1163.5547 388.0438,1163.8047 Q388.6688,1164.0547 389.2,1164.5547 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="34" x="420.8" y="1156.5684">«Root»</text><text fill="#000000" font-family="Helvetica" font-size="20" lengthAdjust="spacing" textLength="56" x="409.8" y="1185.5273">Profile</text></g><!--MD5=[6c0cdf94d3e5a9cc41f8793f8de4f7ae]
+class ProfileID--><g id="elem_ProfileID"><rect codeLine="124" fill="#EEEEEE" height="59.7344" id="ProfileID" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="150" x="462" y="1304.1875"/><ellipse cx="493.2" cy="1334.0547" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M495.2,1330.5547 Q495.4031,1330.0547 495.6375,1329.8047 Q495.8719,1329.5547 496.1375,1329.5547 Q496.6063,1329.5547 496.9031,1329.8359 Q497.2,1330.1172 497.2,1330.7734 L497.2,1332.3359 Q497.2,1332.9922 496.9188,1333.2734 Q496.6375,1333.5547 496.2,1333.5547 Q495.8094,1333.5547 495.5594,1333.3828 Q495.3094,1333.2109 495.2,1332.7578 Q495.1531,1332.4453 494.9813,1332.2734 Q494.6688,1331.9453 494.1063,1331.7578 Q493.5438,1331.5547 492.9813,1331.5547 Q492.2781,1331.5547 491.6844,1331.8359 Q491.1063,1332.1172 490.6531,1332.7422 Q490.2,1333.3672 490.2,1334.2266 L490.2,1335.1484 Q490.2,1336.1797 491.0438,1336.8672 Q491.8875,1337.5547 493.3875,1337.5547 Q494.2781,1337.5547 494.9031,1337.3516 Q495.2625,1337.2422 495.6688,1336.8828 Q495.9344,1336.6797 496.075,1336.6172 Q496.2156,1336.5547 496.3875,1336.5547 Q496.7156,1336.5547 496.95,1336.8203 Q497.2,1337.0703 497.2,1337.4297 Q497.2,1337.7734 496.8563,1338.1797 Q496.3563,1338.7734 495.5594,1339.1016 Q494.5125,1339.5547 493.2313,1339.5547 Q491.7313,1339.5547 490.5281,1338.9609 Q489.5594,1338.4922 488.8719,1337.4766 Q488.2,1336.4609 488.2,1335.2578 L488.2,1334.1641 Q488.2,1332.9141 488.7938,1331.8203 Q489.4031,1330.7266 490.45,1330.1484 Q491.5125,1329.5547 492.7,1329.5547 Q493.4188,1329.5547 494.0438,1329.8047 Q494.6688,1330.0547 495.2,1330.5547 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="73" x="515.3" y="1322.5684">«Value Object»</text><text fill="#000000" font-family="Helvetica" font-size="20" lengthAdjust="spacing" textLength="76" x="513.8" y="1351.5273">ProfileID</text></g><!--MD5=[53f6a92bd21ca2f2960392a061f3a1c6]
+class Name--><g id="elem_Name"><rect codeLine="125" fill="#EEEEEE" height="59.7344" id="Name" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="150" x="232" y="1304.1875"/><ellipse cx="266.35" cy="1334.0547" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M268.35,1330.5547 Q268.5531,1330.0547 268.7875,1329.8047 Q269.0219,1329.5547 269.2875,1329.5547 Q269.7563,1329.5547 270.0531,1329.8359 Q270.35,1330.1172 270.35,1330.7734 L270.35,1332.3359 Q270.35,1332.9922 270.0688,1333.2734 Q269.7875,1333.5547 269.35,1333.5547 Q268.9594,1333.5547 268.7094,1333.3828 Q268.4594,1333.2109 268.35,1332.7578 Q268.3031,1332.4453 268.1313,1332.2734 Q267.8188,1331.9453 267.2563,1331.7578 Q266.6938,1331.5547 266.1313,1331.5547 Q265.4281,1331.5547 264.8344,1331.8359 Q264.2563,1332.1172 263.8031,1332.7422 Q263.35,1333.3672 263.35,1334.2266 L263.35,1335.1484 Q263.35,1336.1797 264.1938,1336.8672 Q265.0375,1337.5547 266.5375,1337.5547 Q267.4281,1337.5547 268.0531,1337.3516 Q268.4125,1337.2422 268.8188,1336.8828 Q269.0844,1336.6797 269.225,1336.6172 Q269.3656,1336.5547 269.5375,1336.5547 Q269.8656,1336.5547 270.1,1336.8203 Q270.35,1337.0703 270.35,1337.4297 Q270.35,1337.7734 270.0063,1338.1797 Q269.5063,1338.7734 268.7094,1339.1016 Q267.6625,1339.5547 266.3813,1339.5547 Q264.8813,1339.5547 263.6781,1338.9609 Q262.7094,1338.4922 262.0219,1337.4766 Q261.35,1336.4609 261.35,1335.2578 L261.35,1334.1641 Q261.35,1332.9141 261.9438,1331.8203 Q262.5531,1330.7266 263.6,1330.1484 Q264.6625,1329.5547 265.85,1329.5547 Q266.5688,1329.5547 267.1938,1329.8047 Q267.8188,1330.0547 268.35,1330.5547 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="73" x="285.65" y="1322.5684">«Value Object»</text><text fill="#000000" font-family="Helvetica" font-size="20" lengthAdjust="spacing" textLength="51" x="296.65" y="1351.5273">Name</text></g><!--MD5=[41646c35cf565aa49c8612a9671339c4]
+link CreateProfileRoute to CreateProfileController--><g id="link_CreateProfileRoute_CreateProfileController"><path codeLine="130" d="M557,205.4875 C557,205.4875 557,408.1175 557,408.1175 " fill="none" id="CreateProfileRoute-to-CreateProfileController" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#000000" points="557,413.1175,561,404.1175,557,408.1175,553,404.1175,557,413.1175" style="stroke:#000000;stroke-width:1.0;"/></g><!--MD5=[343dfb9384c52457036abae04ca3a80e]
+link CreateProfileController to CreateProfileService--><g id="link_CreateProfileController_CreateProfileService"><path codeLine="132" d="M468.83,454.1875 C468.83,454.1875 468.83,761.1275 468.83,761.1275 " fill="none" id="CreateProfileController-to-CreateProfileService" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#000000" points="468.83,766.1275,472.83,757.1275,468.83,761.1275,464.83,757.1275,468.83,766.1275" style="stroke:#000000;stroke-width:1.0;"/></g><!--MD5=[b8af5501f425d8e9068211e8ae8915e8]
+link CreateProfileService to Profile--><g id="link_CreateProfileService_Profile"><path codeLine="134" d="M422,807.1975 C422,807.1975 422,1132.9275 422,1132.9275 " fill="none" id="CreateProfileService-to-Profile" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#000000" points="422,1137.9275,426,1128.9275,422,1132.9275,418,1128.9275,422,1137.9275" style="stroke:#000000;stroke-width:1.0;"/></g><!--MD5=[ea498bb0c4dbe6e2b62df8d04a934ec2]
+reverse link IProfileFactory to CreateProfileService--><g id="link_IProfileFactory_CreateProfileService"><path codeLine="136" d="M606.24,787.1875 C606.24,787.1875 531.79,787.1875 531.79,787.1875 " fill="none" id="IProfileFactory-backto-CreateProfileService" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#000000" points="611.24,787.1875,602.24,783.1875,606.24,787.1875,602.24,791.1875,611.24,787.1875" style="stroke:#000000;stroke-width:1.0;"/></g><!--MD5=[b39b83cfaf07cf21552b41a1383a707f]
+reverse link IProfileFactory to ProfileFactory--><g id="link_IProfileFactory_ProfileFactory"><path codeLine="138" d="M644,746.0075 C644,746.0075 644,558.1875 644,558.1875 C644,558.1875 152,558.1875 152,558.1875 C152,558.1875 152,709.7575 152,766.0075 " fill="none" id="IProfileFactory-backto-ProfileFactory" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="651,746.0075,644,766.0075,637,746.0075,651,746.0075" style="stroke:#000000;stroke-width:1.0;"/></g><!--MD5=[0f5802027e1763337a93cced2142528a]
+link CreateProfileService to IProfileRepository--><g id="link_CreateProfileService_IProfileRepository"><path codeLine="140" d="M500.17,766.1275 C500.17,730.7675 500.17,662.1875 500.17,662.1875 C500.17,662.1875 896.17,662.1875 896.17,662.1875 C896.17,662.1875 896.17,761.1275 896.17,761.1275 " fill="none" id="CreateProfileService-to-IProfileRepository" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#000000" points="896.17,766.1275,900.17,757.1275,896.17,761.1275,892.17,757.1275,896.17,766.1275" style="stroke:#000000;stroke-width:1.0;"/></g><!--MD5=[8b083cecc62b062339a09e03969e0a19]
+link ProfileRepository to IProfileRepository--><g id="link_ProfileRepository_IProfileRepository"><path codeLine="142" d="M933.33,454.1875 C933.33,454.1875 933.33,761.1275 933.33,761.1275 " fill="none" id="ProfileRepository-to-IProfileRepository" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#000000" points="933.33,766.1275,937.33,757.1275,933.33,761.1275,929.33,757.1275,933.33,766.1275" style="stroke:#000000;stroke-width:1.0;"/></g><!--MD5=[5de05b33a2ea645bf399e9255d3f3460]
+link Profile to Name--><g id="link_Profile_Name"><path codeLine="144" d="M364.5,1198.2475 C364.5,1198.2475 364.5,1299.0675 364.5,1299.0675 " fill="none" id="Profile-to-Name" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#000000" points="364.5,1304.0675,368.5,1295.0675,364.5,1299.0675,360.5,1295.0675,364.5,1304.0675" style="stroke:#000000;stroke-width:1.0;"/></g><!--MD5=[64f383754e6385c5a749213c44057efc]
+reverse link ProfileID to Profile--><g id="link_ProfileID_Profile"><path codeLine="145" d="M479.5,1299.1275 C479.5,1299.1275 479.5,1198.3075 479.5,1198.3075 " fill="none" id="ProfileID-backto-Profile" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#000000" points="479.5,1304.1275,483.5,1295.1275,479.5,1299.1275,475.5,1295.1275,479.5,1304.1275" style="stroke:#000000;stroke-width:1.0;"/></g><rect height="18.5781" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="141" x="497" y="1409.1875"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="135" x="500" y="1422.5684">DDD - Domain Driven Design</text><!--MD5=[0fa8d1c103b9323b62c2b86f73e950be]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam linetype ortho
+hide members
+'hide circle
+
+skinparam minClassWidth 150
+skinparam nodesep 80
+skinparam ranksep 20
+
+skinparam padding 3
+
+skinparam package  {
+    BackgroundColor white
+    BorderColor grey
+    shadowing false
+    FontStyle normal
+    FontSize 16
+    borderThickness 0.5
+    fontColor #000
+}
+
+skinparam legend {
+    backgroundColor white
+    borderColor white
+    shadowing false
+    FontStyle normal
+    FontSize 12
+    borderThickness 0.5
+    fontColor black
+    padding 0
+    DesignedBorderColor white
+}
+
+skinparam class {
+    stereotypeFontSize 10
+    fontSize 20
+    fontName Helvetica
+
+    arrowColor black
+    arrowThickness 1
+    attributeIconSize 0
+
+    borderColor black
+    borderThickness 0.5
+    backgroundColor #eee
+
+
+}
+
+skinparam entity {
+    backgroundColor red
+    borderColor black
+    borderThickness 0.5
+
+}
+
+skinparam rectangle {
+    shadowing false
+    fontSize 15
+    textAlignment left
+    fontStyle italic
+    stereotypeFontSize 10
+    borderThickness 0.5
+
+}
+
+'TITLE ON TOP
+title US013 - As Administrator, I want to create user profiles.
+
+center header ONION
+center footer DDD - Domain Driven Design
+
+' Infrastucture - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+rectangle Infrastructure #80FFFF50  {
+    package Routes #7acff5 {
+        class CreateProfileRoute
+    }
+}
+
+' Interface Adapters - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+rectangle "Interface Adapters" #C0FFC050  {
+      rectangle "Controllers" #C0FFC080  {
+          package "ImplementedControllers" #7acff5  {
+        class CreateProfileController
+          }
+}
+rectangle "Repositories" #C0FFC080  {
+          package "Repository" #7acff5  {
+        class ProfileRepository
+          }
+      }
+}
+' Application services - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+rectangle "Application Services / Use Case Services" #FFAFAF50  {
+rectangle "App Services" #FFAFAF80  {
+                    package "InterfaceAppServices" #7acff5  {
+                              package "InterfaceRepositories" #7acff5  {
+                                interface IProfileRepository
+                              }
+                              interface IProfileFactory
+                            }
+                             package "ImplementedAppServices" #7acff5  {
+                     class CreateProfileService
+                     class ProfileFactory
+                   }
+
+
+
+      }
+}
+' Entities - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+rectangle "Entities / Core / Domain" #FFE0C050  {
+    rectangle "Aggregates" #7acff580  {
+        package "Profile" <<Aggregate>> #7acff5  {
+            class Profile <<Root>>
+        }
+    }
+
+    package "ValueObjects" #7acff5 {
+
+        class ProfileID <<Value Object>>
+        class Name <<Value Object>>
+    }
+}
+
+
+CreateProfileRoute ..> CreateProfileController
+
+CreateProfileController ....down> CreateProfileService
+
+CreateProfileService .....> Profile
+
+CreateProfileService ..left> IProfileFactory
+
+IProfileFactory <|.. ProfileFactory
+
+CreateProfileService ..> IProfileRepository
+
+ProfileRepository ..> IProfileRepository
+
+Profile ..down> Name
+Profile ......left> ProfileID
+
+
+'CreateProfileController .down...> AppServiceProfile
+'
+'ProfileFactory ..|> IProfileFactory
+'AppServiceProfile .left.> IProfileFactory
+'
+'
+'AppServiceProfile ....> Profile
+'
+'
+'
+'AppServiceProfile .right..> RepoProfile
+'
+
+
+
+@enduml
+
+@startuml
+
+skinparam linetype ortho
+hide members
+
+skinparam minClassWidth 150
+skinparam nodesep 80
+skinparam ranksep 20
+
+skinparam padding 3
+
+skinparam package  {
+    BackgroundColor white
+    BorderColor grey
+    shadowing false
+    FontStyle normal
+    FontSize 16
+    borderThickness 0.5
+    fontColor #000
+}
+
+skinparam legend {
+    backgroundColor white
+    borderColor white
+    shadowing false
+    FontStyle normal
+    FontSize 12
+    borderThickness 0.5
+    fontColor black
+    padding 0
+    DesignedBorderColor white
+}
+
+skinparam class {
+    stereotypeFontSize 10
+    fontSize 20
+    fontName Helvetica
+
+    arrowColor black
+    arrowThickness 1
+    attributeIconSize 0
+
+    borderColor black
+    borderThickness 0.5
+    backgroundColor #eee
+
+
+}
+
+skinparam entity {
+    backgroundColor red
+    borderColor black
+    borderThickness 0.5
+
+}
+
+skinparam rectangle {
+    shadowing false
+    fontSize 15
+    textAlignment left
+    fontStyle italic
+    stereotypeFontSize 10
+    borderThickness 0.5
+
+}
+
+title US013 - As Administrator, I want to create user profiles.
+
+center header ONION
+center footer DDD - Domain Driven Design
+
+
+rectangle Infrastructure #80FFFF50  {
+    package Routes #7acff5 {
+        class CreateProfileRoute
+    }
+}
+
+rectangle "Interface Adapters" #C0FFC050  {
+      rectangle "Controllers" #C0FFC080  {
+          package "ImplementedControllers" #7acff5  {
+        class CreateProfileController
+          }
+}
+rectangle "Repositories" #C0FFC080  {
+          package "Repository" #7acff5  {
+        class ProfileRepository
+          }
+      }
+}
+rectangle "Application Services / Use Case Services" #FFAFAF50  {
+rectangle "App Services" #FFAFAF80  {
+                    package "InterfaceAppServices" #7acff5  {
+                              package "InterfaceRepositories" #7acff5  {
+                                interface IProfileRepository
+                              }
+                              interface IProfileFactory
+                            }
+                             package "ImplementedAppServices" #7acff5  {
+                     class CreateProfileService
+                     class ProfileFactory
+                   }
+
+
+
+      }
+}
+
+rectangle "Entities / Core / Domain" #FFE0C050  {
+    rectangle "Aggregates" #7acff580  {
+        package "Profile" <<Aggregate>> #7acff5  {
+            class Profile <<Root>>
+        }
+    }
+
+    package "ValueObjects" #7acff5 {
+
+        class ProfileID <<Value Object>>
+        class Name <<Value Object>>
+    }
+}
+
+
+CreateProfileRoute ..> CreateProfileController
+
+CreateProfileController ....down> CreateProfileService
+
+CreateProfileService .....> Profile
+
+CreateProfileService ..left> IProfileFactory
+
+IProfileFactory <|.. ProfileFactory
+
+CreateProfileService ..> IProfileRepository
+
+ProfileRepository ..> IProfileRepository
+
+Profile ..down> Name
+Profile ......left> ProfileID
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 11:55:52 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

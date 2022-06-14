@@ -1,0 +1,170 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+'SWitCH G4 THEME
+'
+'COLORS
+'Blue #application
+'Pink #pink
+'Red #salmon
+'Yellow #khaki
+'Green #technology
+'
+'DEFAULTS
+
+hide members
+hide circle
+skinparam linetype ortho
+
+skinparam minClassWidth 200
+skinparam nodesep 20
+skinparam ranksep 0
+skinparam padding 0
+skinparam roundCorner 8
+
+
+
+
+skinparam package {
+    backgroundColor white
+    borderColor grey
+    shadowing false
+    fontStyle normal
+    fontSize 16
+    borderThickness 0.5
+    fontColor #aaa
+    stereotypeFontSize 10
+    stereotypeFontColor lightGrey
+}
+
+skinparam class {
+    stereotypeFontSize 10
+    fontSize 16
+    fontName Helvetica
+    arrowColor black
+    arrowThickness 1
+    attributeIconSize 0
+    borderThickness 0.5
+}
+
+skinparam class<<AGGREGATE ROOT>> {
+    borderColor black
+    backgroundColor #eee
+    'borderColor yellow
+    'backgroundColor #khaki
+}
+
+skinparam class<<ENTITY>> {
+    borderColor yellow
+    backgroundColor #khaki
+}
+
+skinparam class<<VALUE OBJECT>> {
+    borderColor green
+    backgroundColor #technology
+}
+
+
+
+skinparam note {
+    fontSize 14
+    fontName Helvetica
+    borderColor black
+    borderThickness 0.5
+    backgroundColor AliceBlue
+}
+
+
+'TITLE ON TOP
+'title The new Big Picture
+
+'HEADER FOOTER DESCRIPTIONS
+'center header DDD - Domain Driven Design
+'center footer DDD - Domain Driven Design
+
+
+
+'class Resource <<VALUE OBJECT>> #technology ##green{}
+
+
+
+package Resource <<AGGREGATE>>  {
+    entity Resource <<AGGREGATE ROOT>><<ENTITY>>
+    class ResourceID <<VALUE OBJECT>>
+    Resource -- ResourceID
+}
+
+package Project <<AGGREGATE>> {
+    entity Project <<AGGREGATE ROOT>><<ENTITY>>
+    class ProjectCode <<VALUE OBJECT>>
+    Project -- ProjectCode
+}
+
+package Task <<AGGREGATE>>{
+    entity Task <<AGGREGATE ROOT>><<ENTITY>>
+    class TaskID <<VALUE OBJECT>>
+    Task -u- TaskID
+}
+
+package Sprint <<AGGREGATE>>   {
+    entity Sprint <<AGGREGATE ROOT>><<ENTITY>>
+    class SprintID <<VALUE OBJECT>>
+    Sprint -d- SprintID
+}
+
+package UserStory <<AGGREGATE>>{
+    entity UserStory <<AGGREGATE ROOT>><<ENTITY>>
+    class UserStoryID <<VALUE OBJECT>>
+    UserStory -d- UserStoryID
+}
+
+package User <<AGGREGATE>>{
+    entity User <<AGGREGATE ROOT>><<ENTITY>>
+    class UserID <<VALUE OBJECT>>
+    User -- UserID
+}
+
+package Profile <<AGGREGATE>>{
+    entity Profile <<AGGREGATE ROOT>><<ENTITY>>
+    class ProfileName <<VALUE OBJECT>>
+    Profile -u- ProfileName
+}
+
+package ProfileRequest <<AGGREGATE>>{
+    entity ProfileRequest <<AGGREGATE ROOT>><<ENTITY>>
+    class ProfileRequestID <<VALUE OBJECT>>
+    ProfileRequest -u- ProfileRequestID
+}
+
+package Typology <<AGGREGATE>>{
+    entity Typology <<AGGREGATE ROOT>><<ENTITY>>
+    class TypologyName <<VALUE OBJECT>>
+    Typology -- TypologyName
+}
+
+
+
+'ProjectDeprecated -right- ProductBacklog
+Resource -d-> User
+Project -> Typology
+Project <-u-- Resource
+
+
+Sprint ---> Project
+'Sprint -right- SprintBacklogItem
+'SprintBacklogItem -down-> UserStory
+UserStory --> Sprint
+Project <-- UserStory
+Resource <-u- Task
+
+Task --> Sprint
+Task --> UserStory
+
+Profile ---> User
+ProfileRequest -r-> Profile
+ProfileRequest --> User
+
+'note  "This note is connected\nto several objects." as N2
+'Profile .. N2
+
+@enduml

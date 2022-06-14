@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="417px" preserveAspectRatio="none" style="width:707px;height:417px;background:#FFFFFF;" version="1.1" viewBox="0 0 707 417" width="707px" zoomAndPan="magnify"><defs><filter height="300%" id="f1omhfjlcf1opg" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[99b31deea5d7419a569cd5090bf83263]
+cluster System--><polygon fill="#FFFFFF" filter="url(#f1omhfjlcf1opg)" points="144,6,200,6,207,29.6094,690,29.6094,690,410,144,410,144,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="144" x2="207" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="148" y="22.5332">System</text><ellipse cx="285.097" cy="61.1194" fill="#FEFECE" filter="url(#f1omhfjlcf1opg)" rx="81.097" ry="18.6194" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="226.0843" y="64.9982">Insert projectDeprecated code</text><ellipse cx="285.097" cy="133.1194" fill="#FEFECE" filter="url(#f1omhfjlcf1opg)" rx="81.097" ry="18.6194" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="226.0843" y="136.9982">Insert user story id</text><ellipse cx="285.0039" cy="203.0008" fill="#FEFECE" filter="url(#f1omhfjlcf1opg)" rx="70.5039" ry="16.5008" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="237.5039" y="207.5174">Insert sprint id</text><ellipse cx="285.205" cy="281.941" fill="#FEFECE" filter="url(#f1omhfjlcf1opg)" rx="125.205" ry="27.441" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="216" x="177.205" y="285.6695">Insert task name, description, type</text><ellipse cx="284.934" cy="368.9868" fill="#FEFECE" filter="url(#f1omhfjlcf1opg)" rx="110.434" ry="24.4868" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="192.934" y="372.7153">Create new task in user story</text><ellipse cx="593.5677" cy="369.2135" fill="#FEFECE" filter="url(#f1omhfjlcf1opg)" rx="71.5677" ry="16.7135" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="544.5677" y="373.7301">List of projects</text><ellipse cx="593.2688" cy="301.1538" fill="#FEFECE" filter="url(#f1omhfjlcf1opg)" rx="68.7688" ry="16.1538" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="548.2688" y="305.6704">List of sprints</text><ellipse cx="593.6887" cy="231.0377" fill="#FEFECE" filter="url(#f1omhfjlcf1opg)" rx="80.6887" ry="18.5377" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="535.0015" y="234.9661">List of user stories</text><!--MD5=[fee662a292a0353a69bd162820bae93b]
+entity User--><ellipse cx="51.5" cy="171" fill="#FEFECE" filter="url(#f1omhfjlcf1opg)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M51.5,179 L51.5,206 M38.5,187 L64.5,187 M51.5,206 L38.5,221 M51.5,206 L64.5,221 " fill="none" filter="url(#f1omhfjlcf1opg)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="6" y="241.0332">Team Member</text><!--MD5=[7522d5c5799d0652da24a5d0145a519b]
+link User to US1--><path d="M75.84,161.37 C90.39,139.09 111.07,113.02 136,97 C156.87,83.59 182.33,75.17 206.2,69.89 " fill="none" id="User-to-US1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="211.27,68.81,201.6333,66.7769,206.3802,69.8537,203.3033,74.6006,211.27,68.81" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[40d0f94bfbad6ee11e3350241482b726]
+link User to US2--><path d="M97.12,183.41 C109.57,178.34 123.19,173.14 136,169 C162.89,160.31 193.12,152.6 219.22,146.57 " fill="none" id="User-to-US2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="224.38,145.38,214.7159,143.4814,219.5052,146.4918,216.4948,151.2811,224.38,145.38" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b35f596a8f6a10395dba456ca2afddc6]
+link User to US3--><path d="M97.14,203 C128.82,203 172.11,203 209.04,203 " fill="none" id="User-to-US3" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="214.44,203,205.44,199,209.44,203,205.44,207,214.44,203" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[447a4efe17a22d68cd6b8a681c348111]
+link User to US4--><path d="M97.28,222.11 C109.73,227.19 123.31,232.5 136,237 C157.53,244.64 181.09,252.17 202.96,258.82 " fill="none" id="User-to-US4" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="207.89,260.31,200.4277,253.8823,203.1028,258.8667,198.1185,261.5418,207.89,260.31" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[03cc136bda8a1e00ade5b19e82dd6082]
+link User to US5--><path d="M71.04,244.65 C85.16,271.83 107.11,306.05 136,327 C152.05,338.63 171.23,347.05 190.38,353.14 " fill="none" id="User-to-US5" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="195.24,354.64,187.8184,348.1654,190.462,353.1666,185.4609,355.8102,195.24,354.64" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[2ba836ef85f92a24bb3029dc3af2af92]
+link US5 to US6--><path d="M395.79,369 C435.74,369 479.98,369 516.37,369 " fill="none" id="US5-to-US6" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="521.68,369,512.68,365,516.68,369,512.68,373,521.68,369" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="441" y="365.4951">include</text><!--MD5=[8c8389140093cd408e52f90ec70bc9db]
+link US5 to US7--><path d="M363.74,351.75 C418.26,339.66 489.79,323.79 538.24,313.04 " fill="none" id="US5-to-US7" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="543.15,311.95,533.4966,309.9976,538.2691,313.0347,535.232,317.8071,543.15,311.95" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="441" y="323.4951">include</text><!--MD5=[84d2614bfcf987fe1d918cee9992c806]
+link US5 to US8--><path d="M356.92,350.23 C374.84,344.09 393.63,336.38 410,327 C425.31,318.23 425.19,310.6 440,301 C470.04,281.54 480.48,281.94 513,267 C525.4,261.31 538.91,255.16 551.22,249.59 " fill="none" id="US5-to-US8" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="556.05,247.41,546.2015,247.4928,551.4982,249.479,549.5119,254.7757,556.05,247.41" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="441" y="276.4951">include</text><!--MD5=[342c0d8e270df7753dc4ca7e79b870bf]
+@startuml
+'https://plantuml.com/use-case-diagram
+
+left to right direction
+:Team Member: as User
+package System{
+    usecase "Insert projectDeprecated code" as US1
+    usecase "Insert user story id" as US2
+    usecase "Insert sprint id" as US3
+    usecase "Insert task name, projectDescription, type" as US4
+    usecase "Create new task in user story" as US5
+    usecase "List of projects" as US6
+    usecase "List of sprints" as US7
+    usecase "List of user stories" as US8
+}
+User - -> US1
+User - -> US2
+User - -> US3
+User - -> US4
+User - -> US5
+US5 ..> US6 : include
+US5 ..> US7 : include
+US5 ..> US8 : include
+
+
+
+@enduml
+
+@startuml
+
+left to right direction
+:Team Member: as User
+package System{
+    usecase "Insert projectDeprecated code" as US1
+    usecase "Insert user story id" as US2
+    usecase "Insert sprint id" as US3
+    usecase "Insert task name, projectDescription, type" as US4
+    usecase "Create new task in user story" as US5
+    usecase "List of projects" as US6
+    usecase "List of sprints" as US7
+    usecase "List of user stories" as US8
+}
+User - -> US1
+User - -> US2
+User - -> US3
+User - -> US4
+User - -> US5
+US5 ..> US6 : include
+US5 ..> US7 : include
+US5 ..> US8 : include
+
+
+
+@enduml
+
+PlantUML version 1.2021.16(Wed Dec 08 17:25:22 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: GB
+--></g></svg>

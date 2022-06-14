@@ -1,0 +1,225 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+'######################
+'######################  start config
+skinparam linetype ortho
+'hide circle
+
+skinparam minClassWidth 200
+skinparam nodesep 80
+skinparam ranksep 20
+skinparam padding 3
+
+skinparam package  {
+    BackgroundColor white
+    BorderColor grey
+    shadowing false
+    FontStyle normal
+    FontSize 16
+    borderThickness 0.5
+    fontColor #000
+}
+
+skinparam legend {
+    backgroundColor white
+    borderColor white
+    shadowing false
+    FontStyle normal
+    FontSize 12
+    borderThickness 0.5
+    fontColor black
+    padding 0
+    DesignedBorderColor white
+}
+
+skinparam class {
+    stereotypeFontSize 10
+    fontSize 20
+    fontName Helvetica
+
+    arrowColor black
+    arrowThickness 1
+    attributeIconSize 10
+
+    borderColor black
+    borderThickness 0.5
+    backgroundColor #eee
+
+
+}
+
+skinparam entity {
+    backgroundColor red
+    borderColor black
+    borderThickness 0.5
+
+}
+
+skinparam rectangle {
+    shadowing false
+    fontSize 15
+    textAlignment left
+    fontStyle italic
+    stereotypeFontSize 10
+    borderThickness 0.5
+
+}
+
+'TITLE ON TOP
+title US013 - As a director I want to create Profiles
+
+'HEADER FOOTER DESCRIPTIONS
+center header ONION
+center footer DDD - Domain Driven Design
+
+'###################### end config
+'######################
+
+rectangle "AssemblersJPA" {
+
+    class "ProfileDomainDataAssembler" {
+        + toData( Profile profile ) : ProfileJPA
+        + toDomain( ProfileJPA profileJPA ) : Profile
+    }
+
+    class ProfileJPA {
+
+        - ProfileId profileID
+        - Name name
+    }
+}
+
+rectangle "Infrastructure" {
+
+        interface IProfileRepositoryJPA {
+        }
+}
+
+
+rectangle "Interface Adapters" #C0FFC050  {
+
+      rectangle "Controllers" #C0FFC080  {
+
+          package "ImplementedControllers" #7acff5  {
+
+            class CreateProfileController {
+                - CreateProfileService createProfileService;
+                + createProfile(ProfileDTO profileDTO) : ResponseEntity<Optional<ProfileDTO>>
+            }
+          }
+}
+          package "Repositories" #7acff5  {
+
+            class ProfileRepository {
+                + findByName(Name profileName) : Optional<Profile>
+                + save (Profile profile) : Profile
+                + existsByName(Name profileName) : boolean
+                + getAllProfiles(): List<Profiles>
+            }
+
+          }
+
+      }
+
+
+
+rectangle "Application Services / Use Case Services" #FFAFAF50  {
+
+rectangle "App Services" #FFAFAF80  {
+
+          package "ImplementedAppServices" #7acff5  {
+
+            class CreateProfileService {
+                - ProfileRepository profileRepository;
+                - ProfileDTOAssembler profileDTOAssembler;
+                - ProfileFactoryInterface profileFactoryInterface;
+                + createAndSaveProfile(ProfileDTO profileDTo) : Optional<ProfileDTO>
+            }
+          }
+
+          package "IRepositories" #7acff5 {
+
+            interface IProfileRepository
+          }
+
+      }
+
+}
+
+rectangle "Assemblers and DTO's" {
+
+        package "Assemblers" {
+
+            class ProfileDTOAssembler {
+                + toDTO(Profile profile) : ProfileDTO
+            }
+        }
+
+        package "DTO" {
+
+            class ProfileDTO {
+                + String name;
+
+            }
+        }
+}
+
+rectangle "Entities / Core / Domain" #FFE0C050  {
+
+    rectangle "Aggregates" #7acff580  {
+
+        package "Profile" <<Aggregate>> #7acff5 {
+
+            class Profile <<Root>> {
+                - ProfileID profileID;
+                - Name profileName;
+        }
+
+
+        }
+
+        package "Factories" #7acff5 {
+
+            interface ProfileFactoryInterface {
+
+            }
+
+            class ProfileFactory {
+                + createProfile(Name profileName) : Profile
+            }
+
+        }
+    }
+
+
+
+
+}
+
+CreateProfileController -down-> CreateProfileService
+
+CreateProfileController -left-> ProfileDTOAssembler
+
+CreateProfileService --left-> ProfileDTOAssembler
+
+ProfileDTOAssembler --down|> ProfileDTO : Assembles
+
+CreateProfileService ..right.> IProfileRepository
+
+ProfileRepository ..down.|> IProfileRepository
+
+ProfileRepository .up.> IProfileRepositoryJPA
+
+"ProfileDomainDataAssembler" ..right.|> IProfileRepositoryJPA
+
+"ProfileDomainDataAssembler" --down|>  ProfileJPA : Assembles
+
+ProfileFactory ..|> ProfileFactoryInterface
+
+CreateProfileService ..> ProfileFactoryInterface
+
+CreateProfileService --> Profile
+
+
+@enduml

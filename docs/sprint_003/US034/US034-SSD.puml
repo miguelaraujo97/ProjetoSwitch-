@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title SSD of the US034
+
+autoactivate on
+autonumber
+
+actor "Project Member" as User
+participant ":System" as System
+
+activate User
+
+User -> System: Starts update UserStory status
+System --> User: request the project code
+User -> System: Inserts the project code
+ref over System
+US030-SD_getScrumBoardLists
+end
+System --> User: show Lists of ScrumBoard
+deactivate System
+
+User -> System: Indicates the US id and the new Status
+System -> System: update the Status
+System --> User: Status updated
+
+
+
+
+@enduml

@@ -1,0 +1,74 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+header
+Sequence Diagram of US034
+endheader
+
+center footer US 034 - As Project Member, I want to update the status (i.e.: the Scrum Board category) of a user story in the scope of the current sprint backlog.
+
+
+autoactivate on
+autonumber
+
+actor "Project member" as User
+participant ":UpdateStatusInCurrentSprintUI" as UI
+participant ":UpdateStatusInCurrentSprintController" as Controller
+participant ":Datamanagement" as C1
+participant " : ProjectStore" as C2
+participant " : Project" as C3
+participant " :Sprint" as C4
+participant " SprintBackLog" as C6
+participant " :UserStory" as C12
+
+
+
+activate User
+
+User -> UI: Starts ScrumBoard view feature
+User <-- UI: request the project code
+User -> UI:  indicates the project Code
+'UI -> Controller: getListsForScrumBoard(projectCode)
+ref over UI
+SD_getScrumBoardLists
+end ref
+'
+
+'Controller -> C2: getProjectByCode(projectCode)
+'C2 -> C3:  getCurrentSprint()
+'deactivate C2
+'C3 -> C4: getSprintBacklog()
+'deactivate C3
+'C4 -> C6: listUserStory = getListOfUserStoriesInTheSprintBacklog()
+'deactivate C4
+'Controller <-- C6: listUserStory
+'Controller -> C7: toDto(listUserStory)
+'ref over C7
+'SD_UserStoryMapper_toDTO_List
+'end ref
+
+'Controller<-- C7: listUserStoryDto
+'UI <-- Controller: listUserStoryDto
+User <-- UI: listUserStoryDto
+
+User -> UI: indicates the US ID and the new Status
+UI -> Controller: updateUsStatus(userStoryId, newStatus)
+Controller -> C1: projectStore=getProjectStore()
+Controller <-- C1: sendProjectStore
+Controller -> C2: p = getProjectByCode(projectCode)
+Controller <-- C2: p
+Controller -> C3: setScrumBoardStatus(userStoryId, newStatus)
+C3 -> C4:setScrumBoardStatus(userStoryId,newStatus)
+C4 -> C6: setScrumBoardStatus(userStoryId,newStatus)
+C6 -> C12: setScrumBoardStatus(newStatus)
+C12 -> C12: setScrumBoardStatus(newStatus)
+deactivate C12
+C6<--C12: OK
+C4<--C6: OK
+C3<--C4:ok
+Controller <-- C3: OK
+deactivate C6
+UI <-- Controller: OK
+User <-- UI: OK
+
+@enduml

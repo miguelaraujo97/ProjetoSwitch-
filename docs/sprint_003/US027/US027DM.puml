@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Resource
+class Project
+
+Class Resource {
+Start date
+End date
+Cost per hour
+Percentage of allocation
+Role
+}
+
+Resource "1*"-->"1" Project: is allocated to
+
+class Project {
+Code
+Name
+Description
+Number of planned sprints
+Status
+Start date
+End date
+Budget
+Sprint default duration
+Sprint list
+}
+
+@enduml

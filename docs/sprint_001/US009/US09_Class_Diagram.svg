@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="923px" preserveAspectRatio="none" style="width:409px;height:923px;background:#FFFFFF;" version="1.1" viewBox="0 0 409 923" width="409px" zoomAndPan="magnify"><defs><filter height="300%" id="f3h4i4dfmcqh8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[8387310b197e1e16c6d30d8f73c1790d]
+class CreateUserStoryUI--><rect codeLine="7" fill="#FEFECE" filter="url(#f3h4i4dfmcqh8)" height="32" id="CreateUserStoryUI" style="stroke:#A80036;stroke-width:1.5;" width="135" x="48" y="7"/><ellipse cx="63" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M65,19.5 Q65.2031,19 65.4375,18.75 Q65.6719,18.5 65.9375,18.5 Q66.4063,18.5 66.7031,18.7813 Q67,19.0625 67,19.7188 L67,21.2813 Q67,21.9375 66.7188,22.2188 Q66.4375,22.5 66,22.5 Q65.6094,22.5 65.3594,22.3281 Q65.1094,22.1563 65,21.7031 Q64.9531,21.3906 64.7813,21.2188 Q64.4688,20.8906 63.9063,20.7031 Q63.3438,20.5 62.7813,20.5 Q62.0781,20.5 61.4844,20.7813 Q60.9063,21.0625 60.4531,21.6875 Q60,22.3125 60,23.1719 L60,24.0938 Q60,25.125 60.8438,25.8125 Q61.6875,26.5 63.1875,26.5 Q64.0781,26.5 64.7031,26.2969 Q65.0625,26.1875 65.4688,25.8281 Q65.7344,25.625 65.875,25.5625 Q66.0156,25.5 66.1875,25.5 Q66.5156,25.5 66.75,25.7656 Q67,26.0156 67,26.375 Q67,26.7188 66.6563,27.125 Q66.1563,27.7188 65.3594,28.0469 Q64.3125,28.5 63.0313,28.5 Q61.5313,28.5 60.3281,27.9063 Q59.3594,27.4375 58.6719,26.4219 Q58,25.4063 58,24.2031 L58,23.1094 Q58,21.8594 58.5938,20.7656 Q59.2031,19.6719 60.25,19.0938 Q61.3125,18.5 62.5,18.5 Q63.2188,18.5 63.8438,18.75 Q64.4688,19 65,19.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="103" x="77" y="27.9102">CreateUserStoryUI</text><!--MD5=[7dbedc18e269f19e8d8bc7988b78cff3]
+class CreateUserStoryController--><rect codeLine="9" fill="#FEFECE" filter="url(#f3h4i4dfmcqh8)" height="117.1797" id="CreateUserStoryController" style="stroke:#A80036;stroke-width:1.5;" width="217" x="7" y="99"/><ellipse cx="40" cy="115" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M42,111.5 Q42.2031,111 42.4375,110.75 Q42.6719,110.5 42.9375,110.5 Q43.4063,110.5 43.7031,110.7813 Q44,111.0625 44,111.7188 L44,113.2813 Q44,113.9375 43.7188,114.2188 Q43.4375,114.5 43,114.5 Q42.6094,114.5 42.3594,114.3281 Q42.1094,114.1563 42,113.7031 Q41.9531,113.3906 41.7813,113.2188 Q41.4688,112.8906 40.9063,112.7031 Q40.3438,112.5 39.7813,112.5 Q39.0781,112.5 38.4844,112.7813 Q37.9063,113.0625 37.4531,113.6875 Q37,114.3125 37,115.1719 L37,116.0938 Q37,117.125 37.8438,117.8125 Q38.6875,118.5 40.1875,118.5 Q41.0781,118.5 41.7031,118.2969 Q42.0625,118.1875 42.4688,117.8281 Q42.7344,117.625 42.875,117.5625 Q43.0156,117.5 43.1875,117.5 Q43.5156,117.5 43.75,117.7656 Q44,118.0156 44,118.375 Q44,118.7188 43.6563,119.125 Q43.1563,119.7188 42.3594,120.0469 Q41.3125,120.5 40.0313,120.5 Q38.5313,120.5 37.3281,119.9063 Q36.3594,119.4375 35.6719,118.4219 Q35,117.4063 35,116.2031 L35,115.1094 Q35,113.8594 35.5938,112.7656 Q36.2031,111.6719 37.25,111.0938 Q38.3125,110.5 39.5,110.5 Q40.2188,110.5 40.8438,110.75 Q41.4688,111 42,111.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="145" x="58" y="119.9102">CreateUserStoryController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="223" y1="131" y2="131"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="13" y="146.4189">dataManagement</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="223" y1="152.8359" y2="152.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="141" x="13" y="168.2549">getProjectListByRoleId(roleId)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="188" x="13" y="182.0908">getProjectByRoleId(projectCode, roleId)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="205" x="13" y="195.9268">createUserStory(projectCode, description)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="187" x="13" y="209.7627">addUserStory(projectCode, userStory)</text><!--MD5=[41fc1644ffe584d705042db0e6e760e1]
+class DataManagement--><rect codeLine="17" fill="#FEFECE" filter="url(#f3h4i4dfmcqh8)" height="53.8359" id="DataManagement" style="stroke:#A80036;stroke-width:1.5;" width="130" x="109.5" y="276"/><ellipse cx="124.5" cy="292" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M126.5,288.5 Q126.7031,288 126.9375,287.75 Q127.1719,287.5 127.4375,287.5 Q127.9063,287.5 128.2031,287.7813 Q128.5,288.0625 128.5,288.7188 L128.5,290.2813 Q128.5,290.9375 128.2188,291.2188 Q127.9375,291.5 127.5,291.5 Q127.1094,291.5 126.8594,291.3281 Q126.6094,291.1563 126.5,290.7031 Q126.4531,290.3906 126.2813,290.2188 Q125.9688,289.8906 125.4063,289.7031 Q124.8438,289.5 124.2813,289.5 Q123.5781,289.5 122.9844,289.7813 Q122.4063,290.0625 121.9531,290.6875 Q121.5,291.3125 121.5,292.1719 L121.5,293.0938 Q121.5,294.125 122.3438,294.8125 Q123.1875,295.5 124.6875,295.5 Q125.5781,295.5 126.2031,295.2969 Q126.5625,295.1875 126.9688,294.8281 Q127.2344,294.625 127.375,294.5625 Q127.5156,294.5 127.6875,294.5 Q128.0156,294.5 128.25,294.7656 Q128.5,295.0156 128.5,295.375 Q128.5,295.7188 128.1563,296.125 Q127.6563,296.7188 126.8594,297.0469 Q125.8125,297.5 124.5313,297.5 Q123.0313,297.5 121.8281,296.9063 Q120.8594,296.4375 120.1719,295.4219 Q119.5,294.4063 119.5,293.2031 L119.5,292.1094 Q119.5,290.8594 120.0938,289.7656 Q120.7031,288.6719 121.75,288.0938 Q122.8125,287.5 124,287.5 Q124.7188,287.5 125.3438,287.75 Q125.9688,288 126.5,288.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="98" x="138.5" y="296.9102">DataManagement</text><line style="stroke:#A80036;stroke-width:1.5;" x1="110.5" x2="238.5" y1="308" y2="308"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="115.5" y="323.4189">getProjectStore()</text><!--MD5=[0cf43f64de24b70e8ffe65ff9ee7abee]
+class ProjectStore--><rect codeLine="21" fill="#FEFECE" filter="url(#f3h4i4dfmcqh8)" height="75.6719" id="ProjectStore" style="stroke:#A80036;stroke-width:1.5;" width="153" x="39" y="480"/><ellipse cx="78.3" cy="496" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M80.3,492.5 Q80.5031,492 80.7375,491.75 Q80.9719,491.5 81.2375,491.5 Q81.7063,491.5 82.0031,491.7813 Q82.3,492.0625 82.3,492.7188 L82.3,494.2813 Q82.3,494.9375 82.0188,495.2188 Q81.7375,495.5 81.3,495.5 Q80.9094,495.5 80.6594,495.3281 Q80.4094,495.1563 80.3,494.7031 Q80.2531,494.3906 80.0813,494.2188 Q79.7688,493.8906 79.2063,493.7031 Q78.6438,493.5 78.0813,493.5 Q77.3781,493.5 76.7844,493.7813 Q76.2063,494.0625 75.7531,494.6875 Q75.3,495.3125 75.3,496.1719 L75.3,497.0938 Q75.3,498.125 76.1438,498.8125 Q76.9875,499.5 78.4875,499.5 Q79.3781,499.5 80.0031,499.2969 Q80.3625,499.1875 80.7688,498.8281 Q81.0344,498.625 81.175,498.5625 Q81.3156,498.5 81.4875,498.5 Q81.8156,498.5 82.05,498.7656 Q82.3,499.0156 82.3,499.375 Q82.3,499.7188 81.9563,500.125 Q81.4563,500.7188 80.6594,501.0469 Q79.6125,501.5 78.3313,501.5 Q76.8313,501.5 75.6281,500.9063 Q74.6594,500.4375 73.9719,499.4219 Q73.3,498.4063 73.3,497.2031 L73.3,496.1094 Q73.3,494.8594 73.8938,493.7656 Q74.5031,492.6719 75.55,492.0938 Q76.6125,491.5 77.8,491.5 Q78.5188,491.5 79.1438,491.75 Q79.7688,492 80.3,492.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="67" x="97.7" y="500.9102">ProjectStore</text><line style="stroke:#A80036;stroke-width:1.5;" x1="40" x2="191" y1="512" y2="512"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="118" x="45" y="527.4189">List&lt;Project&gt;: projectList</text><line style="stroke:#A80036;stroke-width:1.5;" x1="40" x2="191" y1="533.8359" y2="533.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="141" x="45" y="549.2549">getProjectListByRoleId(roleId)</text><!--MD5=[79d378210367c0c6ec62ef762ddfbd1b]
+class ProjectDeprecated--><rect codeLine="26" fill="#FEFECE" filter="url(#f3h4i4dfmcqh8)" height="255.5391" id="Project" style="stroke:#A80036;stroke-width:1.5;" width="168" x="227.5" y="390"/><ellipse cx="288.25" cy="406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M290.25,402.5 Q290.4531,402 290.6875,401.75 Q290.9219,401.5 291.1875,401.5 Q291.6563,401.5 291.9531,401.7813 Q292.25,402.0625 292.25,402.7188 L292.25,404.2813 Q292.25,404.9375 291.9688,405.2188 Q291.6875,405.5 291.25,405.5 Q290.8594,405.5 290.6094,405.3281 Q290.3594,405.1563 290.25,404.7031 Q290.2031,404.3906 290.0313,404.2188 Q289.7188,403.8906 289.1563,403.7031 Q288.5938,403.5 288.0313,403.5 Q287.3281,403.5 286.7344,403.7813 Q286.1563,404.0625 285.7031,404.6875 Q285.25,405.3125 285.25,406.1719 L285.25,407.0938 Q285.25,408.125 286.0938,408.8125 Q286.9375,409.5 288.4375,409.5 Q289.3281,409.5 289.9531,409.2969 Q290.3125,409.1875 290.7188,408.8281 Q290.9844,408.625 291.125,408.5625 Q291.2656,408.5 291.4375,408.5 Q291.7656,408.5 292,408.7656 Q292.25,409.0156 292.25,409.375 Q292.25,409.7188 291.9063,410.125 Q291.4063,410.7188 290.6094,411.0469 Q289.5625,411.5 288.2813,411.5 Q286.7813,411.5 285.5781,410.9063 Q284.6094,410.4375 283.9219,409.4219 Q283.25,408.4063 283.25,407.2031 L283.25,406.1094 Q283.25,404.8594 283.8438,403.7656 Q284.4531,402.6719 285.5,402.0938 Q286.5625,401.5 287.75,401.5 Q288.4688,401.5 289.0938,401.75 Q289.7188,402 290.25,402.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="38" x="308.75" y="410.9102">Project</text><line style="stroke:#A80036;stroke-width:1.5;" x1="228.5" x2="394.5" y1="422" y2="422"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="58" x="233.5" y="437.4189">String: code</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="233.5" y="451.2549">String: name</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="233.5" y="465.0908">String: description</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="233.5" y="478.9268">double: budget</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="233.5" y="492.7627">Typology: typology</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="156" x="233.5" y="506.5986">ProductBacklog: productBacklog</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="97" x="233.5" y="520.4346">Customer: customer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="137" x="233.5" y="534.2705">int: numberOfPlannedSprints</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="233.5" y="548.1064">String: status</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="124" x="233.5" y="561.9424">ProjectTeam: projectTeam</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="233.5" y="575.7783">LocalDate: startDate</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="233.5" y="589.6143">LocalDate: endDate</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="122" x="233.5" y="603.4502">List&lt;Activity&gt;: activityList</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="233.5" y="617.2861">List&lt;Sprint&gt;: sprintList</text><line style="stroke:#A80036;stroke-width:1.5;" x1="228.5" x2="394.5" y1="623.7031" y2="623.7031"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="233.5" y="639.1221">getProductBacklog()</text><!--MD5=[91b5dce48d18c73d9cea267c757e6d47]
+class ProductBacklog--><rect codeLine="44" fill="#FEFECE" filter="url(#f3h4i4dfmcqh8)" height="89.5078" id="ProductBacklog" style="stroke:#A80036;stroke-width:1.5;" width="161" x="231" y="706"/><ellipse cx="265.35" cy="722" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M267.35,718.5 Q267.5531,718 267.7875,717.75 Q268.0219,717.5 268.2875,717.5 Q268.7563,717.5 269.0531,717.7813 Q269.35,718.0625 269.35,718.7188 L269.35,720.2813 Q269.35,720.9375 269.0688,721.2188 Q268.7875,721.5 268.35,721.5 Q267.9594,721.5 267.7094,721.3281 Q267.4594,721.1563 267.35,720.7031 Q267.3031,720.3906 267.1313,720.2188 Q266.8188,719.8906 266.2563,719.7031 Q265.6938,719.5 265.1313,719.5 Q264.4281,719.5 263.8344,719.7813 Q263.2563,720.0625 262.8031,720.6875 Q262.35,721.3125 262.35,722.1719 L262.35,723.0938 Q262.35,724.125 263.1938,724.8125 Q264.0375,725.5 265.5375,725.5 Q266.4281,725.5 267.0531,725.2969 Q267.4125,725.1875 267.8188,724.8281 Q268.0844,724.625 268.225,724.5625 Q268.3656,724.5 268.5375,724.5 Q268.8656,724.5 269.1,724.7656 Q269.35,725.0156 269.35,725.375 Q269.35,725.7188 269.0063,726.125 Q268.5063,726.7188 267.7094,727.0469 Q266.6625,727.5 265.3813,727.5 Q263.8813,727.5 262.6781,726.9063 Q261.7094,726.4375 261.0219,725.4219 Q260.35,724.4063 260.35,723.2031 L260.35,722.1094 Q260.35,720.8594 260.9438,719.7656 Q261.5531,718.6719 262.6,718.0938 Q263.6625,717.5 264.85,717.5 Q265.5688,717.5 266.1938,717.75 Q266.8188,718 267.35,718.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="283.65" y="726.9102">ProductBacklog</text><line style="stroke:#A80036;stroke-width:1.5;" x1="232" x2="391" y1="738" y2="738"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="149" x="237" y="753.4189">List&lt;UserStory&gt;: userStoryList</text><line style="stroke:#A80036;stroke-width:1.5;" x1="232" x2="391" y1="759.8359" y2="759.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="141" x="237" y="775.2549">createUserStory(description)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="123" x="237" y="789.0908">addUserStory(userStory)</text><!--MD5=[daa6dd44d8f60c5a9cd695bb66773862]
+class UserStory--><rect codeLine="50" fill="#FEFECE" filter="url(#f3h4i4dfmcqh8)" height="53.8359" id="UserStory" style="stroke:#A80036;stroke-width:1.5;" width="99" x="262" y="856"/><ellipse cx="282.85" cy="872" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M284.85,868.5 Q285.0531,868 285.2875,867.75 Q285.5219,867.5 285.7875,867.5 Q286.2563,867.5 286.5531,867.7813 Q286.85,868.0625 286.85,868.7188 L286.85,870.2813 Q286.85,870.9375 286.5688,871.2188 Q286.2875,871.5 285.85,871.5 Q285.4594,871.5 285.2094,871.3281 Q284.9594,871.1563 284.85,870.7031 Q284.8031,870.3906 284.6313,870.2188 Q284.3188,869.8906 283.7563,869.7031 Q283.1938,869.5 282.6313,869.5 Q281.9281,869.5 281.3344,869.7813 Q280.7563,870.0625 280.3031,870.6875 Q279.85,871.3125 279.85,872.1719 L279.85,873.0938 Q279.85,874.125 280.6938,874.8125 Q281.5375,875.5 283.0375,875.5 Q283.9281,875.5 284.5531,875.2969 Q284.9125,875.1875 285.3188,874.8281 Q285.5844,874.625 285.725,874.5625 Q285.8656,874.5 286.0375,874.5 Q286.3656,874.5 286.6,874.7656 Q286.85,875.0156 286.85,875.375 Q286.85,875.7188 286.5063,876.125 Q286.0063,876.7188 285.2094,877.0469 Q284.1625,877.5 282.8813,877.5 Q281.3813,877.5 280.1781,876.9063 Q279.2094,876.4375 278.5219,875.4219 Q277.85,874.4063 277.85,873.2031 L277.85,872.1094 Q277.85,870.8594 278.4438,869.7656 Q279.0531,868.6719 280.1,868.0938 Q281.1625,867.5 282.35,867.5 Q283.0688,867.5 283.6938,867.75 Q284.3188,868 284.85,868.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="54" x="298.15" y="876.9102">UserStory</text><line style="stroke:#A80036;stroke-width:1.5;" x1="263" x2="360" y1="888" y2="888"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="268" y="903.4189">String: description</text><!--MD5=[4d5808576f86e91fe6d404ee06b9ff6b]
+link CreateUserStoryUI to CreateUserStoryController--><path codeLine="54" d="M115.5,39.2 C115.5,49.41 115.5,63.72 115.5,78.85 " fill="none" id="CreateUserStoryUI-to-CreateUserStoryController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="122.5,78.94,115.5,98.94,108.5,78.94,122.5,78.94" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[37b9384dcb454f90f954825cef3447aa]
+link CreateUserStoryController to DataManagement--><path codeLine="55" d="M139.16,216.04 C147.69,236.78 156.89,259.17 163.77,275.9 " fill="none" id="CreateUserStoryController-DataManagement" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="130.0512" y="265.3379">uses</text><!--MD5=[e62a4362b55028b33de9f54c9d04fdb3]
+link CreateUserStoryController to ProjectStore--><path codeLine="56" d="M101.32,216.12 C97.31,235.07 93.49,256.32 91.5,276 C85.13,339 94.56,411.28 103.41,460.12 " fill="none" id="CreateUserStoryController-to-ProjectStore" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="110.3,458.88,107.18,479.84,96.55,461.51,110.3,458.88" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="25" x="78.4714" y="469.1734">gets</text><!--MD5=[e49256ec62a64c0e2589668b84841744]
+link DataManagement to ProjectStore--><path codeLine="57" d="M167.27,330.12 C156.86,367.67 137.64,437.08 125.77,479.93 " fill="none" id="DataManagement-ProjectStore" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[626cc0adcc6c3eabfe261ec19000087f]
+link ProjectStore to ProjectDeprecated--><path codeLine="58" d="M192.06,518 C203.73,518 215.39,518 227.05,518 " fill="none" id="ProjectStore-Project" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[2dee92360f00b603e7ba5f8f02cfe98b]
+reverse link ProjectDeprecated to ProductBacklog--><path codeLine="59" d="M311.5,659.73 C311.5,676.28 311.5,692.1 311.5,705.75 " fill="none" id="Project-backto-ProductBacklog" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="311.5,646.32,307.5,652.32,311.5,658.32,315.5,652.32,311.5,646.32" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="304.3195" y="666.8651">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="288.8922" y="695.1558">has</text><!--MD5=[da621f2c22940e0851cb37e196c44e0e]
+reverse link ProductBacklog to UserStory--><path codeLine="60" d="M311.5,809.39 C311.5,825.61 311.5,842.47 311.5,855.86 " fill="none" id="ProductBacklog-backto-UserStory" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="311.5,796.01,307.5,802.01,311.5,808.01,315.5,802.01,311.5,796.01" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="304.0078" y="817.019">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="92" x="208.8625" y="845.2886">is composed by</text><!--MD5=[f30a87ffdca16a1b24c50f33082f7461]
+@startuml
+'https://plantuml.com/class-diagram
+hide empty members
+
+class CreateUserStoryUI
+
+class CreateUserStoryController{
+    dataManagement
+    getProjectListByRoleId(roleId)
+    getProjectByRoleId(projectCode, roleId)
+    createUserStory(projectCode, projectDescription)
+    addUserStory(projectCode, userStory)
+    }
+
+class DataManagement{
+    getProjectStore()
+}
+
+class ProjectStore{
+    List<ProjectDeprecated>: projectList
+    getProjectListByRoleId(roleId)
+}
+
+class ProjectDeprecated{
+        String: code
+        String: name
+        String: projectDescription
+        double: projectBudget
+        Typology: typologyDescription
+        ProductBacklog: productBacklog
+        Customer: customer
+        int: projectNumberOfPlannedSprints
+        String: status
+        ProjectTeam: projectTeam
+        LocalDate: startDate
+        LocalDate: endDate
+        List<Activity>: activityList
+        List<Sprint>: sprintList
+    getProductBacklog()
+}
+
+class ProductBacklog{
+    List<UserStory>: userStoryList
+    createUserStory(projectDescription)
+    addUserStory(userStory)
+}
+
+class UserStory {
+    String: projectDescription
+}
+
+CreateUserStoryUI ..|>  CreateUserStoryController
+CreateUserStoryController - - "uses" DataManagement
+CreateUserStoryController ..|>  "gets" ProjectStore
+DataManagement - - ProjectStore
+ProjectStore -r- ProjectDeprecated
+ProjectDeprecated "1" o- - "has" ProductBacklog
+ProductBacklog  "1" o- - "is composed by"UserStory
+
+
+@enduml
+
+@startuml
+hide empty members
+
+class CreateUserStoryUI
+
+class CreateUserStoryController{
+    dataManagement
+    getProjectListByRoleId(roleId)
+    getProjectByRoleId(projectCode, roleId)
+    createUserStory(projectCode, projectDescription)
+    addUserStory(projectCode, userStory)
+    }
+
+class DataManagement{
+    getProjectStore()
+}
+
+class ProjectStore{
+    List<ProjectDeprecated>: projectList
+    getProjectListByRoleId(roleId)
+}
+
+class ProjectDeprecated{
+        String: code
+        String: name
+        String: projectDescription
+        double: projectBudget
+        Typology: typologyDescription
+        ProductBacklog: productBacklog
+        Customer: customer
+        int: projectNumberOfPlannedSprints
+        String: status
+        ProjectTeam: projectTeam
+        LocalDate: startDate
+        LocalDate: endDate
+        List<Activity>: activityList
+        List<Sprint>: sprintList
+    getProductBacklog()
+}
+
+class ProductBacklog{
+    List<UserStory>: userStoryList
+    createUserStory(projectDescription)
+    addUserStory(userStory)
+}
+
+class UserStory {
+    String: projectDescription
+}
+
+CreateUserStoryUI ..|>  CreateUserStoryController
+CreateUserStoryController - - "uses" DataManagement
+CreateUserStoryController ..|>  "gets" ProjectStore
+DataManagement - - ProjectStore
+ProjectStore -r- ProjectDeprecated
+ProjectDeprecated "1" o- - "has" ProductBacklog
+ProductBacklog  "1" o- - "is composed by"UserStory
+
+
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 16:16:42 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: GB
+--></g></svg>

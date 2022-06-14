@@ -1,0 +1,61 @@
+@startuml
+autonumber
+autoactivate on
+
+actor "Product Owner" as PO
+boundary CreateUserStoryUI
+participant ": CreateUserStoryController"
+participant ": ResourceDomainAssembler"
+participant "productOwnerResourceDTO: ProductOwnerResourceDTO"
+participant ": UserStoryDomainAssembler"
+participant ": ApplicationService"
+participant "userStoryDTO: UserStoryDTO"
+participant "userStoryId: UserStoryID"
+participant ": ResourceRepository"
+participant "description: Description"
+participant ": ProjectDomainAssembler"
+participant "ProductOwnerResource: List <Resource>"
+participant ": ProjectRepository"
+participant "availableProjects: List <Projects>"
+activate PO
+
+PO -> CreateUserStoryUI : Request Project List Where I'm Product Owner
+CreateUserStoryUI -> ": CreateUserStoryController" : getProjectListByProductOwner( userId, role )
+": CreateUserStoryController" -> ": ResourceDomainAssembler" :   productOwnerResourceToDTO ( userId, role )
+": ResourceDomainAssembler" -> "productOwnerResourceDTO: ProductOwnerResourceDTO" ** : createDTO( userId, role )
+": ResourceDomainAssembler" --> ": CreateUserStoryController" : productOwnerResourceDTO
+": CreateUserStoryController" -> ": ApplicationService" : getProjectListByProductOwner( productOwnerResourceDTO )
+": ApplicationService" -> ": ResourceRepository" : productOwnerResources = findResourcesByUserIdAndRole( userId, role )
+": ResourceRepository" -> "ProductOwnerResource: List <Resource>" ** :
+": ResourceRepository" --> ": ApplicationService" : productOwnerResource
+": ApplicationService" -> "availableProjects: List <Projects>" **:
+
+loop For each know Resource in ProductOwnerResources
+	": ApplicationService" -> "ProductOwnerResource: List <Resource>" : resourceProjectCode = getResourceProjectCode()
+	deactivate
+	": ApplicationService" -> ": ProjectRepository" : resultProject = findProjectByCode( resourceProjectCode )
+	deactivate
+	": ApplicationService" -> "availableProjects: List <Projects>" : addProject ( resultProject )
+	deactivate
+end
+
+": ApplicationService" --> ": CreateUserStoryController" : availableProjects
+": CreateUserStoryController" --> CreateUserStoryUI : availableProjects
+CreateUserStoryUI --> PO : Show Available Projects
+PO -> CreateUserStoryUI : Select Project
+CreateUserStoryUI --> PO : Project Selected
+PO -> CreateUserStoryUI : Start a New User Story
+CreateUserStoryUI --> PO : Request User Story Data
+PO -> CreateUserStoryUI : Insert Requested Data (userStoryId, description)
+CreateUserStoryUI -> ": CreateUserStoryController" : createUserStory( projectCode, userStoryId, description )
+": CreateUserStoryController" -> ": UserStoryDomainAssembler" : userStoryToDTO( userStoryId, description )
+": UserStoryDomainAssembler" -> "userStoryDTO: UserStoryDTO" ** :
+": UserStoryDomainAssembler" --> ": CreateUserStoryController" : userStoryDTO
+": CreateUserStoryController" -> ": ApplicationService" : createAndSaveUserStory( userStoryDTO )
+": ApplicationService" -> "userStoryId: UserStoryID" **: create( userStoryID )
+": ApplicationService" -> "description: Description" **: create( description )
+": ApplicationService" -> ": ProjectRepository" : createUserStoryInProject( projectCode )
+
+
+
+@enduml

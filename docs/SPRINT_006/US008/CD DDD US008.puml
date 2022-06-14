@@ -1,0 +1,192 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+'######################
+'######################  start config
+skinparam linetype ortho
+hide members
+'hide circle
+
+skinparam minClassWidth 200
+skinparam nodesep 80
+skinparam ranksep 20
+skinparam padding 3
+
+skinparam package  {
+    BackgroundColor white
+    BorderColor grey
+    shadowing false
+    FontStyle normal
+    FontSize 16
+    borderThickness 0.5
+    fontColor #000
+}
+
+skinparam legend {
+    backgroundColor white
+    borderColor white
+    shadowing false
+    FontStyle normal
+    FontSize 12
+    borderThickness 0.5
+    fontColor black
+    padding 0
+    DesignedBorderColor white
+}
+
+skinparam class {
+    stereotypeFontSize 10
+    fontSize 20
+    fontName Helvetica
+
+    arrowColor black
+    arrowThickness 1
+    attributeIconSize 0
+
+    borderColor black
+    borderThickness 0.5
+    backgroundColor #eee
+
+
+}
+
+skinparam entity {
+    backgroundColor red
+    borderColor black
+    borderThickness 0.5
+
+}
+
+skinparam rectangle {
+    shadowing false
+    fontSize 15
+    textAlignment left
+    fontStyle italic
+    stereotypeFontSize 10
+    borderThickness 0.5
+
+}
+
+'TITLE ON TOP
+title US005 - AS a director i want to create projects
+
+'HEADER FOOTER DESCRIPTIONS
+center header ONION
+center footer DDD - Domain Driven Design
+
+'###################### end config
+'######################
+
+
+rectangle Infrastructure #80FFFF50  {
+
+
+    package Routes #7acff5 {
+
+        class EditProjectRoute
+
+
+
+
+    }
+
+
+}
+
+
+rectangle "Interface Adapters" #C0FFC050  {
+
+
+
+      rectangle "Controllers" #C0FFC080  {
+
+
+
+          package "ImplementedControllers" #7acff5  {
+
+            class EditProjectController
+
+
+
+          }
+
+          package "Repositories" #7acff5  {
+
+            class ProjectRepository
+
+
+          }
+
+      }
+
+}
+
+rectangle "Application Services / Use Case Services" #FFAFAF50  {
+
+rectangle "App Services" #FFAFAF80  {
+
+
+          package "ImplementedAppServices" #7acff5  {
+
+            class EditProjectAppService
+
+
+          }
+
+          package "InterfaceRepositories" #7acff5  {
+
+            interface IProjectRepository
+
+
+          }
+
+      }
+
+}
+
+rectangle "Entities / Core / Domain" #FFE0C050  {
+
+    rectangle "Aggregates" #7acff580  {
+
+        package "Project" <<Aggregate>> #7acff5  {
+
+            class Project <<Root>>
+
+        }
+
+    }
+
+
+
+    package "ValueObjects" #7acff5 {
+
+
+
+        class ProjectCode <<Value Object>>
+
+
+
+    }
+}
+
+EditProjectRoute ....down.> EditProjectController
+
+
+
+
+EditProjectController ..> EditProjectAppService
+
+ProjectRepository .down..|> IProjectRepository
+
+
+
+
+
+EditProjectAppService ...left.> IProjectRepository
+
+EditProjectAppService ..down.> Project
+
+Project ...> ProjectCode
+
+
+@enduml

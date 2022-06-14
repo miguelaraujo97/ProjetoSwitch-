@@ -1,0 +1,127 @@
+@startuml
+'https://plantuml.com/class-diagram
+hide members
+'hide circle
+
+skinparam minClassWidth 200
+skinparam nodesep 80
+skinparam ranksep 80
+skinparam Padding 5
+skinparam linetype ortho
+
+'left to right direction
+
+skinparam package  {
+    BackgroundColor white
+    BorderColor grey
+    shadowing false
+    FontStyle normal
+    FontSize 16
+    borderThickness 0.5
+    fontColor #aaa
+}
+
+skinparam legend {
+    backgroundColor white
+    borderColor white
+    shadowing false
+    FontStyle normal
+    FontSize 12
+    borderThickness 0.5
+    fontColor black
+    Padding 20
+    DesignedBorderColor white
+}
+
+skinparam class {
+    stereotypeFontSize 10
+    fontSize 16
+    fontName Helvetica
+
+    arrowColor black
+    arrowThickness 1
+    attributeIconSize 0
+
+    borderColor black
+    borderThickness 0.5
+    backgroundColor #eee
+}
+
+skinparam entity {
+    backgroundColor red
+    borderColor black
+    borderThickness 0.5
+}
+
+skinparam rectangle {
+    shadowing false
+    fontSize 15
+    textAlignment left
+    fontStyle italic
+    stereotypeFontSize 10
+    borderThickness 0.5
+}
+
+'TITLE ON TOP
+title US022
+
+'HEADER FOOTER DESCRIPTIONS
+center header ONION
+center footer DDD - Domain Driven Design
+
+
+package Infrastructure #80FFFF{
+class CreateNewSprintRoute
+}
+
+
+package InterfaceAdapters #C0FFC0 {
+    package Controllers{
+        class CreateSprintController
+    }
+    package Repositories #7ACff5{
+        class RepoSprint
+        class RepoProject
+    }
+
+}
+
+package ApplicationServices_UseCaseServices #FFAFAF{
+package AppServices{
+class CreateSprintService
+class FindProjectService
+}
+package RepoInterfaces{
+interface IRepoProject
+interface IRepoSprint
+}
+
+}
+
+package Entities_Core_Domain #FFE0C0{
+
+package DomainServices{
+class SprintFactory
+class CreateSprintDomainService
+}
+package AggregateSprint{
+class Sprint
+}
+interface ISprintFactory
+}
+RepoSprint ..|> IRepoSprint
+RepoProject ..|> IRepoProject
+CreateSprintController ..> CreateSprintService
+Infrastructure -[hidden]-> InterfaceAdapters
+InterfaceAdapters -[hidden]-> ApplicationServices_UseCaseServices
+ApplicationServices_UseCaseServices -[hidden]->Entities_Core_Domain
+CreateSprintDomainService -right-> IRepoSprint
+CreateSprintService .left.> FindProjectService
+FindProjectService .> IRepoProject
+CreateSprintService .down..> CreateSprintDomainService
+CreateSprintDomainService .left...> SprintFactory
+SprintFactory ..|> ISprintFactory
+SprintFactory -right-------> Sprint
+
+
+@enduml

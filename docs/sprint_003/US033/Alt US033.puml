@@ -1,0 +1,36 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber 11
+
+
+participant "currentSprint:Sprint" as sprint
+participant "sprintBacklog:SprintBacklog" as sb
+participant "userStory:UserStory" as us
+participant "task:Task" as task
+
+
+alt sprintTask
+sprint -> task : getSprintTaskById(taskID)
+activate task
+task -> task : updateWorkDoneInTask(value)
+task -> task : validate
+sprint <-- task: true
+else userStoryTask
+deactivate task
+sprint -> sb: getSprintBacklog()
+activate sb
+sb -> us: getUserStory(userStoryID)
+activate us
+us -> task : getTask(taskID)
+activate task
+task -> task : updateWorkDoneInTask(value)
+task -> task : validate
+us <-- task: true
+deactivate task
+sb <-- us : true
+deactivate us
+sprint <-- sb : true
+deactivate sb
+end
+@enduml

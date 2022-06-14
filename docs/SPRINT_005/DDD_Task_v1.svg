@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="536px" preserveAspectRatio="none" style="width:691px;height:536px;background:#FFFFFF;" version="1.1" viewBox="0 0 691 536" width="691px" zoomAndPan="magnify"><defs><filter height="300%" id="fzwmzba9dxbes" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[79d378210367c0c6ec62ef762ddfbd1b]
+class ProjectDeprecated--><rect codeLine="25" fill="#EEEEEE" filter="url(#fzwmzba9dxbes)" height="42.7031" id="Project" rx="4" ry="4" style="stroke:#000000;stroke-width:0.5;" width="200" x="242" y="7"/><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="109" x="287.5" y="22.3809">«AGGREGATE ROOT»</text><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="49" x="317.5" y="41.1875">Project</text><!--MD5=[5d69f14587b43039b1f7f06356fe9af3]
+class ProjectCode--><rect codeLine="26" fill="#EEEEEE" filter="url(#fzwmzba9dxbes)" height="42.7031" id="ProjectCode" rx="4" ry="4" style="stroke:#000000;stroke-width:0.5;" width="200" x="242" y="110"/><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="89" x="297.5" y="125.3809">«VALUE OBJECT»</text><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="88" x="298" y="144.1875">ProjectCode</text><!--MD5=[452a66c2e8d45f5bd209be454bbcd04f]
+class Sprint--><rect codeLine="28" fill="#EEEEEE" filter="url(#fzwmzba9dxbes)" height="42.7031" id="Sprint" rx="4" ry="4" style="stroke:#000000;stroke-width:0.5;" width="200" x="7" y="274"/><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="109" x="52.5" y="289.3809">«AGGREGATE ROOT»</text><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="41" x="86.5" y="308.1875">Sprint</text><!--MD5=[9ad4036dd028425989883104bd9f35de]
+class SprintID--><rect codeLine="29" fill="#EEEEEE" filter="url(#fzwmzba9dxbes)" height="42.7031" id="SprintID" rx="4" ry="4" style="stroke:#000000;stroke-width:0.5;" width="200" x="7" y="377"/><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="89" x="62.5" y="392.3809">«VALUE OBJECT»</text><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="56" x="79" y="411.1875">SprintID</text><!--MD5=[daa6dd44d8f60c5a9cd695bb66773862]
+class UserStory--><rect codeLine="32" fill="#EEEEEE" filter="url(#fzwmzba9dxbes)" height="42.7031" id="UserStory" rx="4" ry="4" style="stroke:#000000;stroke-width:0.5;" width="200" x="242" y="274"/><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="109" x="287.5" y="289.3809">«AGGREGATE ROOT»</text><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="69" x="307.5" y="308.1875">UserStory</text><!--MD5=[e98f05372d25a3a7c070b97ec805badf]
+class UserStoryID--><rect codeLine="33" fill="#EEEEEE" filter="url(#fzwmzba9dxbes)" height="42.7031" id="UserStoryID" rx="4" ry="4" style="stroke:#000000;stroke-width:0.5;" width="200" x="242" y="377"/><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="89" x="297.5" y="392.3809">«VALUE OBJECT»</text><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="84" x="300" y="411.1875">UserStoryID</text><!--MD5=[b34797a66dc35cbf1d65f7e3ca75530e]
+class Task--><rect codeLine="35" fill="#EEEEEE" filter="url(#fzwmzba9dxbes)" height="42.7031" id="Task" rx="4" ry="4" style="stroke:#000000;stroke-width:0.5;" width="200" x="477" y="377"/><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="109" x="522.5" y="392.3809">«AGGREGATE ROOT»</text><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="34" x="560" y="411.1875">Task</text><!--MD5=[8636965623bda5df623917fbab529f2a]
+class TaskID--><rect codeLine="36" fill="#EEEEEE" filter="url(#fzwmzba9dxbes)" height="42.7031" id="TaskID" rx="4" ry="4" style="stroke:#000000;stroke-width:0.5;" width="200" x="477" y="480"/><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="89" x="532.5" y="495.3809">«VALUE OBJECT»</text><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="49" x="552.5" y="514.1875">TaskID</text><!--MD5=[e02a9db14187eb223f858cc17dd7c641]
+class TaskContainerID--><rect codeLine="38" fill="#EEEEEE" filter="url(#fzwmzba9dxbes)" height="42.7031" id="TaskContainerID" rx="4" ry="4" style="stroke:#000000;stroke-width:0.5;" width="200" x="242" y="480"/><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="68" x="308" y="495.3809">«INTERFACE»</text><text fill="#000000" font-family="Helvetica" font-size="16" font-style="italic" lengthAdjust="spacing" textLength="121" x="281.5" y="514.1875">TaskContainerID</text><!--MD5=[2bf71af88fd2f6696c1f017905d07c63]
+link ProjectDeprecated to ProjectCode--><path codeLine="42" d="M342,50.34 C342,50.34 342,104.69 342,104.69 " fill="none" id="Project-to-ProjectCode" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="342,109.69,346,100.69,342,104.69,338,100.69,342,109.69" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="334.0594" y="99.2608">1</text><!--MD5=[128fcd6bf76a45b6dcfe63b4d7205530]
+link Sprint to SprintID--><path codeLine="44" d="M107,317.34 C107,317.34 107,371.69 107,371.69 " fill="none" id="Sprint-to-SprintID" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="107,376.69,111,367.69,107,371.69,103,367.69,107,376.69" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="99.0594" y="366.2608">1</text><!--MD5=[aff3674d76dbbea66c1262684654bbe6]
+reverse link ProjectCode to Sprint--><path codeLine="45" d="M237,132 C237,132 107,132 107,132 C107,132 107,229.31 107,273.79 " fill="none" id="ProjectCode-backto-Sprint" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="242,132,233,128,237,132,233,136,242,132" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="227.0758" y="128.9457">1</text><!--MD5=[1c1d80ef05e4bfa2ce74ce6f532c55fa]
+link UserStory to UserStoryID--><path codeLine="48" d="M342,317.34 C342,317.34 342,371.69 342,371.69 " fill="none" id="UserStory-to-UserStoryID" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="342,376.69,346,367.69,342,371.69,338,367.69,342,376.69" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="334.0594" y="366.2608">1</text><!--MD5=[f65dbf232c871cbc8afc141a601ffee1]
+reverse link ProjectCode to UserStory--><path codeLine="49" d="M342,158.28 C342,158.28 342,273.89 342,273.89 " fill="none" id="ProjectCode-backto-UserStory" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="342,153.28,338,162.28,342,158.28,346,162.28,342,153.28" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="334.1469" y="174.113">1</text><!--MD5=[6083b8a0ccf9b6b39a6e813258109f2c]
+link UserStory to SprintID--><path codeLine="50" d="M241.84,296 C231.39,296 224.5,296 224.5,296 C224.5,296 224.5,399 224.5,399 C224.5,399 212.16,399 212.16,399 " fill="none" id="UserStory-to-SprintID" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="207.16,399,216.16,403,212.16,399,216.16,395,207.16,399" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="213.9908" y="395.9306">0..*</text><!--MD5=[3b8a0f5a8ad318dc40f7fde78a824e15]
+link Task to TaskID--><path codeLine="52" d="M577,420.34 C577,420.34 577,474.69 577,474.69 " fill="none" id="Task-to-TaskID" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="577,479.69,581,470.69,577,474.69,573,470.69,577,479.69" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="569.0594" y="469.2608">1</text><!--MD5=[623714d37dfbe532c8a9af8d7aeff02e]
+reverse link ProjectCode to Task--><path codeLine="53" d="M447,132 C447,132 577,132 577,132 C577,132 577,313.04 577,376.69 " fill="none" id="ProjectCode-backto-Task" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="442,132,451,136,447,132,451,128,442,132" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="449.9242" y="128.9457">1</text><!--MD5=[d956fc9189bad7c2fb12393218abf419]
+link SprintID to TaskContainerID--><path codeLine="55" d="M107,420.2 C107,450.55 107,502 107,502 C107,502 222,502 222,502 " fill="none" id="SprintID-to-TaskContainerID" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="222,495,242,502,222,509,222,495" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[3c7bb2d18c6ef92af05e246b23e07648]
+link UserStoryID to TaskContainerID--><path codeLine="56" d="M342,420.34 C342,420.34 342,459.69 342,459.69 " fill="none" id="UserStoryID-to-TaskContainerID" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="349,459.69,342,479.69,335,459.69,349,459.69" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[8dbf75e3611c90b8d774adafde8aaf26]
+link Task to TaskContainerID--><path codeLine="57" d="M476.84,399 C466.39,399 459.5,399 459.5,399 C459.5,399 459.5,502 459.5,502 C459.5,502 447.16,502 447.16,502 " fill="none" id="Task-to-TaskContainerID" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="442.16,502,451.16,506,447.16,502,451.16,498,442.16,502" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[cde56f37800bbe81362ca4fcf0ecf032]
+@startuml
+'https://plantuml.com/class-diagram
+
+hide members
+hide circle
+skinparam linetype ortho
+skinparam minClassWidth 200
+skinparam roundCorner 8
+skinparam class {
+    stereotypeFontSize 10
+    fontSize 16
+    fontName Helvetica
+
+    arrowColor black
+    arrowThickness 1
+    attributeIconSize 0
+
+    borderColor black
+    borderThickness 0.5
+    backgroundColor #eee
+
+
+}
+
+
+entity ProjectDeprecated <<AGGREGATE ROOT>>
+class ProjectCode <<VALUE OBJECT>>
+
+entity Sprint <<AGGREGATE ROOT>>
+class SprintID <<VALUE OBJECT>>
+
+
+entity UserStory <<AGGREGATE ROOT>>
+class UserStoryID <<VALUE OBJECT>>
+
+entity Task <<AGGREGATE ROOT>>
+class TaskID <<VALUE OBJECT>>
+
+interface TaskContainerID <<INTERFACE>>
+
+
+
+ProjectDeprecated - -> "1"ProjectCode
+
+Sprint - -> "1" SprintID
+Sprint -up- -> "1"ProjectCode
+
+
+UserStory - -> "1" UserStoryID
+UserStory -up- -> "1"ProjectCode
+UserStory - -> "0..*"SprintID
+
+Task - -> "1"TaskID
+Task -up- - -> "1"ProjectCode
+
+SprintID ..|> TaskContainerID
+UserStoryID ..|> TaskContainerID
+Task - -> TaskContainerID
+
+
+
+@enduml
+
+@startuml
+
+hide members
+hide circle
+skinparam linetype ortho
+skinparam minClassWidth 200
+skinparam roundCorner 8
+skinparam class {
+    stereotypeFontSize 10
+    fontSize 16
+    fontName Helvetica
+
+    arrowColor black
+    arrowThickness 1
+    attributeIconSize 0
+
+    borderColor black
+    borderThickness 0.5
+    backgroundColor #eee
+
+
+}
+
+
+entity ProjectDeprecated <<AGGREGATE ROOT>>
+class ProjectCode <<VALUE OBJECT>>
+
+entity Sprint <<AGGREGATE ROOT>>
+class SprintID <<VALUE OBJECT>>
+
+
+entity UserStory <<AGGREGATE ROOT>>
+class UserStoryID <<VALUE OBJECT>>
+
+entity Task <<AGGREGATE ROOT>>
+class TaskID <<VALUE OBJECT>>
+
+interface TaskContainerID <<INTERFACE>>
+
+
+
+ProjectDeprecated - -> "1"ProjectCode
+
+Sprint - -> "1" SprintID
+Sprint -up- -> "1"ProjectCode
+
+
+UserStory - -> "1" UserStoryID
+UserStory -up- -> "1"ProjectCode
+UserStory - -> "0..*"SprintID
+
+Task - -> "1"TaskID
+Task -up- - -> "1"ProjectCode
+
+SprintID ..|> TaskContainerID
+UserStoryID ..|> TaskContainerID
+Task - -> TaskContainerID
+
+
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

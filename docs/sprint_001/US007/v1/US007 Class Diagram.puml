@@ -1,0 +1,49 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam monochrome true
+
+title Class Diagram of the US007
+center header
+Class Diagram
+As Director, I want to associate a human resource (user) to a project.
+endheader
+center footer SWitCH
+
+package UI{
+    class AddUserResourceToProjectUI
+}
+
+package Controller{
+    class AddUserResourceToProjectController
+}
+
+package Model{
+    class DataManagement
+    class Project
+    class ProjectStore
+    class ProductBacklog
+}
+
+class ProjectStore{
+- projectList : List<Project>
++ getProjectByCode() : Project
+}
+
+class Project{
+- productBacklog : ProductBacklog
++ getProductBacklog() : ProductBacklog
+}
+
+class AddUserResourceToProjectController{
+- dataManagement : DataManagement
++ addResourceToProject(projectCode, resourceDTO)
+}
+
+AddUserResourceToProjectUI .r. AddUserResourceToProjectController
+AddUserResourceToProjectController ..> DataManagement
+DataManagement o-->  ProjectStore : Knows
+ProjectStore "1" o-- "0--*" Project
+Project "1" *-r- "1" ProductBacklog
+
+@enduml

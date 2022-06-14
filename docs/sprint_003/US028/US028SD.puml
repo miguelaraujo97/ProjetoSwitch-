@@ -1,0 +1,59 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+header
+Sequence Diagram of US028
+endheader
+
+center footer US 028 - As Director, I want to get a list of all human resources in a project
+
+skinparam sequenceMessageAlign center
+autoactivate on
+
+autonumber
+
+Actor "Director" as actor
+Participant "SearchForHumanResourcesUI" as SearchForHumanResourcesUI
+Participant ":SearchForHumanResourcesController" as SearchForHumanResourcesController
+Participant ":DataManagement" as DataManagement
+Participant ":ProjectStore" as ProjectStore
+Participant ":Project" as Project
+Participant ":ResourceMapper" as ResourceMapper
+Participant ":ResourceDto" as ResourceDto
+Participant "projectResourceDto: List<projectResourceDto>" as listDto
+Participant "projectResource: List<projectResource>" as listProjectResource
+Participant "resourceDto: ResourceDto" as Dto
+
+
+ref over actor
+US015-SD_get a list of all projects
+end
+actor -> SearchForHumanResourcesUI: find human resources of this project
+SearchForHumanResourcesUI -> SearchForHumanResourcesController: getListProjectOfHumanResources
+SearchForHumanResourcesController -> DataManagement: getProjectStore
+DataManagement --> SearchForHumanResourcesController: ProjectStore
+SearchForHumanResourcesController -> ProjectStore: getProjectResources(projectCode)
+ProjectStore -> Project: getProjectResources
+Project -> listProjectResource**
+
+
+Project -> ResourceMapper: toDTO(listOfProjectResources)
+
+
+ResourceMapper -> listDto**
+
+
+group loop [for each resource]
+ResourceMapper -> listProjectResource: resource = get(i)
+ResourceMapper -> ResourceMapper: resourceDto = toDto(resource)
+ResourceMapper -> Dto**: create
+ResourceMapper -> listDto: add(resourceDto)
+end
+
+ResourceMapper --> SearchForHumanResourcesController: List<ProjectResourceDto>
+SearchForHumanResourcesController --> SearchForHumanResourcesUI: List<ProjectResourceDto>
+SearchForHumanResourcesUI --> actor: List<ProjectResourceDto>
+
+
+
+@enduml

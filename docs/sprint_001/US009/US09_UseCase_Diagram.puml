@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+left to right direction
+:PO/SM/TeamMember: as User
+rectangle System{
+    usecase "Get List of Projects based on PO Id" as US1
+    usecase "Verify Role ID" as US2
+    usecase "Display Project error" as US3
+    usecase "Select Project" as US4
+    usecase "Get Product Backlog" as US5
+    usecase "Create new User Story" as US6
+    usecase "Verify User Story Descriprion" as US6.1
+    usecase "Display User Story Error" as US6.2
+    usecase "Add User Story to Product Backlog" as US7
+}
+User --> US1
+US1 ..> US2 : include
+US1 <.. US3 : extend
+User --> US4
+
+User --> US5
+User --> US6
+US6 ..> US6.1 : include
+US6 <..US6.2 : extend
+User --> US7
+
+@enduml

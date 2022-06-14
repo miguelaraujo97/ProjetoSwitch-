@@ -1,0 +1,26 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+skinparam linetype ortho
+package Infrastructure{
+class ProductBacklogRoute
+}
+
+
+package InterfaceAdapters{
+class GetProductBacklogSortedByPriorityController
+class UserStoryStore
+}
+
+
+
+package ApplicationServices/UseCaseServices{
+class ProductBacklogSortedByPriorityService
+
+}
+
+
+ProductBacklogRoute .down.>GetProductBacklogSortedByPriorityController
+ProductBacklogSortedByPriorityService <.. GetProductBacklogSortedByPriorityController
+ProductBacklogSortedByPriorityService .up...> UserStoryStore
+@enduml

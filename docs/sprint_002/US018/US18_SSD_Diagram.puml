@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title User Story 18 - System Sequence Diagram
+
+autonumber
+Actor "PO/SM/TeamMember" as actor
+Participant ":System" as System
+
+activate actor
+
+actor -> System : Get Product Backlog of a Project
+System --> actor : Request Project Code
+actor -> System : Insert Project Code
+System --> actor : Return Product Backlog
+actor -> System : Sort Product Backlog by Priority
+System --> actor : Return sorted Product Backlog
+@enduml

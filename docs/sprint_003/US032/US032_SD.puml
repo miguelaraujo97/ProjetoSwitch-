@@ -1,0 +1,49 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+autoactivate on
+
+Actor "SM/Team Member" as ACTOR
+activate ACTOR
+Participant ":CreateTaskUI" as UI
+Participant ":CreateTaskController" as CreateTaskController
+Participant ":DataManagement" as DataManagement
+Participant "projectStore : ProjectStore" as ProjectStore
+Participant "project : Project" as Project
+Participant "sprint : Sprint" as Sprint
+
+skinparam sequenceMessageAlign center
+autonumber
+
+ACTOR -> UI: Starts the Task creation in Sprint
+|||
+UI --> ACTOR : request the project code
+ACTOR -> UI: Inserts the project code
+|||
+UI --> ACTOR : request sprint id
+ACTOR -> UI: Inserts the sprint id
+|||
+UI --> ACTOR : request the task information: name, description, type, startDate, endDate
+ACTOR -> UI : Inserts request the task information: name, description, type, startDate, endDate
+
+activate CreateTaskController
+
+UI --> CreateTaskController : createTaskInSprint(code, sprintID, name, description, type, startDate, endDate)
+
+CreateTaskController -> DataManagement : projectStore = getProjectStore()
+DataManagement --> CreateTaskController : projectStore
+
+CreateTaskController -> ProjectStore : project = getProjectByCode(code)
+ProjectStore --> CreateTaskController : project
+
+CreateTaskController -> Project : getSprintByID(sprintID)
+
+ref over Project
+TaskCreationSprint
+end ref
+Project --> CreateTaskController : true
+activate UI
+CreateTaskController --> UI : true
+UI -> ACTOR : Task created successfully
+@enduml

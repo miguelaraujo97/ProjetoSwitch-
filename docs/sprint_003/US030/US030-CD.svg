@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="517.2px" preserveAspectRatio="none" style="width:1249px;height:517px;background:#FFFFFF;" version="1.1" viewBox="0 0 1249 517" width="1249.8px" zoomAndPan="magnify"><defs><filter height="300%" id="f42ko8qlx2h0a" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="1.2"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="2.4" dy="2.4" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#888888" font-family="sans-serif" font-size="6" lengthAdjust="spacing" textLength="84.6" x="1157.6872" y="5.5693">Sequence Diagram of US030</text><!--MD5=[9681dc6e01e10c6b4fe06895ae94f592]
+cluster UI--><polygon fill="#FFFFFF" filter="url(#f42ko8qlx2h0a)" points="403.4872,10.5844,416.6872,10.5844,420.8872,23.9625,511.4872,23.9625,511.4872,69.9844,403.4872,69.9844,403.4872,10.5844" style="stroke:#000000;stroke-width:0.8999999999999999;"/><line style="stroke:#000000;stroke-width:0.8999999999999999;" x1="403.4872" x2="420.8872" y1="23.9625" y2="23.9625"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-weight="bold" lengthAdjust="spacing" textLength="9.6" x="405.8872" y="19.5814">UI</text><!--MD5=[78fab5dad57949589ef72f5bfe542796]
+cluster SwitchIsep--><polygon fill="#FFFFFF" filter="url(#f42ko8qlx2h0a)" points="49.4872,84.3844,104.6872,84.3844,108.8872,97.7625,1239.8872,97.7625,1239.8872,503.1844,49.4872,503.1844,49.4872,84.3844" style="stroke:#000000;stroke-width:0.8999999999999999;"/><line style="stroke:#000000;stroke-width:0.8999999999999999;" x1="49.4872" x2="108.8872" y1="97.7625" y2="97.7625"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-weight="bold" lengthAdjust="spacing" textLength="51.6" x="51.8872" y="93.3814">SwitchIsep</text><!--MD5=[15636c1ca4a123c16a2a1a8e90aca7a9]
+cluster Model--><polygon fill="#FFFFFF" filter="url(#f42ko8qlx2h0a)" points="63.8872,199.5844,96.8872,199.5844,101.0872,212.9625,1225.4872,212.9625,1225.4872,488.7844,63.8872,488.7844,63.8872,199.5844" style="stroke:#000000;stroke-width:0.8999999999999999;"/><line style="stroke:#000000;stroke-width:0.8999999999999999;" x1="63.8872" x2="101.0872" y1="212.9625" y2="212.9625"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-weight="bold" lengthAdjust="spacing" textLength="29.4" x="66.2872" y="208.5814">Model</text><!--MD5=[1f2cfc53d9d308f53762fd0fcbaa4873]
+cluster Controller--><polygon fill="#FFFFFF" filter="url(#f42ko8qlx2h0a)" points="360.8872,110.1844,413.0872,110.1844,417.2872,123.5625,554.0872,123.5625,554.0872,185.1844,360.8872,185.1844,360.8872,110.1844" style="stroke:#000000;stroke-width:0.8999999999999999;"/><line style="stroke:#000000;stroke-width:0.8999999999999999;" x1="360.8872" x2="417.2872" y1="123.5625" y2="123.5625"/><text fill="#000000" font-family="sans-serif" font-size="8.4" font-weight="bold" lengthAdjust="spacing" textLength="48.6" x="363.2872" y="119.1814">Controller</text><!--MD5=[ca3b1838c8a55df0476df4971d67a562]
+class ScrumBoardViewUI--><rect codeLine="11" fill="#FEFECE" filter="url(#f42ko8qlx2h0a)" height="28.8" id="ScrumBoardViewUI" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="88.8" x="413.0872" y="31.5844"/><ellipse cx="422.0872" cy="41.1844" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#A80036;stroke-width:0.6;"/><path d="M423.5684,44.7094 Q423.2216,44.8969 422.8372,44.9906 Q422.4528,45.0844 422.0309,45.0844 Q420.5309,45.0844 419.734,44.0813 Q418.9465,43.0781 418.9465,41.1844 Q418.9465,39.2906 419.734,38.2875 Q420.5309,37.2844 422.0309,37.2844 Q422.4528,37.2844 422.8372,37.3781 Q423.2309,37.4719 423.5684,37.6594 L423.5684,39.3375 Q423.1934,39 422.8372,38.8406 Q422.4809,38.6719 422.1059,38.6719 Q421.2997,38.6719 420.8872,39.3094 Q420.4747,39.9469 420.4747,41.1844 Q420.4747,42.4313 420.8872,43.0688 Q421.2997,43.6969 422.1059,43.6969 Q422.4809,43.6969 422.8372,43.5375 Q423.1934,43.3781 423.5684,43.0313 L423.5684,44.7094 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" lengthAdjust="spacing" textLength="69.6" x="430.4872" y="43.677">ScrumBoardViewUI</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="413.6872" x2="501.2872" y1="50.7844" y2="50.7844"/><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="413.6872" x2="501.2872" y1="55.5844" y2="55.5844"/><!--MD5=[41fc1644ffe584d705042db0e6e760e1]
+class DataManagement--><rect codeLine="16" fill="#FEFECE" filter="url(#f42ko8qlx2h0a)" height="36.4828" id="DataManagement" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="83.4" x="415.7872" y="224.4844"/><ellipse cx="424.7872" cy="234.0844" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#A80036;stroke-width:0.6;"/><path d="M426.2684,237.6094 Q425.9215,237.7969 425.5372,237.8906 Q425.1528,237.9844 424.7309,237.9844 Q423.2309,237.9844 422.434,236.9813 Q421.6466,235.9781 421.6466,234.0844 Q421.6466,232.1906 422.434,231.1875 Q423.2309,230.1844 424.7309,230.1844 Q425.1528,230.1844 425.5372,230.2781 Q425.9309,230.3719 426.2684,230.5594 L426.2684,232.2375 Q425.8934,231.9 425.5372,231.7406 Q425.1809,231.5719 424.8059,231.5719 Q423.9997,231.5719 423.5872,232.2094 Q423.1747,232.8469 423.1747,234.0844 Q423.1747,235.3312 423.5872,235.9688 Q423.9997,236.5969 424.8059,236.5969 Q425.1809,236.5969 425.5372,236.4375 Q425.8934,236.2781 426.2684,235.9312 L426.2684,237.6094 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" lengthAdjust="spacing" textLength="64.2" x="433.1872" y="236.577">DataManagement</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="416.3872" x2="498.5872" y1="243.6844" y2="243.6844"/><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="416.3872" x2="498.5872" y1="248.4844" y2="248.4844"/><ellipse cx="422.3872" cy="255.0844" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="57" x="427.7872" y="257.0106">getProjectStore()</text><!--MD5=[0cf43f64de24b70e8ffe65ff9ee7abee]
+class ProjectStore--><rect codeLine="20" fill="#FEFECE" filter="url(#f42ko8qlx2h0a)" height="36.4828" id="ProjectStore" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="95.4" x="402.5872" y="339.3844"/><ellipse cx="426.1672" cy="348.9844" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#A80036;stroke-width:0.6;"/><path d="M427.6484,352.5094 Q427.3015,352.6969 426.9172,352.7906 Q426.5328,352.8844 426.1109,352.8844 Q424.6109,352.8844 423.814,351.8812 Q423.0265,350.8781 423.0265,348.9844 Q423.0265,347.0906 423.814,346.0875 Q424.6109,345.0844 426.1109,345.0844 Q426.5328,345.0844 426.9172,345.1781 Q427.3109,345.2719 427.6484,345.4594 L427.6484,347.1375 Q427.2734,346.8 426.9172,346.6406 Q426.5609,346.4719 426.1859,346.4719 Q425.3797,346.4719 424.9672,347.1094 Q424.5547,347.7469 424.5547,348.9844 Q424.5547,350.2313 424.9672,350.8688 Q425.3797,351.4969 426.1859,351.4969 Q426.5609,351.4969 426.9172,351.3375 Q427.2734,351.1781 427.6484,350.8313 L427.6484,352.5094 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" lengthAdjust="spacing" textLength="43.8" x="437.8072" y="351.477">ProjectStore</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="403.1872" x2="497.3872" y1="358.5844" y2="358.5844"/><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="403.1872" x2="497.3872" y1="363.3844" y2="363.3844"/><ellipse cx="409.1872" cy="369.9844" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="79.8" x="414.5872" y="371.9106">getProject(projectCode)</text><!--MD5=[79d378210367c0c6ec62ef762ddfbd1b]
+class ProjectDeprecated--><rect codeLine="24" fill="#FEFECE" filter="url(#f42ko8qlx2h0a)" height="113.3109" id="Project" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="100.2" x="581.9872" y="300.9844"/><ellipse cx="617.2372" cy="310.5844" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#A80036;stroke-width:0.6;"/><path d="M618.7184,314.1094 Q618.3716,314.2969 617.9872,314.3906 Q617.6028,314.4844 617.1809,314.4844 Q615.6809,314.4844 614.8841,313.4813 Q614.0966,312.4781 614.0966,310.5844 Q614.0966,308.6906 614.8841,307.6875 Q615.6809,306.6844 617.1809,306.6844 Q617.6028,306.6844 617.9872,306.7781 Q618.3809,306.8719 618.7184,307.0594 L618.7184,308.7375 Q618.3434,308.4 617.9872,308.2406 Q617.6309,308.0719 617.2559,308.0719 Q616.4497,308.0719 616.0372,308.7094 Q615.6247,309.3469 615.6247,310.5844 Q615.6247,311.8313 616.0372,312.4688 Q616.4497,313.0969 617.2559,313.0969 Q617.6309,313.0969 617.9872,312.9375 Q618.3434,312.7781 618.7184,312.4313 L618.7184,314.1094 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" lengthAdjust="spacing" textLength="24.6" x="629.5372" y="313.077">Project</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="582.5872" x2="681.5872" y1="320.1844" y2="320.1844"/><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="586.7872" y="324.9844"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="16.2" x="593.9872" y="328.7106">code</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="586.7872" y="332.6672"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="19.2" x="593.9872" y="336.3935">name</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="586.7872" y="340.35"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="37.2" x="593.9872" y="344.0763">description</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="586.7872" y="348.0328"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="48.6" x="593.9872" y="351.7591">double budget</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="586.7872" y="355.7156"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="84.6" x="593.9872" y="359.4419">numberOfPlannedSprints</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="586.7872" y="363.3984"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="20.4" x="593.9872" y="367.1247">status</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="586.7872" y="371.0813"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="27.6" x="593.9872" y="374.8075">tartDate</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="586.7872" y="378.7641"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="28.2" x="593.9872" y="382.4903">endDate</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="586.7872" y="386.4469"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="72" x="593.9872" y="390.1731">defaultSprintDuration</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="582.5872" x2="681.5872" y1="394.1297" y2="394.1297"/><ellipse cx="588.5872" cy="400.7297" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="61.2" x="593.9872" y="402.656">getCurrentSprint()</text><ellipse cx="588.5872" cy="408.4125" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="83.4" x="593.9872" y="410.3388">getListsForScrumBoard()</text><!--MD5=[452a66c2e8d45f5bd209be454bbcd04f]
+class Sprint--><rect codeLine="39" fill="#FEFECE" filter="url(#f42ko8qlx2h0a)" height="82.5797" id="Sprint" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="79.2" x="766.4872" y="316.2844"/><ellipse cx="792.4972" cy="325.8844" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#A80036;stroke-width:0.6;"/><path d="M793.9784,329.4094 Q793.6316,329.5969 793.2472,329.6906 Q792.8628,329.7844 792.4409,329.7844 Q790.9409,329.7844 790.144,328.7813 Q789.3565,327.7781 789.3565,325.8844 Q789.3565,323.9906 790.144,322.9875 Q790.9409,321.9844 792.4409,321.9844 Q792.8628,321.9844 793.2472,322.0781 Q793.6409,322.1719 793.9784,322.3594 L793.9784,324.0375 Q793.6034,323.7 793.2472,323.5406 Q792.8909,323.3719 792.5159,323.3719 Q791.7097,323.3719 791.2972,324.0094 Q790.8847,324.6469 790.8847,325.8844 Q790.8847,327.1312 791.2972,327.7688 Q791.7097,328.3969 792.5159,328.3969 Q792.8909,328.3969 793.2472,328.2375 Q793.6034,328.0781 793.9784,327.7313 L793.9784,329.4094 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" lengthAdjust="spacing" textLength="22.2" x="804.6772" y="328.377">Sprint</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="767.0872" x2="845.0872" y1="335.4844" y2="335.4844"/><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="771.2872" y="340.2844"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="25.8" x="778.4872" y="344.0106">sprintID</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="771.2872" y="347.9672"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="39" x="778.4872" y="351.6935">sprintOrder</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="771.2872" y="355.65"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="33.6" x="778.4872" y="359.3763">startDate;</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="771.2872" y="363.3328"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="30.6" x="778.4872" y="367.0591">endDate;</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="771.2872" y="371.0156"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="56.4" x="778.4872" y="374.7419">numberOfWeeks</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="771.2872" y="378.6984"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="42.6" x="778.4872" y="382.4247">sprintStatus;</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="767.0872" x2="845.0872" y1="386.3812" y2="386.3812"/><ellipse cx="773.0872" cy="392.9813" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="63.6" x="778.4872" y="394.9075">getSprintBackLog()</text><!--MD5=[5bd8b24a5f7e24aabdbd214c15c4ac2f]
+class SprintBackLog--><rect codeLine="51" fill="#FEFECE" filter="url(#f42ko8qlx2h0a)" height="36.4828" id="SprintBackLog" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="99" x="929.9872" y="339.3844"/><ellipse cx="951.1372" cy="348.9844" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#A80036;stroke-width:0.6;"/><path d="M952.6184,352.5094 Q952.2715,352.6969 951.8872,352.7906 Q951.5028,352.8844 951.0809,352.8844 Q949.5809,352.8844 948.7841,351.8812 Q947.9966,350.8781 947.9966,348.9844 Q947.9966,347.0906 948.7841,346.0875 Q949.5809,345.0844 951.0809,345.0844 Q951.5028,345.0844 951.8872,345.1781 Q952.2809,345.2719 952.6184,345.4594 L952.6184,347.1375 Q952.2434,346.8 951.8872,346.6406 Q951.5309,346.4719 951.1559,346.4719 Q950.3497,346.4719 949.9372,347.1094 Q949.5247,347.7469 949.5247,348.9844 Q949.5247,350.2313 949.9372,350.8688 Q950.3497,351.4969 951.1559,351.4969 Q951.5309,351.4969 951.8872,351.3375 Q952.2434,351.1781 952.6184,350.8313 L952.6184,352.5094 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" lengthAdjust="spacing" textLength="52.8" x="962.2372" y="351.477">SprintBackLog</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="930.5872" x2="1028.3872" y1="358.5844" y2="358.5844"/><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="930.5872" x2="1028.3872" y1="363.3844" y2="363.3844"/><ellipse cx="936.5872" cy="369.9844" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="83.4" x="941.9872" y="371.9106">getListsForScrumBoard()</text><!--MD5=[e462dfec0bf11a49b98d1303a4c048de]
+class UserStoryMapper--><rect codeLine="57" fill="#FEFECE" filter="url(#f42ko8qlx2h0a)" height="36.4828" id="UserStoryMapper" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="81.6" x="73.4872" y="339.3844"/><ellipse cx="82.4872" cy="348.9844" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#A80036;stroke-width:0.6;"/><path d="M83.9684,352.5094 Q83.6216,352.6969 83.2372,352.7906 Q82.8528,352.8844 82.4309,352.8844 Q80.9309,352.8844 80.1341,351.8812 Q79.3466,350.8781 79.3466,348.9844 Q79.3466,347.0906 80.1341,346.0875 Q80.9309,345.0844 82.4309,345.0844 Q82.8528,345.0844 83.2372,345.1781 Q83.6309,345.2719 83.9684,345.4594 L83.9684,347.1375 Q83.5934,346.8 83.2372,346.6406 Q82.8809,346.4719 82.5059,346.4719 Q81.6997,346.4719 81.2872,347.1094 Q80.8747,347.7469 80.8747,348.9844 Q80.8747,350.2313 81.2872,350.8688 Q81.6997,351.4969 82.5059,351.4969 Q82.8809,351.4969 83.2372,351.3375 Q83.5934,351.1781 83.9684,350.8313 L83.9684,352.5094 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" lengthAdjust="spacing" textLength="62.4" x="90.8872" y="351.477">UserStoryMapper</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="74.0872" x2="154.4872" y1="358.5844" y2="358.5844"/><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="74.0872" x2="154.4872" y1="363.3844" y2="363.3844"/><ellipse cx="80.0872" cy="369.9844" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="51.6" x="85.4872" y="371.9106">listOfListsDTO()</text><!--MD5=[be0e4320bfcd2a28349a5673b2759595]
+class UserStoryScrumBoarDTO--><rect codeLine="62" fill="#FEFECE" filter="url(#f42ko8qlx2h0a)" height="28.8" id="UserStoryScrumBoarDTO" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="109.8" x="73.7872" y="450.3844"/><ellipse cx="82.7872" cy="459.9844" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#A80036;stroke-width:0.6;"/><path d="M84.2684,463.5094 Q83.9216,463.6969 83.5372,463.7906 Q83.1528,463.8844 82.7309,463.8844 Q81.2309,463.8844 80.4341,462.8812 Q79.6466,461.8781 79.6466,459.9844 Q79.6466,458.0906 80.4341,457.0875 Q81.2309,456.0844 82.7309,456.0844 Q83.1528,456.0844 83.5372,456.1781 Q83.9309,456.2719 84.2684,456.4594 L84.2684,458.1375 Q83.8934,457.8 83.5372,457.6406 Q83.1809,457.4719 82.8059,457.4719 Q81.9997,457.4719 81.5872,458.1094 Q81.1747,458.7469 81.1747,459.9844 Q81.1747,461.2313 81.5872,461.8688 Q81.9997,462.4969 82.8059,462.4969 Q83.1809,462.4969 83.5372,462.3375 Q83.8934,462.1781 84.2684,461.8312 L84.2684,463.5094 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" lengthAdjust="spacing" textLength="90.6" x="91.1872" y="462.477">UserStoryScrumBoarDTO</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="74.3872" x2="182.9872" y1="469.5844" y2="469.5844"/><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="74.3872" x2="182.9872" y1="474.3844" y2="474.3844"/><!--MD5=[daa6dd44d8f60c5a9cd695bb66773862]
+class UserStory--><rect codeLine="64" fill="#FEFECE" filter="url(#f42ko8qlx2h0a)" height="113.3109" id="UserStory" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="102.6" x="1112.9872" y="300.9844"/><ellipse cx="1144.0372" cy="310.5844" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#A80036;stroke-width:0.6;"/><path d="M1145.5184,314.1094 Q1145.1716,314.2969 1144.7872,314.3906 Q1144.4028,314.4844 1143.9809,314.4844 Q1142.4809,314.4844 1141.684,313.4813 Q1140.8966,312.4781 1140.8966,310.5844 Q1140.8966,308.6906 1141.684,307.6875 Q1142.4809,306.6844 1143.9809,306.6844 Q1144.4028,306.6844 1144.7872,306.7781 Q1145.1809,306.8719 1145.5184,307.0594 L1145.5184,308.7375 Q1145.1434,308.4 1144.7872,308.2406 Q1144.4309,308.0719 1144.0559,308.0719 Q1143.2497,308.0719 1142.8372,308.7094 Q1142.4247,309.3469 1142.4247,310.5844 Q1142.4247,311.8313 1142.8372,312.4688 Q1143.2497,313.0969 1144.0559,313.0969 Q1144.4309,313.0969 1144.7872,312.9375 Q1145.1434,312.7781 1145.5184,312.4313 L1145.5184,314.1094 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" lengthAdjust="spacing" textLength="35.4" x="1156.3372" y="313.077">UserStory</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="1113.5872" x2="1214.9872" y1="320.1844" y2="320.1844"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="75.6" x="1124.9872" y="328.7106">private final int sprint;</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="1117.7872" y="332.6672"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="39.6" x="1124.9872" y="336.3935">description;</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="1117.7872" y="340.35"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="42" x="1124.9872" y="344.0763">userStoryID;</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="1117.7872" y="348.0328"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="31.2" x="1124.9872" y="351.7591">parentID;</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="1117.7872" y="355.7156"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="20.4" x="1124.9872" y="359.4419">status</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="1117.7872" y="363.3984"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="18.6" x="1124.9872" y="367.1247">effort</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="1117.7872" y="371.0813"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="24.6" x="1124.9872" y="374.8075">priority</text><rect fill="none" height="3.6" style="stroke:#C82930;stroke-width:0.6;" width="3.6" x="1117.7872" y="378.7641"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="62.4" x="1124.9872" y="382.4903">scrumBoardStatus</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="1113.5872" x2="1214.9872" y1="386.4469" y2="386.4469"/><ellipse cx="1119.5872" cy="393.0469" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="87" x="1124.9872" y="394.9731">getUserStoryDescription()</text><ellipse cx="1119.5872" cy="400.7297" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="55.2" x="1124.9872" y="402.656">getUserStoryId()</text><ellipse cx="1119.5872" cy="408.4125" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="78.6" x="1124.9872" y="410.3388">getScrumBoardStatus()</text><!--MD5=[1056906b8b928942c9be825e33e9dbb2]
+class ScrumBoardDTO--><rect codeLine="78" fill="#FEFECE" filter="url(#f42ko8qlx2h0a)" height="28.8" id="ScrumBoardDTO" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="79.2" x="239.0872" y="343.2844"/><ellipse cx="248.0872" cy="352.8844" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#A80036;stroke-width:0.6;"/><path d="M249.5684,356.4094 Q249.2216,356.5969 248.8372,356.6906 Q248.4528,356.7844 248.0309,356.7844 Q246.5309,356.7844 245.7341,355.7813 Q244.9466,354.7781 244.9466,352.8844 Q244.9466,350.9906 245.7341,349.9875 Q246.5309,348.9844 248.0309,348.9844 Q248.4528,348.9844 248.8372,349.0781 Q249.2309,349.1719 249.5684,349.3594 L249.5684,351.0375 Q249.1934,350.7 248.8372,350.5406 Q248.4809,350.3719 248.1059,350.3719 Q247.2997,350.3719 246.8872,351.0094 Q246.4747,351.6469 246.4747,352.8844 Q246.4747,354.1312 246.8872,354.7688 Q247.2997,355.3969 248.1059,355.3969 Q248.4809,355.3969 248.8372,355.2375 Q249.1934,355.0781 249.5684,354.7313 L249.5684,356.4094 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" lengthAdjust="spacing" textLength="60" x="256.4872" y="355.377">ScrumBoardDTO</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="239.6872" x2="317.6872" y1="362.4844" y2="362.4844"/><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="239.6872" x2="317.6872" y1="367.2844" y2="367.2844"/><!--MD5=[01aebeaf8749c51e2791ef7241228d07]
+class ScrumBoardDTOMapper--><rect codeLine="82" fill="#FEFECE" filter="url(#f42ko8qlx2h0a)" height="44.1656" id="ScrumBoardDTOMapper" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="121.2" x="210.2872" y="220.5844"/><ellipse cx="226.0372" cy="230.1844" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#A80036;stroke-width:0.6;"/><path d="M227.5184,233.7094 Q227.1716,233.8969 226.7872,233.9906 Q226.4028,234.0844 225.9809,234.0844 Q224.4809,234.0844 223.6841,233.0812 Q222.8966,232.0781 222.8966,230.1844 Q222.8966,228.2906 223.6841,227.2875 Q224.4809,226.2844 225.9809,226.2844 Q226.4028,226.2844 226.7872,226.3781 Q227.1809,226.4719 227.5184,226.6594 L227.5184,228.3375 Q227.1434,228 226.7872,227.8406 Q226.4309,227.6719 226.0559,227.6719 Q225.2497,227.6719 224.8372,228.3094 Q224.4247,228.9469 224.4247,230.1844 Q224.4247,231.4312 224.8372,232.0688 Q225.2497,232.6969 226.0559,232.6969 Q226.4309,232.6969 226.7872,232.5375 Q227.1434,232.3781 227.5184,232.0313 L227.5184,233.7094 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" lengthAdjust="spacing" textLength="87" x="235.9372" y="232.677">ScrumBoardDTOMapper</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="210.8872" x2="330.8872" y1="239.7844" y2="239.7844"/><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="210.8872" x2="330.8872" y1="244.5844" y2="244.5844"/><ellipse cx="216.8872" cy="251.1844" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="105.6" x="222.2872" y="253.1106">listOfListsDTOScrumBoardDTO(</text><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="92.4" x="222.2872" y="260.7935">List&lt;List&lt;UserStory&gt;&gt; list)</text><!--MD5=[60b5e554d6e0267137323536b9dbf5c5]
+class ScrumBoardViewController--><rect codeLine="90" fill="#FEFECE" filter="url(#f42ko8qlx2h0a)" height="44.1656" id="ScrumBoardViewController" style="stroke:#A80036;stroke-width:0.8999999999999999;" width="174" x="370.4872" y="131.1844"/><ellipse cx="406.6372" cy="140.7844" fill="#ADD1B2" rx="6.6" ry="6.6" style="stroke:#A80036;stroke-width:0.6;"/><path d="M408.1184,144.3094 Q407.7716,144.4969 407.3872,144.5906 Q407.0028,144.6844 406.5809,144.6844 Q405.0809,144.6844 404.2841,143.6813 Q403.4965,142.6781 403.4965,140.7844 Q403.4965,138.8906 404.2841,137.8875 Q405.0809,136.8844 406.5809,136.8844 Q407.0028,136.8844 407.3872,136.9781 Q407.7809,137.0719 408.1184,137.2594 L408.1184,138.9375 Q407.7434,138.6 407.3872,138.4406 Q407.0309,138.2719 406.6559,138.2719 Q405.8497,138.2719 405.4372,138.9094 Q405.0247,139.5469 405.0247,140.7844 Q405.0247,142.0313 405.4372,142.6688 Q405.8497,143.2969 406.6559,143.2969 Q407.0309,143.2969 407.3872,143.1375 Q407.7434,142.9781 408.1184,142.6313 L408.1184,144.3094 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.2" lengthAdjust="spacing" textLength="96.6" x="418.9372" y="143.277">ScrumBoardViewController</text><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="371.0872" x2="543.8872" y1="150.3844" y2="150.3844"/><line style="stroke:#A80036;stroke-width:0.8999999999999999;" x1="371.0872" x2="543.8872" y1="155.1844" y2="155.1844"/><ellipse cx="377.0872" cy="161.7844" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="158.4" x="382.4872" y="163.7106">getListsForScrumBoard(projectCode, nowDate)</text><ellipse cx="377.0872" cy="169.4672" fill="#84BE84" rx="1.8" ry="1.8" style="stroke:#038048;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="6.6" lengthAdjust="spacing" textLength="37.2" x="382.4872" y="171.3935">listToDTO()</text><!--MD5=[7655c18ac5df52a55fb79bc9c005bc11]
+link ScrumBoardViewUI to ScrumBoardViewController--><path codeLine="96" d="M457.4872,60.4684 C457.4872,77.6164 457.4872,107.0944 457.4872,128.1244 " fill="none" id="ScrumBoardViewUI-to-ScrumBoardViewController" style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="457.4872,131.1664,459.8872,125.7664,457.4872,128.1664,455.0872,125.7664,457.4872,131.1664" style="stroke:#A80036;stroke-width:0.6;"/><!--MD5=[1c9bdab2f0dded9beee57a29bf8bc161]
+link ScrumBoardViewController to DataManagement--><path codeLine="97" d="M457.4872,175.7884 C457.4872,189.7324 457.4872,207.7084 457.4872,221.4424 " fill="none" id="ScrumBoardViewController-to-DataManagement" style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="457.4872,224.4784,459.8872,219.0784,457.4872,221.4784,455.0872,219.0784,457.4872,224.4784" style="stroke:#A80036;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="68.4" x="381.6059" y="217.7512">dataManagement</text><!--MD5=[e49256ec62a64c0e2589668b84841744]
+link DataManagement to ProjectStore--><path codeLine="98" d="M456.3592,261.1504 C455.0752,281.4484 452.9752,314.6344 451.6072,336.1684 " fill="none" id="DataManagement-to-ProjectStore" style="stroke:#A80036;stroke-width:0.6;"/><polygon fill="#A80036" points="451.4152,339.2584,454.1501,334.0201,451.6039,336.2643,449.3597,333.7181,451.4152,339.2584" style="stroke:#A80036;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="450.8315" y="273.1269">1</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="61.2" x="384.1366" y="332.7903">projectStore 1.*</text><!--MD5=[c2999c5e21c0a7115ef87c36c02875b6]
+reverse link ProjectStore to ProjectDeprecated--><path codeLine="99" d="M505.8952,357.6844 C531.2032,357.6844 556.5112,357.6844 581.8192,357.6844 " fill="none" id="ProjectStore-backto-Project" style="stroke:#A80036;stroke-width:0.6;"/><polygon fill="#A80036" points="498.0412,357.6844,501.6412,360.0844,505.2412,357.6844,501.6412,355.2844,498.0412,357.6844" style="stroke:#A80036;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="502.8215" y="355.505">1</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="54.6" x="522.6654" y="355.6692">projectList 1.*</text><!--MD5=[4377285ec2593da1ce2cef5eb86728a1]
+link ScrumBoardViewController to ProjectDeprecated--><path codeLine="101" d="M514.3252,175.6684 C524.0692,180.9784 533.5852,187.3264 541.4872,194.7844 C571.7752,223.3984 594.5572,264.4324 609.7012,298.0864 " fill="none" id="ScrumBoardViewController-to-Project" style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="610.9612,300.9064,610.9646,294.9971,609.7443,298.1642,606.5772,296.944,610.9612,300.9064" style="stroke:#A80036;stroke-width:0.6;"/><!--MD5=[c1411256f47ae1ed9a3bb6846f611a01]
+reverse link ProjectDeprecated to Sprint--><path codeLine="103" d="M690.1072,357.6844 C715.5412,357.6844 740.9752,357.6844 766.4032,357.6844 " fill="none" id="Project-backto-Sprint" style="stroke:#A80036;stroke-width:0.6;"/><polygon fill="#A80036" points="682.2112,357.6844,685.8112,360.0844,689.4112,357.6844,685.8112,355.2844,682.2112,357.6844" style="stroke:#A80036;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="687.0532" y="355.5174">1</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="54.6" x="707.0934" y="355.6187">sprintList  1..*</text><!--MD5=[58c5746bbe3ef781908b0b587e4bc39e]
+link Sprint to SprintBackLog--><path codeLine="105" d="M845.7112,357.6844 C872.7112,357.6844 899.7172,357.6844 926.7172,357.6844 " fill="none" id="Sprint-to-SprintBackLog" style="stroke:#A80036;stroke-width:0.6;"/><polygon fill="#A80036" points="929.8432,357.6844,924.4432,355.2844,926.8432,357.6844,924.4432,360.0844,929.8432,357.6844" style="stroke:#A80036;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="850.5702" y="355.4215">1</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="51" x="874.2641" y="355.6563">userStories 1</text><!--MD5=[4a8c2093a93233fb5afd453465c9e330]
+link SprintBackLog to UserStory--><path codeLine="107" d="M1029.1132,357.6844 C1055.9752,357.6844 1082.8372,357.6844 1109.6992,357.6844 " fill="none" id="SprintBackLog-to-UserStory" style="stroke:#A80036;stroke-width:0.6;"/><polygon fill="#A80036" points="1112.8012,357.6844,1107.4012,355.2844,1109.8012,357.6844,1107.4012,360.0844,1112.8012,357.6844" style="stroke:#A80036;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="4.8" x="1033.7467" y="355.5325">1</text><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="53.4" x="1054.881" y="355.6692">userStory 1..*</text><!--MD5=[dd65c0fab0d2826a9520aa021c1b94aa]
+link UserStoryMapper to UserStoryScrumBoarDTO--><path codeLine="109" d="M116.6932,376.0084 C119.3932,395.8504 123.7312,427.7704 126.3832,447.2704 " fill="none" id="UserStoryMapper-to-UserStoryScrumBoarDTO" style="stroke:#A80036;stroke-width:0.6;"/><polygon fill="#A80036" points="126.7972,450.2944,128.4507,444.6211,126.3945,447.3215,123.6941,445.2654,126.7972,450.2944" style="stroke:#A80036;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="101.4" x="11.921" y="443.6785">userStoryScrumBoardDTO</text><!--MD5=[011700e24e1d13782024d3c252649d9b]
+link ScrumBoardDTOMapper to ScrumBoardDTO--><path codeLine="111" d="M272.3692,265.0384 C273.8692,286.8724 276.1492,320.1244 277.5232,340.1164 " fill="none" id="ScrumBoardDTOMapper-to-ScrumBoardDTO" style="stroke:#A80036;stroke-width:0.6;"/><polygon fill="#A80036" points="277.7332,343.2064,279.757,337.6544,277.5274,340.2134,274.9684,337.9838,277.7332,343.2064" style="stroke:#A80036;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="63.6" x="205.74" y="336.5936">scrumBoardDTO</text><!--MD5=[6e72ca247373bc1a7ac2c61a2c52c004]
+link ScrumBoardViewController to ScrumBoardDTOMapper--><path codeLine="113" d="M411.5992,175.6744 C383.5792,188.9164 347.7952,205.8304 319.3252,219.2884 " fill="none" id="ScrumBoardViewController-to-ScrumBoardDTOMapper" style="stroke:#A80036;stroke-width:0.6;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="316.5952,220.5784,322.5028,220.4381,319.3069,219.2952,320.4498,216.0993,316.5952,220.5784" style="stroke:#A80036;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="63.6" x="255.5595" y="213.9235">scrumBoardDTO</text><!--MD5=[2e6f21b952eb3cab7b0140437756e3e0]
+link ScrumBoardDTOMapper to UserStoryMapper--><path codeLine="115" d="M241.0612,265.0384 C212.2912,285.9304 169.1212,317.2684 141.3232,337.4524 " fill="none" id="ScrumBoardDTOMapper-to-UserStoryMapper" style="stroke:#A80036;stroke-width:0.6;"/><polygon fill="#A80036" points="138.8512,339.2464,144.6323,338.0222,141.2807,337.4865,141.8164,334.1349,138.8512,339.2464" style="stroke:#A80036;stroke-width:0.6;"/><text fill="#000000" font-family="sans-serif" font-size="7.8" lengthAdjust="spacing" textLength="127.2" x="3.6" y="332.7759">listToDo, listInProgress, listDone</text><text fill="#888888" font-family="sans-serif" font-size="6" lengthAdjust="spacing" textLength="226.8" x="507.7436" y="512.3537">US 030 - As Team Member, I want to view the Scrum Board of current sprint.</text><!--MD5=[43afbba26bc4dba0ea1feb7e2ce546f9]
+@startuml
+'https://plantuml.com/class-diagram
+
+header
+Sequence Diagram of US030
+endheader
+
+center footer US 030 - As Team Member, I want to view the Scrum Board of current sprint.
+
+
+package UI{
+    class ScrumBoardViewUI
+}
+package SwitchIsep{
+package Model{
+
+class DataManagement{
++getProjectStore()
+}
+
+class ProjectStore{
++getProject(projectCode)
+}
+
+class ProjectDeprecated{
+   -code
+   -name
+   -projectDescription
+   -double budget
+   -numberOfPlannedSprints
+   -status
+   -tartDate
+   -endDate
+   -projectSprintDuration
+
+    +getCurrentSprint()
+    +getListsForScrumBoard()
+}
+
+class Sprint{
+
+    -sprintID
+    -sprintOrder
+    -startDate;
+    -endDate;
+    -numberOfWeeks
+    -sprintStatus;
+
++getSprintBackLog()
+}
+
+class SprintBackLog{
+
++getListsForScrumBoard()
+}
+
+
+class UserStoryMapper{
+
++listOfListsDTO()
+}
+
+class UserStoryScrumBoarDTO
+
+class UserStory{
+private final int sprint;
+    -projectDescription;
+    -userStoryID;
+    -parentID;
+    -status
+    -effort
+    -priority
+    -scrumBoardStatus
+    +getUserStoryDescription()
+    +getUserStoryId()
+    +getScrumBoardStatus()
+}
+
+class ScrumBoardDTO {
+
+}
+
+class ScrumBoardDTOMapper{
+    +listOfListsDTOScrumBoardDTO(
+                List<List<UserStory>> list)
+}
+
+
+}
+package Controller{
+    class ScrumBoardViewController{
+    +getListsForScrumBoard(projectCode, nowDate)
+    +listToDTO()
+    }
+}
+}
+ScrumBoardViewUI ..> ScrumBoardViewController
+ScrumBoardViewController ..right.>"dataManagement" DataManagement
+DataManagement "1"- ->"projectStore 1.*" ProjectStore
+ProjectStore "1"*-right-" projectList 1.*" ProjectDeprecated
+
+ScrumBoardViewController .right.> ProjectDeprecated
+
+ProjectDeprecated "1"*-right-"sprintList  1..*" Sprint
+
+Sprint "1"-right->"userStories 1" SprintBackLog
+
+SprintBackLog "1"-right->"userStory 1..*" UserStory
+
+UserStoryMapper - -> "userStoryScrumBoardDTO"UserStoryScrumBoarDTO
+
+ScrumBoardDTOMapper - -> "scrumBoardDTO"ScrumBoardDTO
+
+ScrumBoardViewController ..>"scrumBoardDTO" ScrumBoardDTOMapper
+
+ScrumBoardDTOMapper -down-> "listToDo, listInProgress, listDone"UserStoryMapper
+
+
+
+skinparam nodesep 140
+
+skinparam ranksep 60
+
+@enduml
+
+@startuml
+
+header
+Sequence Diagram of US030
+endheader
+
+center footer US 030 - As Team Member, I want to view the Scrum Board of current sprint.
+
+
+package UI{
+    class ScrumBoardViewUI
+}
+package SwitchIsep{
+package Model{
+
+class DataManagement{
++getProjectStore()
+}
+
+class ProjectStore{
++getProject(projectCode)
+}
+
+class ProjectDeprecated{
+   -code
+   -name
+   -projectDescription
+   -double budget
+   -numberOfPlannedSprints
+   -status
+   -tartDate
+   -endDate
+   -projectSprintDuration
+
+    +getCurrentSprint()
+    +getListsForScrumBoard()
+}
+
+class Sprint{
+
+    -sprintID
+    -sprintOrder
+    -startDate;
+    -endDate;
+    -numberOfWeeks
+    -sprintStatus;
+
++getSprintBackLog()
+}
+
+class SprintBackLog{
+
++getListsForScrumBoard()
+}
+
+
+class UserStoryMapper{
+
++listOfListsDTO()
+}
+
+class UserStoryScrumBoarDTO
+
+class UserStory{
+private final int sprint;
+    -projectDescription;
+    -userStoryID;
+    -parentID;
+    -status
+    -effort
+    -priority
+    -scrumBoardStatus
+    +getUserStoryDescription()
+    +getUserStoryId()
+    +getScrumBoardStatus()
+}
+
+class ScrumBoardDTO {
+
+}
+
+class ScrumBoardDTOMapper{
+    +listOfListsDTOScrumBoardDTO(
+                List<List<UserStory>> list)
+}
+
+
+}
+package Controller{
+    class ScrumBoardViewController{
+    +getListsForScrumBoard(projectCode, nowDate)
+    +listToDTO()
+    }
+}
+}
+ScrumBoardViewUI ..> ScrumBoardViewController
+ScrumBoardViewController ..right.>"dataManagement" DataManagement
+DataManagement "1"- ->"projectStore 1.*" ProjectStore
+ProjectStore "1"*-right-" projectList 1.*" ProjectDeprecated
+
+ScrumBoardViewController .right.> ProjectDeprecated
+
+ProjectDeprecated "1"*-right-"sprintList  1..*" Sprint
+
+Sprint "1"-right->"userStories 1" SprintBackLog
+
+SprintBackLog "1"-right->"userStory 1..*" UserStory
+
+UserStoryMapper - -> "userStoryScrumBoardDTO"UserStoryScrumBoarDTO
+
+ScrumBoardDTOMapper - -> "scrumBoardDTO"ScrumBoardDTO
+
+ScrumBoardViewController ..>"scrumBoardDTO" ScrumBoardDTOMapper
+
+ScrumBoardDTOMapper -down-> "listToDo, listInProgress, listDone"UserStoryMapper
+
+
+
+skinparam nodesep 140
+
+skinparam ranksep 60
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 WET 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

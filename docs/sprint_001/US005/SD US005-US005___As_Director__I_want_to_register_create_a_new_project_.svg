@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="753px" preserveAspectRatio="none" style="width:1739px;height:753px;background:#FFFFFF;" version="1.1" viewBox="0 0 1739 753" width="1739px" zoomAndPan="magnify"><defs><filter height="300%" id="ful77e3cpp4fj" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="478" x="628.25" y="30.6855">US005 - As Director, I want to register_create a new projectDeprecated.</text><rect fill="#FFFFFF" filter="url(#ful77e3cpp4fj)" height="63.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="424" y="158.6016"/><rect fill="#FFFFFF" filter="url(#ful77e3cpp4fj)" height="398.1797" style="stroke:#A80036;stroke-width:1.0;" width="10" x="424" y="252.0078"/><rect fill="#FFFFFF" filter="url(#ful77e3cpp4fj)" height="337.4766" style="stroke:#A80036;stroke-width:1.0;" width="10" x="580" y="282.3594"/><rect fill="#FFFFFF" filter="url(#ful77e3cpp4fj)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="796" y="312.7109"/><rect fill="#FFFFFF" filter="url(#ful77e3cpp4fj)" height="183.3672" style="stroke:#A80036;stroke-width:1.0;" width="10" x="976" y="406.1172"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="33" x2="33" y1="126.25" y2="668.1875"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="428.5" x2="428.5" y1="126.25" y2="668.1875"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="584.5" x2="584.5" y1="126.25" y2="668.1875"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="801" x2="801" y1="126.25" y2="668.1875"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="980.5" x2="980.5" y1="126.25" y2="668.1875"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1431" x2="1431" y1="455.6445" y2="668.1875"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1619.5" x2="1619.5" y1="510.4766" y2="668.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="5" y="123.1738">Director</text><ellipse cx="33" cy="51.6406" fill="#FEFECE" filter="url(#ful77e3cpp4fj)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M33,59.6406 L33,86.6406 M20,67.6406 L46,67.6406 M33,86.6406 L20,101.6406 M33,86.6406 L46,101.6406 " fill="none" filter="url(#ful77e3cpp4fj)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="5" y="681.7207">Director</text><ellipse cx="33" cy="694.7969" fill="#FEFECE" filter="url(#ful77e3cpp4fj)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M33,702.7969 L33,729.7969 M20,710.7969 L46,710.7969 M33,729.7969 L20,744.7969 M33,729.7969 L46,744.7969 " fill="none" filter="url(#ful77e3cpp4fj)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#ful77e3cpp4fj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="117" x="368.5" y="89.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="375.5" y="111.1738">:CreateProjectUI</text><rect fill="#FEFECE" filter="url(#ful77e3cpp4fj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="117" x="368.5" y="667.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="375.5" y="688.7207">:CreateProjectUI</text><rect fill="#FEFECE" filter="url(#ful77e3cpp4fj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="167" x="499.5" y="89.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="506.5" y="111.1738">:CreateProjectController</text><rect fill="#FEFECE" filter="url(#ful77e3cpp4fj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="167" x="499.5" y="667.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="506.5" y="688.7207">:CreateProjectController</text><rect fill="#FEFECE" filter="url(#ful77e3cpp4fj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="130" x="734" y="89.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="741" y="111.1738">:DataManagement</text><rect fill="#FEFECE" filter="url(#ful77e3cpp4fj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="130" x="734" y="667.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="741" y="688.7207">:DataManagement</text><rect fill="#FEFECE" filter="url(#ful77e3cpp4fj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="173" x="892.5" y="89.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="899.5" y="111.1738">projectStore:ProjectStore</text><rect fill="#FEFECE" filter="url(#ful77e3cpp4fj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="173" x="892.5" y="667.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="899.5" y="688.7207">projectStore:ProjectStore</text><rect fill="#FEFECE" filter="url(#ful77e3cpp4fj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="105" x="1377" y="667.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="1384" y="688.7207">projectDeprecated:Project</text><rect fill="#FEFECE" filter="url(#ful77e3cpp4fj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="215" x="1510.5" y="667.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="201" x="1517.5" y="688.7207">productBacklog:ProductBacklog</text><rect fill="#FFFFFF" filter="url(#ful77e3cpp4fj)" height="63.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="424" y="158.6016"/><rect fill="#FFFFFF" filter="url(#ful77e3cpp4fj)" height="398.1797" style="stroke:#A80036;stroke-width:1.0;" width="10" x="424" y="252.0078"/><rect fill="#FFFFFF" filter="url(#ful77e3cpp4fj)" height="337.4766" style="stroke:#A80036;stroke-width:1.0;" width="10" x="580" y="282.3594"/><rect fill="#FFFFFF" filter="url(#ful77e3cpp4fj)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="796" y="312.7109"/><rect fill="#FFFFFF" filter="url(#ful77e3cpp4fj)" height="183.3672" style="stroke:#A80036;stroke-width:1.0;" width="10" x="976" y="406.1172"/><polygon fill="#A80036" points="412,154.6016,422,158.6016,412,162.6016,416,158.6016" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="33" x2="418" y1="158.6016" y2="158.6016"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="40" y="153.7451">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="143" x="51" y="153.7451">I want to create a projectDeprecated</text><polygon fill="#A80036" points="44,217.6563,34,221.6563,44,225.6563,40,221.6563" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="38" x2="428" y1="221.6563" y2="221.6563"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="50" y="200.4482">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="280" x="61" y="184.0967">request mandatory data(code, name,description,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="352" x="61" y="200.4482">projectNumberOfPlannedSprints,status, startDate, endDate, budget,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="243" x="61" y="216.7998">typology, projectSprintDuration, customer)</text><polygon fill="#A80036" points="412,248.0078,422,252.0078,412,256.0078,416,252.0078" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="33" x2="418" y1="252.0078" y2="252.0078"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="40" y="247.1514">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61" x="51" y="247.1514">insert data</text><polygon fill="#A80036" points="568,278.3594,578,282.3594,568,286.3594,572,282.3594" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="434" x2="574" y1="282.3594" y2="282.3594"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="441" y="277.5029">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="77" x="452" y="277.5029">createProject</text><polygon fill="#A80036" points="784,308.7109,794,312.7109,784,316.7109,788,312.7109" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="590" x2="790" y1="312.7109" y2="312.7109"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="597" y="307.8545">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="176" x="608" y="307.8545">projectStore=getProjectStore()</text><polygon fill="#A80036" points="601,339.0625,591,343.0625,601,347.0625,597,343.0625" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="595" x2="800" y1="343.0625" y2="343.0625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="607" y="338.2061">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="70" x="618" y="338.2061">projectStore</text><polygon fill="#A80036" points="964,402.1172,974,406.1172,964,410.1172,968,406.1172" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="590" x2="970" y1="406.1172" y2="406.1172"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="597" y="384.9092">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="220" x="608" y="368.5576">createProject(code, name,description,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="352" x="608" y="384.9092">projectNumberOfPlannedSprints,status, startDate, endDate, budget,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="243" x="608" y="401.2607">typology, projectSprintDuration, customer)</text><polygon fill="#A80036" points="1365,465.1719,1375,469.1719,1365,473.1719,1369,469.1719" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="986" x2="1371" y1="469.1719" y2="469.1719"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="993" y="447.9639">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="220" x="1004" y="431.6123">createProject(code, name,description,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="352" x="1004" y="447.9639">projectNumberOfPlannedSprints,status, startDate, endDate, budget,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="243" x="1004" y="464.3154">typology, projectSprintDuration, customer)</text><rect fill="#FEFECE" filter="url(#ful77e3cpp4fj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="105" x="1377" y="430.5625"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="1384" y="452.0957">projectDeprecated:Project</text><polygon fill="#A80036" points="1498.5,495.5234,1508.5,499.5234,1498.5,503.5234,1502.5,499.5234" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1431.5" x2="1504.5" y1="499.5234" y2="499.5234"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1438.5" y="494.667">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1449.5" y="494.667">create()</text><rect fill="#FEFECE" filter="url(#ful77e3cpp4fj)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="215" x="1510.5" y="477.1719"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="201" x="1517.5" y="498.7051">productBacklog:ProductBacklog</text><line style="stroke:#A80036;stroke-width:1.0;" x1="986" x2="1028" y1="546.1328" y2="546.1328"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1028" x2="1028" y1="546.1328" y2="559.1328"/><line style="stroke:#A80036;stroke-width:1.0;" x1="987" x2="1028" y1="559.1328" y2="559.1328"/><polygon fill="#A80036" points="997,555.1328,987,559.1328,997,563.1328,993,559.1328" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="993" y="541.2764">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="1011" y="541.2764">validate</text><polygon fill="#A80036" points="601,585.4844,591,589.4844,601,593.4844,597,589.4844" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="595" x2="980" y1="589.4844" y2="589.4844"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="607" y="584.6279">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="14" x="625" y="584.6279">ok</text><polygon fill="#A80036" points="445,615.8359,435,619.8359,445,623.8359,441,619.8359" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="439" x2="584" y1="619.8359" y2="619.8359"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="451" y="614.9795">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="14" x="469" y="614.9795">ok</text><polygon fill="#A80036" points="44,646.1875,34,650.1875,44,654.1875,40,650.1875" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="38" x2="428" y1="650.1875" y2="650.1875"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="50" y="645.3311">13</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="64" x="68" y="645.3311">Successful</text><!--MD5=[1c259d537d185eb0a30b9f6b676db92c]
+@startuml
+'https://plantuml.com/sequence-diagram
+title US005 - As Director, I want to register_create a new projectDeprecated.
+
+autonumber
+
+skinparam maxMessageSize 400
+actor "Director" as director
+participant ":CreateProjectUI" as ui
+participant  ":CreateProjectController" as controller
+participant ":DataManagement" as dm
+participant "projectStore:ProjectStore" as ps
+participant "projectDeprecated:ProjectDeprecated" as p
+participant "productBacklog:ProductBacklog" as pb
+
+
+
+director -> ui: I want to create a projectDeprecated
+activate ui
+director <- - ui: request mandatory data(code, name,projectDescription, projectNumberOfPlannedSprints,status, startDate, endDate, budget, typologyDescription, projectSprintDuration, customer)
+deactivate ui
+director -> ui: insert data
+activate ui
+ui -> controller: createProject
+activate controller
+controller -> dm: projectStore=getProjectStore()
+activate dm
+controller <- - dm: projectStore
+deactivate dm
+controller -> ps: createProject(code, name,projectDescription, projectNumberOfPlannedSprints,status, startDate, endDate, budget, typologyDescription, projectSprintDuration, customer)
+activate ps
+ps -> p**:createProject(code, name,projectDescription, projectNumberOfPlannedSprints,status, startDate, endDate, budget, typologyDescription, projectSprintDuration, customer)
+p -> pb**: create()
+ps -> ps: validate
+controller <- - ps :ok
+deactivate ps
+ui <- - controller :ok
+deactivate controller
+director <- - ui : Successful
+deactivate ui
+
+
+@enduml
+
+@startuml
+title US005 - As Director, I want to register_create a new projectDeprecated.
+
+autonumber
+
+skinparam maxMessageSize 400
+actor "Director" as director
+participant ":CreateProjectUI" as ui
+participant  ":CreateProjectController" as controller
+participant ":DataManagement" as dm
+participant "projectStore:ProjectStore" as ps
+participant "projectDeprecated:ProjectDeprecated" as p
+participant "productBacklog:ProductBacklog" as pb
+
+
+
+director -> ui: I want to create a projectDeprecated
+activate ui
+director <- - ui: request mandatory data(code, name,projectDescription, projectNumberOfPlannedSprints,status, startDate, endDate, budget, typologyDescription, projectSprintDuration, customer)
+deactivate ui
+director -> ui: insert data
+activate ui
+ui -> controller: createProject
+activate controller
+controller -> dm: projectStore=getProjectStore()
+activate dm
+controller <- - dm: projectStore
+deactivate dm
+controller -> ps: createProject(code, name,projectDescription, projectNumberOfPlannedSprints,status, startDate, endDate, budget, typologyDescription, projectSprintDuration, customer)
+activate ps
+ps -> p**:createProject(code, name,projectDescription, projectNumberOfPlannedSprints,status, startDate, endDate, budget, typologyDescription, projectSprintDuration, customer)
+p -> pb**: create()
+ps -> ps: validate
+controller <- - ps :ok
+deactivate ps
+ui <- - controller :ok
+deactivate controller
+director <- - ui : Successful
+deactivate ui
+
+
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 16:16:42 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

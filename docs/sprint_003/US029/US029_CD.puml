@@ -1,0 +1,115 @@
+@startuml
+
+
+
+package UI{
+    class StartSprintUI
+}
+
+package "Core"{
+    package "Controllers" {
+    class StartSprintController{
+        +startASprintController(projectCode, sprintID, nowDate) : boolean
+
+    }
+    StartSprintUI ..|> StartSprintController
+
+    }
+
+    package "Domain"{
+       class DataManagement{
+           -TypologyStore : typologyStore
+           -ProjectStore : userStore
+           -ProfileStore : profileStore
+           -RoleStore : roleStore
+           -ProfileRequestStore : profileRequestStore
+           -ProjectStore projectStore
+           -ResourceStore resourceStore
+           -CustomerStore customerStore
+           +getProjectStore() : projectStore
+       }
+       class "ProjectStore" as ProjectStore{
+           -projectList : List<Project>
+           +getProjectByCode(code) : project
+
+       }
+       class "Project" as Project{
+             - String : code
+             - String : name
+             - String : description
+             - double : budget
+             - Typology : typology
+             - ProductBacklog : productBacklog
+             - Customer : customer
+             - List<Sprint> : sprintList
+             - int : defaultSprintDuration
+             - int : numberOfPlannedSprints
+             - String : status
+             - Resource : productOwner
+             - LocalDate : startDate
+             - LocalDate : endDate
+        +startASprint(sprintID, nowDate) : boolean
+    #validateIfThereAreStartedSprintStatus()
+    #validateSprintDatesAreOutOfProjectDates(nowDate)
+    #periodsOverlappingDetectionExceptOneSprint(sprintID, nowDate)
+    #setSprintNewStartDate(nowDate)
+
+
+       }
+              class "Sprint" as Sprint{
+                    - int : sprintID
+                    - List<Task> : sprintTaskList
+                    - int : numberOfWeeks
+                    - int : sprintOrder
+                    - LocalDate : startDate
+                    - LocalDate endDate
+                    - SprintBacklog : sprintBacklog
+                    - String : sprintStatus
+
+               +setSprintNewStartDate(nowDate) : String
+       #setStartDate(nowDate)
+       #setSprintStatus("started")
+              }
+
+    StartSprintController ....|> "dataManagement\n" DataManagement
+    StartSprintController ....|> "projectStore\l" ProjectStore
+    DataManagement "1" - "1" ProjectStore
+    ProjectStore "1  " *-- "1..*" Project
+    Project "1  " *-- "0..*" Sprint
+
+skinparam nodesep 200
+skinparam ranksep 50
+left to right direction
+
+    }
+}
+
+
+@enduml
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class AbstractList
+abstract AbstractCollection
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYS
+HOURS
+MINUTES
+}
+
+@enduml

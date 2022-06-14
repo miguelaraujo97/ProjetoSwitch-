@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+Participant "project : Project" as Project
+Participant "sprint : Sprint" as Sprint
+
+Project -> Sprint : createTaskInSprint(sprintID, name, description, type, startDate, endDate)
+
+Sprint -> Task**: create(name, description, type, startDate, endDate)
+Task -> Task : validateTaskDates()
+Task --> Sprint : true
+deactivate Task
+Sprint -> Sprint : validateSprintIsNotFinished()
+deactivate Sprint
+
+Sprint -> Sprint : addTaskToUserStoryTaskList(task)
+deactivate Sprint
+
+Sprint --> Project : true
+@enduml

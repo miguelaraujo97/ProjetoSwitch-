@@ -1,0 +1,38 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+!define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
+!define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
+!include DEVICONS/react.puml
+!include DEVICONS/java.puml
+!include DEVICONS/msql_server.puml
+!include FONTAWESOME/users.puml
+
+
+'######################
+'######################
+
+LAYOUT_WITH_LEGEND()
+
+'TITLE ON TOP
+title Level 3: Component diagram
+
+'HEADER FOOTER DESCRIPTIONS
+center header C4 MODEL
+center footer C4 MODEL
+
+'###################### end config
+'######################
+
+
+Container(SPA, "Single-Page Application", "react", "The main interface that the customer interacts with")
+Container_Boundary(c1, "API") {
+    Container(S, "Java Server", "Component: Spring Boot - Rest ", "Provides ")
+    ContainerDb(db, "Database", "H2", "Holds projects and users information")
+}
+
+
+Rel(SPA, S, "Makes API calls to", "json/https")
+Rel_R(S, db, "Reads/Writes", "jdbc" )
+
+@enduml

@@ -1,0 +1,36 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class DefineProductOwnerUI
+class DefineProductOwnerController
+class DataManagement
+class ProjectStore
+
+DefineProductOwnerUI ..> DefineProductOwnerController
+DataManagement "1" -down- "1" ProjectStore: projectStore
+DataManagement "1" -down- "1" ResourceStore: resourceStore
+ProjectStore "1" *-down- "0..*" Project : "projectList"
+DefineProductOwnerController "1" -down- "1" DataManagement : "dataManagement"
+
+class DefineProductOwnerController {
+setProductOwner(String projectCode, int userId)
+}
+
+class DataManagement {
+getProjectStore()
+getResourceStore()
+}
+
+class ProjectStore {
+getProjectByCode(String code)
+}
+
+class Project {
+setProductOwner()
+}
+
+class ResourceStore {
+getUserResourceById(int userId)
+}
+
+@enduml

@@ -1,0 +1,100 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package UI{
+class smTmRegisterWorkDoneInTaskUI{
+
+}
+}
+
+package switchisep.project {
+
+package Controller{
+class smTmRegisterWorkDoneInTaskController{
++registerWorkDoneInTask(String projectCode, int userStoryID, int taskID, int hoursSpent,
+                                          LocalDate nowDate)
+}
+}
+package Model {
+
+class Datamanagement{
+-projectStore : ProjecStore
++getProjectStore()
+}
+
+class ProjecStore{
+-projectList : List<Project>
++getProjectByCode(projectCode)
+}
+
+class Project{
+    -code : String
+    -sprintList : List<Sprint>
+
++getCurrentActiveSprint(nowDate) :currentSprint
+}
+class Sprint{
+    -sprintID : int
+    -sprintStatus : String
+    -taskList : List<Task>
+
++getSprintBacklog() : sprintBacklog
++getSprintTaskById(taskID) : sprintTask
+}
+
+class SprintBacklog{
+-userStoryList: List<UserStory>
++getUserStory(userStoryID) : userStory
+}
+
+class UserStory{
+    -userStoryID : int
+    -effort : int
+    -taskList : List<Task>
+
++getTask(taskID): userStoryTask
+}
+
+
+class Task{
+    -taskID : int
+    -hoursSpent : double
+    -effortEstimate : Integer
+    -percentageOfExecution : double
+
++updateWorkDoneInTask(value): boolean
+}
+}
+}
+left to right direction
+skinparam nodesep 200
+skinparam ranksep 120
+
+smTmRegisterWorkDoneInTaskUI ..> smTmRegisterWorkDoneInTaskController
+
+smTmRegisterWorkDoneInTaskController ..> "dataManagement" Datamanagement
+
+Datamanagement"1" -left- "1" ProjecStore
+
+smTmRegisterWorkDoneInTaskController .down.> "projectStore" ProjecStore
+
+ProjecStore "1" *-left- "0..*\n" Project
+smTmRegisterWorkDoneInTaskController .left..> "project " Project
+
+
+
+Project "1" *--- "currentSprint 1..*"  Sprint
+
+Sprint "1" *--right- "sprintTask 0..*" Task
+
+Sprint "1" -- "sprintBacklog 1" SprintBacklog
+
+SprintBacklog "1" o-- "userStory 1..*" UserStory
+
+UserStory "1" *-- "userStoryTask 0..*" Task
+
+
+
+
+
+@enduml

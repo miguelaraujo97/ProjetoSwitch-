@@ -1,0 +1,41 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor Director
+participant DefineProductOwnerUI as UI
+participant ": DefineProductOwnerController" as Controller
+participant ": DataManagement" as DataManagement
+participant "projectStore : ProjectStore" as ProjectStore
+participant "p : Project" as Project
+
+Director -> UI: I want to define a project's product owner
+activate UI
+Director <-- UI: requests project code and user ID
+Director -> UI: inserts project code and user ID
+activate Controller
+UI -> Controller: setProductOwnerByCode(int userId, int index)
+activate DataManagement
+Controller -> DataManagement: projectStore = getProjectStore()
+Controller <-- DataManagement: projectStore
+Controller -> DataManagement: resourceStore = getResourceStore()
+Controller <-- DataManagement: resourceStore
+deactivate DataManagement
+activate ResourceStore
+Controller -> ResourceStore: setProductOwner(String projectCode, int userId)
+ResourceStore-> ResourceStore: getUserResourceById(userId)
+deactivate ResourceStore
+activate ProjectStore
+Controller -> ProjectStore: setProductOwner(String projectCode, int userId)
+activate Project
+ProjectStore -> Project: setProductOwner(String projectCode, int userId)
+Project -> Project: setProductOwner()
+ProjectStore <-- Project: Product Owner set
+deactivate Project
+Controller <-- ProjectStore: Product Owner set
+deactivate ProjectStore
+UI <-- Controller: Product Owner set
+Director <-- UI: informs of the operation success
+deactivate UI
+
+@enduml

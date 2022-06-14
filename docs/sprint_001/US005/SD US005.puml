@@ -1,0 +1,46 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+title US005 - As Director, I want to register_create a new project.
+
+autonumber
+skinparam maxMessageSize 400
+actor "Director" as director
+participant ":CreateProjectUI" as ui
+participant  ":CreateProjectController" as controller
+participant ":DataManagement" as dm
+participant "projectStore:ProjectStore" as ps
+participant "project:Project" as p
+participant "productBacklog:ProductBacklog" as pb
+participant "sprintList:List<Sprint>" as sprintList
+
+
+
+director -> ui: I want to create a project
+activate ui
+director <-- ui: request data(code, name, customer, description, budget, typology, sprintDuration, numberOfPlannedSprints, status, timePeriod,businessSector)
+deactivate ui
+director -> ui: insert data
+activate ui
+ui -> controller: createProject (ProjectDTO)
+activate controller
+controller -> dm: projectStore=getProjectStore()
+activate dm
+controller <-- dm: projectStore
+deactivate dm
+controller -> ps: projectStore.createProject(ProjectDTO)
+activate ps
+ps -> p**:create(code, name, customer, description, budget, typology, sprintDuration, numberOfPlannedSprints, status, timePeriod,businessSector)
+p -> pb**: create()
+p -> sprintList** : create()
+
+ps -> ps: validate
+ps -> ps: add
+controller <-- ps :ok
+deactivate ps
+ui <-- controller :ok
+deactivate controller
+director <-- ui : Successful
+deactivate ui
+
+
+@enduml

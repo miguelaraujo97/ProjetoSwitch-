@@ -1,0 +1,44 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+autonumber
+actor "Non-registered user" as user
+participant ":ActivateNewUserRoute(UI)" as route
+participant ":ActivateNewUserController" as controller
+participant ":ActivateNewUserService" as service
+
+participant "userRepo:UserRepository" as repo
+participant "user:User" as user1
+
+user -> route :I want to activate my account
+activate route
+user <-- route: request data(email)
+deactivate route
+user -> route: insert data(email)
+activate route
+route -> controller: activateNewUser(email)
+activate controller
+controller -> controller:validate(email)
+activate controller
+deactivate controller
+controller -> service : activateNewUser(email)
+activate service
+service -> repo: searchByEmail(email): user
+activate repo
+deactivate repo
+
+service -> user1: activateUser
+activate user1
+user1 --> service: true
+deactivate user1
+
+controller <-- service: true
+deactivate service
+deactivate service
+route <-- controller : true
+deactivate controller
+user <-- route: ok
+deactivate route
+
+
+@enduml

@@ -1,0 +1,49 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+autonumber
+actor "Director" as director
+participant ":CreateProjectRoute(UI)" as route
+participant "controllerProject1:CreateProjectController" as controller
+participant "mapperTo:JsonToDTO" as mapperJson
+participant "dtoProject1.1:dtoProject" as dtoProject1.1
+participant "dtoProject1:DtoProject" as dtoProject1
+participant "appServiceProject1:AppServiceProject" as service
+participant "project1:Project" as project1
+participant "repoProject1:RepoProject" as repo
+
+
+
+
+
+ director -> route :I want to create a project1
+ activate route
+director <-- route: request data(code, name, customer)
+deactivate route
+director -> route: insert data(code,name,customer)
+activate route
+route -> controller: createProject(json)
+activate controller
+controller -> controller:validate(json)
+activate controller
+deactivate controller
+controller -> mapperJson: mapToDTOProject(json)
+activate mapperJson
+mapperJson --> dtoProject1**: create(json)
+deactivate mapperJson
+controller -> service : createProject(dtoProject1): dtoProject1.1
+activate service
+service --> project1**: createProject(dtoProject1):
+service -> repo : save(project1):project1Saved
+activate repo
+deactivate repo
+controller <-- service: true
+deactivate service
+route <-- controller : true
+deactivate controller
+director <-- route: ok
+deactivate route
+
+
+@enduml

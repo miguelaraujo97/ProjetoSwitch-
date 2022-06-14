@@ -1,0 +1,511 @@
+/* 
+PROJECT G4
+SCOMRED 2021/22
+
+CONVENTIOONS
+http://getbem.com/naming/
+ */
+
+/* FONTS IMPORTED */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+ /* MAIN STYLE */
+
+body{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;
+    background-color: #d9d9dd;
+    width: 750px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    font-weight: 300;
+}
+
+hr{
+    border: 1px solid #ccc ;
+}
+
+button{
+    cursor: pointer;    
+    padding: 8px;
+}
+
+input[search],
+select,
+input{
+    font-size: 15px;
+    padding: 7px 5px;
+    border: 1px solid #818181;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+
+input:invalid {
+    background-color: 2px solid red;
+}
+
+label{
+    display: block;
+    color: #444444;
+    text-align: left;
+    margin-bottom: 8px;
+    margin-top: 12px;
+}
+
+.article{
+    text-align: justify;
+    line-height: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: rgb(144, 144, 144);
+}
+a:hover{
+    color: #000000;
+}
+.nav--button-selected{
+    background-color: #33B5E5 !important;
+}
+
+.link--is-disabled, .link--is-disabled:hover {
+    color: #909090;
+    cursor: not-allowed;
+}
+
+
+table{
+    vertical-align: text-bottom;
+    height: 40px;
+    width: 100%;
+}
+
+table th{
+    border-bottom:1px solid #919191;
+    line-height: 20px;
+    vertical-align: bottom;
+}
+table th em{
+    font-size: 14px;
+    font-weight: 300;
+    color: #6d6d6d;
+}
+
+table  tr td{
+    padding-top: 10px;
+    text-align: center;
+    border-bottom:1px solid #ccc;
+    font-size: 14px;
+    
+}
+
+textarea{
+    border-radius: 5px;
+    min-height:150px; 
+    resize: vertical;
+    padding: 10px;
+}
+
+.account--user-title{
+    position: absolute;
+    font-size: 12px;
+    color: #ccc;
+}
+.account--user-profile{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.account--logout{
+    float: right;
+}
+
+.content{
+    display: table;
+    width: 100%;
+}
+
+.nav--header{
+    height: 60px;
+}
+.nav--header ul{
+    margin-top: -18px;
+    
+}
+
+.nav--header ul{
+    padding: 0%;    
+}
+
+.nav--header ul li{
+    float: left;
+    list-style: none;
+    text-align: center;
+    background-color: #b9b9b9;
+    margin-bottom: 5px;
+    margin-right: 3px;
+    width: 120px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.nav--header ul li a{
+    color: #FFFFFF;
+    display: block;
+  }
+  
+.nav--header ul li a:hover {
+    color: #000000;
+    background-color: #33B5E5;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 20px;
+}
+
+.text--title{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.text--sub-title{
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.text--content-title{
+    font-weight: bold;
+    font-weight: 300;
+    margin-bottom: 0;
+    color: #a7a7a7;
+}
+
+
+.col{
+    display: inline-block;
+    width: 50%;
+}
+
+.col--user-photo{
+    width: 200px;
+    text-align: center;
+    
+    
+}
+
+.col--user-info{
+    
+    vertical-align: top;
+    padding-left: 40px;
+    width: 100%;
+}
+
+.col--project{
+    display: inline-grid;
+    border-top: 1px solid #000;
+    padding: 30px;
+    width: 40%;
+    align-items: start;
+}
+
+.project-title{
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    
+    
+    
+}
+
+.project-value{
+    font-weight: 400;
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.user-name{
+    font-weight: BOLD;
+    margin-top: 0;
+}
+
+#userPhoto{
+    border-radius: 50%;
+    width: 80%;
+}
+
+.search--info-result{
+    font-size: 12px;
+    color: #3a3a3a;
+    letter-spacing: 1px;
+    font-style: italic;
+    display: block;  
+    margin-top: 10px; 
+    text-align: right; 
+}
+
+.user-title{
+    font-size: 10px;
+    color: #979797;
+    letter-spacing: 1px;
+    font-style: italic;
+    
+}
+
+
+.user-description{
+    font-size: initial;
+    color: #000;
+    border-bottom: 1px solid #919191;
+    margin-left: 20px;
+}
+
+
+.status-success{
+    color: #3EA16A;
+    font-weight: bold;
+}
+
+.status-error{
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.text-notification{
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.logos{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.img--logos-isep{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.img--logos-portotechhub{
+    position: relative;
+    top: -25px;
+    left: 30px;
+}
+
+.img--logos-switch{
+    position: relative;
+    top: -25px;
+    left: 60px;
+}
+
+.copyright{
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #919191;
+    margin-bottom: 30px;
+}
+
+/* 
+BUTTON
+*/
+.button--write-permissions{
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    font-size: large;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid #ababab;
+    background-color: whitesmoke;
+    
+}
+
+.button--write-permissions span .text{
+
+    font-size: 10px;
+}
+
+.button--write-permissions:hover{
+
+    background: #61bd4a;
+    color: #FFF;
+    display: inline-block;
+    -webkit-animation:spin 3s linear infinite;
+    -moz-animation:spin 3s linear infinite;
+    animation:spin 3s linear infinite;
+}
+
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+
+
+.button {
+    display: inline-block;
+    padding: 7px 0;
+    border: 1px solid #818181;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.button--state-success {
+	color: #FFF;
+	background: #74af5f ;
+}
+
+.button--state-danger {
+	background: #E51010;
+    color: #FFFFFF;
+}
+.loading{
+    width: 30px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/*
+FORM
+*/
+
+.form--registration{
+    width: 200px;
+}
+
+.form--footer-links{
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.form--create-project{
+    width: 100%;
+}
+
+#formCreateProject .forminput{
+
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+.col-1{
+    width: 98%;
+}
+
+.col-2{
+    width: 47%;
+}
+
+.col-3{
+    width: 30%;
+}
+.col-3{
+    width: 30%;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 794px) {
+    body {
+        float: none;
+        width: 80%;
+        padding: 20px;
+    }
+
+    .content{
+        display: block;
+    }
+    
+    .col {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    
+
+    /*
+    LOGOS
+    */
+    .img--logos-isep{
+        top: unset;
+        left: unset;
+        display: block;
+        margin: 0 auto;
+        filter: grayscale(100%);
+        opacity: .6;
+    }
+    
+    .img--logos-portotechhub{
+        top: unset;
+        left: unset;
+        display: block;
+        margin: 20px auto;
+        filter: grayscale(100%);
+        opacity: .5;
+    }
+    
+    .img--logos-switch{
+        top: unset;
+        left: unset;
+        display: block;
+        margin: 10px auto;
+    }
+
+
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        float: none;
+        width: 80%;
+        padding: 15px;
+    }
+
+    
+    /*
+    FORM
+    */
+    .form--registration{
+        width: 100%;
+    }
+
+    .col-2, .col-3{
+        width: 100%;
+    }
+    
+    
+
+}

@@ -1,0 +1,8 @@
+/*-- PROJECTS --
+INSERT INTO PROJECTS (CODE, NAME, PROJECT_DESCRIPTION, CUSTOMER_NAME, TYPOLOGY_DESCRIPTION,
+                      BUSINESS_SECTOR, NUMBER_OF_PLANNED_SPRINTS, SPRINT_DURATION,
+                      BUDGET, START_DATE, END_DATE)
+VALUES ('A111125', 'Create things', 'Some description', 'ISEP', 'FIXED COST',
+        'WEB', 15, 2, 15000000.00, '2023-05-18', '2024-05-18'),
+       ('A111135', 'Create things', 'Some description', 'ISEP', 'FIXED COST',
+        'WEB', 15, 2, 30000000.00, '2023-05-18', '2024-05-18');*/

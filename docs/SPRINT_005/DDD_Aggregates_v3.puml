@@ -1,0 +1,241 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+hide members
+hide circle
+
+skinparam minClassWidth 200
+skinparam nodesep 20
+skinparam ranksep 20
+skinparam Padding 0
+skinparam linetype ortho
+
+
+
+skinparam package {
+    BackgroundColor white
+    BorderColor grey
+    shadowing false
+    FontStyle normal
+    FontSize 16
+    borderThickness 0.5
+    fontColor #aaa
+}
+
+skinparam legend {
+    backgroundColor white
+    borderColor white
+    shadowing false
+    FontStyle normal
+    FontSize 12
+    borderThickness 0.5
+    fontColor black
+    Padding 20
+    DesignedBorderColor white
+}
+
+skinparam class {
+    stereotypeFontSize 10
+    fontSize 16
+    fontName Helvetica
+
+    arrowColor black
+    arrowThickness 1
+    attributeIconSize 0
+
+    borderColor black
+    borderThickness 0.5
+    backgroundColor #eee
+
+
+}
+
+skinparam entity {
+    backgroundColor red
+    borderColor black
+    borderThickness 0.5
+}
+
+skinparam rectangle {
+    shadowing false
+    fontSize 15
+    textAlignment left
+    fontStyle italic
+    stereotypeFontSize 10
+    borderThickness 0.5
+
+}
+
+'TITLE ON TOP
+title DDD diagram
+
+'HEADER FOOTER DESCRIPTIONS
+center header DDD - Domain Driven Design
+center footer DDD - Domain Driven Design
+
+
+package Project {
+    entity Project <<AGGREGATE ROOT>><<ENTITY>> #eee ##black{}
+    class ProjectCode <<VALUE OBJECT>> #technology ##green{}
+    class ProjectName <<VALUE OBJECT>> #technology ##green{}
+    class Description <<VALUE OBJECT>> #technology ##green{}
+    class Budget <<VALUE OBJECT>> #technology ##green{}
+    class Customer <<VALUE OBJECT>> #technology ##green{}
+    class DefaultSprintDuration <<VALUE OBJECT>> #technology ##green{}
+    class ProjectStatus <<VALUE OBJECT>> #technology ##green{}
+    class ProjectStatus <<VALUE OBJECT>> #technology ##green{}
+    class "StartDate" as ProjectStartDate <<VALUE OBJECT>> #technology ##green{}
+    class "EndDate" as ProjectEndDate <<VALUE OBJECT>> #technology ##green{}
+    class BusinessSector <<VALUE OBJECT>> #technology ##green{}
+     entity Resource <<ENTITY>> #khaki ##yellow{}
+     class StartDate <<VALUE OBJECT>> #technology ##green{}
+     class EndDate <<VALUE OBJECT>> #technology ##green{}
+     class CostPerHour <<VALUE OBJECT>> #technology ##green{}
+     class PercentageAllocation <<VALUE OBJECT>> #technology ##green{}
+     class Role <<VALUE OBJECT>> #technology ##green{}
+
+}
+
+package Sprint{
+    entity SprintBackLogItem <<VALUE OBJECT>> #technology ##green{}
+    entity Sprint <<AGGREGATE ROOT>><<ENTITY>> #eee ##black{}
+    class "StartDate" as SprintStartDate <<VALUE OBJECT>> #technology ##green{}
+    class "EndDate" as SprintEndDate <<VALUE OBJECT>> #technology ##green{}
+    class SprintOrder <<VALUE OBJECT>> #technology ##green{}
+    class SprintDuration <<VALUE OBJECT>> #technology ##green{}
+    class SprintStatus <<VALUE OBJECT>> #technology ##green{}
+ }
+
+package UserStory{
+    entity UserStory <<AGGREGATE ROOT>><<ENTITY>> #eee ##black{}
+    entity Task #aliceblue ##[bold]blue{}
+    class "Description" as UsDescription <<VALUE OBJECT>> #technology ##green{}
+    class ParentUS <<VALUE OBJECT>> #technology ##green{}
+    class UserStoryStatus <<VALUE OBJECT>> #technology ##green{}
+    class Priority <<VALUE OBJECT>> #technology ##green{}
+    class "EffortEstimate" as EffortEstimateUS <<VALUE OBJECT>> #technology ##green{}
+
+}
+
+package User{
+    entity User <<AGGREGATE ROOT>><<ENTITY>> #eee ##black{}
+    class UserID <<VALUE OBJECT>> #technology ##green{}
+    class UserName <<VALUE OBJECT>> #technology ##green{}
+    class Status <<VALUE OBJECT>> #technology ##green{}
+    class Email <<VALUE OBJECT>> #technology ##green{}
+    class Function <<VALUE OBJECT>> #technology ##green{}
+    class Photo <<VALUE OBJECT>> #technology ##green{}
+
+}
+
+
+package Profile{
+    entity Profile <<AGGREGATE ROOT>><<ENTITY>> #eee ##black{}
+    class ProfileName <<VALUE OBJECT>> #technology ##green{}
+    class Permission <<VALUE OBJECT>> #technology ##green{}
+}
+
+package Typology{
+    entity Typology <<AGGREGATE ROOT>><<ENTITY>> #eee ##black{}
+    class TypologyName <<VALUE OBJECT>> #technology ##green{}
+}
+
+package ProfileRequest{
+      entity ProfileRequest <<AGGREGATE ROOT>><<ENTITY>> #eee ##black{}
+}
+
+package Task{
+      entity Task <<AGGREGATE ROOT>><<ENTITY>> #eee ##black{}
+      class TaskName <<VALUE OBJECT>> #technology ##green{}
+      class "Description" as TaskDescription <<VALUE OBJECT>> #technology ##green{}
+      class "StartDate"  as TaskStartDate<<VALUE OBJECT>> #technology ##green{}
+      class "EndDate" as TaskEndDate <<VALUE OBJECT>> #technology ##green{}
+      class TaskType <<VALUE OBJECT>> #technology ##green{}
+      class TaskStatus <<VALUE OBJECT>> #technology ##green{}
+      class HoursSpent <<VALUE OBJECT>> #technology ##green{}
+      class "EffortEstimate" as EffortEstimateTask <<VALUE OBJECT>> #technology ##green{}
+      class PercentageOfExecution <<VALUE OBJECT>> #technology ##green{}
+      class UserResponsible <<VALUE OBJECT>> #technology ##green{}
+}
+
+
+
+Project "1"--> "0..*" Sprint
+Project -right-> ProjectCode
+Project -right-> ProjectName
+Project -left-> Description
+Project -left-> Budget
+Project -down-> Customer
+Project -down-> DefaultSprintDuration
+Project -down-> ProjectStatus
+Project -down-> ProjectStartDate
+Project -down-> ProjectEndDate
+Project -down-> BusinessSector
+Project "1"-->"1" Typology
+
+
+
+User -- UserID
+User -- UserName
+User -- Status
+User -up- Email
+User -up- Function
+User -up- Photo
+User -up- "1" Profile
+
+
+Profile "1"--> "1"ProfileName
+Profile "1"--> "1"Permission
+
+Typology -- "1"TypologyName
+
+Resource "1..*"-->"1" Project
+Resource "0..*"-->"1" User
+Resource -up-> StartDate
+Resource -up-> EndDate
+Resource -up- PercentageAllocation
+Resource -up- Role
+Resource -up-> CostPerHour
+
+
+ProfileRequest"*" --> "1" User
+ProfileRequest"*" --> "1" Profile
+
+Sprint "1"-- "1"SprintBackLogItem
+Sprint --> SprintStartDate
+Sprint --> SprintEndDate
+Sprint -up-> SprintOrder
+Sprint -up-> SprintDuration
+Sprint -up-> SprintStatus
+SprintBackLogItem "1..*"-->"1" UserStory
+
+
+UserStory  "1"<---- "0..*" Task
+UserStory --> UserStoryStatus
+UserStory -right-> ParentUS
+UserStory -left-> UsDescription
+UserStory --> Priority
+UserStory --> EffortEstimateUS
+
+
+
+Task --> TaskDescription
+Task --> TaskEndDate
+Task --> TaskStartDate
+Task -up-> TaskStatus
+Task --> TaskType
+Task -up-> EffortEstimateTask
+Task -left-> PercentageOfExecution
+Task -up-> TaskName
+Task -up-> UserResponsible
+Task -right-> HoursSpent
+
+
+
+
+
+skinparam nodesep 60
+'
+skinparam ranksep 60
+
+@enduml

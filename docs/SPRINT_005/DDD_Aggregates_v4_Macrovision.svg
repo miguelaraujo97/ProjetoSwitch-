@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="737px" preserveAspectRatio="none" style="width:777px;height:737px;background:#FFFFFF;" version="1.1" viewBox="0 0 777 737" width="777px" zoomAndPan="magnify"><defs><filter height="300%" id="ftjh7mhy40bxw" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[39e750ed8fd817ac372d7da55c795c85]
+cluster Resource--><polygon fill="#FFFFFF" points="528,453.0156,601,453.0156,608,479.1406,760,479.1406,760,575.0156,528,575.0156,528,453.0156" style="stroke:#808080;stroke-width:0.5;"/><line style="stroke:#808080;stroke-width:0.5;" x1="528" x2="608" y1="479.1406" y2="479.1406"/><text fill="#AAAAAA" font-family="sans-serif" font-size="16" lengthAdjust="spacing" textLength="67" x="532" y="471.625">Resource</text><text fill="#D3D3D3" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="77" x="609.5" y="491.5215">«AGGREGATE»</text><!--MD5=[0f05b381ce972810648735ab0813e8dd]
+cluster ProjectDeprecated--><polygon fill="#FFFFFF" points="456,307.0156,511,307.0156,518,333.1406,688,333.1406,688,429.0156,456,429.0156,456,307.0156" style="stroke:#808080;stroke-width:0.5;"/><line style="stroke:#808080;stroke-width:0.5;" x1="456" x2="518" y1="333.1406" y2="333.1406"/><text fill="#AAAAAA" font-family="sans-serif" font-size="16" lengthAdjust="spacing" textLength="49" x="460" y="325.625">Project</text><text fill="#D3D3D3" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="77" x="537.5" y="345.5215">«AGGREGATE»</text><!--MD5=[a8621f786b421b40515673e2d966a1c3]
+cluster Sprint--><polygon fill="#FFFFFF" points="456,152.0156,503,152.0156,510,178.1406,688,178.1406,688,274.0156,456,274.0156,456,152.0156" style="stroke:#808080;stroke-width:0.5;"/><line style="stroke:#808080;stroke-width:0.5;" x1="456" x2="510" y1="178.1406" y2="178.1406"/><text fill="#AAAAAA" font-family="sans-serif" font-size="16" lengthAdjust="spacing" textLength="41" x="460" y="170.625">Sprint</text><text fill="#D3D3D3" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="77" x="537.5" y="190.5215">«AGGREGATE»</text><!--MD5=[70ce3a0b7249b89e7183e518c52a7191]
+cluster UserStory--><polygon fill="#FFFFFF" points="200,152.0156,275,152.0156,282,178.1406,432,178.1406,432,274.0156,200,274.0156,200,152.0156" style="stroke:#808080;stroke-width:0.5;"/><line style="stroke:#808080;stroke-width:0.5;" x1="200" x2="282" y1="178.1406" y2="178.1406"/><text fill="#AAAAAA" font-family="sans-serif" font-size="16" lengthAdjust="spacing" textLength="69" x="204" y="170.625">UserStory</text><text fill="#D3D3D3" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="77" x="281.5" y="190.5215">«AGGREGATE»</text><!--MD5=[d0083cf0b2d9f17e335f85bf9624e57e]
+cluster User--><polygon fill="#FFFFFF" points="272,608.0156,311,608.0156,318,634.1406,504,634.1406,504,730.0156,272,730.0156,272,608.0156" style="stroke:#808080;stroke-width:0.5;"/><line style="stroke:#808080;stroke-width:0.5;" x1="272" x2="318" y1="634.1406" y2="634.1406"/><text fill="#AAAAAA" font-family="sans-serif" font-size="16" lengthAdjust="spacing" textLength="33" x="276" y="626.625">User</text><text fill="#D3D3D3" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="77" x="353.5" y="646.5215">«AGGREGATE»</text><!--MD5=[fe08d72b7e54a4e0603d5a17d2080bee]
+cluster Profile--><polygon fill="#FFFFFF" points="272,453.0156,323,453.0156,330,479.1406,504,479.1406,504,575.0156,272,575.0156,272,453.0156" style="stroke:#808080;stroke-width:0.5;"/><line style="stroke:#808080;stroke-width:0.5;" x1="272" x2="330" y1="479.1406" y2="479.1406"/><text fill="#AAAAAA" font-family="sans-serif" font-size="16" lengthAdjust="spacing" textLength="45" x="276" y="471.625">Profile</text><text fill="#D3D3D3" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="77" x="353.5" y="491.5215">«AGGREGATE»</text><!--MD5=[99b6005fb0c05032b9e942ec0f628b67]
+cluster Typology--><polygon fill="#FFFFFF" points="200,307.0156,268,307.0156,275,333.1406,432,333.1406,432,429.0156,200,429.0156,200,307.0156" style="stroke:#808080;stroke-width:0.5;"/><line style="stroke:#808080;stroke-width:0.5;" x1="200" x2="275" y1="333.1406" y2="333.1406"/><text fill="#AAAAAA" font-family="sans-serif" font-size="16" lengthAdjust="spacing" textLength="62" x="204" y="325.625">Typology</text><text fill="#D3D3D3" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="77" x="281.5" y="345.5215">«AGGREGATE»</text><!--MD5=[8581368cd07d2155de9dba4a9dfc3026]
+cluster ProfileRequest--><polygon fill="#FFFFFF" points="16,453.0156,125,453.0156,132,479.1406,248,479.1406,248,575.0156,16,575.0156,16,453.0156" style="stroke:#808080;stroke-width:0.5;"/><line style="stroke:#808080;stroke-width:0.5;" x1="16" x2="132" y1="479.1406" y2="479.1406"/><text fill="#AAAAAA" font-family="sans-serif" font-size="16" lengthAdjust="spacing" textLength="103" x="20" y="471.625">ProfileRequest</text><text fill="#D3D3D3" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="77" x="97.5" y="491.5215">«AGGREGATE»</text><!--MD5=[996a0e22aa5fcad0a8b55c37b2fd323d]
+cluster Task--><polygon fill="#FFFFFF" points="456,6.0156,496,6.0156,503,32.1406,688,32.1406,688,128.0156,456,128.0156,456,6.0156" style="stroke:#808080;stroke-width:0.5;"/><line style="stroke:#808080;stroke-width:0.5;" x1="456" x2="503" y1="32.1406" y2="32.1406"/><text fill="#AAAAAA" font-family="sans-serif" font-size="16" lengthAdjust="spacing" textLength="34" x="460" y="24.625">Task</text><text fill="#D3D3D3" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="77" x="537.5" y="44.5215">«AGGREGATE»</text><!--MD5=[6b13f1b330d33795af281e5c1dfe1e98]
+class Resource--><rect codeLine="95" fill="#EEEEEE" filter="url(#ftjh7mhy40bxw)" height="55.2813" id="Resource" rx="4" ry="4" style="stroke:#000000;stroke-width:0.5;" width="200" x="544" y="504.0156"/><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="109" x="589.5" y="519.3965">«AGGREGATE ROOT»</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="47" x="620.5" y="531.9746">«ENTITY»</text><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="67" x="610.5" y="550.7813">Resource</text><!--MD5=[79d378210367c0c6ec62ef762ddfbd1b]
+class ProjectDeprecated--><rect codeLine="93" fill="#EEEEEE" filter="url(#ftjh7mhy40bxw)" height="55.2813" id="Project" rx="4" ry="4" style="stroke:#000000;stroke-width:0.5;" width="200" x="472" y="358.0156"/><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="109" x="517.5" y="373.3965">«AGGREGATE ROOT»</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="47" x="548.5" y="385.9746">«ENTITY»</text><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="49" x="547.5" y="404.7813">Project</text><!--MD5=[452a66c2e8d45f5bd209be454bbcd04f]
+class Sprint--><rect codeLine="101" fill="#EEEEEE" filter="url(#ftjh7mhy40bxw)" height="55.2813" id="Sprint" rx="4" ry="4" style="stroke:#000000;stroke-width:0.5;" width="200" x="472" y="203.0156"/><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="109" x="517.5" y="218.3965">«AGGREGATE ROOT»</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="47" x="548.5" y="230.9746">«ENTITY»</text><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="41" x="551.5" y="249.7813">Sprint</text><!--MD5=[daa6dd44d8f60c5a9cd695bb66773862]
+class UserStory--><rect codeLine="108" fill="#EEEEEE" filter="url(#ftjh7mhy40bxw)" height="55.2813" id="UserStory" rx="4" ry="4" style="stroke:#000000;stroke-width:0.5;" width="200" x="216" y="203.0156"/><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="109" x="261.5" y="218.3965">«AGGREGATE ROOT»</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="47" x="292.5" y="230.9746">«ENTITY»</text><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="69" x="281.5" y="249.7813">UserStory</text><!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User--><rect codeLine="114" fill="#EEEEEE" filter="url(#ftjh7mhy40bxw)" height="55.2813" id="User" rx="4" ry="4" style="stroke:#000000;stroke-width:0.5;" width="200" x="288" y="659.0156"/><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="109" x="333.5" y="674.3965">«AGGREGATE ROOT»</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="47" x="364.5" y="686.9746">«ENTITY»</text><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="33" x="371.5" y="705.7813">User</text><!--MD5=[7b57f7066b803747d2119f99dd1555d4]
+class Profile--><rect codeLine="120" fill="#EEEEEE" filter="url(#ftjh7mhy40bxw)" height="55.2813" id="Profile" rx="4" ry="4" style="stroke:#000000;stroke-width:0.5;" width="200" x="288" y="504.0156"/><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="109" x="333.5" y="519.3965">«AGGREGATE ROOT»</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="47" x="364.5" y="531.9746">«ENTITY»</text><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="45" x="365.5" y="550.7813">Profile</text><!--MD5=[024d6bb17f4c47f299ed89907d0655d2]
+class Typology--><rect codeLine="125" fill="#EEEEEE" filter="url(#ftjh7mhy40bxw)" height="55.2813" id="Typology" rx="4" ry="4" style="stroke:#000000;stroke-width:0.5;" width="200" x="216" y="358.0156"/><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="109" x="261.5" y="373.3965">«AGGREGATE ROOT»</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="47" x="292.5" y="385.9746">«ENTITY»</text><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="62" x="285" y="404.7813">Typology</text><!--MD5=[eab6283b872a923979a6d70317671905]
+class ProfileRequest--><rect codeLine="130" fill="#EEEEEE" filter="url(#ftjh7mhy40bxw)" height="55.2813" id="ProfileRequest" rx="4" ry="4" style="stroke:#000000;stroke-width:0.5;" width="200" x="32" y="504.0156"/><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="109" x="77.5" y="519.3965">«AGGREGATE ROOT»</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="47" x="108.5" y="531.9746">«ENTITY»</text><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="103" x="80.5" y="550.7813">ProfileRequest</text><!--MD5=[b34797a66dc35cbf1d65f7e3ca75530e]
+class Task--><rect codeLine="134" fill="#EEEEEE" filter="url(#ftjh7mhy40bxw)" height="55.2813" id="Task" rx="4" ry="4" style="stroke:#000000;stroke-width:0.5;" width="200" x="472" y="57.0156"/><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="109" x="517.5" y="72.3965">«AGGREGATE ROOT»</text><text fill="#000000" font-family="sans-serif" font-size="10" font-style="italic" lengthAdjust="spacing" textLength="47" x="548.5" y="84.9746">«ENTITY»</text><text fill="#000000" font-family="Helvetica" font-size="16" lengthAdjust="spacing" textLength="34" x="555" y="103.7813">Task</text><!--MD5=[142ad2e50706c925e18114e81ac5122e]
+link Resource to User--><path codeLine="138" d="M644,559.3156 C644,604.0456 644,687.0156 644,687.0156 C644,687.0156 493.08,687.0156 493.08,687.0156 " fill="none" id="Resource-to-User" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="488.08,687.0156,497.08,691.0156,493.08,687.0156,497.08,683.0156,488.08,687.0156" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[aeb4911f112c3786e6f565bc8ede3c91]
+reverse link Typology to ProjectDeprecated--><path codeLine="139" d="M421.08,395.0156 C421.08,395.0156 471.99,395.0156 471.99,395.0156 " fill="none" id="Typology-backto-Project" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="416.08,395.0156,425.08,399.0156,421.08,395.0156,425.08,391.0156,416.08,395.0156" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[cdd69db85b029f01c6adb2438fc81227]
+reverse link ProjectDeprecated to Resource--><path codeLine="140" d="M608,418.3256 C608,418.3256 608,503.8156 608,503.8156 " fill="none" id="Project-backto-Resource" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="608,413.3256,604,422.3256,608,418.3256,612,422.3256,608,413.3256" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[6e6d33f92af012b517bd747a26e702ca]
+link Sprint to ProjectDeprecated--><path codeLine="143" d="M572,258.2256 C572,258.2256 572,352.7856 572,352.7856 " fill="none" id="Sprint-to-Project" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="572,357.7856,576,348.7856,572,352.7856,568,348.7856,572,357.7856" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[a5c22e9af2e8456bb7db1a4521bf998a]
+link UserStory to Sprint--><path codeLine="146" d="M416.08,222.0156 C416.08,222.0156 466.99,222.0156 466.99,222.0156 " fill="none" id="UserStory-to-Sprint" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="471.99,222.0156,462.99,218.0156,466.99,222.0156,462.99,226.0156,471.99,222.0156" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[202ec86b487ac6f1e3ce77c8cc47478a]
+link UserStory to ProjectDeprecated--><path codeLine="147" d="M416.23,240.0156 C432.42,240.0156 444,240.0156 444,240.0156 C444,240.0156 444,377.0156 444,377.0156 C444,377.0156 466.77,377.0156 466.77,377.0156 " fill="none" id="UserStory-to-Project" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="471.77,377.0156,462.77,373.0156,466.77,377.0156,462.77,381.0156,471.77,377.0156" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[e6a282806b560b74ac81a09a727f4a85]
+link Task to Resource--><path codeLine="148" d="M672.27,85.0156 C692.65,85.0156 708,85.0156 708,85.0156 C708,85.0156 708,498.9256 708,498.9256 " fill="none" id="Task-to-Resource" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="708,503.9256,712,494.9256,708,498.9256,704,494.9256,708,503.9256" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[90fa0837cd9082c75cabde5f26fcd73e]
+link Task to Sprint--><path codeLine="150" d="M572,112.3256 C572,112.3256 572,197.8156 572,197.8156 " fill="none" id="Task-to-Sprint" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="572,202.8156,576,193.8156,572,197.8156,568,193.8156,572,202.8156" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[810aacbcb787067ff1fbbe6f57746f48]
+link Task to UserStory--><path codeLine="151" d="M471.92,85.0156 C400.12,85.0156 316,85.0156 316,85.0156 C316,85.0156 316,197.8056 316,197.8056 " fill="none" id="Task-to-UserStory" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="316,202.8056,320,193.8056,316,197.8056,312,193.8056,316,202.8056" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[26f2750967a9157267d57c5e6d98bc07]
+link Profile to User--><path codeLine="153" d="M388,559.2256 C388,559.2256 388,653.7856 388,653.7856 " fill="none" id="Profile-to-User" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="388,658.7856,392,649.7856,388,653.7856,384,649.7856,388,658.7856" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[b338395079b3c7d7b2f8fe517069617d]
+link ProfileRequest to Profile--><path codeLine="154" d="M232.08,532.0156 C232.08,532.0156 282.99,532.0156 282.99,532.0156 " fill="none" id="ProfileRequest-to-Profile" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="287.99,532.0156,278.99,528.0156,282.99,532.0156,278.99,536.0156,287.99,532.0156" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[b471c0824aeab2f2f14fd0c3f96e06a9]
+link ProfileRequest to User--><path codeLine="155" d="M132,559.3156 C132,604.0456 132,687.0156 132,687.0156 C132,687.0156 282.92,687.0156 282.92,687.0156 " fill="none" id="ProfileRequest-to-User" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="287.92,687.0156,278.92,683.0156,282.92,687.0156,278.92,691.0156,287.92,687.0156" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[274bef7838f8f0d9c81e298e2ac62284]
+@startuml
+'https://plantuml.com/class-diagram
+
+'SWitCH G4 THEME
+'
+'COLORS
+'Blue #application
+'Pink #pink
+'Red #salmon
+'Yellow #khaki
+'Green #technology
+'
+'DEFAULTS
+
+hide members
+hide circle
+skinparam linetype ortho
+
+skinparam minClassWidth 200
+skinparam nodesep 20
+skinparam ranksep 20
+skinparam padding 0
+skinparam roundCorner 8
+
+
+
+
+skinparam package {
+    backgroundColor white
+    borderColor grey
+    shadowing false
+    fontStyle normal
+    fontSize 16
+    borderThickness 0.5
+    fontColor #aaa
+    stereotypeFontSize 10
+    stereotypeFontColor lightGrey
+}
+
+skinparam class {
+    stereotypeFontSize 10
+    fontSize 16
+    fontName Helvetica
+    arrowColor black
+    arrowThickness 1
+    attributeIconSize 0
+    borderThickness 0.5
+}
+
+skinparam class<<AGGREGATE ROOT>> {
+    borderColor black
+    backgroundColor #eee
+}
+
+skinparam class<<ENTITY>> {
+    borderColor yellow
+    backgroundColor #khaki
+}
+
+skinparam class<<VALUE OBJECT>> {
+    borderColor green
+    backgroundColor #technology
+}
+
+
+
+skinparam note {
+    fontSize 14
+    fontName Helvetica
+    borderColor black
+    borderThickness 0.5
+    backgroundColor AliceBlue
+}
+
+
+'TITLE ON TOP
+'title The new Big Picture
+
+'HEADER FOOTER DESCRIPTIONS
+'center header DDD - Domain Driven Design
+'center footer DDD - Domain Driven Design
+
+
+
+'class Resource <<VALUE OBJECT>> #technology ##green{}
+
+
+
+package Resource <<AGGREGATE>>  {
+    entity Resource <<AGGREGATE ROOT>><<ENTITY>>
+}
+
+package ProjectDeprecated <<AGGREGATE>> {
+    entity ProjectDeprecated <<AGGREGATE ROOT>><<ENTITY>>
+    'entity ProductBacklog <<ENTITY>>
+    entity Resource <<AGGREGATE ROOT>><<ENTITY>>
+}
+
+package Sprint <<AGGREGATE>>   {
+
+    'class SprintID <<VALUE OBJECT>>
+    entity Sprint <<AGGREGATE ROOT>><<ENTITY>>
+    'entity SprintBacklogItem <<VALUE OBJECT>>
+}
+
+package UserStory <<AGGREGATE>>{
+    'entity TaskInUS
+    'class UserStoryID <<VALUE OBJECT>>
+    entity UserStory <<AGGREGATE ROOT>><<ENTITY>>
+
+
+}
+
+package User <<AGGREGATE>>{
+    entity User <<AGGREGATE ROOT>><<ENTITY>>
+    'class UserID <<VALUE OBJECT>>
+}
+
+
+package Profile <<AGGREGATE>>{
+    entity Profile <<AGGREGATE ROOT>><<ENTITY>>
+    'class ProfileName <<VALUE OBJECT>>
+}
+
+package Typology <<AGGREGATE>>{
+    entity Typology <<AGGREGATE ROOT>><<ENTITY>>
+    'class TypologyName <<VALUE OBJECT>>
+}
+
+package ProfileRequest <<AGGREGATE>>{
+      entity ProfileRequest <<AGGREGATE ROOT>><<ENTITY>>
+}
+
+package Task <<AGGREGATE>>{
+      entity Task <<AGGREGATE ROOT>><<ENTITY>>
+}
+
+'ProjectDeprecated -right- ProductBacklog
+Resource - - -> User
+ProjectDeprecated -left-> Typology
+ProjectDeprecated <- - Resource
+
+
+Sprint - - -> ProjectDeprecated
+'Sprint -right- SprintBacklogItem
+'SprintBacklogItem -down-> UserStory
+UserStory -> Sprint
+ProjectDeprecated <-left- UserStory
+Resource <-left- Task
+
+Task - -> Sprint
+Task - -> UserStory
+
+Profile - - -> User
+ProfileRequest -right-> Profile
+ProfileRequest - -> User
+
+'note  "This note is connected\nto several objects." as N2
+'Profile .. N2
+
+@enduml
+
+@startuml
+
+
+hide members
+hide circle
+skinparam linetype ortho
+
+skinparam minClassWidth 200
+skinparam nodesep 20
+skinparam ranksep 20
+skinparam padding 0
+skinparam roundCorner 8
+
+
+
+
+skinparam package {
+    backgroundColor white
+    borderColor grey
+    shadowing false
+    fontStyle normal
+    fontSize 16
+    borderThickness 0.5
+    fontColor #aaa
+    stereotypeFontSize 10
+    stereotypeFontColor lightGrey
+}
+
+skinparam class {
+    stereotypeFontSize 10
+    fontSize 16
+    fontName Helvetica
+    arrowColor black
+    arrowThickness 1
+    attributeIconSize 0
+    borderThickness 0.5
+}
+
+skinparam class<<AGGREGATE ROOT>> {
+    borderColor black
+    backgroundColor #eee
+}
+
+skinparam class<<ENTITY>> {
+    borderColor yellow
+    backgroundColor #khaki
+}
+
+skinparam class<<VALUE OBJECT>> {
+    borderColor green
+    backgroundColor #technology
+}
+
+
+
+skinparam note {
+    fontSize 14
+    fontName Helvetica
+    borderColor black
+    borderThickness 0.5
+    backgroundColor AliceBlue
+}
+
+
+
+
+
+
+
+
+
+package Resource <<AGGREGATE>>  {
+    entity Resource <<AGGREGATE ROOT>><<ENTITY>>
+}
+
+package ProjectDeprecated <<AGGREGATE>> {
+    entity ProjectDeprecated <<AGGREGATE ROOT>><<ENTITY>>
+    entity Resource <<AGGREGATE ROOT>><<ENTITY>>
+}
+
+package Sprint <<AGGREGATE>>   {
+
+    entity Sprint <<AGGREGATE ROOT>><<ENTITY>>
+}
+
+package UserStory <<AGGREGATE>>{
+    entity UserStory <<AGGREGATE ROOT>><<ENTITY>>
+
+
+}
+
+package User <<AGGREGATE>>{
+    entity User <<AGGREGATE ROOT>><<ENTITY>>
+}
+
+
+package Profile <<AGGREGATE>>{
+    entity Profile <<AGGREGATE ROOT>><<ENTITY>>
+}
+
+package Typology <<AGGREGATE>>{
+    entity Typology <<AGGREGATE ROOT>><<ENTITY>>
+}
+
+package ProfileRequest <<AGGREGATE>>{
+      entity ProfileRequest <<AGGREGATE ROOT>><<ENTITY>>
+}
+
+package Task <<AGGREGATE>>{
+      entity Task <<AGGREGATE ROOT>><<ENTITY>>
+}
+
+Resource - - -> User
+ProjectDeprecated -left-> Typology
+ProjectDeprecated <- - Resource
+
+
+Sprint - - -> ProjectDeprecated
+UserStory -> Sprint
+ProjectDeprecated <-left- UserStory
+Resource <-left- Task
+
+Task - -> Sprint
+Task - -> UserStory
+
+Profile - - -> User
+ProfileRequest -right-> Profile
+ProfileRequest - -> User
+
+
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 18:19:58 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

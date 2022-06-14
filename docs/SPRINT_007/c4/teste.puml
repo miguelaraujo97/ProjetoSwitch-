@@ -1,0 +1,16 @@
+@startuml
+skinparam componentStyle uml1
+
+package "Some Group" {
+HTTP - [First Component]
+[Another Component]
+}
+
+package "Other Groups" {
+FTP - [Second Component]
+
+[First Component] --0)- FTP
+}
+
+
+@enduml

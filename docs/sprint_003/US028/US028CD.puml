@@ -1,0 +1,63 @@
+@startuml
+skinparam classAttributeIconSize 0
+'https://plantuml.com/class-diagram
+
+class SearchForProjectResourceUI
+class SearchForProjectResourceController
+class DataManagement
+
+class ResourceMapper
+class ResourceDTO
+
+
+class Resource
+
+SearchForProjectResourceUI .right.> SearchForProjectResourceController
+
+SearchForProjectResourceController ..> DataManagement
+
+DataManagement "1" --> "projectStore 1" ProjectStore
+
+Project  --> "resourceMapper 1" ResourceMapper
+
+ProjectStore "1" o--"project 0.*" Project
+
+Project "1" o--"resource 0.*" Resource
+
+SearchForProjectResourceController..>ProjectStore
+
+ResourceMapper "1" o--"resourceDTO 0.*" ResourceDTO
+
+
+
+class SearchForProjectResourceController {
+
++searchHumanResourcesInProject()
+
+
+}
+
+class DataManagement {
++getProjectStore()
+
+
+}
+class ProjectStore {
++getProjectByProjectCode()
++getResourceListByProjectCodeToDTO()
+
+
+}
+class Resource{
++getResourceUser()
++getResourceRole()
+}
+
+class ResourceMapper{
++toResourceDTO()
+}
+
+
+
+
+@enduml

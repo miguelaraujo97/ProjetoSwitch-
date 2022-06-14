@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+left to right direction
+:Project manager: as User
+package System{
+    usecase "Insert project code" as US1
+    usecase "Insert sprint id" as US3
+    usecase "START Sprint" as US5
+    usecase "List of projects" as US6
+    usecase "List of sprints" as US7
+
+}
+User --> US1
+User --> US3
+User --> US5
+US5 ..> US6 : include
+US5 ..> US7 : include
+
+@enduml

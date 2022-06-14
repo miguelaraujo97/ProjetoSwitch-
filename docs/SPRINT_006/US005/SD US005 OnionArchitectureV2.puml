@@ -1,0 +1,71 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam maxMessageSize 500
+autonumber
+actor "Director" as director
+participant ":CreateProjectUI" as route
+participant "controllerProject1:CreateProjectController" as controller
+participant "createProjectService:CreateProjectService" as service
+participant "typologyRepository:TypologyRepository" as typo
+participant "projectCreated:Project" as projectCreated
+participant "projectRepository:ProjectRepository" as repo
+participant "projectDTOAssembler:ProjectDTOAssembler" as assembler
+participant "projectDTODomain:ProjectDTODomain" as dtoDomain
+participant "projectDTONativeOut:ProjectDTONative" as dtoNative
+
+
+
+
+ director -> route :I want to create a project
+ activate route
+director <-- route: request data(data)
+deactivate route
+director -> route: insert data(data)
+activate route
+route -> controller: createProject(projectDTONative)
+activate controller
+controller -> controller:validate(projectDTONative)
+activate controller
+deactivate controller
+
+
+
+
+
+
+controller -> service : createProjectAndSave(projectDTONative)
+activate service
+service -> typo :getTypologyIDByDescription(typologyDescription)
+activate typo
+service <-- typo: typologyID
+deactivate typo
+service --> projectCreated**: createProject(code, name, customer, description, budget, sprintDuration,status, numberOfPlannedSprints, typologyID, timePeriod, businessSector)
+service -> repo : save(projectCreated)
+activate repo
+service <-- repo : projectSaved
+deactivate repo
+service -> assembler : toDomain(projectSaved)
+activate assembler
+assembler --> dtoDomain**: create (projectSaved))
+service <-- assembler : projectDTODomain
+deactivate assembler
+controller <-- service : projectDTODomain
+deactivate service
+controller -> assembler: toNative(projectDTODomain)
+activate assembler
+assembler --> dtoNative **: create(projectDTODomain)
+controller <-- assembler: projectDTONativeOut
+deactivate assembler
+route <-- controller : ResponseEntity
+deactivate controller
+director <-- route: Project Data
+deactivate route
+
+
+
+
+
+
+
+@enduml

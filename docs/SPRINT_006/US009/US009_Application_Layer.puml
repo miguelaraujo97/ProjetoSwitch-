@@ -1,0 +1,75 @@
+@startuml
+
+skinparam maxMessageSize 300
+autonumber
+autoactivate on
+
+participant " createUserStoryService \n: CreateUserStoryService" as service
+participant " userStoryID : UserStoryID" as userStoryId
+participant " projectCode : ProjectCode" as projectCode
+participant " usRepo \n: UserStoryRepository" as USrepository
+participant " productBacklog \n: List<UserStory>" as productBacklog
+participant " ustJpaRepo \n: UserStoryJpaRepository" as USjpaRepo
+participant " mapperTwo \n: UserStoryDomainAssembler" as assembler
+participant " projectRepository \n: ProjectRepository" as ProjectRepository
+participant " domainService \n: UserStoryDomainService " as DomainService
+
+participant " usFactory \n: IUserStoryFactory" as factory
+participant " description : Description" as description
+participant " priority : Priority" as priority
+participant " effortEstimate : EfforEstimate" as effort
+participant " userStory : UserStory" as userStory
+
+
+service -> userStoryId ** : createUserStoryIdVo()
+
+service -> projectCode ** : createProjectCodeVO( projectCode )
+
+service -> ProjectRepository : existsProjectByProjectCode(projectCode)
+
+ProjectRepository --> service : false
+
+service -> USrepository : findAllByProjectCode( projectCode )
+
+USrepository -> USjpaRepo : findAllByProjectCode( projectCode )
+
+USjpaRepo --> USrepository : List<UserStoryJpa>
+
+USrepository --> productBacklog ** : create
+
+group loop [For each userStoryJpa in List<UserStoryJpa>]
+
+USrepository -> assembler : toDomain( userStoryJpa )
+
+assembler --> USrepository: userStory
+
+
+USrepository -> productBacklog : add( userStory )
+deactivate productBacklog
+
+end
+
+USrepository --> service : productBacklog
+
+
+service -> DomainService : createUserStory( userStoryId, description, projectCode, productBacklog )
+
+DomainService -> DomainService : checkIfDescriptionAlreadyExists(productBacklog, String description)
+deactivate DomainService
+
+DomainService -> description ** :createDescriptionVO( description )
+
+DomainService -> priority ** : generateNextPriorityNumber( productBacklog)
+
+DomainService -> effort ** : createEffortVo()
+
+DomainService -> factory : createUserStory\n(description, userStoryId, projectCode, priority, effortEstimate)
+
+factory -> userStory ** : createUserStory(description, userStoryId, projectCode, priority, effortEstimate)
+
+factory --> DomainService: userStory
+
+DomainService --> service: userStory
+
+@enduml
+

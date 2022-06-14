@@ -1,0 +1,112 @@
+/* 
+PROJECT G4
+SCOMRED 2021/22
+
+*/
+
+
+/* FONTS IMPORTED */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* MAIN STYLE */
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    width: 950px;
+    margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-weight: 300;
+}
+
+hr {
+    border: 1px solid #ccc;
+}
+
+.naviagtionBar{
+    background-color: #003f6b !important;
+}
+.page-link {
+    color: #003f6b !important;
+}
+
+.userInfo{
+    font-size: 12px;
+    text-align: right;
+}
+
+.tableProjects{
+    text-align: center;
+}
+
+.tableProjects tr th{
+    padding-top: 20px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    color:white;
+}
+.nav-tabs{
+    --bs-nav-tabs-border-width: 2px !important;
+}
+
+.nav-tabs .nav-link{
+    color: rgb(104, 104, 104);
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.nav-tabs .nav-link.active{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    
+}
+
+.nav-tabs .nav-link:hover{
+    color: rgb(70, 70, 70);
+    background-color: #f7f7f7;
+}
+
+.project--info{
+    border: 1px solid #ccc;
+}
+
+.G4logo{
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
+    color: #e3e3e3;
+    text-decoration: none;
+}
+
+.G4logo:hover{
+    color: white;
+}
+
+@media only screen and (max-width: 794px) {
+    body {
+        float: none;
+        width: 80%;
+        padding: 20px;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        float: none;
+        width: 80%;
+        padding: 15px;
+    }
+
+
+}

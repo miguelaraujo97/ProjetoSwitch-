@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="959px" preserveAspectRatio="none" style="width:2167px;height:959px;background:#FFFFFF;" version="1.1" viewBox="0 0 2167 959" width="2167px" zoomAndPan="magnify"><defs><filter height="300%" id="fwpfsezhrgruz" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="729.0859" style="stroke:#A80036;stroke-width:1.0;" width="10" x="52.5" y="115.1875"/><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="320.5" y="137.5391"/><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="78.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="320.5" y="198.2422"/><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="528.625" style="stroke:#A80036;stroke-width:1.0;" width="10" x="320.5" y="306.6484"/><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="467.9219" style="stroke:#A80036;stroke-width:1.0;" width="10" x="596.5" y="337"/><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="812.5" y="367.3516"/><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="943.5" y="428.0547"/><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="285.8125" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1044.5" y="488.7578"/><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="225.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1358.5" y="519.1094"/><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="164.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1672.5" y="549.4609"/><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="103.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1916.5" y="579.8125"/><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1921.5" y="618.1641"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="57" x2="57" y1="105.1875" y2="853.2734"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="325" x2="325" y1="105.1875" y2="853.2734"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="601" x2="601" y1="105.1875" y2="853.2734"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="817.5" x2="817.5" y1="105.1875" y2="853.2734"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="948.5" x2="948.5" y1="105.1875" y2="853.2734"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1049.5" x2="1049.5" y1="105.1875" y2="853.2734"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1363" x2="1363" y1="105.1875" y2="853.2734"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1677.5" x2="1677.5" y1="105.1875" y2="853.2734"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1921.5" x2="1921.5" y1="105.1875" y2="853.2734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="5" y="102.1113">Project member</text><ellipse cx="57.5" cy="30.5781" fill="#FEFECE" filter="url(#fwpfsezhrgruz)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M57.5,38.5781 L57.5,65.5781 M44.5,46.5781 L70.5,46.5781 M57.5,65.5781 L44.5,80.5781 M57.5,65.5781 L70.5,80.5781 " fill="none" filter="url(#fwpfsezhrgruz)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="5" y="866.8066">Project member</text><ellipse cx="57.5" cy="879.8828" fill="#FEFECE" filter="url(#fwpfsezhrgruz)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M57.5,887.8828 L57.5,914.8828 M44.5,895.8828 L70.5,895.8828 M57.5,914.8828 L44.5,929.8828 M57.5,914.8828 L70.5,929.8828 " fill="none" filter="url(#fwpfsezhrgruz)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#fwpfsezhrgruz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="211" x="218" y="68.5781"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="225" y="90.1113">:UpdateStatusInCurrentSprintUI</text><rect fill="#FEFECE" filter="url(#fwpfsezhrgruz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="211" x="218" y="852.2734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="225" y="873.8066">:UpdateStatusInCurrentSprintUI</text><rect fill="#FEFECE" filter="url(#fwpfsezhrgruz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="261" x="469" y="68.5781"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="247" x="476" y="90.1113">:UpdateStatusInCurrentSprintController</text><rect fill="#FEFECE" filter="url(#fwpfsezhrgruz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="261" x="469" y="852.2734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="247" x="476" y="873.8066">:UpdateStatusInCurrentSprintController</text><rect fill="#FEFECE" filter="url(#fwpfsezhrgruz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="130" x="750.5" y="68.5781"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="757.5" y="90.1113">:Datamanagement</text><rect fill="#FEFECE" filter="url(#fwpfsezhrgruz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="130" x="750.5" y="852.2734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="757.5" y="873.8066">:Datamanagement</text><rect fill="#FEFECE" filter="url(#fwpfsezhrgruz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="104" x="894.5" y="68.5781"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="905.5" y="90.1113">: ProjectStore</text><rect fill="#FEFECE" filter="url(#fwpfsezhrgruz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="104" x="894.5" y="852.2734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="905.5" y="873.8066">: ProjectStore</text><rect fill="#FEFECE" filter="url(#fwpfsezhrgruz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="70" x="1012.5" y="68.5781"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="1023.5" y="90.1113">: Project</text><rect fill="#FEFECE" filter="url(#fwpfsezhrgruz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="70" x="1012.5" y="852.2734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="1023.5" y="873.8066">: Project</text><rect fill="#FEFECE" filter="url(#fwpfsezhrgruz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="59" x="1332" y="68.5781"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="1343" y="90.1113">:Sprint</text><rect fill="#FEFECE" filter="url(#fwpfsezhrgruz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="59" x="1332" y="852.2734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="1343" y="873.8066">:Sprint</text><rect fill="#FEFECE" filter="url(#fwpfsezhrgruz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="110" x="1620.5" y="68.5781"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="1631.5" y="90.1113">SprintBackLog</text><rect fill="#FEFECE" filter="url(#fwpfsezhrgruz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="110" x="1620.5" y="852.2734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="1631.5" y="873.8066">SprintBackLog</text><rect fill="#FEFECE" filter="url(#fwpfsezhrgruz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="84" x="1877.5" y="68.5781"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="1888.5" y="90.1113">:UserStory</text><rect fill="#FEFECE" filter="url(#fwpfsezhrgruz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="84" x="1877.5" y="852.2734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="1888.5" y="873.8066">:UserStory</text><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="729.0859" style="stroke:#A80036;stroke-width:1.0;" width="10" x="52.5" y="115.1875"/><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="320.5" y="137.5391"/><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="78.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="320.5" y="198.2422"/><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="528.625" style="stroke:#A80036;stroke-width:1.0;" width="10" x="320.5" y="306.6484"/><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="467.9219" style="stroke:#A80036;stroke-width:1.0;" width="10" x="596.5" y="337"/><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="812.5" y="367.3516"/><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="943.5" y="428.0547"/><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="285.8125" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1044.5" y="488.7578"/><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="225.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1358.5" y="519.1094"/><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="164.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1672.5" y="549.4609"/><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="103.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1916.5" y="579.8125"/><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1921.5" y="618.1641"/><polygon fill="#A80036" points="308.5,133.5391,318.5,137.5391,308.5,141.5391,312.5,137.5391" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="62.5" x2="314.5" y1="137.5391" y2="137.5391"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="69.5" y="132.6826">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="182" x="80.5" y="132.6826">Starts ScrumBoard view feature</text><polygon fill="#A80036" points="73.5,163.8906,63.5,167.8906,73.5,171.8906,69.5,167.8906" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="67.5" x2="324.5" y1="167.8906" y2="167.8906"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="79.5" y="163.0342">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="140" x="90.5" y="163.0342">request the projectDeprecated code</text><polygon fill="#A80036" points="308.5,194.2422,318.5,198.2422,308.5,202.2422,312.5,198.2422" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="62.5" x2="314.5" y1="198.2422" y2="198.2422"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="69.5" y="193.3857">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="151" x="80.5" y="193.3857">indicates the projectDeprecated Code</text><rect fill="#FFFFFF" filter="url(#fwpfsezhrgruz)" height="42.7031" style="stroke:#000000;stroke-width:2.0;" width="217" x="215" y="206.2422"/><path d="M215,206.2422 L277,206.2422 L277,214.2422 L267,224.2422 L215,224.2422 L215,206.2422 " fill="#EEEEEE" style="stroke:#000000;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="17" x="228" y="221.7373">ref</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="143" x="254" y="241.7373">SD_getScrumBoardLists</text><polygon fill="#A80036" points="73.5,272.2969,63.5,276.2969,73.5,280.2969,69.5,276.2969" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="67.5" x2="324.5" y1="276.2969" y2="276.2969"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="79.5" y="271.4404">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="95" x="90.5" y="271.4404">listUserStoryDto</text><polygon fill="#A80036" points="308.5,302.6484,318.5,306.6484,308.5,310.6484,312.5,306.6484" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="62.5" x2="314.5" y1="306.6484" y2="306.6484"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="69.5" y="301.792">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="228" x="80.5" y="301.792">indicates the US ID and the new Status</text><polygon fill="#A80036" points="584.5,333,594.5,337,584.5,341,588.5,337" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="330.5" x2="590.5" y1="337" y2="337"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="337.5" y="332.1436">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="236" x="348.5" y="332.1436">updateUsStatus(userStoryId, newStatus)</text><polygon fill="#A80036" points="800.5,363.3516,810.5,367.3516,800.5,371.3516,804.5,367.3516" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="606.5" x2="806.5" y1="367.3516" y2="367.3516"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="613.5" y="362.4951">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="176" x="624.5" y="362.4951">projectStore=getProjectStore()</text><polygon fill="#A80036" points="617.5,393.7031,607.5,397.7031,617.5,401.7031,613.5,397.7031" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="611.5" x2="816.5" y1="397.7031" y2="397.7031"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="623.5" y="392.8467">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="100" x="634.5" y="392.8467">sendProjectStore</text><polygon fill="#A80036" points="931.5,424.0547,941.5,428.0547,931.5,432.0547,935.5,428.0547" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="606.5" x2="937.5" y1="428.0547" y2="428.0547"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="613.5" y="423.1982">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="205" x="624.5" y="423.1982">p = getProjectByCode(projectCode)</text><polygon fill="#A80036" points="617.5,454.4063,607.5,458.4063,617.5,462.4063,613.5,458.4063" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="611.5" x2="947.5" y1="458.4063" y2="458.4063"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="623.5" y="453.5498">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="641.5" y="453.5498">p</text><polygon fill="#A80036" points="1032.5,484.7578,1042.5,488.7578,1032.5,492.7578,1036.5,488.7578" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="606.5" x2="1038.5" y1="488.7578" y2="488.7578"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="613.5" y="483.9014">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="271" x="631.5" y="483.9014">setScrumBoardStatus(userStoryId, newStatus)</text><polygon fill="#A80036" points="1346.5,515.1094,1356.5,519.1094,1346.5,523.1094,1350.5,519.1094" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1054.5" x2="1352.5" y1="519.1094" y2="519.1094"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1061.5" y="514.2529">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="267" x="1079.5" y="514.2529">setScrumBoardStatus(userStoryId,newStatus)</text><polygon fill="#A80036" points="1660.5,545.4609,1670.5,549.4609,1660.5,553.4609,1664.5,549.4609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1368.5" x2="1666.5" y1="549.4609" y2="549.4609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1375.5" y="544.6045">13</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="267" x="1393.5" y="544.6045">setScrumBoardStatus(userStoryId,newStatus)</text><polygon fill="#A80036" points="1904.5,575.8125,1914.5,579.8125,1904.5,583.8125,1908.5,579.8125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1682.5" x2="1910.5" y1="579.8125" y2="579.8125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1689.5" y="574.9561">14</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="197" x="1707.5" y="574.9561">setScrumBoardStatus(newStatus)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="1931.5" x2="1973.5" y1="610.1641" y2="610.1641"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1973.5" x2="1973.5" y1="610.1641" y2="623.1641"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1932.5" x2="1973.5" y1="623.1641" y2="623.1641"/><polygon fill="#A80036" points="1942.5,619.1641,1932.5,623.1641,1942.5,627.1641,1938.5,623.1641" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1938.5" y="605.3076">15</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="197" x="1956.5" y="605.3076">setScrumBoardStatus(newStatus)</text><polygon fill="#A80036" points="1693.5,679.5156,1683.5,683.5156,1693.5,687.5156,1689.5,683.5156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1687.5" x2="1920.5" y1="683.5156" y2="683.5156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1699.5" y="678.6592">16</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="19" x="1717.5" y="678.6592">OK</text><polygon fill="#A80036" points="1379.5,709.8672,1369.5,713.8672,1379.5,717.8672,1375.5,713.8672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1373.5" x2="1676.5" y1="713.8672" y2="713.8672"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1385.5" y="709.0107">17</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="19" x="1403.5" y="709.0107">OK</text><polygon fill="#A80036" points="1065.5,740.2188,1055.5,744.2188,1065.5,748.2188,1061.5,744.2188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1059.5" x2="1362.5" y1="744.2188" y2="744.2188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1071.5" y="739.3623">18</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="14" x="1089.5" y="739.3623">ok</text><polygon fill="#A80036" points="617.5,770.5703,607.5,774.5703,617.5,778.5703,613.5,774.5703" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="611.5" x2="1048.5" y1="774.5703" y2="774.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="623.5" y="769.7139">19</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="19" x="641.5" y="769.7139">OK</text><polygon fill="#A80036" points="341.5,800.9219,331.5,804.9219,341.5,808.9219,337.5,804.9219" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="335.5" x2="600.5" y1="804.9219" y2="804.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="347.5" y="800.0654">20</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="19" x="365.5" y="800.0654">OK</text><polygon fill="#A80036" points="73.5,831.2734,63.5,835.2734,73.5,839.2734,69.5,835.2734" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="67.5" x2="324.5" y1="835.2734" y2="835.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="79.5" y="830.417">21</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="19" x="97.5" y="830.417">OK</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="139" x="2021.5" y="15.3809">Sequence Diagram of US034</text><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="682" x="739.25" y="951.2637">US 034 - As Project Member, I want to update the status (i.e.: the Scrum Board category) of a user story in the scope of the current sprint backlog.</text><!--MD5=[053caf5361a9e11d32ffc40a873e6e82]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+header
+Sequence Diagram of US034
+endheader
+
+center footer US 034 - As ProjectDeprecated Member, I want to update the status (i.e.: the Scrum Board category) of a user story in the scope of the current sprint backlog.
+
+
+autoactivate on
+autonumber
+
+actor "ProjectDeprecated member" as User
+participant ":UpdateStatusInCurrentSprintUI" as UI
+participant ":UpdateStatusInCurrentSprintController" as Controller
+participant ":Datamanagement" as C1
+participant " : ProjectStore" as C2
+participant " : ProjectDeprecated" as C3
+participant " :Sprint" as C4
+participant " SprintBackLog" as C6
+participant " :UserStory" as C12
+
+
+
+activate User
+
+User -> UI: Starts ScrumBoard view feature
+User <- - UI: request the projectDeprecated code
+User -> UI:  indicates the projectDeprecated ProjectCode
+'UI -> Controller: getListsForScrumBoard(projectCode)
+ref over UI
+SD_getScrumBoardLists
+end ref
+'
+
+'Controller -> C2: getProjectByCode(projectCode)
+'C2 -> C3:  getCurrentSprint()
+'deactivate C2
+'C3 -> C4: getSprintBacklog()
+'deactivate C3
+'C4 -> C6: listUserStory = getListOfUserStoriesInTheSprintBacklog()
+'deactivate C4
+'Controller <- - C6: listUserStory
+'Controller -> C7: toDto(listUserStory)
+'ref over C7
+'SD_UserStoryMapper_toDTO_List
+'end ref
+
+'Controller<- - C7: listUserStoryDto
+'UI <- - Controller: listUserStoryDto
+User <- - UI: listUserStoryDto
+
+User -> UI: indicates the US ID and the new Status
+UI -> Controller: updateUsStatus(userStoryId, newStatus)
+Controller -> C1: projectStore=getProjectStore()
+Controller <- - C1: sendProjectStore
+Controller -> C2: p = getProjectByCode(projectCode)
+Controller <- - C2: p
+Controller -> C3: setScrumBoardStatus(userStoryId, newStatus)
+C3 -> C4:setScrumBoardStatus(userStoryId,newStatus)
+C4 -> C6: setScrumBoardStatus(userStoryId,newStatus)
+C6 -> C12: setScrumBoardStatus(newStatus)
+C12 -> C12: setScrumBoardStatus(newStatus)
+deactivate C12
+C6<- -C12: OK
+C4<- -C6: OK
+C3<- -C4:ok
+Controller <- - C3: OK
+deactivate C6
+UI <- - Controller: OK
+User <- - UI: OK
+
+@enduml
+
+@startuml
+
+header
+Sequence Diagram of US034
+endheader
+
+center footer US 034 - As ProjectDeprecated Member, I want to update the status (i.e.: the Scrum Board category) of a user story in the scope of the current sprint backlog.
+
+
+autoactivate on
+autonumber
+
+actor "ProjectDeprecated member" as User
+participant ":UpdateStatusInCurrentSprintUI" as UI
+participant ":UpdateStatusInCurrentSprintController" as Controller
+participant ":Datamanagement" as C1
+participant " : ProjectStore" as C2
+participant " : ProjectDeprecated" as C3
+participant " :Sprint" as C4
+participant " SprintBackLog" as C6
+participant " :UserStory" as C12
+
+
+
+activate User
+
+User -> UI: Starts ScrumBoard view feature
+User <- - UI: request the projectDeprecated code
+User -> UI:  indicates the projectDeprecated ProjectCode
+ref over UI
+SD_getScrumBoardLists
+end ref
+
+
+User <- - UI: listUserStoryDto
+
+User -> UI: indicates the US ID and the new Status
+UI -> Controller: updateUsStatus(userStoryId, newStatus)
+Controller -> C1: projectStore=getProjectStore()
+Controller <- - C1: sendProjectStore
+Controller -> C2: p = getProjectByCode(projectCode)
+Controller <- - C2: p
+Controller -> C3: setScrumBoardStatus(userStoryId, newStatus)
+C3 -> C4:setScrumBoardStatus(userStoryId,newStatus)
+C4 -> C6: setScrumBoardStatus(userStoryId,newStatus)
+C6 -> C12: setScrumBoardStatus(newStatus)
+C12 -> C12: setScrumBoardStatus(newStatus)
+deactivate C12
+C6<- -C12: OK
+C4<- -C6: OK
+C3<- -C4:ok
+Controller <- - C3: OK
+deactivate C6
+UI <- - Controller: OK
+User <- - UI: OK
+
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 16:16:42 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="201px" preserveAspectRatio="none" style="width:331px;height:201px;background:#FFFFFF;" version="1.1" viewBox="0 0 331 201" width="331px" zoomAndPan="magnify"><defs><filter height="300%" id="f10p1qlmd4u4i7" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="173" x="72.75" y="18.6855">Domain Model extract</text><!--MD5=[79d378210367c0c6ec62ef762ddfbd1b]
+class ProjectDeprecated--><rect codeLine="8" fill="#FEFECE" filter="url(#f10p1qlmd4u4i7)" height="157.6172" id="Project" style="stroke:#A80036;stroke-width:1.5;" width="142" x="7" y="29.6406"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="38" x="59" y="47.0977">Project</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="148" y1="54.7344" y2="54.7344"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="28" x="13" y="70.1533">-code</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="30" x="13" y="83.9893">-name</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="13" y="97.8252">-description</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="13" y="111.6611">-number of planned sprints</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="34" x="13" y="125.4971">-status</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="51" x="13" y="139.333">-Start date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="46" x="13" y="153.1689">-end date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="37" x="13" y="167.0049">-projectBudget</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="73" x="13" y="180.8408">-sprint duration</text><!--MD5=[024d6bb17f4c47f299ed89907d0655d2]
+class Typology--><rect codeLine="20" fill="#FEFECE" filter="url(#f10p1qlmd4u4i7)" height="60.7656" id="Typology" style="stroke:#A80036;stroke-width:1.5;" width="111" x="206.5" y="78.1406"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="48" x="238" y="95.5977">Typology</text><line style="stroke:#A80036;stroke-width:1.5;" x1="207.5" x2="316.5" y1="103.2344" y2="103.2344"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="99" x="212.5" y="118.6533">-typologyDescription</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="3" x="212.5" y="132.4893">;</text><!--MD5=[59d1600a0f73d51a735aae350d8a2518]
+link ProjectDeprecated to Typology--><path codeLine="26" d="M149.14,108.6406 C166.37,108.6406 184.63,108.6406 201.33,108.6406 " fill="none" id="Project-to-Typology" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="206.45,108.6406,197.45,104.6406,201.45,108.6406,197.45,112.6406,206.45,108.6406" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="167.25" y="102.1357">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="156.8372" y="105.3486">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="191.5152" y="105.1001">1</text><!--MD5=[69245ab6526bc58f0076df8b79cb2b56]
+@startuml
+'https://plantuml.com/class-diagram
+hide circle
+skinparam classAttributeIconSize 0
+hide methods
+
+title Domain Model extract
+
+class ProjectDeprecated {
+    -code
+    -name
+    -projectDescription
+    -number of planned sprints
+    -status
+    -Start date
+    -end date
+    -projectBudget
+    -sprint duration
+}
+
+class Typology {
+    -typologyDescription
+    ;
+}
+
+
+ProjectDeprecated "1" -right-> "1" Typology: has
+
+
+
+
+
+@enduml
+
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+hide methods
+
+title Domain Model extract
+
+class ProjectDeprecated {
+    -code
+    -name
+    -projectDescription
+    -number of planned sprints
+    -status
+    -Start date
+    -end date
+    -projectBudget
+    -sprint duration
+}
+
+class Typology {
+    -typologyDescription
+    ;
+}
+
+
+ProjectDeprecated "1" -right-> "1" Typology: has
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2021.16(Wed Dec 08 17:25:22 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+Participant ":ProfileStore" as ProfileStore
+Participant "profile :Profile" as Profile
+
+--> ProfileStore: createAndAddProfile(String profileName, int permissions)
+ProfileStore --> ProfileStore: validateNewProfileName(String profileName)
+ProfileStore --> ProfileStore: returnNextProfileId()
+ProfileStore --> Profile**
+
+ProfileStore --> ProfileStore: add(profile)
+
+<-- ProfileStore: true
+
+
+@enduml

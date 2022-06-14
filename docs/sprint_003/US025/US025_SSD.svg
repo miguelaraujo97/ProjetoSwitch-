@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="413px" preserveAspectRatio="none" style="width:368px;height:413px;background:#FFFFFF;" version="1.1" viewBox="0 0 368 413" width="368px" zoomAndPan="magnify"><defs><filter height="300%" id="f1na0gbxoe3iq9" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="97" x="133.25" y="30.6855">US025 SSD</text><rect fill="#FFFFFF" filter="url(#f1na0gbxoe3iq9)" height="183.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="44.5" y="136.25"/><rect fill="#FFFFFF" filter="url(#f1na0gbxoe3iq9)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="319.5" y="158.6016"/><rect fill="#FFFFFF" filter="url(#f1na0gbxoe3iq9)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="319.5" y="219.3047"/><rect fill="#FFFFFF" filter="url(#f1na0gbxoe3iq9)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="319.5" y="280.0078"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="49" x2="49" y1="126.25" y2="328.3594"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="324.5" x2="324.5" y1="126.25" y2="328.3594"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="5" y="123.1738">Administrator</text><ellipse cx="49.5" cy="51.6406" fill="#FEFECE" filter="url(#f1na0gbxoe3iq9)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M49.5,59.6406 L49.5,86.6406 M36.5,67.6406 L62.5,67.6406 M49.5,86.6406 L36.5,101.6406 M49.5,86.6406 L62.5,101.6406 " fill="none" filter="url(#f1na0gbxoe3iq9)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="5" y="341.8926">Administrator</text><ellipse cx="49.5" cy="354.9688" fill="#FEFECE" filter="url(#f1na0gbxoe3iq9)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M49.5,362.9688 L49.5,389.9688 M36.5,370.9688 L62.5,370.9688 M49.5,389.9688 L36.5,404.9688 M49.5,389.9688 L62.5,404.9688 " fill="none" filter="url(#f1na0gbxoe3iq9)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f1na0gbxoe3iq9)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="290.5" y="89.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="297.5" y="111.1738">:System</text><rect fill="#FEFECE" filter="url(#f1na0gbxoe3iq9)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="290.5" y="327.3594"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="297.5" y="348.8926">:System</text><rect fill="#FFFFFF" filter="url(#f1na0gbxoe3iq9)" height="183.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="44.5" y="136.25"/><rect fill="#FFFFFF" filter="url(#f1na0gbxoe3iq9)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="319.5" y="158.6016"/><rect fill="#FFFFFF" filter="url(#f1na0gbxoe3iq9)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="319.5" y="219.3047"/><rect fill="#FFFFFF" filter="url(#f1na0gbxoe3iq9)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="319.5" y="280.0078"/><polygon fill="#A80036" points="307.5,154.6016,317.5,158.6016,307.5,162.6016,311.5,158.6016" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="54.5" x2="313.5" y1="158.6016" y2="158.6016"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="89" y="153.7451">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="185" x="100" y="153.7451">Starts inactivation of an account</text><polygon fill="#A80036" points="65.5,184.9531,55.5,188.9531,65.5,192.9531,61.5,188.9531" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="59.5" x2="323.5" y1="188.9531" y2="188.9531"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="101.5" y="184.0967">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="165" x="112.5" y="184.0967">Request the user account ID</text><polygon fill="#A80036" points="307.5,215.3047,317.5,219.3047,307.5,223.3047,311.5,219.3047" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="54.5" x2="313.5" y1="219.3047" y2="219.3047"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="103.5" y="214.4482">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="156" x="114.5" y="214.4482">Inserts the user account ID</text><polygon fill="#A80036" points="65.5,245.6563,55.5,249.6563,65.5,253.6563,61.5,249.6563" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="59.5" x2="323.5" y1="249.6563" y2="249.6563"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="105.5" y="244.7998">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="157" x="116.5" y="244.7998">Return user account status</text><polygon fill="#A80036" points="307.5,276.0078,317.5,280.0078,307.5,284.0078,311.5,280.0078" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="54.5" x2="313.5" y1="280.0078" y2="280.0078"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="64" y="275.1514">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="235" x="75" y="275.1514">Change user account status to "inactive"</text><polygon fill="#A80036" points="65.5,306.3594,55.5,310.3594,65.5,314.3594,61.5,310.3594" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="59.5" x2="323.5" y1="310.3594" y2="310.3594"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="101.5" y="305.5029">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="165" x="112.5" y="305.5029">Changed status confirmation</text><!--MD5=[b24f6d2058bc15194c8c0fec1564b881]
+@startuml
+'https://plantuml.com/class-diagram
+
+title US025 SSD
+skinparam sequenceMessageAlign center
+
+autoactivate on
+autonumber
+
+actor "Administrator" as User
+participant ":System" as System
+
+activate User
+
+User -> System: Starts inactivation of an account
+System - -> User: Request the user account ID
+User -> System: Inserts the user account ID
+System - -> User: Return user account status
+User -> System: Change user account status to "inactive"
+
+System - -> User: Changed status confirmation
+@enduml
+
+@startuml
+
+title US025 SSD
+skinparam sequenceMessageAlign center
+
+autoactivate on
+autonumber
+
+actor "Administrator" as User
+participant ":System" as System
+
+activate User
+
+User -> System: Starts inactivation of an account
+System - -> User: Request the user account ID
+User -> System: Inserts the user account ID
+System - -> User: Return user account status
+User -> System: Change user account status to "inactive"
+
+System - -> User: Changed status confirmation
+@enduml
+
+PlantUML version 1.2021.16(Wed Dec 08 17:25:22 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

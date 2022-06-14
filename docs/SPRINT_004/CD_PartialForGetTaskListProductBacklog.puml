@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Task
+class TaskInUserStory
+
+class UserStory {
++getUserStoryTaskList
+}
+
+class ProductBacklog {
++getListOfUserStoryTasks
+}
+
+
+Task <|-right- TaskInUserStory : extends
+TaskInUserStory "0..*" --o " task 1" UserStory
+UserStory "0..* "--o "userStory 1" ProductBacklog
+
+@enduml

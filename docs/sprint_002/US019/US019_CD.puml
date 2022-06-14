@@ -1,0 +1,67 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class TemMemberUi
+class TeamMemberController
+class DataManagement
+class ProjectStore
+class Project
+class Sprint
+class SprintBackLog
+class Sprint
+class UserStory
+
+
+TemMemberUi .. TeamMemberController
+
+TeamMemberController -->"dataManagement" DataManagement
+
+DataManagement -->"projectStore" ProjectStore
+
+ProjectStore -->"project" Project
+
+
+TeamMemberController -->"sprint" Sprint
+
+Sprint -->"sprintBacklog"  SprintBackLog
+
+SprintBackLog -->"userStory" UserStory
+
+class TeamMemberController{
+-SprintBackLog
++setEffortToUS(projectCode, SprintId,
+userStory,effortEstimate)
+}
+
+class DataManagement {
++getProjectStore()
+}
+class ProjectStore {
+-projectList
+getProjectByCode(projectCode)
+}
+class Project {
+-project
+getSprintById(sprintId)
+}
+class Sprint {
+-sprintList
+getSprintBacklog(sprintId)
+}
+
+class SprintBackLog{
+-userStoryList
+getListOfUserStoriesInTheSprintBacklog()
+setEffortToUserStory(userStory,effort)
+}
+
+class UserStory {
+-userStory
++enum EffortEstimate {
+FibonacciSequenceValues }
+setEffort(effort)
+}
+@enduml
+
+
+

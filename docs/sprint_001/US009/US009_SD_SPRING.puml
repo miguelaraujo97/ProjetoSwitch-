@@ -1,0 +1,70 @@
+@startuml
+autonumber
+Actor "Product Owner" as PO
+boundary CreateUserStoryUI
+participant ": CreateUserStoryRoute"
+participant ": CreateUserStoryController"
+participant "mapperOne: UserStoryJsonToDTOAssembler"
+participant "userStoryDTO: UserStoryDTO"
+participant ": ApplicationService"
+participant "userStoryDtoFromData: UserStoryDTO"
+participant "userStoryId: UserStoryID"
+participant "description: Description"
+participant "projectRepository: ProjectRepository"
+participant "userStoryRepository: UserStoryRepository"
+participant "productBacklog: List<UserStory>"
+participant ": DomainService"
+participant "project: Project"
+participant ": UserStoryDomainDataAssembler"
+participant "userStory: UserStory"
+participant "dbDriverOne: IDBDriver"
+participant "userStoryData: UserStoryData"
+participant "savedUserStory: UserStoryData"
+participant "userStorySaved: UserStory"
+
+activate PO
+
+PO -> CreateUserStoryUI : Start a New User Story
+CreateUserStoryUI --> PO : Request User Story Data
+PO -> CreateUserStoryUI : Insert Requested Data (userStoryId, description)
+": CreateUserStoryRoute" -> ": CreateUserStoryController" : createUserStory( Json )
+CreateUserStoryUI -> ": CreateUserStoryRoute" : Post / userStory / (Json)
+": CreateUserStoryController" -> ": CreateUserStoryController" : validate( Json )
+": CreateUserStoryController" -> "mapperOne: UserStoryJsonToDTOAssembler" : jsonToDTO( Json )
+
+"mapperOne: UserStoryJsonToDTOAssembler" -> "userStoryDTO: UserStoryDTO" ** : createDTO( Json )
+"mapperOne: UserStoryJsonToDTOAssembler" --> ": CreateUserStoryController" : userStoryDTO
+": CreateUserStoryController" -> ": ApplicationService" : createAndSaveUserStory( userStoryDTO )
+": ApplicationService" -> "userStoryRepository: UserStoryRepository" : productBacklog = findAllUserStoriesByProjectCode( projectCode )
+"userStoryRepository: UserStoryRepository" -> "productBacklog: List<UserStory>" ** : create
+": ApplicationService" -> ": DomainService" : checkIfDescriptionExists( productBacklog, description ) : boolean
+": DomainService" --> ": ApplicationService" : false
+
+": ApplicationService" -> "userStoryId: UserStoryID" ** : createUserStoryIdVO( userStoryID )
+
+": ApplicationService" -> "description: Description" **  : createDescriptionVO( description )
+": ApplicationService" -> "projectRepository: ProjectRepository" : project = findByProjectCode( projectCode )
+": ApplicationService" -> "project: Project" : createUserStory( userStoryId, description )
+
+"project: Project" -> "userStory: UserStory" ** : userStory = createUserStory( projectCode, userStoryId, description )
+"project: Project" --> ": ApplicationService" : userStory
+": ApplicationService" --> "userStoryRepository: UserStoryRepository" : save( userStory ) : userStorySaved
+"userStoryRepository: UserStoryRepository" -> ": UserStoryDomainDataAssembler" : assembleToData( userStory )
+": UserStoryDomainDataAssembler" -> "userStoryData: UserStoryData" ** : create( projectCode, userStoryId, description )
+": UserStoryDomainDataAssembler" -> "userStory: UserStory" : getAttribute( projectCode, userStoryId, description)
+"userStoryRepository: UserStoryRepository" -> "dbDriverOne: IDBDriver" : save( userStoryData ) : savedUserStory
+"dbDriverOne: IDBDriver" -> "savedUserStory: UserStoryData" ** : create( savedUserStory )
+": UserStoryDomainDataAssembler" -> "userStorySaved: UserStory" ** : create
+
+
+"userStoryRepository: UserStoryRepository" -> ": UserStoryDomainDataAssembler" : assembleToDomain( savedUserStory )
+": ApplicationService" -> "mapperOne: UserStoryJsonToDTOAssembler" : assembleToDTO( userStorySaved ) : userStoryDtoFromData
+"mapperOne: UserStoryJsonToDTOAssembler" -> "userStorySaved: UserStory" : getAttribute( projectCode, userStoryId, description)
+"mapperOne: UserStoryJsonToDTOAssembler" -> "userStoryDtoFromData: UserStoryDTO" ** : create ( projectCode, userStoryId, description )
+": CreateUserStoryController" -> "mapperOne: UserStoryJsonToDTOAssembler" : userStoryDtoToJson( userStoryDtoFromData ) : Json
+": CreateUserStoryController" -> ": CreateUserStoryController" : generateResponse( Json )
+": CreateUserStoryController" --> ": CreateUserStoryRoute" : response
+": CreateUserStoryRoute" --> CreateUserStoryUI : response
+CreateUserStoryUI --> PO : User Story Created Successfully
+
+@enduml

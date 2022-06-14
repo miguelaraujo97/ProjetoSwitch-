@@ -1,0 +1,20 @@
+{
+  "short_name": "Project G4",
+  "name": "Project G4 - Project Management System",
+  "description": "SWitCH - Porto Tech Hub - ISEP",
+  "icons": [
+    {
+      "src": "favicon/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "favicon/favicon_switch.svg",
+      "sizes": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
